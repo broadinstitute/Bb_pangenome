@@ -1,14 +1,14 @@
 # Configs README
 
-Here are the configuration files required to run the included snakemake workflows at `../snakefiles/`
+Here are the configuration files required to run the included snakemake workflows.
 
 ## `pangenome_analysis.yaml`
 
 used for the following snakemake workflows:
 
-- `../snakefiles/annotate_all_assemblies_v3.smk`
-- `../snakefiles/kraken2_QC.smk`
-- `../snakefiles/pan_genome_analysis_v5.smk`
+- `../annotate_all_assemblies_v3.smk`
+- `../kraken2_QC.smk`
+- `../pan_genome_analysis_v5.smk`
 
 To run these workflows, ensure you have the following:
 
@@ -19,7 +19,7 @@ To run these workflows, ensure you have the following:
 ## `singularity_config.yaml`
 
 used for the following snakemake workflow:
-- `../snakefiles/get_mlst_type.smk`.
+- `../get_mlst_type.smk`.
 
 To run this workflows, ensure the following:
 
