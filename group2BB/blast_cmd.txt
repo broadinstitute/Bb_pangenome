@@ -1,5 +1,4 @@
-# Okay so lets blast the pan_genome_reference.fa against the local database I generated
-# to do!!! Generalize this to create a single script for someone to execute and just output a handy dandy .tsv with their groupID and the corresponding gene and annotation data.
+# Okay so lets blast the pan_genome_reference.fa against the local B31 database.
 blastn -query /home/mf019/longread_pangenome/expanded_dataset_analysis/output/results/v8/v8_filtered_nsp/roary_v8_filtered_nsp/pan_genome_reference.fa \
 -task blastn \
 -db /home/mf019/longread_pangenome/expanded_dataset_analysis/ref/B31_blastDB/borreliadb \
