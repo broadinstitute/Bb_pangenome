@@ -32,11 +32,6 @@ for FILE in $STAGED_FILES; do
             echo "Setting up LFS tracking for *.$FILE_EXTENSION files"
             git lfs track -- "*.$FILE_EXTENSION"
             git add .gitattributes
-            LFS_MODIFIED=1
-        fi
-        
-        # if file is staged but not as LFS, re-stage it.
-        if ! git check-attr filter "$FILE" | grep -q ": lfs"; then
             echo "Re-staging $FILE to use LFS"
             git reset -q HEAD -- "$FILE"
             git add -- "$FILE"
