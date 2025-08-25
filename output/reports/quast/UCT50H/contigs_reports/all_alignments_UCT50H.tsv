@@ -1,0 +1,154 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+12	903437	1	902581	NC_001318.1	contig_1	99.3		True
+CONTIG	contig_1	902761	correct
+1627	7401	5797	1	NC_001854.1	contig_2	98.76		True
+translocation
+1667	2109	8370	7927	NC_001851.2	contig_2	97.52		True
+translocation
+4278	24148	12618	32908	NC_001854.1	contig_2	96.0		True
+relocation, inconsistency = 1090
+25239	25877	32909	33547	NC_001854.1	contig_2	98.6		True
+translocation
+1	2197	36586	34392	NC_001855.1	contig_2	98.77		True
+translocation
+19125	29586	47151	36815	NC_001852.1	contig_2	95.32		True
+local misassembly [linear representation of circular genome]
+90	18062	66164	48196	NC_001852.1	contig_2	98.1		True
+CONTIG	contig_2	66334	misassembled
+49338	53612	4278	1	NC_001857.2	contig_3	99.65		True
+relocation, inconsistency = -2933 [linear representation of circular genome]
+1	46464	53747	7257	NC_001857.2	contig_3	99.19		True
+CONTIG	contig_3	53749	misassembled
+49	9660	1	9575	NC_001856.1	contig_4	98.47		True
+local misassembly
+10287	30062	10145	29903	NC_001856.1	contig_4	98.99		True
+relocation, inconsistency = 1092
+31155	38816	29904	37566	NC_001856.1	contig_4	98.4		True
+relocation, inconsistency = -5389
+33496	38816	42961	37635	NC_001856.1	contig_4	98.59		True
+CONTIG	contig_4	42962	misassembled
+3808	5502	1694	1	NC_001855.1	contig_5	99.0		True
+translocation
+2131	2676	2352	1803	NC_001849.2	contig_5	95.45		True
+relocation, inconsistency = -1800
+2131	2676	3607	4156	NC_001849.2	contig_5	95.45		True
+translocation
+3808	22235	4265	22594	NC_001855.1	contig_5	98.39		True
+translocation
+3727	4985	23849	22595	NC_001851.2	contig_5	97.24		True
+translocation
+29436	30314	23850	24728	NC_001855.1	contig_5	99.44		True
+CONTIG	contig_5	31929	misassembled
+CONTIG	contig_6	30930	unaligned
+22248	23711	1475	7	NC_000950.1	contig_7	96.19		True
+unknown
+21805	22165	2081	1721	NC_000950.1	contig_7	95.01		True
+unknown
+17065	17543	6972	6495	NC_000954.1	contig_7	95.82		True
+unknown
+15243	16912	8832	7159	NC_000954.1	contig_7	97.01		True
+unknown
+12171	14829	11906	9250	NC_000954.1	contig_7	97.44		True
+unknown
+6595	12082	11906	17394	NC_000949.1	contig_7	98.18		True
+unknown
+24128	26216	29617	27529	NC_000951.1	contig_7	98.9		True
+unknown
+CONTIG	contig_7	29617	mis_unaligned
+1	25314	25314	1	NC_001903.1	contig_8	98.34		True
+fake: not a misassembly [linear representation of circular genome]
+25315	26498	26498	25315	NC_001903.1	contig_8	99.83		True
+CONTIG	contig_8	26498	correct
+23379	24177	967	171	NC_001850.1	contig_9	97.5		True
+indel: indel (> 5bp)
+21093	23305	3180	968	NC_001850.1	contig_9	97.33		True
+local misassembly
+6156	19547	18209	4804	NC_001850.1	contig_9	98.21		True
+CONTIG	contig_9	24152	correct
+4516	16821	12509	16	NC_001849.2	contig_10	96.97		True
+local misassembly
+1440	4257	15587	12766	NC_001849.2	contig_10	98.41		True
+translocation
+27360	30846	15597	19082	NC_001855.1	contig_10	98.57		True
+relocation, inconsistency = 2362
+33209	34386	19083	20260	NC_001855.1	contig_10	95.06		True
+relocation, inconsistency = -1764
+32660	34386	22569	20847	NC_001855.1	contig_10	98.44		True
+CONTIG	contig_10	22570	misassembled
+1714	10059	2	8349	NC_000953.1	contig_11	96.16		True
+indel: indel (> 5bp)
+10209	14725	8487	13002	NC_000953.1	contig_11	97.17		True
+CONTIG	contig_11	21081	correct
+18243	22408	10674	6500	NC_000954.1	contig_12	97.17		True
+unknown
+15077	17169	13804	11710	NC_000950.1	contig_12	97.33		True
+unknown
+11934	14885	16945	13993	NC_000950.1	contig_12	95.26		True
+unknown
+CONTIG	contig_12	19532	mis_unaligned
+20839	27729	10413	3537	NC_000956.1	contig_13	95.17		True
+unknown
+18623	19971	12517	11167	NC_000956.1	contig_13	96.6		True
+unknown
+CONTIG	contig_13	18296	mis_unaligned
+6911	9318	3748	6168	NC_001904.1	contig_14	98.35		True
+unknown
+218	1284	6484	7550	NC_001904.1	contig_14	97.28		True
+unknown
+1699	2463	7959	8722	NC_001904.1	contig_14	95.83		True
+unknown
+CONTIG	contig_14	8722	mis_unaligned
+20646	26193	1	5547	NC_000952.1	contig_15	96.47		True
+CONTIG	contig_15	7013	correct
+CONTIG	contig_16	2216	unaligned
+21796	22035	241	2	NC_000950.1	contig_17	96.25		True
+unknown
+20406	20670	1632	1368	NC_000950.1	contig_17	96.23		True
+unknown
+CONTIG	contig_17	1632	mis_unaligned
+CONTIG	contig_18	1548	unaligned
+1713	3228	1516	1	NC_000951.1	contig_19	99.21		True
+CONTIG	contig_19	1516	correct
+3803	5107	2	1306	NC_000952.1	contig_20	96.48		True
+CONTIG	contig_20	1330	correct
+12522	13633	1113	2	NC_000953.1	contig_21	97.75		True
+CONTIG	contig_21	1113	correct
+CONTIG	contig_22	1040	unaligned
+1	779	779	1	NC_000951.1	contig_23	99.61		True
+fake: not a misassembly [linear representation of circular genome]
+29733	29838	885	780	NC_000951.1	contig_23	100.0		True
+CONTIG	contig_23	885	correct
+CONTIG	contig_24	885	unaligned
+5439	6302	864	1	NC_000954.1	contig_25	99.65		True
+CONTIG	contig_25	864	correct
+28943	29744	802	1	NC_000954.1	contig_26	97.76		True
+CONTIG	contig_26	802	correct
+27519	28289	1	771	NC_000956.1	contig_27	99.22		True
+CONTIG	contig_27	771	correct
+19814	20562	2	750	NC_000952.1	contig_28	95.73		True
+CONTIG	contig_28	750	correct
+17214	17328	744	630	NC_000953.1	contig_29	98.26		True
+CONTIG	contig_29	744	correct_unaligned
+25329	26063	1	735	NC_000949.1	contig_30	96.46		True
+CONTIG	contig_30	737	correct
+7439	8140	703	1	NC_000953.1	contig_31	98.29		True
+CONTIG	contig_31	703	correct
+8664	9346	1	683	NC_000952.1	contig_32	97.66		True
+CONTIG	contig_32	689	correct
+19878	20562	2	686	NC_000952.1	contig_33	96.64		True
+CONTIG	contig_33	686	correct
+CONTIG	contig_34	649	unaligned
+28506	29084	2	580	NC_000952.1	contig_35	95.68		True
+CONTIG	contig_35	587	correct
+15660	16214	555	1	NC_000954.1	contig_36	99.64		True
+CONTIG	contig_36	555	correct
+26066	26609	544	1	NC_000949.1	contig_37	99.08		True
+CONTIG	contig_37	544	correct
+18571	19033	2	466	NC_000951.1	contig_38	95.11		True
+CONTIG	contig_38	543	correct
+8156	8670	6	520	NC_000950.1	contig_39	96.5		True
+CONTIG	contig_39	521	correct
+8143	8663	521	1	NC_000952.1	contig_40	100.0		True
+CONTIG	contig_40	521	correct
+10408	10899	501	10	NC_000956.1	contig_41	99.19		True
+CONTIG	contig_41	501	correct

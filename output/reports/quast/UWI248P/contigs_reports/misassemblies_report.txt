@@ -1,0 +1,23 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     UWI248P
+# misassemblies              18     
+  # contig misassemblies     18     
+    # c. relocations         3      
+    # c. translocations      15     
+    # c. inversions          0      
+  # scaffold misassemblies   0      
+    # s. relocations         0      
+    # s. translocations      0      
+    # s. inversions          0      
+# misassembled contigs       8      
+Misassembled contigs length  234336 
+# local misassemblies        5      
+# scaffold gap ext. mis.     0      
+# scaffold gap loc. mis.     0      
+# unaligned mis. contigs     3      
+# mismatches                 9384   
+# indels                     623    
+    # indels (<= 5 bp)       565    
+    # indels (> 5 bp)        58     
+Indels length                2685   

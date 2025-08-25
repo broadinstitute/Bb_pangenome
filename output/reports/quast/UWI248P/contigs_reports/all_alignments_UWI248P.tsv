@@ -1,0 +1,108 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+43	905067	12	904628	NC_001318.1	contig_1	99.45		True
+CONTIG	contig_1	910022	correct
+5	18709	18728	1	NC_001903.1	contig_2	97.59		True
+fake: not a misassembly [linear representation of circular genome]
+18710	26496	26521	18735	NC_001903.1	contig_2	99.49		True
+CONTIG	contig_2	26521	correct
+16227	17392	2218	1063	NC_000949.1	contig_3	95.03		True
+translocation
+26704	34054	9526	2226	NC_000956.1	contig_3	96.75		True
+local misassembly
+25481	25555	10827	10753	NC_000956.1	contig_3	98.67		True
+CONTIG	contig_3	14882	misassembled
+18689	20231	5431	6972	NC_000956.1	contig_4	97.93		True
+unknown
+31831	36935	18753	23855	NC_000956.1	contig_4	96.42		True
+unknown
+1	9399	20730	30131	NC_000951.1	contig_4	97.46		True
+unknown
+CONTIG	contig_4	30440	mis_unaligned
+1	9395	20965	30358	NC_000949.1	contig_5	97.18		True
+CONTIG	contig_5	30661	correct_unaligned
+1	9956	12854	2943	NC_000952.1	contig_6	95.2		True
+translocation
+15158	26771	27883	16228	NC_000949.1	contig_6	95.43		True
+CONTIG	contig_6	30111	misassembled
+15139	16468	1887	3217	NC_000949.1	contig_7	97.67		True
+translocation
+17566	22193	5129	9762	NC_000950.1	contig_7	96.37		True
+translocation
+31840	33807	15330	17297	NC_000956.1	contig_7	95.11		True
+translocation
+1	9400	17298	26699	NC_000950.1	contig_7	96.95		True
+local misassembly
+11934	13204	29031	30301	NC_000950.1	contig_7	95.59		True
+CONTIG	contig_7	30301	misassembled
+18689	20321	923	2555	NC_000956.1	contig_8	98.96		True
+translocation
+17704	26216	3608	12120	NC_000951.1	contig_8	95.78		True
+translocation
+1	9956	16348	26304	NC_000952.1	contig_8	96.18		True
+CONTIG	contig_8	30657	misassembled
+17390	20801	335	3745	NC_000951.1	contig_9	95.52		True
+translocation
+1	374	12787	13160	NC_000949.1	contig_9	99.73		True
+indel: indel (> 5bp)
+541	6081	13161	18701	NC_000949.1	contig_9	96.7		True
+translocation
+15142	16870	19453	21182	NC_000953.1	contig_9	97.0		True
+CONTIG	contig_9	21331	misassembled
+15432	16821	1468	80	NC_001849.2	contig_10	97.78		True
+indel: indel (<= 5bp)
+10428	15331	6665	1568	NC_001849.2	contig_10	95.53		True
+local misassembly
+3997	10186	12865	6666	NC_001849.2	contig_10	97.57		True
+CONTIG	contig_10	18037	correct
+1	4117	109	4217	NC_001852.1	contig_11	98.88		True
+unknown
+9453	10809	15520	14169	NC_001850.1	contig_11	97.35		True
+unknown
+26344	26872	17533	18058	NC_001854.1	contig_11	95.5		True
+unknown
+CONTIG	contig_11	24962	mis_unaligned
+905198	910723	5549	1	NC_001318.1	contig_12	98.67		True
+unknown
+903449	904148	6248	5548	NC_001318.1	contig_12	99.0		True
+unknown
+11927	15550	8665	12291	NC_001851.2	contig_12	97.77		True
+unknown
+CONTIG	contig_12	26763	mis_unaligned
+2	28601	21	28583	NC_001853.1	contig_13	99.03		True
+CONTIG	contig_13	28598	correct
+1667	2109	541	984	NC_001851.2	contig_14	97.75		True
+translocation
+1627	24148	3115	25883	NC_001854.1	contig_14	97.9		True
+relocation, inconsistency = 1090
+25239	25877	25884	26522	NC_001854.1	contig_14	98.53		True
+translocation
+1	2197	29567	27367	NC_001855.1	contig_14	98.91		True
+CONTIG	contig_14	29603	misassembled
+1152	2951	25773	23979	NC_000957.1	contig_15	95.83		True
+CONTIG	contig_15	26921	correct_unaligned
+1	2392	34	2410	NC_000956.1	contig_16	95.78		True
+translocation
+3153	4117	3563	2597	NC_001852.1	contig_16	95.45		True
+translocation
+9849	10270	3564	3985	NC_001851.2	contig_16	97.77		True
+indel: indel (> 5bp)
+10271	10522	4048	4297	NC_001851.2	contig_16	97.22		True
+translocation
+19302	23197	9145	5238	NC_001855.1	contig_16	98.7		True
+relocation, inconsistency = 2214
+3808	17087	22429	9146	NC_001855.1	contig_16	99.54		True
+translocation
+50244	50345	22480	22581	NC_000956.1	contig_16	100.0		True
+indel: indel (> 5bp)
+50346	50806	22642	23109	NC_000956.1	contig_16	95.09		True
+CONTIG	contig_16	23674	misassembled
+24	4829	30236	25436	NC_001850.1	contig_17	96.69		True
+CONTIG	contig_17	30325	correct_unaligned
+1	15804	3	15815	NC_001857.2	contig_18	99.56		True
+local misassembly
+16074	46464	16107	46458	NC_001857.2	contig_18	99.39		True
+relocation, inconsistency = -1056
+47131	48398	48181	49451	NC_001857.2	contig_18	99.29		True
+local misassembly
+49357	53657	49459	53759	NC_001857.2	contig_18	99.65		True
+CONTIG	contig_18	53777	misassembled

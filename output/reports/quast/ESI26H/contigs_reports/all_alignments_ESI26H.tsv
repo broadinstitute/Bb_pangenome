@@ -1,0 +1,90 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	910722	1	910396	NC_001318.1	contig_1	99.66		True
+CONTIG	contig_1	910396	correct
+1	9984	10018	36	NC_000949.1	contig_2	98.28		True
+translocation
+26654	30020	17196	13835	NC_000956.1	contig_2	95.87		True
+translocation
+21805	22165	18125	17765	NC_000950.1	contig_2	95.57		True
+local misassembly
+10240	16425	29704	23531	NC_000950.1	contig_2	96.84		True
+translocation
+1	10059	39900	29842	NC_000948.1	contig_2	97.91		True
+translocation
+27857	30800	42844	39901	NC_000952.1	contig_2	95.69		True
+local misassembly
+22780	22883	47987	47884	NC_000952.1	contig_2	95.19		True
+translocation
+10411	16468	61017	54948	NC_000949.1	contig_2	96.45		True
+CONTIG	contig_2	61321	misassembled
+28142	28262	849	729	NC_001853.1	contig_3	95.04		True
+CONTIG	contig_3	51152	correct_unaligned
+2154	36827	34728	1	NC_001855.1	contig_4	99.34		True
+CONTIG	contig_4	34728	correct
+15617	27020	1	11393	NC_000951.1	contig_5	97.14		True
+translocation
+1	15607	14672	30286	NC_000952.1	contig_5	97.87		True
+CONTIG	contig_5	30286	misassembled
+CONTIG	contig_6	27753	unaligned
+CONTIG	contig_7	26979	unaligned
+25239	25877	1527	889	NC_001854.1	contig_8	98.6		True
+relocation, inconsistency = 1090
+1627	24148	23637	1528	NC_001854.1	contig_8	96.42		True
+translocation
+1667	2109	26211	25768	NC_001851.2	contig_8	97.75		True
+CONTIG	contig_8	26691	misassembled
+4	10466	10463	1	NC_001903.1	contig_9	99.82		True
+fake: not a misassembly [linear representation of circular genome]
+10467	26496	26508	10469	NC_001903.1	contig_9	97.0		True
+CONTIG	contig_9	26508	correct
+1011	4135	3129	1	NC_001849.2	contig_10	99.78		True
+translocation
+1	1415	4714	3250	NC_001854.1	contig_10	95.36		True
+relocation, inconsistency = -1497
+1	1415	4797	6261	NC_001854.1	contig_10	95.36		True
+translocation
+1011	4257	6382	9632	NC_001849.2	contig_10	99.78		True
+local misassembly
+4516	10186	9891	15570	NC_001849.2	contig_10	98.35		True
+local misassembly
+10428	16821	15571	22007	NC_001849.2	contig_10	99.04		True
+relocation, inconsistency = -2155
+14825	16821	24163	22166	NC_001849.2	contig_10	99.55		True
+CONTIG	contig_10	24163	misassembled
+1	5191	5187	1	NC_000954.1	contig_11	99.56		True
+fake: not a misassembly [linear representation of circular genome]
+16906	30651	18933	5188	NC_000954.1	contig_11	99.77		True
+CONTIG	contig_11	18933	correct
+22418	26279	5816	1950	NC_000948.1	contig_12	95.14		True
+translocation
+17708	20937	10541	7306	NC_000951.1	contig_12	95.67		True
+CONTIG	contig_12	11699	misassembled
+1	1519	1519	1	NC_001857.2	contig_13	99.8		True
+relocation, inconsistency = -1523
+1	1519	1524	3042	NC_001857.2	contig_13	99.8		True
+CONTIG	contig_13	3042	misassembled
+1206	3607	2402	1	NC_000949.1	contig_14	99.04		True
+CONTIG	contig_14	2402	correct
+33106	34402	1	1297	NC_000956.1	contig_15	95.84		True
+CONTIG	contig_15	1297	correct
+14227	15476	4	1254	NC_000954.1	contig_16	99.44		True
+CONTIG	contig_16	1254	correct
+14666	15606	128	1065	NC_000948.1	contig_17	95.32		True
+CONTIG	contig_17	1083	correct
+5412	6492	1	1081	NC_000949.1	contig_18	99.72		True
+CONTIG	contig_18	1081	correct
+8065	9108	1044	1	NC_000954.1	contig_19	99.33		True
+CONTIG	contig_19	1044	correct
+7097	7946	850	1	NC_000954.1	contig_20	99.76		True
+CONTIG	contig_20	850	correct
+CONTIG	contig_21	800	unaligned
+13848	14491	1	644	NC_000950.1	contig_22	96.27		True
+CONTIG	contig_22	644	correct
+11988	12614	1	627	NC_000950.1	contig_23	99.52		True
+CONTIG	contig_23	627	correct
+4099	4711	613	1	NC_000952.1	contig_24	99.51		True
+CONTIG	contig_24	613	correct
+9101	9673	573	1	NC_000950.1	contig_25	98.78		True
+CONTIG	contig_25	573	correct
+7081	7588	508	1	NC_000953.1	contig_26	98.62		True
+CONTIG	contig_26	508	correct
