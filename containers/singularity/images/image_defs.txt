@@ -1,0 +1,32 @@
+agat_fixed.sif
+bootstrap: localimage
+from: agat_sandbox/
+
+bakta_latest.sif
+bootstrap: docker
+from: mjfos2r/bakta:latest
+
+bakta_v1.9.4.sif
+bootstrap: docker
+from: oschwengers/bakta:v1.9.4
+
+mlst_check_latest.sif
+bootstrap: docker
+from: sangerpathogens/mlst_check
+
+multiqc_latest.sif
+bootstrap: docker
+from: staphb/multiqc
+
+quast_latest.sif
+bootstrap: docker
+from: staphb/quast
+
+raxml_latest.sif
+bootstrap: docker
+from: pegi3s/raxml
+
+roary_latest.sif
+bootstrap: docker
+from: sangerpathogens/roary
+
