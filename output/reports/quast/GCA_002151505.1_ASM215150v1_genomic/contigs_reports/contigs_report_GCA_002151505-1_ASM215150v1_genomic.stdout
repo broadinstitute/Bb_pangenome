@@ -1,0 +1,147 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [NC_001853.1]
+	Loaded [NC_000949.1]
+	Loaded [NC_001855.1]
+	Loaded [NC_001318.1]
+	Loaded [NC_001854.1]
+	Loaded [NC_001904.1]
+	Loaded [NC_000948.1]
+	Loaded [NC_001857.2]
+	Loaded [NC_001856.1]
+	Loaded [NC_000951.1]
+	Loaded [NC_000950.1]
+	Loaded [NC_001850.1]
+	Loaded [NC_000956.1]
+	Loaded [NC_001903.1]
+	Loaded [NC_001851.2]
+	Loaded [NC_001852.1]
+	Loaded [NC_000957.1]
+	Loaded [NC_000954.1]
+	Loaded [NC_000955.2]
+	Loaded [NC_001849.2]
+	Loaded [NC_000953.1]
+	Loaded [NC_000952.1]
+	Total Regions: 22
+	Total Region Length: 1521208
+Analyzing contigs...
+CONTIG: CP019767.1 (909921bp)
+Best alignment score: 909011.1 (LEN: 909921, IDY: 99.90), Total number of alignments: 1
+		One align captures most of this contig: 1 910724 | 1 909921 | 910724 909921 | 99.9 | NC_001318.1 CP019767.1
+
+CONTIG: CP019761.1 (16821bp)
+Best alignment score: 16821.0 (LEN: 16821, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 16821 | 16821 1 | 16821 16821 | 100.0 | NC_001849.2 CP019761.1
+
+CONTIG: CP019755.1 (26498bp)
+Best alignment score: 26495.4 (LEN: 26498, IDY: 99.99), Total number of alignments: 1
+		One align captures most of this contig: 1 26498 | 1 26498 | 26498 26498 | 99.99 | NC_001903.1 CP019755.1
+
+CONTIG: CP019762.1 (21891bp)
+Best alignment score: 21332.8 (LEN: 21891, IDY: 97.45), Total number of alignments: 1
+		One align captures most of this contig: 4402 26291 | 21891 1 | 21890 21891 | 97.45 | NC_001851.2 CP019762.1
+
+CONTIG: CP019756.1 (61418bp)
+Best alignment score: 20570.5 (LEN: 20793, IDY: 98.93), Total number of alignments: 7
+			Looking for the best set of alignments (out of 7 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1 16473 | 1 16470 | 16473 16470 | 99.73 | NC_000953.1 CP019756.1
+		Skipping redundant alignment 23154 30885 | 22947 30675 | 7732 7729 | 95.9 | NC_000953.1 CP019756.1
+		Skipping redundant alignment 1 20795 | 30676 51489 | 20795 20814 | 97.99 | NC_000953.1 CP019756.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 57732.9, number of alignments: 4, unaligned bases: 2718
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 58700 out of 61418 non-N bases (95.57%))
+			Real Alignment 1: 1 20797 | 1 20793 | 20797 20793 | 98.93 | NC_000948.1 CP019756.1
+			  Extensive misassembly (relocation, inconsistency = -1970 [linear representation of circular genome]) between these two alignments
+			Real Alignment 2: 22841 30750 | 22764 30675 | 7910 7912 | 95.71 | NC_000948.1 CP019756.1
+			  Not a misassembly [linear representation of circular genome] between these two alignments
+			Real Alignment 3: 1 16472 | 30676 47147 | 16472 16472 | 99.91 | NC_000948.1 CP019756.1
+			  Gap between these two alignments (local misassembly). Inconsistency = -748 [linear representation of circular genome]
+			Real Alignment 4: 17227 30750 | 47896 61418 | 13524 13523 | 99.14 | NC_000948.1 CP019756.1
+		Unaligned bases: 2718
+
+CONTIG: CP019757.1 (31245bp)
+Best alignment score: 16791.3 (LEN: 17431, IDY: 96.33), Total number of alignments: 6
+			Looking for the best set of alignments (out of 6 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1 14856 | 1 14688 | 14856 14688 | 95.98 | NC_000954.1 CP019757.1
+		Skipping redundant alignment 6585 19971 | 3122 16399 | 13387 13278 | 97.92 | NC_000956.1 CP019757.1
+		Skipping redundant alignment 1 16425 | 1 16399 | 16425 16399 | 96.94 | NC_000950.1 CP019757.1
+		Skipping redundant alignment 27739 30750 | 28224 31245 | 3012 3022 | 96.13 | NC_000948.1 CP019757.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 19448.4, number of alignments: 2, unaligned bases: 10792
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 20453 out of 31245 non-N bases (65.46%))
+			Real Alignment 1: 1 17533 | 1 17431 | 17533 17431 | 96.33 | NC_000951.1 CP019757.1
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 2: 27874 30885 | 28224 31245 | 3012 3022 | 96.23 | NC_000953.1 CP019757.1
+		Unaligned bases: 10792
+
+CONTIG: CP019758.1 (30222bp)
+Best alignment score: 30222.0 (LEN: 30222, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 30223 | 1 30222 | 30223 30222 | 100.0 | NC_000949.1 CP019758.1
+
+CONTIG: CP019759.1 (30300bp)
+Best alignment score: 30300.0 (LEN: 30300, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 30299 | 1 30300 | 30299 30300 | 100.0 | NC_000950.1 CP019759.1
+
+CONTIG: CP019760.1 (30651bp)
+Best alignment score: 30647.9 (LEN: 30651, IDY: 99.99), Total number of alignments: 1
+		One align captures most of this contig: 1 30651 | 1 30651 | 30651 30651 | 99.99 | NC_000954.1 CP019760.1
+
+CONTIG: CP019763.1 (36780bp)
+Best alignment score: 36776.3 (LEN: 36780, IDY: 99.99), Total number of alignments: 1
+		One align captures most of this contig: 67 36849 | 1 36780 | 36783 36780 | 99.99 | NC_001855.1 CP019763.1
+
+CONTIG: CP019764.1 (38834bp)
+Best alignment score: 38804.7 (LEN: 38828, IDY: 99.94), Total number of alignments: 1
+		One align captures most of this contig: 1 38822 | 1 38828 | 38822 38828 | 99.94 | NC_001856.1 CP019764.1
+
+CONTIG: CP019765.1 (53650bp)
+Best alignment score: 53633.9 (LEN: 53650, IDY: 99.97), Total number of alignments: 1
+		One align captures most of this contig: 1 53657 | 1 53650 | 53657 53650 | 99.97 | NC_001857.2 CP019765.1
+
+CONTIG: CP019766.1 (52951bp)
+Best alignment score: 52950.0 (LEN: 52950, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 21 52970 | 1 52950 | 52950 52950 | 100.0 | NC_000956.1 CP019766.1
+
+Analyzing coverage...
+Writing SNPs into /home/mf019/longread_pangenome/expanded_dataset_analysis/reports/quast/GCA_002151505.1_ASM215150v1_genomic/contigs_reports/minimap_output/GCA_002151505-1_ASM215150v1_genomic.used_snps
+
+Analysis is finished!
+Founded SNPs were written into /home/mf019/longread_pangenome/expanded_dataset_analysis/reports/quast/GCA_002151505.1_ASM215150v1_genomic/contigs_reports/minimap_output/GCA_002151505-1_ASM215150v1_genomic.used_snps
+
+Results:
+	Local Misassemblies: 1
+	Misassemblies: 2
+		Relocations: 1
+		Translocations: 1
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 2
+	Misassembled Contig Bases: 92663
+	Misassemblies Inter-Contig Overlap ("Extra" Aligned Bases): 0
+Unaligned Contigs: 0 + 2 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Bases in Fully and Partially Unaligned Contigs: 13510
+
+Ambiguously Mapped Contigs: 2
+Total Bases in Ambiguously Mapped Contigs: 92663
+"Extra" Aligned Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used (there is no "extra" aligned bases).
+
+	Covered Bases in Reference: 1300568
+	Raw Aligned Bases in Assembly: 1327665
+	Total Aligned Bases in Assembly (with "Extras"): 1327665
+
+	SNPs: 1241
+	Insertions: 408
+	Deletions: 1309
+

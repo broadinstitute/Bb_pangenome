@@ -1,0 +1,80 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [NC_001853.1]
+	Loaded [NC_000949.1]
+	Loaded [NC_001855.1]
+	Loaded [NC_001318.1]
+	Loaded [NC_001854.1]
+	Loaded [NC_001904.1]
+	Loaded [NC_000948.1]
+	Loaded [NC_001857.2]
+	Loaded [NC_001856.1]
+	Loaded [NC_000951.1]
+	Loaded [NC_000950.1]
+	Loaded [NC_001850.1]
+	Loaded [NC_000956.1]
+	Loaded [NC_001903.1]
+	Loaded [NC_001851.2]
+	Loaded [NC_001852.1]
+	Loaded [NC_000957.1]
+	Loaded [NC_000954.1]
+	Loaded [NC_000955.2]
+	Loaded [NC_001849.2]
+	Loaded [NC_000953.1]
+	Loaded [NC_000952.1]
+	Total Regions: 22
+	Total Region Length: 1521208
+Analyzing contigs...
+CONTIG: CP124092.1 (910655bp)
+Best alignment score: 910563.9 (LEN: 910655, IDY: 99.99), Total number of alignments: 1
+		One align captures most of this contig: 77 910724 | 1 910655 | 910648 910655 | 99.99 | NC_001318.1 CP124092.1
+
+CONTIG: CP124090.1 (16928bp)
+Best alignment score: 16815.6 (LEN: 16819, IDY: 99.98), Total number of alignments: 1
+		One align captures most of this contig: 1 16821 | 31 16849 | 16821 16819 | 99.98 | NC_001849.2 CP124090.1
+
+CONTIG: CP124089.1 (26498bp)
+Best alignment score: 26498.0 (LEN: 26498, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 26498 | 1 26498 | 26498 26498 | 100.0 | NC_001903.1 CP124089.1
+
+CONTIG: CP124091.1 (53672bp)
+Best alignment score: 53634.9 (LEN: 53651, IDY: 99.97), Total number of alignments: 1
+		One align captures most of this contig: 1 53657 | 3 53653 | 53657 53651 | 99.97 | NC_001857.2 CP124091.1
+
+Analyzing coverage...
+Writing SNPs into /home/mf019/longread_pangenome/expanded_dataset_analysis/reports/quast/GCA_030439605.1_ASM3043960v1_genomic/contigs_reports/minimap_output/GCA_030439605-1_ASM3043960v1_genomic.used_snps
+
+Analysis is finished!
+Founded SNPs were written into /home/mf019/longread_pangenome/expanded_dataset_analysis/reports/quast/GCA_030439605.1_ASM3043960v1_genomic/contigs_reports/minimap_output/GCA_030439605-1_ASM3043960v1_genomic.used_snps
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap ("Extra" Aligned Bases): 0
+Unaligned Contigs: 0 + 0 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Bases in Fully and Partially Unaligned Contigs: 0
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+"Extra" Aligned Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used (there is no "extra" aligned bases).
+
+	Covered Bases in Reference: 1007581
+	Raw Aligned Bases in Assembly: 1007623
+	Total Aligned Bases in Assembly (with "Extras"): 1007623
+
+	SNPs: 33
+	Insertions: 23
+	Deletions: 24
+

@@ -1,0 +1,220 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+11	903437	903272	205	NC_001318.1	contig_1	99.39		True
+CONTIG	contig_1	903272	correct
+49357	53657	4358	56	NC_001857.2	contig_2	99.44		True
+local misassembly
+47131	48398	5633	4366	NC_001857.2	contig_2	99.53		True
+relocation, inconsistency = -1055
+1	46464	53793	7355	NC_001857.2	contig_2	99.25		True
+CONTIG	contig_2	53795	misassembled
+1	19706	19715	2	NC_001903.1	contig_3	97.91		True
+fake: not a misassembly [linear representation of circular genome]
+19708	26498	26506	19716	NC_001903.1	contig_3	99.6		True
+CONTIG	contig_3	26506	correct
+4165	27316	126	23360	NC_001853.1	contig_4	96.48		True
+CONTIG	contig_4	23360	correct
+1011	23148	22261	2	NC_001854.1	contig_5	98.21		True
+CONTIG	contig_5	22261	correct
+5976	23197	292	17430	NC_001855.1	contig_6	98.65		True
+CONTIG	contig_6	18208	correct
+4156	4257	1	102	NC_001849.2	contig_7	100.0		True
+local misassembly
+4516	16821	361	12675	NC_001849.2	contig_7	98.42		True
+relocation, inconsistency = -3705
+13275	16821	16377	12834	NC_001849.2	contig_7	98.99		True
+CONTIG	contig_7	16377	misassembled
+15142	16631	1033	2522	NC_000948.1	contig_8	95.1		True
+translocation
+18258	22829	3785	8363	NC_000949.1	contig_8	95.35		True
+indel: indel (> 5bp)
+22884	22970	8364	8450	NC_000949.1	contig_8	96.55		True
+translocation
+22924	27703	8847	13646	NC_000954.1	contig_8	95.12		True
+CONTIG	contig_8	13646	misassembled
+10314	22080	1	11766	NC_001856.1	contig_9	98.56		True
+CONTIG	contig_9	11766	correct
+1	10348	10360	1	NC_001856.1	contig_10	98.36		True
+CONTIG	contig_10	10376	correct
+5247	5839	45	637	NC_001904.1	contig_11	99.66		True
+local misassembly
+6052	9330	876	4150	NC_001904.1	contig_11	95.55		True
+inversion
+218	2661	6591	4151	NC_001904.1	contig_11	96.45		True
+inversion
+2816	5249	7039	9462	NC_001904.1	contig_11	96.31		True
+translocation
+13913	14114	9664	9463	NC_000955.2	contig_11	98.54		True
+indel: indel (> 5bp)
+13728	13851	9788	9665	NC_000955.2	contig_11	95.16		True
+CONTIG	contig_11	9788	misassembled
+14391	18770	1	4383	NC_000955.2	contig_12	99.5		True
+relocation, inconsistency = -4394
+14391	18770	8780	4398	NC_000955.2	contig_12	99.5		True
+CONTIG	contig_12	8780	misassembled
+16966	23115	6183	44	NC_000952.1	contig_13	95.92		True
+indel: indel (> 5bp)
+16826	16965	6376	6238	NC_000952.1	contig_13	98.57		True
+CONTIG	contig_13	8365	correct
+3760	5980	2365	119	NC_001855.1	contig_14	98.22		True
+unknown
+2131	2676	2940	2388	NC_001849.2	contig_14	95.67		True
+unknown
+CONTIG	contig_14	7895	mis_unaligned
+28303	29755	1453	1	NC_001852.1	contig_15	99.45		True
+indel: indel (> 5bp)
+26446	28215	3228	1454	NC_001852.1	contig_15	95.44		True
+indel: indel (<= 5bp)
+22140	26380	7514	3292	NC_001852.1	contig_15	95.26		True
+CONTIG	contig_15	7526	correct
+7460	7857	6365	6764	NC_001852.1	contig_16	98.75		True
+CONTIG	contig_16	6822	correct_unaligned
+33001	38789	5791	1	NC_001856.1	contig_17	98.53		True
+CONTIG	contig_17	5815	correct
+23845	29132	5277	1	NC_001856.1	contig_18	98.09		True
+CONTIG	contig_18	5277	correct
+2470	2654	29	213	NC_001851.2	contig_19	97.3		True
+CONTIG	contig_19	5277	correct_unaligned
+2246	3978	1739	1	NC_001853.1	contig_20	97.47		True
+translocation
+2	332	2601	2269	NC_001849.2	contig_20	98.2		True
+inversion
+2	331	2664	2995	NC_001849.2	contig_20	98.5		True
+translocation
+1596	2123	2996	3525	NC_001853.1	contig_20	99.25		True
+indel: indel (> 5bp)
+2246	3978	3526	5264	NC_001853.1	contig_20	97.53		True
+CONTIG	contig_20	5264	misassembled
+19125	21036	1912	1	NC_001852.1	contig_21	97.59		True
+local misassembly
+18361	18891	2676	2146	NC_001852.1	contig_21	95.1		True
+local misassembly
+16331	18062	4688	2957	NC_001852.1	contig_21	99.42		True
+CONTIG	contig_21	4688	correct
+317	1728	4285	2874	NC_001852.1	contig_22	95.05		True
+CONTIG	contig_22	4285	correct_unaligned
+24987	26523	1	1556	NC_000951.1	contig_23	95.45		True
+CONTIG	contig_23	3475	correct_unaligned
+22779	23229	453	1	NC_000950.1	contig_24	95.36		True
+indel: indel (> 5bp)
+22248	22622	827	454	NC_000950.1	contig_24	96.0		True
+local misassembly
+21805	22165	1433	1073	NC_000950.1	contig_24	95.57		True
+local misassembly
+19824	20640	3421	2605	NC_000950.1	contig_24	96.7		True
+CONTIG	contig_24	3421	correct
+4003	4106	294	191	NC_000955.2	contig_25	99.04		True
+indel: indel (> 5bp)
+3692	3939	542	295	NC_000955.2	contig_25	97.58		True
+indel: indel (> 5bp)
+1022	3628	3149	543	NC_000955.2	contig_25	98.24		True
+CONTIG	contig_25	3150	correct
+CONTIG	contig_26	3016	unaligned
+19889	22827	2938	1	NC_000953.1	contig_27	99.15		True
+CONTIG	contig_27	2938	correct
+9393	12146	1	2757	NC_000952.1	contig_28	97.35		True
+CONTIG	contig_28	2758	correct
+20714	23413	2703	6	NC_000951.1	contig_29	98.96		True
+CONTIG	contig_29	2704	correct
+24934	25877	1	945	NC_001854.1	contig_30	99.37		True
+translocation
+1426	2197	2563	1790	NC_001855.1	contig_30	99.22		True
+CONTIG	contig_30	2563	misassembled
+CONTIG	contig_31	2500	unaligned
+28624	28769	2248	2393	NC_000954.1	contig_32	95.21		True
+CONTIG	contig_32	2430	correct_unaligned
+28122	28831	710	1	NC_000952.1	contig_33	99.3		True
+CONTIG	contig_33	2093	correct_unaligned
+26281	26560	283	4	NC_000956.1	contig_34	97.5		True
+CONTIG	contig_34	2076	correct_unaligned
+34385	35481	109	1204	NC_001855.1	contig_35	98.72		True
+translocation
+26091	26872	1983	1205	NC_001854.1	contig_35	95.08		True
+CONTIG	contig_35	1983	misassembled
+29868	31838	1956	1	NC_000956.1	contig_36	99.04		True
+CONTIG	contig_36	1956	correct
+2915	4682	1768	1	NC_000951.1	contig_37	99.72		True
+CONTIG	contig_37	1768	correct
+CONTIG	contig_38	1765	unaligned
+CONTIG	contig_39	1728	unaligned
+19622	19971	3	352	NC_000956.1	contig_40	98.86		True
+CONTIG	contig_40	1659	correct_unaligned
+4889	6447	1	1559	NC_000954.1	contig_41	99.42		True
+CONTIG	contig_41	1559	correct
+9851	11152	1302	1	NC_001852.1	contig_42	99.62		True
+CONTIG	contig_42	1302	correct
+CONTIG	contig_43	1230	unaligned
+CONTIG	contig_44	1186	unaligned
+CONTIG	contig_45	1164	unaligned
+10908	12063	1156	1	NC_000951.1	contig_46	99.83		True
+CONTIG	contig_46	1156	correct
+1	1020	31	1050	NC_000955.2	contig_47	99.71		True
+CONTIG	contig_47	1050	correct
+CONTIG	contig_48	1043	unaligned
+8399	9392	994	1	NC_000952.1	contig_49	98.59		True
+CONTIG	contig_49	994	correct
+22081	23074	1	991	NC_001856.1	contig_50	99.2		True
+CONTIG	contig_50	991	correct
+16933	17368	810	375	NC_000954.1	contig_51	97.94		True
+translocation
+16828	16962	945	811	NC_000952.1	contig_51	98.08		True
+CONTIG	contig_51	984	misassembled
+9364	9850	496	982	NC_001852.1	contig_52	99.38		True
+CONTIG	contig_52	982	correct
+CONTIG	contig_53	956	unaligned
+CONTIG	contig_54	943	unaligned
+11784	12713	1	930	NC_001852.1	contig_55	99.14		True
+CONTIG	contig_55	930	correct
+9743	9849	764	870	NC_001852.1	contig_56	99.07		True
+CONTIG	contig_56	871	correct_unaligned
+CONTIG	contig_57	846	unaligned
+6608	7448	841	1	NC_000950.1	contig_58	99.41		True
+CONTIG	contig_58	842	correct
+8274	9100	1	827	NC_000951.1	contig_59	97.1		True
+CONTIG	contig_59	827	correct
+29130	29895	766	1	NC_001856.1	contig_60	99.74		True
+CONTIG	contig_60	766	correct
+21367	22127	761	1	NC_001852.1	contig_61	99.21		True
+CONTIG	contig_61	761	correct
+11812	12559	1	748	NC_000956.1	contig_62	99.6		True
+CONTIG	contig_62	748	correct
+22426	23091	82	747	NC_000956.1	contig_63	95.37		True
+CONTIG	contig_63	747	correct
+18130	18842	727	13	NC_000951.1	contig_64	97.49		True
+CONTIG	contig_64	734	correct
+29896	30615	1	720	NC_001856.1	contig_65	98.75		True
+CONTIG	contig_65	720	correct
+CONTIG	contig_66	701	unaligned
+14267	14933	7	674	NC_001852.1	contig_67	96.42		True
+CONTIG	contig_67	677	correct
+14262	14936	2	677	NC_001852.1	contig_68	97.34		True
+CONTIG	contig_68	677	correct
+118	785	668	1	NC_000956.1	contig_69	99.1		True
+CONTIG	contig_69	668	correct
+CONTIG	contig_70	665	unaligned
+15668	16329	2	663	NC_001852.1	contig_71	96.07		True
+CONTIG	contig_71	664	correct
+15667	16330	664	1	NC_001852.1	contig_72	99.7		True
+CONTIG	contig_72	664	correct
+CONTIG	contig_73	653	unaligned
+11154	11783	2	631	NC_001852.1	contig_74	99.21		True
+CONTIG	contig_74	631	correct
+11153	11782	1	630	NC_001852.1	contig_75	97.46		True
+CONTIG	contig_75	631	correct
+15143	15351	213	5	NC_000950.1	contig_76	97.61		True
+CONTIG	contig_76	620	correct
+28938	29549	8	620	NC_000956.1	contig_77	97.08		True
+CONTIG	contig_77	620	correct
+24005	24622	618	1	NC_000953.1	contig_78	99.35		True
+CONTIG	contig_78	618	correct
+30617	31212	596	1	NC_001856.1	contig_79	98.49		True
+CONTIG	contig_79	597	correct
+10271	10522	289	38	NC_001851.2	contig_80	97.22		True
+CONTIG	contig_80	568	correct
+9829	10394	1	566	NC_000950.1	contig_81	99.12		True
+CONTIG	contig_81	566	correct
+28179	28735	2	558	NC_000956.1	contig_82	97.67		True
+CONTIG	contig_82	559	correct
+29041	29579	1	540	NC_000953.1	contig_83	96.3		True
+CONTIG	contig_83	540	correct
+15978	16506	529	1	NC_000952.1	contig_84	96.6		True
+CONTIG	contig_84	529	correct

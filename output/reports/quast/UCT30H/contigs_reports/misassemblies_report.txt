@@ -1,0 +1,23 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     UCT30H
+# misassemblies              30    
+  # contig misassemblies     30    
+    # c. relocations         7     
+    # c. translocations      20    
+    # c. inversions          3     
+  # scaffold misassemblies   0     
+    # s. relocations         0     
+    # s. translocations      0     
+    # s. inversions          0     
+# misassembled contigs       12    
+Misassembled contigs length  308645
+# local misassemblies        9     
+# scaffold gap ext. mis.     0     
+# scaffold gap loc. mis.     0     
+# unaligned mis. contigs     3     
+# mismatches                 9537  
+# indels                     681   
+    # indels (<= 5 bp)       617   
+    # indels (> 5 bp)        64    
+Indels length                3422  
