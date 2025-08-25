@@ -1,0 +1,483 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.16.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>/db/ospC_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>CP031412.1 Borreliella burgdorferi strain MM1 chromosome main, complete sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>908512</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>1e-100</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>CP031412.1 Borreliella burgdorferi strain MM1 chromosome main, complete sequence</Iteration_query-def>
+  <Iteration_query-len>908512</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>25</Statistics_hsp-len>
+      <Statistics_eff-space>22449622257</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_2</Iteration_query-ID>
+  <Iteration_query-def>CP031399.1 Borreliella burgdorferi strain MM1 plasmid plsm_cp9, complete sequence</Iteration_query-def>
+  <Iteration_query-len>11401</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>284128866</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_3</Iteration_query-ID>
+  <Iteration_query-def>CP031400.1 Borreliella burgdorferi strain MM1 plasmid plsm_lp17, complete sequence</Iteration_query-def>
+  <Iteration_query-len>14437</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>359286057</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>4</Iteration_iter-num>
+  <Iteration_query-ID>Query_4</Iteration_query-ID>
+  <Iteration_query-def>CP031401.1 Borreliella burgdorferi strain MM1 plasmid plsm_lp25, complete sequence</Iteration_query-def>
+  <Iteration_query-len>24154</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>601443414</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>5</Iteration_iter-num>
+  <Iteration_query-ID>Query_5</Iteration_query-ID>
+  <Iteration_query-def>CP031398.1 Borreliella burgdorferi strain MM1 plasmid plsm_cp26, complete sequence</Iteration_query-def>
+  <Iteration_query-len>26507</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>L25413.1_OspC-D</Hit_id>
+  <Hit_def>No definition line</Hit_def>
+  <Hit_accession>L25413.1_OspC-D</Hit_accession>
+  <Hit_len>1150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1279</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16683</Hsp_query-from>
+      <Hsp_query-to>17821</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>1139</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>1009</Hsp_identity>
+      <Hsp_positive>1009</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>1158</Hsp_align-len>
+      <Hsp_qseq>TTTTAGCATATTTGGCTTTGCTTATGTCGATTTTAAAATCAAATTAATACAATATTTTTCAAATTCTTCAATAT-TT-ATTCAAGATATTGAAGAATTTGAAAAAAATATTTTTTCAAATAAAAAATTGAAAAACAAAATTGTTGGACTAATAATTCATAAATAAAAAGGAGGCACAAATTAATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGAAAAGATGGGAATGCATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTGCAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTGGCTGTAAAAGAAGTTGAGGCTTTGCTTGCATCTATAGATGAAATTGGTAGTAAAGCTATTGGTAAAAGAATA---CAAGCGAATGGTTTACAGG-ACT-TGCAAGGGCAGAACGGATCATTGTTAGCAGGAGCCTATGCAATTTCAAATTTAATAACACAAAAAATAAATGTATTAAATGGACTGAAAAATTCAGAAGAATTGAAAG-AGAAAATTAACGAGGCTAAGGGCTGCTCTGAAAAATTTACTAAAAAACTATCAGAAAGTCATGCAGATATTGGTATACAAGCCGCTACTGATGCTAATGCAAAAGATGCTATTTTAAAAACAAATCCTACTAAA-ACTAAGGGTGCTGAAGAACTTGATAAGTTATTTAAAGCGGTGGAAAACTTGTCAAAAGCGGCTAAAGAGATGCTTGCTAATTCAGTTAAAGAACTTACAAGTCCTGTTGTGGCAGAAAGTCCAAAAAAACCTTAATTAAAATCAA-A-T-CAATATT-ATAAGATTTTAAAAAAGTAACTGGAAAAATAAAGTCAATATAAGTCAAGAAAGATTTCTTGGCTTTTATTTTTTT-ATTTTCTCAAAAAATTTCTTAAAATTCATTTTAACTTTAAGCTCTTCTCTTAAAGAATAAAAACTTATTACAAAAGCCGTTAATAAATTAAATTTAAGTATT-TAAATATAAACAAAATTGGGTGCTAGAAATTTGATTTTAAAGGCTTAAGTAGGCTTAAACAGTTTGGGTAAATTTT----TAAAGATAATAGTAGTTTCTTTGGTTTTATGTGAGATTTTATAAA</Hsp_qseq>
+      <Hsp_hseq>TTTTAACATATTTGGCTTTGCTTATGCTGATTTTAAAATCAAATTAATACAATATTTTTCAAATTCTTCAATATATTGAAT-AA-ATATTGAAGAATTTGAAAAAATTATTTTTTCAAATAAAAAATTGAAAAACAAAATTGTTGGACTAATAATTCATAAATAAAAAGGAGGCACAAATTAATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGAAAAGATGGGAATACATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTACAGAAATAAGTAAAAAAATTACGGATTCTAATGCGGTTTTACTTGCTGTGAAAGAGGTTGAAGTGTTGCTGTCATCTATAGATGAACTTGCTAAGAAAGCTATTGGTAAAAAAATAGATCAAAACAATGCTTT--AGGCACTCTAGATAATCATAACGGATCATTGTTGGCGGGAGCTTATGCTATATCAGCTCTAATAACA-GAAAAATTAA-G--TTCAAT--A---AAAGATTCAGGAGAATTGAAGGCAGAAATTGAA-AAGGCTAAGAAATGTTCTGAAAGCTTTACTAAAAAACTATCAGATAATCAAGCAGAGCTTGGTATAGAGAATGCTACTGATGATAATGCAAAAAAGGCTATTTTAAAAACACATAATGCTAAAGAC-AAGGGTGCTGAAGAACTTGTAAAGTTATCTGAATCAGTAGCAGGCTTATTAAAAGCAGCTCAAGCCATACTGGCTAATTCAGTTAAAGAGCTTACAAGTCCTGTTGTGGCAGAAAGTCCAAAAAAACCTTAATTAAGATCAATATTATAAGATTAATTTG-TTTTAAAAAAGTAACTGGAAAAATAAAGTCAATATAAGTCAAGAAAGATTTCTTGGCTTTTATTTTTTTTATTTT-TCAAAAAATTTCTTAAAATTCATTTTAACTTTAAGTTCTTCTTTTAAAGAATAAAAATTTATTTCAAAT-CCGTTAATAAATTAAATTTAAGTATTCTAAATATAAACAAAATTGGGTGTTAGAAATTTAATTTTAAAGGCTTAAGTAGGCTTAAACAGTTTTGC-AAATTTTTTAATAAAGACAATAGTAGTTTCTTTGGTTTTATGTGAGATTTTATAAA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| || | | || ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||| || ||||| || ||| | || ||||| ||||| ||||| |  |||||  |||||||||||||| ||| ||  |||||||||||||||| ||||   |||   |||| |||  ||| ||| |  |    || |||||||||||||| || ||||| ||||| || |||  | ||||||||  |||||| || |  || |||  |   ||| |||||| ||||||||| | ||||| | ||  ||||||||   || |||||||  |||||||||||||||||||| | ||| |||||  |||||||| |    |||||||||| |||||||||| | ||||||||||||||| ||  | ||||| || |||||||||||||||||||  ||||||| | || | || | |  ||| | |||||| ||| |||  || || ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||| | |  || ||| ||  | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||||||| |||||| |||||||||||||| ||||| ||||  |||||||||||||||||||||||||| |||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||||||||| |  |||||||    |||||| ||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>DQ437467.1_OspC-U</Hit_id>
+  <Hit_def>No definition line</Hit_def>
+  <Hit_accession>DQ437467.1_OspC-U</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1098.03</Hsp_bit-score>
+      <Hsp_score>594</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16893</Hsp_query-from>
+      <Hsp_query-to>17492</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>600</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>599</Hsp_identity>
+      <Hsp_positive>599</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>601</Hsp_align-len>
+      <Hsp_qseq>ATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGAAAAGATGGGAATGCATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTGCAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTGGCTGTAAAAGAAGTTGAGGCTTTGCTTGCATCTATAGATGAAATTGGTAGTAAAGCTATTGGTAAAAGAATACAAGCGAATGGTTTACAGGACTTGCAAGGGCAGAACGGATCATTGTTAGCAGGAGCCTATGCAATTTCAAATTTAATAACACAAAAAATAAATGTATTAAATGGACTGAAAAATTCAGAAGAATTGAAAGAGAAAATTAACGAGGCTAAGGGCTGCTCTGAAAAATTTACTAAAAAACTATCAGAAAGTCATGCAGATATTGGTATACAAGCCGCTACTGATGCTAATGCAAAAGATGCTATTTTAAAAACAAATCCTACTAAAACTAAGGGTGCTGAAGAACTTGATAAGTTATTTAAAGCGGTGGAAAACTTGTCAAAAGCGGCTAAAGAGATGCTTGCTAATTCAGTTAAAGAACTTACAAGTCCTGTTGTGGC-AGAAAGTCCA</Hsp_qseq>
+      <Hsp_hseq>ATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGAAAAGATGGGAATGCATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTGCAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTGGCTGTAAAAGAAGTTGAGGCTTTGCTTGCATCTATAGATGAAATTGGTAGTAAAGCTATTGGTAAAAGAATACAAGCGAATGGTTTACAGGACTTGCAAGGGCAGAACGGATCATTGTTAGCAGGAGCCTATGCAATTTCAAATTTAATAACACAAAAAATAAATGTATTAAATGGACTGAAAAATTCAGAAGAATTGAAAGAGAAAATTAACGAGGCTAAGGGCTGCTCTGAAAAATTTACTAAAAAACTATCAGAAAGTCATGCAGATATTGGTATACAAGCCGCTACTGATGCTAATGCAAAAGATGCTATTTTAAAAACAAATCCTACTAAAACTAAGGGTGCTGAAGAACTTGATAAGTTATTTAAAGCGGTGGAAAACTTGTCAAAAGCGGCTAAAGAGATGCTTGCTAATTCAGTTAAAG-ACTTACAAGTCCTGTTGTGGCCAGAAAGTCCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>U04240.1_OspC-E</Hit_id>
+  <Hit_def>No definition line</Hit_def>
+  <Hit_accession>U04240.1_OspC-E</Hit_accession>
+  <Hit_len>929</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1002</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16589</Hsp_query-from>
+      <Hsp_query-to>17514</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>914</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>809</Hsp_identity>
+      <Hsp_positive>809</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>935</Hsp_align-len>
+      <Hsp_qseq>GGATCCAAAATCTAATACAAGTATTGCCCGAGCATTCATAATACAAGTCCTTAAAATAAATTAAAAGTTTTCTTATTAAA-CATATTTTATTTAATTTTAGCATATTTGGCTTTGCTTATGTCGATTTTAAAATCAAATTAATACAATATTTTTCAAATTCTTCAATATTTATTCAAGATATTGAAGAATTTGAAAAAAATATTTTTTCAAATAAAAAATTGAAAAACAAAATTGTTGGACTAATAATTCATAAATAAAAAGGAGGCACAAATTAATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGAAAAGATGGGAATGCATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTGCAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTGGCTGTAAAAGAAGTTGAGGCTTTGCTTGCATCTATAGATGAAATTGGTAGTAAAGCTATTGGTAAAAGAATA--CAAGCGAATGGTTTACAGGACTTGCAAGGGCAGAACGGATCATTGTTAGCAGGAGCCTATGCAATTTCAAATTTAATAACACAAAAAATAAATGTATTAAATGGACTGAAAAATTCAGAAGAATTGAAAGAGAAAATTAACGAGGCTAAGGGCTGCTCTGAAAAATTTACTAAAAAACTATCAGAAAGT---CATGCAGATATTGGTAT--ACAAGCCGCTACTGATGCTAATGCA-AAAGATGCTATTTTAAAAACAAATCCTACTAAAACTAAGGGTGCTGAAGAACTTGATAAGTTATTTAAAGCGGTGGAAAACTTGTCAAAAGCGGCTAAAGAGATGCTTGCTAATTCAGTTAAAGAACTTACAAGTCCTGTTGTGGCAGAAAGTCCAAAAAAACCTTAATTAAAATCAA</Hsp_qseq>
+      <Hsp_hseq>GGATCCAAAATCTAATACAAGTATTGCCTGAGCATTCATCATATAAGTCC-TAGAATAAATTAAAAGTTTTCTTATTAAAGTATATTTCATTTAATTTTAACATATTTAGCTTTGCTTATGCTGATTTTAAAATCAAATTAATACAATATTTTTCAAATTCTTCAATATTTATTCAATATATTGAAGAATTTGAAAAAATAATTTTTTCAAATAAAAAATTGAAAAACAAAATTGTTGGACTAATAATTCATAAATAAAAAGGAGGCACAAATTAATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGAAAAGATGGGAATGCATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTACAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTGGCCGTGAAAGAAGTTGAGACCTTACTTGCATCTATAGATGAACTTGCTACCAAAGCTATTGGTAAAAAAATAGGCAAT--AATGGTTTAGAGGCCAATCAGAGTAAAAACACATCATTGTTATCAGGAGCTTATGCAATATCTGACCTAATAGCAGAAAAATTAAATGTATTGAAAA-A-TGAAGAATT-A-AAGGA---AAAGATTGA-T-A-C-A-GCTAAGCAATGTTCTACAGAATTTACTAATAAACTA--A-AAAGTGAACATGCAGTGCTTGGTCTGGACAATCT--TACTGATGATAATGCACAAAGA-GCTATTTTAAAAAAACATGCAAATAAAGATAAGGGTGCTGCAGAACTTGAAAAGTTATTTAAAGCGGTAGAAAACTTATCAAAAGCAGCTCAAGACACATTAAAAAATGCTGTTAAAGAGCTTACAAGTCCTATTGTGGCAGAAAGTCCAAAAAAACCTTAATTAAGATCAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||| |||||||||| ||| |||||| || ||||||||||||||||||||||||||  |||||| ||||||||||| ||||||| ||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||| | || |||||||||||||||||| ||| ||  |||||||||||||||| ||||  |||   ||||||||| ||| |   ||  |  | |||  |||||||||| ||||||| |||||||| ||  |  ||||| || ||||| |||||||||| ||   | |||| |||| | ||| |   |||||   | | | | | ||||||   || |||  | |||||||||| ||||||  | |||||   |||||||   ||||| |  |||| |   |||||||| ||||||| ||||| ||||||||||||| | || | | ||||  ||||||||||| ||||||||| ||||||||||||||||| |||||||| |||||||| ||| |||| |   |    ||| | |||||||| |||||||||||| ||||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>U04282.1_OspC-B_bissettii25015</Hit_id>
+  <Hit_def>No definition line</Hit_def>
+  <Hit_accession>U04282.1_OspC-B_bissettii25015</Hit_accession>
+  <Hit_len>962</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>898.592</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16589</Hsp_query-from>
+      <Hsp_query-to>17514</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>947</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>814</Hsp_identity>
+      <Hsp_positive>814</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>964</Hsp_align-len>
+      <Hsp_qseq>GGATCCAAAATCTAATACAAGTATTGCCCGAGCATTCATAATACAAGTCCTTAAAATAAATTAAAAGTTTTCTTATTAAACATATTTTATTTAATTTTAGCATATTTGGCTTTGCTTATGTCGATTTTAAAATCAAATTAATACAATATTTTTCAAATTCTTCAATA--T----TT------A-TTC-AA-GA-T--A-TTGAAGAATTTGAAAAAAA---------TATTTTTTCAAATAAAAAATTGAAAAACAAAATTGTTGGACTAATAATTCATAAATAAAAAGGAGGCACAAATTAATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGAAAAGATGGGAA---TGCATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTGCAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTGGCTGTAAAAGAAGTTGAGGCTTTGCTTGCATCTATAGATGAAATTGGTAGTAAAGCTATTGGTAAAAGAATACA--AGCG-AATGGTTTACAGGACTTGCAAGGG-CAGAACGGATCATTGTTAGCAGGAGCCTATGCAATTTCAAATTTAATAACACAAAAAATAAATGTATTAAATGGACTGAAAAATTCAGAAGAATTGAAAGAGAAAA--TTAACG-AGGCTAAGGGCTGCTCTGAAAAATTTACTAAAAAACTATCAGAAAGTCATGCAGATATTGGTATACAAGCCGCTACTGATGCTAATGCAAAAGATGCTATTTTAAAAACAAATCCTACTAAAACTAAGGGTGCTGAAGAACTTGATAAGTTATTTAAAGCGGTGGAAAACTTGTCAAAAGCGGCTAAAGAGATGCTTGCTAATTCAGTTAAAGAACTTACAAGTCCTGTTGTGGCAGAAAGTCCAAAAAAACCTTAATTAAAATCAA</Hsp_qseq>
+      <Hsp_hseq>GGATCCAAAATCTAATACAAGTATTGCCCGAGCATTCATAATACAAGTCCTTAAAATAAATTAAAAGTTTTCTTATTAAACATATTTTATTTAATTTTAGCATATTTGGCTTTTCTTATGTTGATTTTAAAATTAAATTAA-AATATTTTTTTCAAATTCTTCAATAAGTGAACTTGAAAAAATTTCAAATAAGTGAACTTGAAAAATTTGAAAAAAATTGAAAAATTATTTTTTCAAATAAAAAATTGAAAAGTAAAATTGTTGAACTAATAATTCATAAATAAAAAGGAGGCACAAATTAATGAAAAAGAATACATTAAGTGCAATATTGATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGAAAAGATGGGAACGCTGCATCTACTAATCCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTACAGAAATAAGTAAAAAAATTACAGATTCTAATGCGGTTGTGCTAGCTGTAAAAGAAGTTGGAGCTTTGCTTACATCTATAGATGAACTTGCTACTAAAGCTATTGGTAAAAAAATACACCAAAATAATGGTTTGGAT-ACCGAAAATAATCACAATGGATCATTGTTAGCGGGGGCCTATGCAATATCAACGCTAATAACACAAAA-------G--TTAGGTGGATTGAAAAAT---GAAGAATT-AAAG-GAAAAGATTGCCGCAGTC-AAGAAATGTTCTGAAGAATTTACTAATAAACTAAAAAGTAGTCACACAGAGCTCGGCAAACAGGATGCTCAGGATGATGATGCAAAAAAGGCTATCTTAAGAACACATAATACTAAGGATAAGGGTGCTGAAGAACTTGATAAGTTATTTAAAGCGGTGGAAAACTTGTCAAAAGCGGCTAAAGAGATGCTATCCAATTCAGTTAAAGAGCTTACAAGTCCTGTTGTGGCAGAAAGTCCAAAAAAACCTTAATTAAAATCAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||||||| ||||||| |  || |||||||||||||||||||  |    ||      | ||| ||  | |  | ||||| |||||||||||||         ||||||||||||||||||||||||||  |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||| | ||| |||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||| || ||||| || ||||||||||||||||  ||||||||| |||||||||||||| ||| || ||||||||||||||||| ||||||  |    ||||||||  |  ||    ||    || || |||||||||||||| || ||||||||||| ||||   |||||||||||||       |  |||  |||| ||||||||   |||||||| |||| |||||  ||  || || | |||   || |||||| |||||||||| ||||||  |   |||||  ||||  | || | ||| |  |||   |||| | |||||||| | ||||| |||| |||| ||  ||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>U01892.1_OspC-M</Hit_id>
+  <Hit_def>No definition line</Hit_def>
+  <Hit_accession>U01892.1_OspC-M</Hit_accession>
+  <Hit_len>824</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>859.812</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16684</Hsp_query-from>
+      <Hsp_query-to>17504</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>824</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>711</Hsp_identity>
+      <Hsp_positive>711</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>829</Hsp_align-len>
+      <Hsp_qseq>TTTAGCATATTTGGCTTTGCTTATGTCGATTTTAAAATCAAATTAATACAATATTTTTCAAATTCTTCAATATTTATTCAAGATATTGAAGAATTTGAAAAAAATATTTTTTCAAATAAAAAATTGAAAAACAAAATTGTTGGACTAATAATTCATAAATAAAAAGGAGGCACAAATTAATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGAAAAGATGGGAATGCATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTGCAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTGGCTGTAAAAGAAGTTGAGGCTTTGCTTGCATCTATAGATGAAATTGGTAGTAAAGCTATTGGTAAAAGAATACAAGCGAATGGTTTACAGGACT-TGCAAGGGCAGAACGGATCATTGTTAGCAGGAGCCTATGCAATTTCAAATTTAATAACACAAAAAATAAATGTATTAAATGGACTGAAAAATTCAGAAGAATTGAAAGAGAAAATTAACGAGGCTAAGGGCTGCTCTGAAAA-ATTTACTAAAAAACTATCAGAAAGTCATGCAGATATTGGTATA-C-AA-GC--C-GCTACTGATGCTAATGCAAAAGATGCTATTTTAAAAACAAATCCTACTAAAACTAAGGGTGCTGAAGAACTTGATAAGTTATTTAAAGCGGTGGAAAACTTGTCAAAAGCGGCTAAAGAGATGCTTGCTAATTCAGTTAAAGAACTTACAAGTCCTGTTGTGGCAGAAAGTCCAAAAAAACCTTAA</Hsp_qseq>
+      <Hsp_hseq>TTTAGCATATTTGGCTTTGCTTATGTCGATTTTAAAATCAAATTAAGTCAATATTTTTCAAATTCTTCAATATTTATTCAATATATTGAATAAATTGAAAAAATTATTTTTTCAAATAAAAAATTGAAAAACAAAATTGTTGGACTAATAATTCATAAATAAAAAGGAGGCACAAATTAATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGGAAAGATGGGAATACATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTACAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTCGCCGTGAAAGAAGTTGAAACTCTGCTTGCATCTATAGATGAAGTTGCTAAGAAAGCTATTGGGAATTTGATAGCCCAAAATGGTTTAAATGCCGGTGCTAAT-CAAAACGGATCATTGTTAGCGGGAGCCTACGTAATATCAACCCTAATAGCAGAAAAATTA---G------ATGGATTGAAAAATTCAGAAGAATTAAAGGAAAAAATTGAAGATGCTAAAAAATG-TAACAAAGCATTTACTGATAAACTAAAAAGTAGTCATGCGGAACTCGGTATAGCGAATGGAGCTGCTAGTGATGCTAATGCAAAAGCGGCTATTTTAAAAACAAATGGTACTAAAGATAAGGGTGCTCAAGAGCTTGAAAAGTTATTTGAATCAGTAAAAAACTTGTCAAAAGCAGCTCAAGAAACACTAAATAATTCAGTTAAAGAACTTACAAGTCCTGTTGTGGCAGAAAATCCAAAAAAACCTTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||| |||||||| || ||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| || || |||||||||||  || |||||||||||||||||||| ||| ||  ||||||||||| ||    |||      ||||||||| | | |  ||| |   || ||||||||||||||||| |||||||| | ||| ||||   ||||| || ||||| ||   |      ||||| ||||||||||||||||||| || || |||||| | || |||||    || |   |||  ||||||| | ||||||  |   |||||||| ||  | |||||| | || |   | |||| |||||||||||||||||  ||||||||||||||||||  |||||||  |||||||||| |||| ||||| ||||||||| || | ||  |||||||||||||||| ||| |||| |  ||   ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>660082527</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>6</Iteration_iter-num>
+  <Iteration_query-ID>Query_6</Iteration_query-ID>
+  <Iteration_query-def>CP031402.1 Borreliella burgdorferi strain MM1 plasmid plsm_lp28-3, complete sequence</Iteration_query-def>
+  <Iteration_query-len>26768</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>666586908</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>7</Iteration_iter-num>
+  <Iteration_query-ID>Query_7</Iteration_query-ID>
+  <Iteration_query-def>CP031403.1 Borreliella burgdorferi strain MM1 plasmid plsm_lp28-4, complete sequence</Iteration_query-def>
+  <Iteration_query-len>27467</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>684006687</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>8</Iteration_iter-num>
+  <Iteration_query-ID>Query_8</Iteration_query-ID>
+  <Iteration_query-def>CP031409.1 Borreliella burgdorferi strain MM1 plasmid plsm_lp28-8, complete sequence</Iteration_query-def>
+  <Iteration_query-len>28515</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>710123895</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>9</Iteration_iter-num>
+  <Iteration_query-ID>Query_9</Iteration_query-ID>
+  <Iteration_query-def>CP031408.1 Borreliella burgdorferi strain MM1 plasmid plsm_cp32-1, complete sequence</Iteration_query-def>
+  <Iteration_query-len>30883</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>767815698</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>10</Iteration_iter-num>
+  <Iteration_query-ID>Query_10</Iteration_query-ID>
+  <Iteration_query-def>CP031410.1 Borreliella burgdorferi strain MM1 plasmid plsm_cp32-4, complete sequence</Iteration_query-def>
+  <Iteration_query-len>13328</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>331648668</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>11</Iteration_iter-num>
+  <Iteration_query-ID>Query_11</Iteration_query-ID>
+  <Iteration_query-def>CP031411.1 Borreliella burgdorferi strain MM1 plasmid plsm_cp32-5, complete sequence</Iteration_query-def>
+  <Iteration_query-len>21898</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>545221638</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>12</Iteration_iter-num>
+  <Iteration_query-ID>Query_12</Iteration_query-ID>
+  <Iteration_query-def>CP031405.1 Borreliella burgdorferi strain MM1 plasmid plsm_cp32-6, complete sequence</Iteration_query-def>
+  <Iteration_query-len>19997</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>497846817</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>13</Iteration_iter-num>
+  <Iteration_query-ID>Query_13</Iteration_query-ID>
+  <Iteration_query-def>CP031407.1 Borreliella burgdorferi strain MM1 plasmid plsm_cp32-7, complete sequence</Iteration_query-def>
+  <Iteration_query-len>14018</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>348844158</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>14</Iteration_iter-num>
+  <Iteration_query-ID>Query_14</Iteration_query-ID>
+  <Iteration_query-def>CP031406.1 Borreliella burgdorferi strain MM1 plasmid plsm_cp32-9, complete sequence</Iteration_query-def>
+  <Iteration_query-len>30606</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>760924215</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>15</Iteration_iter-num>
+  <Iteration_query-ID>Query_15</Iteration_query-ID>
+  <Iteration_query-def>CP031404.1 Borreliella burgdorferi strain MM1 plasmid plsm_lp36, complete sequence</Iteration_query-def>
+  <Iteration_query-len>27951</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>696068451</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>16</Iteration_iter-num>
+  <Iteration_query-ID>Query_16</Iteration_query-ID>
+  <Iteration_query-def>CP031397.1 Borreliella burgdorferi strain MM1 plasmid plsm_lp54, complete sequence</Iteration_query-def>
+  <Iteration_query-len>53798</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1337917983</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
