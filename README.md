@@ -1,5 +1,7 @@
 # Complex exchanges among plasmids and clonal expansion of lineages shape the population structure and virulence of Borrelia burgdorferi
 
+Preprint: https://doi.org/10.1101/2025.01.29.635312
+
 This repository contains all code and sequences used in the above manuscript.
 
 Ensure you have [git lfs](https://git-lfs.com/) installed to access all files and data.
@@ -38,4 +40,4 @@ Ensure you have [git lfs](https://git-lfs.com/) installed to access all files an
 - `scripts/` - contains scripts and commands used in various analyses.
 - `snakefiles/` - contains snakefiles and their configs.
 
-README in progress.
+In situations where files or data are unable to be located, refer to our [working repository](https://github.com/mjfos2r/longread_pangenome)
