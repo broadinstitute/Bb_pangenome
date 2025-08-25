@@ -1,0 +1,15 @@
+# define analysis directory 
+analysis_dir: "/home/mf019/longread_pangenome/expanded_dataset_analysis"
+input_dir: "/home/mf019/longread_pangenome/expanded_dataset_analysis/assemblies/complete_all" # directory with all gff3 files at the same level.
+
+# Singularity stuff
+## singularity
+use-singularity: True
+# change to reflect the local directory you're using for analysis.
+singularity-args: "--bind /mnt/disk/nanopore-assembly/longread_GWAS/longread_analysis/"
+## Job resources
+set-resources:
+  - getMLST_type:mem_mb=1000000
+
+set-threads:
+  - getMLST_type=360
