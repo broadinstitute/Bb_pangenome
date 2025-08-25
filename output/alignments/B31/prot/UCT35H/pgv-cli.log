@@ -1,0 +1,49 @@
+2024-12-12 00:43:39 | INFO | Run pyGenomeViz v1.4.2 CLI workflow (pgv-mmseqs)
+2024-12-12 00:43:39 | INFO | $ pgv-mmseqs -q --threads=2 /data/assemblies/dataset_v5/UCT35H/UCT35H.gbff /data/ref/renamed_GCF_000008685.2.gbff -o /data/alignments/B31/prot/UCT35H --formats=png
+2024-12-12 00:43:39 | INFO | Operating System: linux
+2024-12-12 00:43:39 | INFO | Python Version: v3.11.11
+2024-12-12 00:43:39 | INFO | Check Dependencies: matplotlib v3.9.3
+2024-12-12 00:43:39 | INFO | Check Dependencies: biopython v1.84
+2024-12-12 00:43:39 | INFO | Parameters: seqs=['/data/assemblies/dataset_v5/UCT35H/UCT35H.gbff', '/data/ref/renamed_GCF_000008685.2.gbff']
+2024-12-12 00:43:39 | INFO | Parameters: outdir='/data/alignments/B31/prot/UCT35H'
+2024-12-12 00:43:39 | INFO | Parameters: formats=['png']
+2024-12-12 00:43:39 | INFO | Parameters: reuse=False
+2024-12-12 00:43:39 | INFO | Parameters: quiet=True
+2024-12-12 00:43:39 | INFO | Parameters: debug=False
+2024-12-12 00:43:39 | INFO | Parameters: threads=2
+2024-12-12 00:43:39 | INFO | Parameters: length_thr=0
+2024-12-12 00:43:39 | INFO | Parameters: identity_thr=0
+2024-12-12 00:43:39 | INFO | Parameters: evalue_thr=0.001
+2024-12-12 00:43:39 | INFO | Parameters: fig_width=15
+2024-12-12 00:43:39 | INFO | Parameters: fig_track_height=1.0
+2024-12-12 00:43:39 | INFO | Parameters: track_align_type='center'
+2024-12-12 00:43:39 | INFO | Parameters: feature_track_ratio=0.25
+2024-12-12 00:43:39 | INFO | Parameters: show_scale_bar=False
+2024-12-12 00:43:39 | INFO | Parameters: show_scale_xticks=False
+2024-12-12 00:43:39 | INFO | Parameters: curve=False
+2024-12-12 00:43:39 | INFO | Parameters: dpi=300
+2024-12-12 00:43:39 | INFO | Parameters: track_labelsize=20
+2024-12-12 00:43:39 | INFO | Parameters: scale_labelsize=15
+2024-12-12 00:43:39 | INFO | Parameters: normal_link_color='grey'
+2024-12-12 00:43:39 | INFO | Parameters: inverted_link_color='red'
+2024-12-12 00:43:39 | INFO | Parameters: segment_space=0.02
+2024-12-12 00:43:39 | INFO | Parameters: feature_type2color={'CDS': 'orange'}
+2024-12-12 00:43:39 | INFO | Parameters: pseudo_color='lightgrey'
+2024-12-12 00:43:39 | INFO | Parameters: feature_plotstyle='arrow'
+2024-12-12 00:43:39 | INFO | Parameters: feature_linewidth=0.0
+2024-12-12 00:43:39 | INFO | Parameters: feature_labeltrack='top'
+2024-12-12 00:43:39 | INFO | Parameters: feature_labeltype=None
+2024-12-12 00:43:39 | INFO | Parameters: feature_labelsize=8
+2024-12-12 00:43:39 | INFO | Parameters: cbar_width=0.01
+2024-12-12 00:43:39 | INFO | Parameters: cbar_height=0.2
+2024-12-12 00:43:40 | INFO | Convert Genbank object to CDS fasta file '/tmp/tmp3iizbk34/UCT35H.faa'
+2024-12-12 00:43:40 | INFO | Convert Genbank object to CDS fasta file '/tmp/tmp3iizbk34/renamed_GCF_000008685.2.faa'
+2024-12-12 00:43:40 | INFO | ========== Start MMseqs RBH Search ==========
+2024-12-12 00:43:40 | INFO | 01. MMseqs RBH Search 'UCT35H' vs 'renamed_GCF_000008685.2'
+2024-12-12 00:43:40 | INFO | $ mmseqs easy-rbh '/tmp/tmp3iizbk34/UCT35H.faa' '/tmp/tmp3iizbk34/renamed_GCF_000008685.2.faa' '/tmp/tmp3iizbk34/01_UCT35H_vs_renamed_GCF_000008685.2.tsv' /tmp/tmp3iizbk34 --threads 2 -e 0.001 -v 0
+2024-12-12 00:43:54 | INFO | ========== Finish MMseqs RBH Search ==========
+2024-12-12 00:43:54 | INFO | Write alignment result to '/data/alignments/B31/prot/UCT35H/align_coords.tsv'
+2024-12-12 00:43:54 | INFO | Filter alignment result by length_thr=0, identity_thr=0 evalue_thr=0.001
+2024-12-12 00:43:56 | INFO | Plotting PNG format result...
+2024-12-12 00:44:00 | INFO | Output result image file '/data/alignments/B31/prot/UCT35H/result.png'
+2024-12-12 00:44:00 | INFO | Done (elapsed time: 21.23[s])
