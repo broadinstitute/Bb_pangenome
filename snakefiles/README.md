@@ -1,6 +1,6 @@
 # Snakefiles README
 
->Configs are located in ../configs/
+>Configs are located in configs/
 
 To run these workflows, ensure you have the following:
 - All relevant containers are downloaded and converted to singularity/apptainers. (Alternatively, update the snakefiles to use docker.)
@@ -24,7 +24,7 @@ config: `../config/pangenome_analysis.yaml`
 
 ## `get_mlst_type.smk`
 
-config: `../config/singularity_config.yaml`
+config: `config/singularity_config.yaml`
 
 > It is likely easier to just run this within an interactive docker container.
 > `docker run -v $(pwd):/data -it sangerpathogens/mlst_check:latest /bin/bash`
@@ -43,7 +43,7 @@ config: `../config/singularity_config.yaml`
 
 ## `kraken2_QC.smk`
 
-config: `../config/pangenome_analysis.yaml`
+config: `config/pangenome_analysis.yaml`
 
 ### Input
 - Directory of assemblies to classify with Kraken2
@@ -57,7 +57,7 @@ config: `../config/pangenome_analysis.yaml`
 
 ## `pan_genome_analysis_v5.smk`
 
-config: `../config/pangenome_analysis.yaml`
+config: `config/pangenome_analysis.yaml`
 
 This workflow runs roary analysis, tree construction, and pangenome annotation using bakta.
 
