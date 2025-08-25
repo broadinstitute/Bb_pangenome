@@ -1,0 +1,1 @@
+docker run -v $(pwd):/data -it mjfos2r/mummer4 -run /data/assemblies/all_contigs_v5.fna /data/output/alignments/ava/new_ava/nucl_v5 100
