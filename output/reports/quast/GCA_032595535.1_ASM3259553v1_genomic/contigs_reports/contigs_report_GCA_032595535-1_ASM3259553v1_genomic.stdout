@@ -1,0 +1,135 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [NC_001853.1]
+	Loaded [NC_000949.1]
+	Loaded [NC_001855.1]
+	Loaded [NC_001318.1]
+	Loaded [NC_001854.1]
+	Loaded [NC_001904.1]
+	Loaded [NC_000948.1]
+	Loaded [NC_001857.2]
+	Loaded [NC_001856.1]
+	Loaded [NC_000951.1]
+	Loaded [NC_000950.1]
+	Loaded [NC_001850.1]
+	Loaded [NC_000956.1]
+	Loaded [NC_001903.1]
+	Loaded [NC_001851.2]
+	Loaded [NC_001852.1]
+	Loaded [NC_000957.1]
+	Loaded [NC_000954.1]
+	Loaded [NC_000955.2]
+	Loaded [NC_001849.2]
+	Loaded [NC_000953.1]
+	Loaded [NC_000952.1]
+	Total Regions: 22
+	Total Region Length: 1521208
+Analyzing contigs...
+CONTIG: CP132429.1 (909722bp)
+Best alignment score: 170445.2 (LEN: 171474, IDY: 99.40), Total number of alignments: 13
+			Looking for the best set of alignments (out of 13 total alignments)
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 891623.4, number of alignments: 13, unaligned bases: 12383
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 897339 out of 898462 non-N bases (99.88%))
+			Real Alignment 1: 43 75717 | 12 75696 | 75675 75685 | 99.34 | NC_001318.1 CP132429.1
+			  Scaffold gap between these two alignments, gap lengths difference (reference vs assembly) = 0 (local)
+			Real Alignment 2: 77115 219642 | 77094 219313 | 142528 142220 | 99.24 | NC_001318.1 CP132429.1
+			  Scaffold gap between these two alignments, gap lengths difference (reference vs assembly) = 1 (local)
+			Real Alignment 3: 220392 391870 | 220062 391535 | 171479 171474 | 99.4 | NC_001318.1 CP132429.1
+			  Scaffold gap between these two alignments, gap lengths difference (reference vs assembly) = -3 (local)
+			Real Alignment 4: 393574 417739 | 393242 417411 | 24166 24170 | 99.53 | NC_001318.1 CP132429.1
+			  Scaffold gap between these two alignments, gap lengths difference (reference vs assembly) = 0 (local)
+			Real Alignment 5: 419400 474089 | 419072 473771 | 54690 54700 | 99.31 | NC_001318.1 CP132429.1
+			  Scaffold gap between these two alignments, gap lengths difference (reference vs assembly) = 0 (local)
+			Real Alignment 6: 474646 608161 | 474328 607766 | 133516 133439 | 99.43 | NC_001318.1 CP132429.1
+			  Scaffold gap between these two alignments, gap lengths difference (reference vs assembly) = -1 (local)
+			Real Alignment 7: 608439 652909 | 608045 652515 | 44471 44471 | 99.53 | NC_001318.1 CP132429.1
+			  Scaffold gap between these two alignments, gap lengths difference (reference vs assembly) = 0 (local)
+			Real Alignment 8: 655033 702248 | 654639 701845 | 47216 47207 | 99.55 | NC_001318.1 CP132429.1
+			  Scaffold gap between these two alignments, gap lengths difference (reference vs assembly) = 0 (local)
+			Real Alignment 9: 703677 777270 | 703274 776872 | 73594 73599 | 99.49 | NC_001318.1 CP132429.1
+			  Scaffold gap between these two alignments, gap lengths difference (reference vs assembly) = 0 (local)
+			Real Alignment 10: 777674 793507 | 777276 793106 | 15834 15831 | 99.41 | NC_001318.1 CP132429.1
+			  Scaffold gap between these two alignments, gap lengths difference (reference vs assembly) = 0 (local)
+			Excluding internal overlap of size 3 between Alignment 11 and 12: 905349 908924 | 904636 908208 | 3576 3573 --> 905352 908924 | 904639 908208 | 3573 3570
+			Real Alignment 11: 794468 905026 | 794067 904638 | 110559 110572 | 99.46 | NC_001318.1 CP132429.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 325
+			Real Alignment 12: 905352 908924 | 904639 908208 | 3573 3570 | 98.88 | NC_001318.1 CP132429.1
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 13: 48602 49003 | 909322 909722 | 402 401 | 99.75 | NC_000956.1 CP132429.1
+		Unaligned bases: 12383
+
+CONTIG: CP132431.1 (19836bp)
+Best alignment score: 11153.7 (LEN: 11386, IDY: 97.96), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 15332 15429 | 17815 17719 | 98 97 | 98.98 | NC_001849.2 CP132431.1
+			The best set is below. Score: 12713.0, number of alignments: 3, unaligned bases: 6602
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 13234 out of 19836 non-N bases (66.72%))
+			Real Alignment 1: 4006 15331 | 6333 17718 | 11326 11386 | 97.96 | NC_001849.2 CP132431.1
+			  Indel (<= 5bp) between these two alignments: deletion of length 1; 98 mismatches (number of Ns: 0)
+			Real Alignment 2: 15432 16821 | 17818 19204 | 1390 1387 | 98.13 | NC_001849.2 CP132431.1
+			  Extensive misassembly (inversion) between these two alignments
+			Real Alignment 3: 16354 16821 | 19823 19363 | 468 461 | 97.01 | NC_001849.2 CP132431.1
+		Unaligned bases: 6602
+
+CONTIG: CP132430.1 (25699bp)
+Best alignment score: 16905.7 (LEN: 17144, IDY: 98.61), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 24558.8, number of alignments: 2, unaligned bases: 805
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 24894 out of 25599 non-N bases (97.25%))
+			Real Alignment 1: 4 17145 | 4 17147 | 17142 17144 | 98.61 | NC_001903.1 CP132430.1
+			  Gap between these two alignments (local misassembly). Inconsistency = -695 [linear representation of circular genome]
+			Real Alignment 2: 18743 26496 | 17848 25597 | 7754 7750 | 99.06 | NC_001903.1 CP132430.1
+		Unaligned bases: 805
+
+CONTIG: CP132432.1 (50502bp)
+Best alignment score: 47680.1 (LEN: 48152, IDY: 99.02), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 49937.1, number of alignments: 2, unaligned bases: 45
+		This contig is misassembled.
+			Real Alignment 1: 178 48362 | 1 48152 | 48185 48152 | 99.02 | NC_001857.2 CP132432.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 930
+			Real Alignment 2: 49338 51632 | 48198 50502 | 2295 2305 | 98.96 | NC_001857.2 CP132432.1
+
+Analyzing coverage...
+Writing SNPs into /home/mf019/longread_pangenome/expanded_dataset_analysis/reports/quast/GCA_032595535.1_ASM3259553v1_genomic/contigs_reports/minimap_output/GCA_032595535-1_ASM3259553v1_genomic.used_snps
+
+Analysis is finished!
+Founded SNPs were written into /home/mf019/longread_pangenome/expanded_dataset_analysis/reports/quast/GCA_032595535.1_ASM3259553v1_genomic/contigs_reports/minimap_output/GCA_032595535-1_ASM3259553v1_genomic.used_snps
+
+Results:
+	Local Misassemblies: 3
+	Misassemblies: 2
+		Relocations: 0
+		Translocations: 1
+		Inversions: 1
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 10
+	Misassembled Contigs: 2
+	Misassembled Contig Bases: 929558
+	Misassemblies Inter-Contig Overlap ("Extra" Aligned Bases): 0
+Unaligned Contigs: 0 + 3 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Bases in Fully and Partially Unaligned Contigs: 8440
+
+Ambiguously Mapped Contigs: 1
+Total Bases in Ambiguously Mapped Contigs: 909722
+"Extra" Aligned Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used (there is no "extra" aligned bases).
+
+	Covered Bases in Reference: 985752
+	Raw Aligned Bases in Assembly: 985924
+	Total Aligned Bases in Assembly (with "Extras"): 985924
+
+	SNPs: 5610
+	Insertions: 307
+	Deletions: 647
+
