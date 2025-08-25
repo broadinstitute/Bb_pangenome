@@ -1,0 +1,39 @@
+# CMD TO USE 
+# snakemake --cores all --keep-going --latency-wait 60 -s snakefiles/pan_genome_analysis_v5.smk --rerun-incomplete --use-singularity --keep-incomplete --singularity-args "--bind /home/mf019/db/bakta:/db" --dry-run --debug-dag
+# define analysis directory
+
+threads: 128
+version: "v8"
+type: "filtered_nsp"
+# change to wherever your analysis is being performed.
+analysis_dir: "/home/mf019/longread_pangenome/expanded_dataset_analysis"
+# location of B31 reference fasta & gff.
+reference_fa: "ref/GCF_000008685.2_ASM868v2_genomic.fna"
+reference_gff: "ref/GCF_000008685.2_ASM868v2_genomic.gff"
+#input_dir: "assemblies/jel"
+#input_dir: "assemblies/ncbi"
+gffs_dir: "/home/mf019/longread_pangenome/expanded_dataset_analysis/gffs_v5"
+
+# Kraken2 DB
+kraken2_db: "/home/mf019/db/kraken2"
+
+# define quast params
+quast:
+  mode: "--gene-finding"
+  reads_ref_aln: "--ref-bam"
+  reads_asm_aln: "--bam"
+  opts: "--circos"
+
+# define bakta params
+bakta:
+  gram: "--gram -"
+  opts: "--force"
+  #db: "/home/mf019/db/bakta" # fixed this by specifying singularity args in the rule def.
+
+roary: # -s to NOT split paralogs
+  opts: "-s -e --mafft"
+
+## singularity
+use-singularity: True
+# set path to kraken2_dbs, krona_db, and bakta_db to reflect your db location.
+singularity-args: "--bind /home/mf019/longread_pangenome --bind /home/mf019/db/kraken2:/kraken2_dbs --bind /home/mf019/db/krona/:/krona_db --bind /home/mf019/db/bakta:/db"

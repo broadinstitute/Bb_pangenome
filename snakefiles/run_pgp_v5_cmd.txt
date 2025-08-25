@@ -1,0 +1,1 @@
+nohup snakemake --cores all --keep-going --latency-wait 60 -s snakefiles/pan_genome_analysis_v5.smk --rerun-incomplete --use-singularity --keep-incomplete --dryrun -p > expanded_dataset_analysis/logs/snakemake_log_pangenome_v8_nsp.log 2>&1
