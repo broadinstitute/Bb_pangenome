@@ -1,0 +1,1243 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.16.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>/db/ospC_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>NC_012151.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_cp26, complete sequence</BlastOutput_query-def>
+  <BlastOutput_query-len>26506</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>1e-100</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>NC_012151.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_cp26, complete sequence</Iteration_query-def>
+  <Iteration_query-len>26506</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>L25413.1_OspC-D</Hit_id>
+  <Hit_def>No definition line</Hit_def>
+  <Hit_accession>L25413.1_OspC-D</Hit_accession>
+  <Hit_len>1150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1301.16</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16707</Hsp_query-from>
+      <Hsp_query-to>17864</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>1139</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>1026</Hsp_identity>
+      <Hsp_positive>1026</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>1174</Hsp_align-len>
+      <Hsp_qseq>TTTTAGCATATTTGGCTTTGCTTATGTCGATTTTAAAATCAAATTAATACAATATTTTTCAAATTCTTCAATATTTATTCAAT--ATATTGAAGAATTTGAAAAA-TAATTTTTT-ATTTGAAAAAATTGAAAAACAAAATTGTTGGACTAATAATTCATAAATAAAAAGGAGGCACAAATTAATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGGAAAGATGGGAATACATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTACAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTCGCCGTGAAAGAAGTTGAAACTTTGCTTACATCTATAGATGAGCTTGCT---AAAGCTATTGGTAAAAAAATA-A--AAAACGATGTTAGTTTAGATAATG-AGGCAGATCACAACGGATCATTAATATCAGGAGCATATTTAATTTCAACATTAATAACAAAAAAAATAAGTGCAATAAAAGATTCAGGAGAATTGAAGGCAGAAATTGAAAAGGCTAAGAAATGTTCTGAAGAATTTACTGCTAAATTAAAAGGTGAACACACAGATCTTGGTA-A-AGAAGGCGTTACTGATGATAATGCAAAAAAAGCCATTTTAAAAACAAATAATGATAAA-ACTAAGGGCGCTGATGAACTTGAAAAGTTATTTGAATCAGTAAAAAACTTGTCAAAAGCAGCTAAAGAGATGCTTACTAATTCAGTTAAAGAGCTTACAAGCCCTGTTGTGGCAGAAAGTCCAAAAAAACCTTAATTAAAATCAATATTATAAGATTAATTTGTTTTAAAAAAGTAACTGGAAAAATAAAGTCAATATAAGTCAAGAAAGATTTCTTGGCTTTTATTTTTTT-ATTTTCCCAAAAAATTTCTTAAAATTCATTTTAAGAAAGGGTAAATGATTTTAACTTTAAGCTTTTCTCTTAAAGAATAAAAACTTATTACAAAAGCCGTTAATAAATTAAATTTAAGTATT-TAAATATAAACAAAACTGGGTGTTAGAAATTTGATTTTAAAGGCTTAAGTAGGCTTAAACAGTTTTGGCAAATTTTTTATTAAAAAGATAATAGTAGTTTCTTTGGTTTTATGTGAGATTTTATAAA</Hsp_qseq>
+      <Hsp_hseq>TTTTAACATATTTGGCTTTGCTTATGCTGATTTTAAAATCAAATTAATACAATATTTTTCAAATTCTTCAATAT--ATTGAATAAATATTGAAGAATTTGAAAAAATTATTTTTTCAAAT-AAAAAATTGAAAAACAAAATTGTTGGACTAATAATTCATAAATAAAAAGGAGGCACAAATTAATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGAAAAGATGGGAATACATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTACAGAAATAAGTAAAAAAATTACGGATTCTAATGCGGTTTTACTTGCTGTGAAAGAGGTTGAAGTGTTGCTGTCATCTATAGATGAACTTGCTAAGAAAGCTATTGGTAAAAAAATAGATCAAAACAATGCT--TT-AGGCACTCTAGATA-ATCATAACGGATCATTGTTGGCGGGAGCTTATGCTATATCAGCTCTAATAACAGAAAAATTAAGTTCAATAAAAGATTCAGGAGAATTGAAGGCAGAAATTGAAAAGGCTAAGAAATGTTCTGAAAGCTTTACTAAAAAACTATCAGATAATCAAGCAGAGCTTGGTATAGAGAATGC--TACTGATGATAATGCAAAAAAGGCTATTTTAAAAACACATAATGCTAAAGAC-AAGGGTGCTGAAGAACTTGTAAAGTTATCTGAATCAGTAGCAGGCTTATTAAAAGCAGCTCAAGCCATACTGGCTAATTCAGTTAAAGAGCTTACAAGTCCTGTTGTGGCAGAAAGTCCAAAAAAACCTTAATTAAGATCAATATTATAAGATTAATTTGTTTTAAAAAAGTAACTGGAAAAATAAAGTCAATATAAGTCAAGAAAGATTTCTTGGCTTTTATTTTTTTTATTTTT-CAAAAAATTTCTTAAAATTCATTTTAACTT----TAA--G-TT----CTT----CTT-----TTAAAGAATAAAAATTTATTTCAAAT-CCGTTAATAAATTAAATTTAAGTATTCTAAATATAAACAAAATTGGGTGTTAGAAATTTAATTTTAAAGGCTTAAGTAGGCTTAAACAGTTTT-GCAAATTTTTTAAT--AAAGACAATAGTAGTTTCTTTGGTTTTATGTGAGATTTTATAAA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||  ||| |||  |||||||||||||||||||| | ||||||| |  | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||| || ||| | || || |||||||| ||||||   |||||  ||||||||||||| ||||||   ||||||||||||||||||||| |  ||||| ||| |  || ||  | |  ||  | |||| |||||||||||  |  | ||||| |||   || ||| |  |||||||| ||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||   ||| ||  || | | ||  |||| ||||||| | |||| ||  ||||||||||||||||||||| || |||||||||||| |||||| |||| || ||||| ||||| ||||||| |||||||| ||||||||||  |  ||| | |||||||||| |||  || ||  ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||  |||||||||||||||||||||||||||       |||  | ||    |||    |||     |||||||||||||| ||||| ||||  |||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||| |  ||||| ||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>U04281.1_OspC-I</Hit_id>
+  <Hit_def>No definition line</Hit_def>
+  <Hit_accession>U04281.1_OspC-I</Hit_accession>
+  <Hit_len>692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1279</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16852</Hsp_query-from>
+      <Hsp_query-to>17543</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>692</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>692</Hsp_identity>
+      <Hsp_positive>692</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>692</Hsp_align-len>
+      <Hsp_qseq>TAATAATTCATAAATAAAAAGGAGGCACAAATTAATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGGAAAGATGGGAATACATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTACAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTCGCCGTGAAAGAAGTTGAAACTTTGCTTACATCTATAGATGAGCTTGCTAAAGCTATTGGTAAAAAAATAAAAAACGATGTTAGTTTAGATAATGAGGCAGATCACAACGGATCATTAATATCAGGAGCATATTTAATTTCAACATTAATAACAAAAAAAATAAGTGCAATAAAAGATTCAGGAGAATTGAAGGCAGAAATTGAAAAGGCTAAGAAATGTTCTGAAGAATTTACTGCTAAATTAAAAGGTGAACACACAGATCTTGGTAAAGAAGGCGTTACTGATGATAATGCAAAAAAAGCCATTTTAAAAACAAATAATGATAAAACTAAGGGCGCTGATGAACTTGAAAAGTTATTTGAATCAGTAAAAAACTTGTCAAAAGCAGCTAAAGAGATGCTTACTAATTCAGTTAAAGAGCTTACAAGCCCTGTTGTGGCAGAAAGTCCAAAAAAACCTTAATTAAAATCAATATTATAAGATTAAT</Hsp_qseq>
+      <Hsp_hseq>TAATAATTCATAAATAAAAAGGAGGCACAAATTAATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGGAAAGATGGGAATACATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTACAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTCGCCGTGAAAGAAGTTGAAACTTTGCTTACATCTATAGATGAGCTTGCTAAAGCTATTGGTAAAAAAATAAAAAACGATGTTAGTTTAGATAATGAGGCAGATCACAACGGATCATTAATATCAGGAGCATATTTAATTTCAACATTAATAACAAAAAAAATAAGTGCAATAAAAGATTCAGGAGAATTGAAGGCAGAAATTGAAAAGGCTAAGAAATGTTCTGAAGAATTTACTGCTAAATTAAAAGGTGAACACACAGATCTTGGTAAAGAAGGCGTTACTGATGATAATGCAAAAAAAGCCATTTTAAAAACAAATAATGATAAAACTAAGGGCGCTGATGAACTTGAAAAGTTATTTGAATCAGTAAAAAACTTGTCAAAAGCAGCTAAAGAGATGCTTACTAATTCAGTTAAAGAGCTTACAAGCCCTGTTGTGGCAGAAAGTCCAAAAAAACCTTAATTAAAATCAATATTATAAGATTAAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>U04240.1_OspC-E</Hit_id>
+  <Hit_def>No definition line</Hit_def>
+  <Hit_accession>U04240.1_OspC-E</Hit_accession>
+  <Hit_len>929</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1048.17</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16612</Hsp_query-from>
+      <Hsp_query-to>17543</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>929</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>821</Hsp_identity>
+      <Hsp_positive>821</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>942</Hsp_align-len>
+      <Hsp_qseq>GGATCCAAAATCTAATACAAGTATTGCCTGAGTATTCATCATATAAGTCCTTAGAATAAATTAAAAGTTTTCTTATTAAAGTATATTTCATTTAATTTTAGCATATTTGGCTTTGCTTATGTCGATTTTAAAATCAAATTAATACAATATTTTTCAAATTCTTCAATATTTATTCAATATATTGAAGAATTTGAAAAA-TAATTTTTT-ATTTGAAAAAATTGAAAAACAAAATTGTTGGACTAATAATTCATAAATAAAAAGGAGGCACAAATTAATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGGAAAGATGGGAATACATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTACAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTCGCCGTGAAAGAAGTTGAAACTTTGCTTACATCTATAGATGAGCTTGCT---AAAGCTATTGGTAAAAAAATAAAAAACGATGTTAGTTTAGAT---AATGAGGCAGATCACAACGGATCATTAATATCAGGAGCATATTTAATTTCA-ACATTAATAACAAAAAAAATAAGTGCAATAAAAGATTCAGGAGAATTGAAGGCAGAAATTGAAAAGGCTAAGAAATGTTCTGAAGAATTTACTGCTAAATTAAAAGGTGAACACACAGATCTTGGTAAAGA-AGGCGTTACTGATGATAATGCAAAAAAAGCCATTTTAAAAACAAATAATGATAAAACTAAGGGCGCTGATGAACTTGAAAAGTTATTTGAATCAGTAAAAAACTTGTCAAAAGCAGCTAAAGAGATGCTTACTAATTCAGTTAAAGAGCTTACAAGCCCTGTTGTGGCAGAAAGTCCAAAAAAACCTTAATTAAAATCAATATTATAAGATTAAT</Hsp_qseq>
+      <Hsp_hseq>GGATCCAAAATCTAATACAAGTATTGCCTGAGCATTCATCATATAAGTCC-TAGAATAAATTAAAAGTTTTCTTATTAAAGTATATTTCATTTAATTTTAACATATTTAGCTTTGCTTATGCTGATTTTAAAATCAAATTAATACAATATTTTTCAAATTCTTCAATATTTATTCAATATATTGAAGAATTTGAAAAAATAATTTTTTCAAAT-AAAAAATTGAAAAACAAAATTGTTGGACTAATAATTCATAAATAAAAAGGAGGCACAAATTAATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGAAAAGATGGGAATGCATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTACAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTGGCCGTGAAAGAAGTTGAGACCTTACTTGCATCTATAGATGAACTTGCTACCAAAGCTATTGGTAAAAAAATAGGCAATAATG---GTTTAGAGGCCAATCAG--AG-TAAAAACACATCATTGTTATCAGGAGCTTATGCAATATCTGACC-TAATAGCAGAAAAATTAAATGTATTGAAAAATG-A--AGAATTAAAGGAAAAGATTGATACAGCTAAGCAATGTTCTACAGAATTTACTAATAAACTAAAAAGTGAACATGCAGTGCTTGGTCTGGACAATC-TTACTGATGATAATGCACAAAGAGCTATTTTAAAAAAACATGCAAATAAAGATAAGGGTGCTGCAGAACTTGAAAAGTTATTTAAAGCGGTAGAAAACTTATCAAAAGCAGCTCAAGACACATTAAAAAATGCTGTTAAAGAGCTTACAAGTCCTATTGTGGCAGAAAGTCCAAAAAAACCTTAATTAAGATCAATATTATAAGATTAAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |  | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| || || ||| ||||||||||||| ||||||   |||||||||||||||||||||   ||  |||   |||||||    ||| ||  || | | |||  ||||||  |||||||||| |||  ||| ||  ||  ||||| || ||||| ||| || | | ||| ||  |  |||||| |||| | | ||||| |  |||||| ||||||||  ||||||||||  |||| ||||| |||||||  |||  ||||||   || |  | ||||||||||||||||| ||| ||| |||||||||| | ||    |||||  |||||| ||||  |||||||||||||||||| || | ||| ||||||| |||||||||||| |||| |   | |  ||| | ||||||||||||||||| ||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>U01892.1_OspC-M</Hit_id>
+  <Hit_def>No definition line</Hit_def>
+  <Hit_accession>U01892.1_OspC-M</Hit_accession>
+  <Hit_len>824</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>867.199</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16708</Hsp_query-from>
+      <Hsp_query-to>17518</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>824</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>707</Hsp_identity>
+      <Hsp_positive>707</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>822</Hsp_align-len>
+      <Hsp_qseq>TTTAGCATATTTGGCTTTGCTTATGTCGATTTTAAAATCAAATTAATACAATATTTTTCAAATTCTTCAATATTTATTCAATATATTGAAGAATTTGAAAAA-TAATTTTTT-ATTTGAAAAAATTGAAAAACAAAATTGTTGGACTAATAATTCATAAATAAAAAGGAGGCACAAATTAATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGGAAAGATGGGAATACATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTACAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTCGCCGTGAAAGAAGTTGAAACTTTGCTTACATCTATAGATGAGCTTGCT---AAAGCTATTGGTAAAAAAATAAAAAACGATGTTAGTTTAGATAATGAGGCAGATCACAACGGATCATTAATATCAGGAGCATATTTAATTTCAACATTAATAACAAAAAAAATAAGTGCAATAAAAGATTCAGGAGAATTGAAGGCAGAAATTGAAAAGGCTAAGAAATGTTCTGAAGAATTTACTGCTAAATTAAAAGGTGAACACACAGATCTTGGTAAAG--AA-GGCG-T--TACTGATGATAATGCAAAAAAAGCCATTTTAAAAACAAATAATGATAAAACTAAGGGCGCTGATGAACTTGAAAAGTTATTTGAATCAGTAAAAAACTTGTCAAAAGCAGCTAAAGAGATGCTTACTAATTCAGTTAAAGAGCTTACAAGCCCTGTTGTGGCAGAAAGTCCAAAAAAACCTTAA</Hsp_qseq>
+      <Hsp_hseq>TTTAGCATATTTGGCTTTGCTTATGTCGATTTTAAAATCAAATTAAGTCAATATTTTTCAAATTCTTCAATATTTATTCAATATATTGAATAAATTGAAAAAATTATTTTTTCAAAT-AAAAAATTGAAAAACAAAATTGTTGGACTAATAATTCATAAATAAAAAGGAGGCACAAATTAATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGGAAAGATGGGAATACATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTACAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTCGCCGTGAAAGAAGTTGAAACTCTGCTTGCATCTATAGATGAAGTTGCTAAGAAAGCTATTGGGAATTTGATAGCCCAAAATG---GTTTAAATGCCGGTGCTAATCAAAACGGATCATTGTTAGCGGGAGCCTACGTAATATCAACCCTAATAGCAGAAAAATTAGATGGATTGAAAAATTCAGAAGAATTAAAGGAAAAAATTGAAGATGCTAAAAAATGTAACAAAGCATTTACTGATAAACTAAAAAGTAGTCATGCGGAACTCGGTATAGCGAATGGAGCTGCTAGTGATGCTAATGCAAAAGCGGCTATTTTAAAAACAAATGGTACTAAAGATAAGGGTGCTCAAGAGCTTGAAAAGTTATTTGAATCAGTAAAAAACTTGTCAAAAGCAGCTCAAGAAACACTAAATAATTCAGTTAAAGAACTTACAAGTCCTGTTGTGGCAGAAAATCCAAAAAAACCTTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||| || |||||||| | ||||||| |  | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||  |||||   ||||||||||| ||    |||    |  |||   ||||| ||   |  ||  |||| |||||||||||  || | ||||| ||  |||| |||||  ||||| || ||||| ||  || | | ||| |||||| |||||| |||| | |||||||| | ||||| ||||||    ||| |||||||| |||| ||||| ||   ||  | || || |||| ||  || || | |  || ||||| ||||||||||   || |||||||||||||||  |  ||||  |||||| ||| | || ||||||||||||||||||||||||||||||||||||||||||||| |||| |  || | ||||||||||||||| |||||||| |||||||||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>DQ437462.1_OspC-C</Hit_id>
+  <Hit_def>No definition line</Hit_def>
+  <Hit_accession>DQ437462.1_OspC-C</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>809.953</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16886</Hsp_query-from>
+      <Hsp_query-to>17515</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>630</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>566</Hsp_identity>
+      <Hsp_positive>566</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>630</Hsp_align-len>
+      <Hsp_qseq>ATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGGAAAGATGGGAATACATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTACAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTCGCCGTGAAAGAAGTTGAAACTTTGCTTACATCTATAGATGAGCTTGCTAAAGCTATTGGTAAAAAAATAAAAAACGATGTTAGTTTAGATAATGAGGCAGATCACAACGGATCATTAATATCAGGAGCATATTTAATTTCAACATTAATAACAAAAAAAATAAGTGCAATAAAAGATTCAGGAGAATTGAAGGCAGAAATTGAAAAGGCTAAGAAATGTTCTGAAGAATTTACTGCTAAATTAAAAGGTGAACACACAGATCTTGGTAAAGAAGGCGTTACTGATGATAATGCAAAAAAAGCCATTTTAAAAACAAATAATGATAAAACTAAGGGCGCTGATGAACTTGAAAAGTTATTTGAATCAGTAAAAAACTTGTCAAAAGCAGCTAAAGAGATGCTTACTAATTCAGTTAAAGAGCTTACAAGCCCTGTTGTGGCAGAAAGTCCAAAAAAACCT</Hsp_qseq>
+      <Hsp_hseq>ATGAAAAAGAATACATTAAGTGCAATATTAATGACTTTATTTTTATTTATATCTTGTAATAATTCAGGAAAAGATGGGAATGCATCTGCAAATTCTGCTGATGAGTCTGTTAAAGGGCCTAATCTTACAGAAATAAGTAAAAAAATTACAGAATCTAACGCAGTTGTTCTCGCCGTGAAAGAAGTTGAGACCTTACTTGCATCTATAGATGAACTTGCTAAAGCTATTGGTAAAAAAATAAAAAACGATGTTAGTTTAGATAATGAGGCAGATAACAACGGATCATTAATAGCAGGAGCTTATACAATATCAACCTTAATAACACAAAAATTAAGTAAATTAAACGGATCAGAAGGTTTAAAGGAAAAGATTGCCGAAGCTAAGAAATGCTCTGAAGAATTTACTAAAAAATTAAAAGAAAAACACACAGATCTTGGTAAAAAAGATGCTACTGATGTTCATGCAAAAGAAGCTATTTTAAAAACAAATGGTACTAAAGATAAGGGCGCTGCAGAGCTTGAAAAATTATTTGAATCAGTAGAAAACTTGGCAAAAGCAGCTAAAGAGATGCTATCCAATTCAGTTAAAGAGCTTACAAGCCCTGTTGTGGCAGAAAGTCCAAAAAACCCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || || ||| ||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||| |||  ||| ||||| ||||||||| ||||| |||||  | |||| |  |||| ||  || |||| | | ||||   | ||||||||||| |||||||||||||||   ||||||||||   |||||||||||||||||||| |||  | |||||||| | |||||||| |||| |||||||||||||||  |  ||||  |||||||||||  || |||||||| ||||||||||||||| |||||||| ||||||||||||||||||||||  | |||||||||||||||||||||||||||||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>660057606</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_2</Iteration_query-ID>
+  <Iteration_query-def>NC_012148.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_cp32-1, complete sequence</Iteration_query-def>
+  <Iteration_query-len>30026</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>746494395</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_3</Iteration_query-ID>
+  <Iteration_query-def>NC_012159.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_cp32-10, complete sequence</Iteration_query-def>
+  <Iteration_query-len>29756</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>739777065</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>4</Iteration_iter-num>
+  <Iteration_query-ID>Query_4</Iteration_query-ID>
+  <Iteration_query-def>NC_012150.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_cp32-11, complete sequence</Iteration_query-def>
+  <Iteration_query-len>30772</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>765054129</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>5</Iteration_iter-num>
+  <Iteration_query-ID>Query_5</Iteration_query-ID>
+  <Iteration_query-def>NC_012162.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_cp32-4, complete sequence</Iteration_query-def>
+  <Iteration_query-len>13540</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>336931920</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>6</Iteration_iter-num>
+  <Iteration_query-ID>Query_6</Iteration_query-ID>
+  <Iteration_query-def>NC_012153.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_cp32-5, complete sequence</Iteration_query-def>
+  <Iteration_query-len>18338</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>456502878</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>7</Iteration_iter-num>
+  <Iteration_query-ID>Query_7</Iteration_query-ID>
+  <Iteration_query-def>NC_012160.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_cp32-6, complete sequence</Iteration_query-def>
+  <Iteration_query-len>30017</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>746270484</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>8</Iteration_iter-num>
+  <Iteration_query-ID>Query_8</Iteration_query-ID>
+  <Iteration_query-def>NC_012161.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_cp32-7, complete sequence</Iteration_query-def>
+  <Iteration_query-len>30052</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>747141249</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>9</Iteration_iter-num>
+  <Iteration_query-ID>Query_9</Iteration_query-ID>
+  <Iteration_query-def>NC_012155.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_cp9-3, complete sequence</Iteration_query-def>
+  <Iteration_query-len>8706</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>216853581</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>10</Iteration_iter-num>
+  <Iteration_query-ID>Query_10</Iteration_query-ID>
+  <Iteration_query-def>NC_012188.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_lp17, complete sequence</Iteration_query-def>
+  <Iteration_query-len>15386</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>382936086</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>11</Iteration_iter-num>
+  <Iteration_query-ID>Query_11</Iteration_query-ID>
+  <Iteration_query-def>NC_012178.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_lp25, complete sequence</Iteration_query-def>
+  <Iteration_query-len>24661</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>614078361</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>12</Iteration_iter-num>
+  <Iteration_query-ID>Query_12</Iteration_query-ID>
+  <Iteration_query-def>NC_012197.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_lp28-1, complete sequence</Iteration_query-def>
+  <Iteration_query-len>26634</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>663247494</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>13</Iteration_iter-num>
+  <Iteration_query-ID>Query_13</Iteration_query-ID>
+  <Iteration_query-def>NC_012171.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_lp28-3, complete sequence</Iteration_query-def>
+  <Iteration_query-len>27543</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>685900683</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>14</Iteration_iter-num>
+  <Iteration_query-ID>Query_14</Iteration_query-ID>
+  <Iteration_query-def>NC_012187.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_lp28-4, complete sequence</Iteration_query-def>
+  <Iteration_query-len>28237</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>703195857</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>15</Iteration_iter-num>
+  <Iteration_query-ID>Query_15</Iteration_query-ID>
+  <Iteration_query-def>NC_012195.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_lp28-6, complete sequence</Iteration_query-def>
+  <Iteration_query-len>29782</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>740423919</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>16</Iteration_iter-num>
+  <Iteration_query-ID>Query_16</Iteration_query-ID>
+  <Iteration_query-def>NC_012189.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_lp36, complete sequence</Iteration_query-def>
+  <Iteration_query-len>30134</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>749181327</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>17</Iteration_iter-num>
+  <Iteration_query-ID>Query_17</Iteration_query-ID>
+  <Iteration_query-def>NC_012167.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_lp38, complete sequence</Iteration_query-def>
+  <Iteration_query-len>38893</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>967096488</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>18</Iteration_iter-num>
+  <Iteration_query-ID>Query_18</Iteration_query-ID>
+  <Iteration_query-def>NC_012192.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_lp5, complete sequence</Iteration_query-def>
+  <Iteration_query-len>5252</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>130876170</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>19</Iteration_iter-num>
+  <Iteration_query-ID>Query_19</Iteration_query-ID>
+  <Iteration_query-def>NC_012175.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_lp54, complete sequence</Iteration_query-def>
+  <Iteration_query-len>53783</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1337544798</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>20</Iteration_iter-num>
+  <Iteration_query-ID>Query_20</Iteration_query-ID>
+  <Iteration_query-def>NC_012198.1 Borreliella burgdorferi WI91-23 plasmid WI91-23_lp56, complete sequence</Iteration_query-def>
+  <Iteration_query-len>27581</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>686847681</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>21</Iteration_iter-num>
+  <Iteration_query-ID>Query_21</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000034.1 Borreliella burgdorferi WI91-23 map unlocalized plasmid cp91 WI91-23_cp9-1_partial_2, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>1103</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>27201042</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>22</Iteration_iter-num>
+  <Iteration_query-ID>Query_22</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000033.1 Borreliella burgdorferi WI91-23 map unlocalized plasmid cp91 WI91-23_cp9-1_partial_1, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>3716</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>92468490</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>23</Iteration_iter-num>
+  <Iteration_query-ID>Query_23</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000032.1 Borreliella burgdorferi WI91-23 map unlocalized plasmid cp91 WI91-23_cp9-1_partial_3, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>1362</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>33688215</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>24</Iteration_iter-num>
+  <Iteration_query-ID>Query_24</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000031.1 Borreliella burgdorferi WI91-23 gcontig_1118448816709, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>147840</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>22</Statistics_hsp-len>
+      <Statistics_eff-space>3671355666</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>25</Iteration_iter-num>
+  <Iteration_query-ID>Query_25</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000030.1 Borreliella burgdorferi WI91-23 gcontig_1118448793355, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>3297</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>81991395</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>26</Iteration_iter-num>
+  <Iteration_query-ID>Query_26</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000029.1 Borreliella burgdorferi WI91-23 gcontig_1118448793403, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>4734</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>117923580</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>27</Iteration_iter-num>
+  <Iteration_query-ID>Query_27</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000028.1 Borreliella burgdorferi WI91-23 gcontig_1118448793335, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>10420</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>259640163</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>28</Iteration_iter-num>
+  <Iteration_query-ID>Query_28</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000027.1 Borreliella burgdorferi WI91-23 gcontig_1118448793337, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>3133</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>77890575</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>29</Iteration_iter-num>
+  <Iteration_query-ID>Query_29</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000026.1 Borreliella burgdorferi WI91-23 gcontig_1118448793351, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>13382</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>332994402</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>30</Iteration_iter-num>
+  <Iteration_query-ID>Query_30</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000025.1 Borreliella burgdorferi WI91-23 gcontig_1118448793385, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>43456</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1080619365</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>31</Iteration_iter-num>
+  <Iteration_query-ID>Query_31</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000024.1 Borreliella burgdorferi WI91-23 gcontig_1118448793317, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>18614</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>463381074</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>32</Iteration_iter-num>
+  <Iteration_query-ID>Query_32</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000023.1 Borreliella burgdorferi WI91-23 gcontig_1118448793387, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>47839</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1189664022</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>33</Iteration_iter-num>
+  <Iteration_query-ID>Query_33</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000022.1 Borreliella burgdorferi WI91-23 gcontig_1118448793349, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>5222</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>130126020</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>34</Iteration_iter-num>
+  <Iteration_query-ID>Query_34</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000021.1 Borreliella burgdorferi WI91-23 gcontig_1118448793367, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>20688</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>515067228</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>35</Iteration_iter-num>
+  <Iteration_query-ID>Query_35</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000020.1 Borreliella burgdorferi WI91-23 gcontig_1118448793357, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>17768</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>442297908</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>36</Iteration_iter-num>
+  <Iteration_query-ID>Query_36</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000019.1 Borreliella burgdorferi WI91-23 gcontig_1118448793325, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>23060</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>574179840</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>37</Iteration_iter-num>
+  <Iteration_query-ID>Query_37</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000018.1 Borreliella burgdorferi WI91-23 gcontig_1118448793373, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>8108</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>201925707</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>38</Iteration_iter-num>
+  <Iteration_query-ID>Query_38</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000017.1 Borreliella burgdorferi WI91-23 gcontig_1118448793369, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>963</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>16</Statistics_hsp-len>
+      <Statistics_eff-space>23759283</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>39</Iteration_iter-num>
+  <Iteration_query-ID>Query_39</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000016.1 Borreliella burgdorferi WI91-23 gcontig_1118448793343, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>65709</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1634251752</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>40</Iteration_iter-num>
+  <Iteration_query-ID>Query_40</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000015.1 Borreliella burgdorferi WI91-23 gcontig_1118448793375, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>33777</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>839815524</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>41</Iteration_iter-num>
+  <Iteration_query-ID>Query_41</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000014.1 Borreliella burgdorferi WI91-23 gcontig_1118448793401, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>109435</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>22</Statistics_hsp-len>
+      <Statistics_eff-space>2717490681</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>42</Iteration_iter-num>
+  <Iteration_query-ID>Query_42</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000013.1 Borreliella burgdorferi WI91-23 gcontig_1118448793391, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>16824</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>418772484</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>43</Iteration_iter-num>
+  <Iteration_query-ID>Query_43</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000012.1 Borreliella burgdorferi WI91-23 gcontig_1118448793381, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>5882</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>146358069</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>44</Iteration_iter-num>
+  <Iteration_query-ID>Query_44</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000011.1 Borreliella burgdorferi WI91-23 gcontig_1118448816711, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>1557</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>38572380</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>45</Iteration_iter-num>
+  <Iteration_query-ID>Query_45</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000010.1 Borreliella burgdorferi WI91-23 gcontig_1118448793363, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>23787</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>592297407</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>46</Iteration_iter-num>
+  <Iteration_query-ID>Query_46</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000009.1 Borreliella burgdorferi WI91-23 gcontig_1118448793383, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>49894</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1240790367</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>47</Iteration_iter-num>
+  <Iteration_query-ID>Query_47</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000008.1 Borreliella burgdorferi WI91-23 gcontig_1118448793327, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>28321</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>705289221</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>48</Iteration_iter-num>
+  <Iteration_query-ID>Query_48</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000007.1 Borreliella burgdorferi WI91-23 gcontig_1118448793341, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>11300</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>281607603</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>49</Iteration_iter-num>
+  <Iteration_query-ID>Query_49</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000006.1 Borreliella burgdorferi WI91-23 gcontig_1118448793377, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>62595</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1556778546</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>50</Iteration_iter-num>
+  <Iteration_query-ID>Query_50</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000005.1 Borreliella burgdorferi WI91-23 gcontig_1118448793321, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>36967</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>919179534</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>51</Iteration_iter-num>
+  <Iteration_query-ID>Query_51</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000004.1 Borreliella burgdorferi WI91-23 gcontig_1118448793347, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>6343</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>157866012</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>52</Iteration_iter-num>
+  <Iteration_query-ID>Query_52</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000003.1 Borreliella burgdorferi WI91-23 gcontig_1118448793333, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>2768</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>68763750</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>53</Iteration_iter-num>
+  <Iteration_query-ID>Query_53</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000002.1 Borreliella burgdorferi WI91-23 gcontig_1118448793397, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>858</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>16</Statistics_hsp-len>
+      <Statistics_eff-space>21124938</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>54</Iteration_iter-num>
+  <Iteration_query-ID>Query_54</Iteration_query-ID>
+  <Iteration_query-def>NZ_ABJW02000001.1 Borreliella burgdorferi WI91-23 gcontig_1118448793361, whole genome shotgun sequence</Iteration_query-def>
+  <Iteration_query-len>71586</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>42</Statistics_db-num>
+      <Statistics_db-len>25761</Statistics_db-len>
+      <Statistics_hsp-len>22</Statistics_hsp-len>
+      <Statistics_eff-space>1777435068</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
