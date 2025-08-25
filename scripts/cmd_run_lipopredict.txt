@@ -1,0 +1,9 @@
+docker run --rm -v $(pwd):/opt/data -it mjfos2r/lipopredict -run \
+-m 'fasta' -DNA \
+-i output/results/v8/v8_filtered_sp/roary_v8_filtered_sp/pan_genome_reference.fa \
+-o output/results/v8/v8_filtered_sp/lipopredict/
+
+docker run --rm -v $(pwd):/opt/data -it mjfos2r/lipopredict -run \
+-m 'fasta' -DNA \
+-i output/results/v8/v8_filtered_nsp/roary_v8_filtered_nsp/pan_genome_reference.fa \
+-o output/results/v8/v8_filtered_nsp/lipopredict/

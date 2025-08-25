@@ -29,6 +29,9 @@ config: `../config/singularity_config.yaml`
 > It is likely easier to just run this within an interactive docker container.
 > `docker run -v $(pwd):/data -it sangerpathogens/mlst_check:latest /bin/bash`
 > `get_sequence_type -d $(nproc) -s 'Borrelia' -c -o mlst_check_out input1.fasta input2.fasta ...`
+>
+> Instead of this snakemake workflow, use the script: `../scripts/get_mlst.sh`
+
 
 ### Input
 - Directory of fasta files to classify.
