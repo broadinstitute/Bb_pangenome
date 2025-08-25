@@ -1,3 +1,3 @@
 # Replicon classification references
 
-These references are part of a current project that will be published. 
+These references are used by [plasmid_caller](github.com/mjfos2r/plasmid_caller)
