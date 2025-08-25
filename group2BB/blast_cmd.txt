@@ -1,0 +1,7 @@
+# Okay so lets blast the pan_genome_reference.fa against the local B31 database.
+blastn -query /home/mf019/longread_pangenome/expanded_dataset_analysis/output/results/v8/v8_filtered_nsp/roary_v8_filtered_nsp/pan_genome_reference.fa \
+-task blastn \
+-db /home/mf019/longread_pangenome/expanded_dataset_analysis/ref/B31_blastDB/borreliadb \
+-out /home/mf019/longread_pangenome/longread_pangenome/expanded_dataset_analysis/output/results/v8/v8_filtered_nsp/alignments/pangenome_vs_B31.topHit.tsv \
+-evalue 1e-10 \
+-num_threads 8 -mt_mode 1 -outfmt 6 -max_hsps 1

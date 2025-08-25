@@ -1,0 +1,23 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     GCF_040819585.1_PFhe_I_PB_Ill_cons_genomic
+# misassemblies              4                                         
+  # contig misassemblies     4                                         
+    # c. relocations         1                                         
+    # c. translocations      3                                         
+    # c. inversions          0                                         
+  # scaffold misassemblies   0                                         
+    # s. relocations         0                                         
+    # s. translocations      0                                         
+    # s. inversions          0                                         
+# misassembled contigs       2                                         
+Misassembled contigs length  46260                                     
+# local misassemblies        6                                         
+# scaffold gap ext. mis.     0                                         
+# scaffold gap loc. mis.     0                                         
+# unaligned mis. contigs     2                                         
+# mismatches                 6305                                      
+# indels                     419                                       
+    # indels (<= 5 bp)       363                                       
+    # indels (> 5 bp)        56                                        
+Indels length                2610                                      

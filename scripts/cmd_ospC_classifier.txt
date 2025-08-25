@@ -1,0 +1,1 @@
+docker run -v $(pwd):/data -it mjfos2r/ospc_classifier --input assemblies/dataset_v5 --output genotyping/dataset_v5_ospC --cpus 128

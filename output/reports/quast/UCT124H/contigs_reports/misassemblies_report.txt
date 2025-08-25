@@ -1,0 +1,23 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     UCT124H
+# misassemblies              9      
+  # contig misassemblies     9      
+    # c. relocations         4      
+    # c. translocations      4      
+    # c. inversions          1      
+  # scaffold misassemblies   0      
+    # s. relocations         0      
+    # s. translocations      0      
+    # s. inversions          0      
+# misassembled contigs       9      
+Misassembled contigs length  245290 
+# local misassemblies        9      
+# scaffold gap ext. mis.     0      
+# scaffold gap loc. mis.     0      
+# unaligned mis. contigs     1      
+# mismatches                 5932   
+# indels                     510    
+    # indels (<= 5 bp)       449    
+    # indels (> 5 bp)        61     
+Indels length                2235   
