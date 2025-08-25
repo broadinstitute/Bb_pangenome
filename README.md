@@ -4,10 +4,9 @@ Preprint: https://doi.org/10.1101/2025.01.29.635312
 
 This repository contains all code and sequences used in the above manuscript.
 
-Ensure you have [git lfs](https://git-lfs.com/) installed to access all files and data.
+Ensure you have [git lfs](https://git-lfs.com/) installed to access all files and data. (Instructions below)
 
 **Total repository size: 23G**
-
 
 ## Directory Structure
 
@@ -40,4 +39,34 @@ Ensure you have [git lfs](https://git-lfs.com/) installed to access all files an
 - `scripts/` - contains scripts and commands used in various analyses.
 - `snakefiles/` - contains snakefiles and their configs.
 
-In situations where files or data are unable to be located, refer to our [working repository](https://github.com/mjfos2r/longread_pangenome)
+***
+
+In situations where code or data are unable to be located, refer to our [working repository](https://github.com/mjfos2r/longread_pangenome)
+
+*** 
+
+## Using LFS to access files and data
+To get started, clone the repository and setup LFS:
+```bash
+git clone https://github.com/broadinstitute/Bb_pangenome.git
+cd Bb_pangenome
+git lfs install 
+```
+
+To retrieve LFS tracked files individually:
+```bash
+git lfs fetch path/to/lfs-tracked-file.ext
+git lfs checkout
+```
+
+To retrieve LFS tracked directories:
+```bash
+git lfs fetch path/to/lfs-tracked-directory/
+git lfs checkout
+```
+
+To retrieve all files and data:
+```bash
+git lfs fetch --all
+git lfs checkout
+```
