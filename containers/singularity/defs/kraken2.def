@@ -1,0 +1,76 @@
+Bootstrap: docker
+From: linuxcontainers/debian-slim:latest
+
+%post
+    apt-get update && apt-get install -y \
+    build-essential \
+    git \
+    make \
+    libomp-dev \
+    wget \
+    zlib1g-dev \
+    python3 \
+    python3-biopython
+
+    # make temp dirs
+    mkdir -p /tmp/KronaTools /tmp/kraken2 /tmp/KrakenTools
+
+    # make db dirs inside container
+    mkdir /kraken2_dbs
+
+    # download kraken2
+    wget -qO - https://github.com/DerrickWood/kraken2/archive/refs/tags/v2.1.3.tar.gz | \
+    tar -xz -C /tmp/kraken2 --strip-components=1 --no-same-owner
+    # download KronaTools
+    wget -qO - https://github.com/marbl/Krona/releases/download/v2.8.1/KronaTools-2.8.1.tar | \
+    tar -x -C /usr/local/KronaTools --strip-components=1 --no-same-owner
+    # download KrakenTools
+    wget -qO - https://github.com/jenniferlu717/KrakenTools/archive/refs/tags/v1.2.tar.gz | \
+    tar -xz -C /tmp/KrakenTools --strip-components=1 --no-same-owner
+    
+    # install kraken2
+    cd /tmp/kraken2
+    ./install_kraken2.sh /bin/
+
+    # install KrakenTools
+    cd /tmp/KrakenTools
+    for script in *.py; do \
+        sed -i '1s|^#!.*|#!/usr/bin/env python3|' $script && \
+        cp $script /usr/bin/ && \
+        chmod +x /usr/bin/$script; \
+        done
+
+    # install KronaTools
+    cd /usr/local/KronaTools
+    ./install.pl --taxonomy /krona_db && \
+    echo -e "\n# Testing KronaTools:" && \
+    if command -v ktImportText > /dev/null 2>&1; then \
+        echo "✓ ktImportText exists" && \
+        echo "Location: $(which ktImportText)"; \
+    else \
+        echo "✗ ktImportText not found" && \
+        exit 1; \
+    fi
+
+    # clean up /tmp/
+    rm -rf /tmp/kraken2
+    rm -rf /tmp/KrakenTools
+
+    # set environmental vars for our dbs.
+    echo "export KRAKEN2_DB_PATH=/kraken2_dbs" >>$SINGULARITY_ENVIRONMENT
+    echo "export PATH=$PATH:/bin/kraken2/" >>$SINGULARITY_ENVIRONMENT
+
+%test
+    # get kraken2 version
+    kraken2 --version
+
+    # check for kreport2krona.py
+    if command -v kreport2krona.py > /dev/null 2>&1; then
+        echo "kreport2krona.pyt exists"
+    else 
+        echo "kreport2krona.py not found"
+    fi
+
+%labels
+    Maintainer mjf
+    Version kraken2_2.1.3

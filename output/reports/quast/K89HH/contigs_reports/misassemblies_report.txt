@@ -1,0 +1,23 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     K89HH 
+# misassemblies              20    
+  # contig misassemblies     20    
+    # c. relocations         5     
+    # c. translocations      10    
+    # c. inversions          5     
+  # scaffold misassemblies   0     
+    # s. relocations         0     
+    # s. translocations      0     
+    # s. inversions          0     
+# misassembled contigs       14    
+Misassembled contigs length  802892
+# local misassemblies        15    
+# scaffold gap ext. mis.     0     
+# scaffold gap loc. mis.     0     
+# unaligned mis. contigs     4     
+# mismatches                 11058 
+# indels                     774   
+    # indels (<= 5 bp)       686   
+    # indels (> 5 bp)        88    
+Indels length                4604  

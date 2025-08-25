@@ -1,0 +1,930 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [NC_001853.1]
+	Loaded [NC_000949.1]
+	Loaded [NC_001855.1]
+	Loaded [NC_001318.1]
+	Loaded [NC_001854.1]
+	Loaded [NC_001904.1]
+	Loaded [NC_000948.1]
+	Loaded [NC_001857.2]
+	Loaded [NC_001856.1]
+	Loaded [NC_000951.1]
+	Loaded [NC_000950.1]
+	Loaded [NC_001850.1]
+	Loaded [NC_000956.1]
+	Loaded [NC_001903.1]
+	Loaded [NC_001851.2]
+	Loaded [NC_001852.1]
+	Loaded [NC_000957.1]
+	Loaded [NC_000954.1]
+	Loaded [NC_000955.2]
+	Loaded [NC_001849.2]
+	Loaded [NC_000953.1]
+	Loaded [NC_000952.1]
+	Total Regions: 22
+	Total Region Length: 1521208
+Analyzing contigs...
+CONTIG: NZ_ABCV02000012.1 (928bp)
+Best alignment score: 614.0 (LEN: 617, IDY: 99.51), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			The best set is below. Score: 890.1, number of alignments: 3, unaligned bases: 14
+		This contig is misassembled.
+			Real Alignment 1: 13860 13975 | 15 132 | 116 118 | 95.76 | NC_000955.2 NZ_ABCV02000012.1
+			  Indel (> 5bp) between these two alignments: deletion of length 63; 0 mismatches (number of Ns: 0)
+			Real Alignment 2: 14039 14219 | 133 311 | 181 179 | 95.58 | NC_000955.2 NZ_ABCV02000012.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 310
+			Real Alignment 3: 14530 15144 | 312 928 | 615 617 | 99.51 | NC_000955.2 NZ_ABCV02000012.1
+
+CONTIG: NZ_ABCV02000011.1 (986bp)
+Best alignment score: 945.1 (LEN: 986, IDY: 95.85), Total number of alignments: 34
+		Skipping these alignments as insignificant (option --ambiguity-score is set to "0.99"):
+			Skipping alignment 11819 12656 | 840 1 | 838 840 | 96.43 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 8785 9404 | 624 1 | 620 624 | 96.63 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 10167 10786 | 986 373 | 620 614 | 95.16 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 6425 6857 | 986 554 | 433 433 | 97.23 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 9907 10341 | 435 1 | 435 435 | 96.32 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 11913 12343 | 435 1 | 431 435 | 96.09 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 6665 7097 | 435 1 | 433 435 | 95.86 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 7549 7975 | 986 562 | 427 425 | 95.78 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 7673 8054 | 986 607 | 382 380 | 96.6 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 8472 8843 | 372 1 | 372 372 | 96.51 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 10409 10782 | 372 1 | 374 372 | 95.72 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 12858 13219 | 364 1 | 362 364 | 95.6 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 13325 13681 | 647 293 | 357 355 | 95.8 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 12860 13198 | 986 648 | 339 339 | 97.94 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 6249 6540 | 729 436 | 292 294 | 97.28 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 13995 14284 | 292 1 | 290 292 | 96.58 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 8098 8383 | 561 274 | 286 288 | 96.18 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 4614 4893 | 553 274 | 280 280 | 97.5 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 8447 8717 | 273 1 | 271 273 | 95.24 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 6984 7243 | 553 294 | 260 260 | 97.31 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 10094 10345 | 624 373 | 252 252 | 98.81 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 8176 8408 | 606 373 | 233 234 | 97.44 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 9106 9345 | 986 749 | 240 238 | 95.0 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 9615 9845 | 666 436 | 231 231 | 97.84 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 6138 6351 | 216 1 | 214 216 | 96.76 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 11640 11849 | 647 436 | 210 212 | 97.64 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 12543 12731 | 553 365 | 189 189 | 98.41 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 11159 11347 | 499 312 | 189 188 | 97.35 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 11423 11570 | 986 841 | 148 146 | 96.62 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 5940 6076 | 353 217 | 137 137 | 95.62 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 8596 8719 | 748 625 | 124 124 | 100.0 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 9470 9551 | 748 667 | 82 82 | 96.34 | NC_000955.2 NZ_ABCV02000011.1
+			Skipping alignment 11224 11294 | 311 241 | 71 71 | 98.59 | NC_000955.2 NZ_ABCV02000011.1
+		One align captures most of this contig: 3744 4727 | 986 1 | 984 986 | 95.85 | NC_000955.2 NZ_ABCV02000011.1
+
+CONTIG: NZ_ABCV02000010.1 (780bp)
+Best alignment score: 739.3 (LEN: 778, IDY: 95.03), Total number of alignments: 31
+		Skipping these alignments as insignificant (option --ambiguity-score is set to "0.99"):
+			Skipping alignment 8056 8646 | 591 1 | 591 591 | 95.26 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 6478 6963 | 488 1 | 486 488 | 96.11 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 8596 9085 | 488 1 | 490 488 | 95.71 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 12409 12900 | 488 1 | 492 488 | 95.33 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 12806 13242 | 778 344 | 437 435 | 96.34 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 13169 13599 | 665 239 | 431 427 | 95.13 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 13745 14140 | 654 261 | 396 394 | 96.21 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 10932 11294 | 778 418 | 363 361 | 95.32 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 5953 6280 | 330 1 | 328 330 | 95.15 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 5188 5500 | 780 470 | 313 311 | 97.12 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 9470 9770 | 301 1 | 301 301 | 96.35 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 9115 9406 | 778 489 | 292 290 | 96.58 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 8241 8532 | 778 489 | 292 290 | 95.55 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 6064 6353 | 778 489 | 290 290 | 95.52 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 8199 8459 | 260 1 | 261 260 | 95.02 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 14099 14339 | 239 1 | 241 239 | 95.44 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 13663 13902 | 238 1 | 240 238 | 95.42 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 8867 9095 | 778 550 | 229 229 | 97.82 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 4751 4979 | 778 550 | 229 229 | 97.38 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 4551 4782 | 230 1 | 232 230 | 96.12 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 12480 12711 | 230 1 | 232 230 | 96.12 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 12117 12345 | 715 489 | 229 227 | 97.38 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 9676 9906 | 778 550 | 231 229 | 95.24 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 7806 7994 | 780 592 | 189 189 | 96.83 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 13814 13974 | 400 240 | 161 161 | 96.89 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 5688 5826 | 469 331 | 139 139 | 96.4 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 9901 10020 | 120 1 | 120 120 | 96.67 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 12993 13105 | 778 666 | 113 113 | 95.58 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 13493 13597 | 778 674 | 105 105 | 97.14 | NC_000955.2 NZ_ABCV02000010.1
+			Skipping alignment 11993 12055 | 780 716 | 63 65 | 95.38 | NC_000955.2 NZ_ABCV02000010.1
+		One align captures most of this contig: 10491 11274 | 778 1 | 784 778 | 95.03 | NC_000955.2 NZ_ABCV02000010.1
+
+CONTIG: NZ_ABCV02000009.1 (1094bp)
+Best alignment score: 1037.0 (LEN: 1090, IDY: 95.14), Total number of alignments: 47
+		Skipping these alignments as insignificant (option --ambiguity-score is set to "0.99"):
+			Skipping alignment 6673 7628 | 956 1 | 956 956 | 95.4 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 12159 12992 | 1090 261 | 834 830 | 96.28 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 4927 5634 | 708 1 | 708 708 | 96.19 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 7039 7504 | 466 1 | 466 466 | 97.21 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 9628 10093 | 621 156 | 466 466 | 96.14 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 11705 12166 | 922 459 | 462 464 | 95.04 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 8596 9042 | 592 148 | 447 445 | 95.75 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 4230 4613 | 1090 709 | 384 382 | 96.09 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 11913 12282 | 592 219 | 370 374 | 97.33 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 11224 11598 | 840 470 | 375 371 | 95.47 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 10787 11128 | 342 1 | 342 342 | 96.2 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 11224 11557 | 592 261 | 334 332 | 97.01 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 6230 6558 | 592 262 | 329 331 | 96.68 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 11660 11983 | 469 148 | 324 322 | 96.3 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 5020 5323 | 304 1 | 304 304 | 96.05 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 8241 8532 | 884 593 | 292 292 | 95.55 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 6621 6878 | 261 1 | 258 261 | 95.4 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 12661 12918 | 1090 833 | 258 258 | 95.74 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 8221 8469 | 467 219 | 249 249 | 97.99 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 5116 5365 | 1082 833 | 250 250 | 96.0 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 13106 13355 | 832 585 | 250 248 | 96.0 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 5677 5918 | 832 593 | 242 240 | 96.69 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 11621 11848 | 260 31 | 228 230 | 96.52 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 12409 12626 | 218 1 | 218 218 | 97.71 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 8596 8813 | 218 1 | 218 218 | 97.71 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 12598 12815 | 218 1 | 218 218 | 96.33 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 6138 6353 | 932 717 | 216 216 | 96.3 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 13419 13623 | 210 6 | 205 205 | 97.56 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 13734 13937 | 395 194 | 204 202 | 96.08 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 8176 8374 | 200 1 | 199 200 | 96.5 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 7860 8055 | 1082 885 | 196 198 | 95.96 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 7871 8054 | 384 201 | 184 184 | 98.37 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 14001 14166 | 193 26 | 166 168 | 98.21 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 6804 6977 | 635 467 | 174 169 | 95.98 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 10812 10975 | 1002 841 | 164 162 | 96.95 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 11421 11580 | 1082 923 | 160 160 | 96.25 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 10220 10374 | 155 1 | 155 155 | 97.42 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 9104 9250 | 147 1 | 147 147 | 100.0 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 12167 12313 | 147 1 | 147 147 | 97.96 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 13419 13561 | 584 442 | 143 143 | 96.5 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 12409 12532 | 342 219 | 124 124 | 97.58 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 12230 12345 | 458 343 | 116 116 | 99.14 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 9628 9719 | 932 841 | 92 92 | 97.83 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 10598 10685 | 1090 1003 | 88 88 | 96.59 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 6541 6621 | 716 636 | 81 81 | 95.06 | NC_000955.2 NZ_ABCV02000009.1
+			Skipping alignment 6541 6611 | 1027 957 | 71 71 | 97.18 | NC_000955.2 NZ_ABCV02000009.1
+		One align captures most of this contig: 3734 4823 | 1090 1 | 1090 1090 | 95.14 | NC_000955.2 NZ_ABCV02000009.1
+
+CONTIG: NZ_ABCV02000008.1 (1127bp)
+Best alignment score: 837.0 (LEN: 872, IDY: 95.99), Total number of alignments: 47
+			Looking for the best set of alignments (out of 47 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 7921 8054 | 1 134 | 134 134 | 99.25 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 12982 13242 | 1 261 | 261 261 | 98.08 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 8230 8594 | 1 365 | 365 365 | 95.62 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 13306 13410 | 262 366 | 105 105 | 98.1 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 13232 13599 | 1 366 | 368 366 | 96.74 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 12795 13163 | 1 369 | 369 369 | 96.75 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 4188 4487 | 75 374 | 300 300 | 96.0 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 6415 6733 | 56 374 | 319 319 | 96.55 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 12117 12532 | 75 490 | 416 416 | 95.91 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 4230 4363 | 367 498 | 134 132 | 95.52 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 7295 7920 | 1 624 | 626 624 | 95.21 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 4551 4813 | 375 635 | 263 261 | 96.58 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 8971 9246 | 366 641 | 276 276 | 96.74 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 10858 11513 | 1 654 | 656 654 | 95.27 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 4551 4729 | 499 677 | 179 179 | 100.0 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 13663 13973 | 367 677 | 311 311 | 96.46 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 8971 9282 | 366 677 | 312 312 | 97.12 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 8667 8855 | 499 685 | 189 187 | 98.94 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 12661 12857 | 491 685 | 197 195 | 98.48 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 9354 10091 | 1 738 | 738 738 | 95.12 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 5490 6044 | 251 801 | 555 551 | 95.86 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 4795 4943 | 678 826 | 149 149 | 99.33 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 13537 14046 | 367 872 | 510 506 | 95.1 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 7608 8479 | 1 872 | 872 872 | 95.99 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 13045 13285 | 686 926 | 241 241 | 97.51 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 5190 5489 | 636 935 | 300 300 | 97.33 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 14108 14350 | 873 1115 | 243 243 | 96.3 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 7984 8470 | 625 1115 | 487 491 | 95.72 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 13945 14166 | 897 1120 | 222 224 | 95.54 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 14039 14481 | 678 1120 | 443 443 | 96.61 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 5740 5931 | 936 1127 | 192 192 | 97.4 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 13347 13547 | 927 1127 | 201 201 | 96.52 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 8541 8795 | 873 1127 | 255 255 | 97.25 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 5007 5305 | 827 1127 | 299 301 | 95.02 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 10157 10545 | 739 1127 | 389 389 | 96.14 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 9159 9543 | 739 1127 | 385 389 | 95.12 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 9596 10041 | 678 1127 | 446 450 | 95.33 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 11640 12108 | 655 1127 | 469 473 | 96.19 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 9310 9793 | 642 1127 | 484 486 | 96.71 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 10598 11234 | 491 1127 | 637 637 | 95.45 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 6921 7673 | 375 1127 | 753 753 | 96.28 | NC_000955.2 NZ_ABCV02000008.1
+		Skipping redundant alignment 5938 6797 | 261 1127 | 860 867 | 95.39 | NC_000955.2 NZ_ABCV02000008.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 1085.0, number of alignments: 5, unaligned bases: 7
+		This contig is misassembled.
+			Real Alignment 1: 11232 11420 | 1 187 | 189 187 | 97.88 | NC_000955.2 NZ_ABCV02000008.1
+			  Indel (> 5bp) between these two alignments: deletion of length 63; 0 mismatches (number of Ns: 0)
+			Real Alignment 2: 11484 11557 | 188 261 | 74 74 | 97.3 | NC_000955.2 NZ_ABCV02000008.1
+			  Indel (> 5bp) between these two alignments: deletion of length 63; 0 mismatches (number of Ns: 0)
+			Real Alignment 3: 11621 11687 | 262 328 | 67 67 | 98.51 | NC_000955.2 NZ_ABCV02000008.1
+			  Indel (> 5bp) between these two alignments: deletion of length 187; 0 mismatches (number of Ns: 0)
+			Real Alignment 4: 11875 12219 | 329 677 | 345 349 | 96.56 | NC_000955.2 NZ_ABCV02000008.1
+			  Indel (> 5bp) between these two alignments: deletion of length 65; 0 mismatches (number of Ns: 0)
+			Real Alignment 5: 12285 12727 | 678 1120 | 443 443 | 96.39 | NC_000955.2 NZ_ABCV02000008.1
+
+CONTIG: NZ_ABCV02000007.1 (1371bp)
+Best alignment score: 838.1 (LEN: 877, IDY: 95.57), Total number of alignments: 47
+			Looking for the best set of alignments (out of 47 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 12285 12439 | 156 2 | 155 155 | 97.42 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 13056 13222 | 198 34 | 167 165 | 95.81 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 10858 11069 | 209 2 | 212 208 | 96.7 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 8036 8252 | 218 2 | 217 217 | 97.24 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 8241 8470 | 261 34 | 230 228 | 96.09 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 9365 9687 | 322 2 | 323 321 | 96.9 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 10491 10848 | 385 34 | 358 352 | 96.37 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 9656 10061 | 405 2 | 406 404 | 96.8 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 12974 13198 | 530 304 | 225 227 | 95.15 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 6541 7069 | 530 2 | 529 529 | 96.03 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 12617 12992 | 574 199 | 376 376 | 96.01 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 13682 14224 | 574 34 | 543 541 | 95.58 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 6784 7348 | 596 34 | 565 563 | 95.58 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 8604 9252 | 648 2 | 649 647 | 96.46 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 11724 12219 | 656 157 | 496 500 | 95.2 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 12346 12553 | 782 575 | 208 208 | 95.67 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 4856 5178 | 782 460 | 323 323 | 96.28 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 7619 8177 | 826 262 | 559 565 | 96.28 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 6414 6663 | 846 597 | 250 250 | 95.6 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 12159 12284 | 908 783 | 126 126 | 97.62 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 4230 4855 | 908 281 | 626 628 | 96.02 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 7445 7557 | 939 827 | 113 113 | 96.46 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 8178 8479 | 952 649 | 302 304 | 95.72 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 6858 7070 | 963 751 | 213 213 | 97.18 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 8480 8603 | 1024 901 | 124 124 | 95.97 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 11224 11601 | 1032 657 | 378 376 | 97.35 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 11875 12038 | 1070 909 | 164 162 | 95.73 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 3946 4109 | 1070 909 | 164 162 | 95.73 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 6045 6291 | 1095 847 | 247 249 | 96.39 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 10220 11100 | 1095 219 | 881 877 | 95.57 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 5396 5731 | 1118 783 | 336 336 | 97.02 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 12982 13289 | 1211 906 | 308 306 | 96.75 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 7476 7744 | 1219 953 | 269 267 | 98.51 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 4177 4668 | 1272 783 | 492 490 | 96.14 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 12106 12849 | 1272 531 | 744 742 | 95.56 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 3618 3882 | 1335 1071 | 265 265 | 95.47 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 12759 12918 | 1371 1212 | 160 160 | 96.88 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 9755 10030 | 1371 1096 | 276 276 | 96.01 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 8072 8416 | 1371 1025 | 345 347 | 96.54 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 6761 7162 | 1371 972 | 402 400 | 96.27 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 6141 6548 | 1371 964 | 408 408 | 96.32 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 8507 9042 | 1371 838 | 536 534 | 96.27 | NC_000955.2 NZ_ABCV02000007.1
+		Skipping redundant alignment 12507 13305 | 1371 575 | 799 797 | 95.74 | NC_000955.2 NZ_ABCV02000007.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 1315.0, number of alignments: 4, unaligned bases: 1
+		This contig is misassembled.
+			Real Alignment 1: 6230 6508 | 280 2 | 279 279 | 97.49 | NC_000955.2 NZ_ABCV02000007.1
+			  Indel (> 5bp) between these two alignments: deletion of length 187; 0 mismatches (number of Ns: 0)
+			Real Alignment 2: 5543 6042 | 782 281 | 500 502 | 96.81 | NC_000955.2 NZ_ABCV02000007.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 498
+			Real Alignment 3: 4732 5044 | 1095 783 | 313 313 | 96.81 | NC_000955.2 NZ_ABCV02000007.1
+			  Indel (> 5bp) between these two alignments: deletion of length 65; 0 mismatches (number of Ns: 0)
+			Real Alignment 4: 4391 4666 | 1371 1096 | 276 276 | 96.74 | NC_000955.2 NZ_ABCV02000007.1
+
+CONTIG: NZ_ABCV02000006.1 (1374bp)
+Best alignment score: 825.0 (LEN: 862, IDY: 95.71), Total number of alignments: 51
+			Looking for the best set of alignments (out of 51 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 6850 6983 | 131 264 | 134 134 | 97.76 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 11743 11912 | 150 319 | 170 170 | 95.29 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 12787 13158 | 4 380 | 372 377 | 96.02 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 4919 5332 | 4 418 | 414 415 | 96.14 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 8441 8719 | 163 441 | 279 279 | 96.77 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 9533 9967 | 4 441 | 435 438 | 95.21 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 8480 8603 | 389 512 | 124 124 | 100.0 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 4677 4926 | 265 512 | 250 248 | 99.2 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 10812 11118 | 219 523 | 307 305 | 98.05 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 7663 8055 | 131 523 | 393 393 | 96.44 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 5396 5513 | 419 536 | 118 118 | 98.31 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 10472 10668 | 381 575 | 197 195 | 98.48 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 11640 11874 | 358 592 | 235 235 | 97.87 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 8785 8979 | 442 636 | 195 195 | 96.41 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 9159 9363 | 442 646 | 205 205 | 98.54 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 5242 5332 | 576 666 | 91 91 | 98.9 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 10094 10343 | 442 689 | 250 248 | 96.4 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 12001 12105 | 593 697 | 105 105 | 100.0 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 13663 13937 | 442 714 | 275 273 | 95.64 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 5827 6063 | 537 771 | 237 235 | 96.2 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 12037 12532 | 320 813 | 496 494 | 97.38 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 7047 7607 | 265 821 | 561 557 | 96.97 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 10472 10668 | 690 884 | 197 195 | 96.45 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 11180 11546 | 524 884 | 367 361 | 95.1 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 12554 13168 | 276 884 | 615 609 | 96.59 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 9043 9303 | 637 895 | 261 259 | 97.7 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 12230 12471 | 698 939 | 242 242 | 96.69 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 6373 6602 | 772 1001 | 230 230 | 97.83 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 13545 13694 | 885 1034 | 150 150 | 98.67 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 9365 9526 | 896 1059 | 162 164 | 95.73 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 11795 11969 | 885 1059 | 175 175 | 99.43 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 5396 5788 | 667 1059 | 393 393 | 96.18 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 9613 10026 | 647 1059 | 414 413 | 96.38 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 11047 11532 | 576 1059 | 486 484 | 96.5 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 7558 8278 | 339 1059 | 721 721 | 96.81 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 10209 10276 | 1060 1127 | 68 68 | 100.0 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 11654 11719 | 1060 1127 | 66 68 | 95.59 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 12535 12717 | 940 1127 | 183 188 | 96.81 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 14037 14211 | 1205 1374 | 175 170 | 96.0 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 11875 12085 | 1164 1374 | 211 211 | 95.26 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 12776 13022 | 1128 1374 | 247 247 | 99.19 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 10335 10583 | 1128 1374 | 249 247 | 96.79 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 9709 10018 | 1060 1374 | 310 315 | 96.83 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 12150 12457 | 1060 1374 | 308 315 | 95.56 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 8337 8644 | 1060 1374 | 308 315 | 95.24 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 8241 9083 | 524 1374 | 843 851 | 96.71 | NC_000955.2 NZ_ABCV02000006.1
+		Skipping redundant alignment 8667 9518 | 513 1374 | 852 862 | 95.71 | NC_000955.2 NZ_ABCV02000006.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 1305.0, number of alignments: 4, unaligned bases: 3
+		This contig is misassembled.
+			Real Alignment 1: 5606 5875 | 4 274 | 270 271 | 95.2 | NC_000955.2 NZ_ABCV02000006.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 371
+			Real Alignment 2: 6247 6565 | 275 592 | 319 318 | 97.81 | NC_000955.2 NZ_ABCV02000006.1
+			  Indel (> 5bp) between these two alignments: deletion of length 124; 0 mismatches (number of Ns: 0)
+			Real Alignment 3: 6690 7221 | 593 1127 | 532 535 | 96.07 | NC_000955.2 NZ_ABCV02000006.1
+			  Indel (> 5bp) between these two alignments: deletion of length 180; 0 mismatches (number of Ns: 0)
+			Real Alignment 4: 7402 7648 | 1128 1374 | 247 247 | 95.14 | NC_000955.2 NZ_ABCV02000006.1
+
+CONTIG: NZ_ABCV02000005.1 (1462bp)
+Best alignment score: 855.0 (LEN: 889, IDY: 96.18), Total number of alignments: 61
+			Looking for the best set of alignments (out of 61 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 7912 8052 | 141 1 | 141 141 | 96.45 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 6186 6369 | 184 1 | 184 184 | 98.37 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 8793 8987 | 195 1 | 195 195 | 100.0 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 10732 10928 | 195 1 | 197 195 | 96.45 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 14352 14554 | 203 1 | 203 203 | 95.57 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 5419 5666 | 266 17 | 248 250 | 97.2 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 12156 12424 | 269 1 | 269 269 | 98.51 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 9657 9985 | 329 1 | 329 329 | 97.26 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 13449 13786 | 354 17 | 338 338 | 97.34 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 14314 14605 | 367 74 | 292 294 | 96.94 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 10812 11176 | 367 1 | 365 367 | 97.82 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 6812 7241 | 430 1 | 430 430 | 97.44 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 9415 9532 | 447 330 | 118 118 | 95.76 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 13938 14165 | 493 264 | 228 230 | 97.83 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 14108 14250 | 510 368 | 143 143 | 98.6 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 4990 5233 | 573 330 | 244 244 | 96.72 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 5677 6063 | 573 185 | 387 389 | 95.63 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 7358 7850 | 636 142 | 493 495 | 95.15 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 10157 10553 | 644 248 | 397 397 | 95.47 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 9043 9292 | 697 448 | 250 250 | 97.2 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 13537 13750 | 705 494 | 214 212 | 95.79 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 10409 10748 | 705 368 | 340 338 | 95.88 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 11640 12096 | 728 270 | 457 459 | 96.51 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 13821 14046 | 734 511 | 226 224 | 96.02 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 5419 5613 | 766 574 | 195 193 | 98.97 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 8098 8666 | 766 196 | 569 571 | 96.15 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 6247 6628 | 811 431 | 382 381 | 97.91 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 7671 7788 | 884 767 | 118 118 | 98.31 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 9728 9967 | 884 645 | 240 240 | 97.5 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 11162 11387 | 954 729 | 226 226 | 96.9 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 7421 7546 | 1010 885 | 126 126 | 97.62 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 8541 8855 | 1010 698 | 315 313 | 97.14 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 5001 5233 | 1062 830 | 233 233 | 96.14 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 5688 5938 | 1062 812 | 251 251 | 95.22 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 12480 13198 | 1073 355 | 719 719 | 96.11 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 13306 13694 | 1123 735 | 389 389 | 95.37 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 7243 7357 | 1124 1011 | 115 114 | 97.39 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 10732 10913 | 1134 955 | 182 180 | 98.35 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 9783 10280 | 1205 706 | 498 500 | 95.6 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 6726 7294 | 1205 637 | 569 569 | 95.78 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 8098 8383 | 1331 1044 | 286 288 | 96.18 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 8848 9292 | 1331 885 | 445 447 | 96.64 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 5190 5561 | 1436 1063 | 372 374 | 97.06 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 8541 8658 | 1447 1332 | 118 116 | 98.31 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 6301 6540 | 1447 1206 | 240 242 | 97.93 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 10039 10301 | 1447 1187 | 263 261 | 97.72 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 6673 6993 | 1447 1125 | 321 323 | 97.52 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 12919 13242 | 1447 1124 | 324 324 | 95.68 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 4488 4874 | 1447 1063 | 387 385 | 96.12 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 12417 13158 | 1447 706 | 742 742 | 96.63 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 7845 7975 | 1462 1332 | 131 131 | 100.0 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 9278 9532 | 1462 1206 | 255 257 | 97.28 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 11969 12353 | 1462 1074 | 385 389 | 96.4 | NC_000955.2 NZ_ABCV02000005.1
+		Skipping redundant alignment 4040 4926 | 1462 574 | 887 889 | 96.18 | NC_000955.2 NZ_ABCV02000005.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 1413.1, number of alignments: 7, unaligned bases: 15
+		This contig is misassembled.
+			Real Alignment 1: 12606 12926 | 321 1 | 321 321 | 100.0 | NC_000955.2 NZ_ABCV02000005.1
+			  Indel (> 5bp) between these two alignments: deletion of length 63; 0 mismatches (number of Ns: 0)
+			Real Alignment 2: 12230 12542 | 636 322 | 313 315 | 95.24 | NC_000955.2 NZ_ABCV02000005.1
+			  Indel (> 5bp) between these two alignments: deletion of length 63; 0 mismatches (number of Ns: 0)
+			Real Alignment 3: 12037 12166 | 766 637 | 130 130 | 99.23 | NC_000955.2 NZ_ABCV02000005.1
+			  Indel (> 5bp) between these two alignments: deletion of length 124; 0 mismatches (number of Ns: 0)
+			Real Alignment 4: 11724 11912 | 955 767 | 189 189 | 95.24 | NC_000955.2 NZ_ABCV02000005.1
+			  Indel (> 5bp) between these two alignments: deletion of length 122; 0 mismatches (number of Ns: 0)
+			Real Alignment 5: 11476 11601 | 1081 956 | 126 126 | 99.21 | NC_000955.2 NZ_ABCV02000005.1
+			  Indel (> 5bp) between these two alignments: deletion of length 128; 0 mismatches (number of Ns: 0)
+			Real Alignment 6: 11159 11347 | 1269 1082 | 189 188 | 97.35 | NC_000955.2 NZ_ABCV02000005.1
+			  Indel (> 5bp) between these two alignments: deletion of length 58; 0 mismatches (number of Ns: 0)
+			Real Alignment 7: 10921 11100 | 1447 1270 | 180 178 | 98.33 | NC_000955.2 NZ_ABCV02000005.1
+
+CONTIG: NZ_ABCV02000004.1 (1883bp)
+Best alignment score: 1138.0 (LEN: 1187, IDY: 95.87), Total number of alignments: 62
+			Looking for the best set of alignments (out of 62 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 14314 14470 | 157 1 | 157 157 | 97.45 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 7921 8092 | 174 1 | 172 174 | 98.28 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 6673 6842 | 174 1 | 170 174 | 95.4 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 8346 8651 | 308 1 | 306 308 | 95.13 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 14001 14250 | 409 158 | 250 252 | 98.02 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 14289 14615 | 434 106 | 327 329 | 96.05 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 7556 7859 | 477 175 | 304 303 | 98.03 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 9043 9525 | 487 1 | 483 487 | 95.89 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 10094 10590 | 495 1 | 497 495 | 95.98 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 6690 7220 | 531 1 | 531 531 | 97.18 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 5242 5332 | 548 458 | 91 91 | 98.9 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 6238 6611 | 548 175 | 374 374 | 96.79 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 6549 6628 | 611 532 | 80 80 | 98.75 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 13663 13937 | 682 410 | 275 273 | 95.64 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 10976 11657 | 682 1 | 682 682 | 96.92 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 9615 9843 | 724 496 | 229 229 | 96.94 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 5482 5613 | 743 612 | 132 132 | 100.0 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 8659 8979 | 806 488 | 321 319 | 95.02 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 10409 11216 | 806 1 | 808 806 | 95.92 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 13449 13597 | 831 683 | 149 149 | 96.64 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 7734 8284 | 861 309 | 551 553 | 96.2 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 6167 6422 | 869 612 | 256 258 | 96.9 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 8447 8595 | 957 807 | 149 151 | 96.69 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 5764 5857 | 963 870 | 94 94 | 97.87 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 5001 5233 | 976 744 | 233 233 | 95.28 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 12858 13074 | 1048 832 | 217 217 | 97.24 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 10409 10784 | 1056 683 | 376 374 | 95.74 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 6665 7304 | 1119 478 | 640 642 | 95.79 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 9906 10219 | 1120 807 | 314 314 | 96.5 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 12543 12731 | 1237 1049 | 189 189 | 98.41 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 6984 7243 | 1237 978 | 260 260 | 97.31 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 13348 14160 | 1245 435 | 813 811 | 95.08 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 10094 10345 | 1308 1057 | 252 252 | 98.81 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 8785 9103 | 1308 988 | 319 321 | 98.13 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 8447 8532 | 1394 1309 | 86 86 | 100.0 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 6249 6540 | 1413 1120 | 292 294 | 97.28 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 9901 10030 | 1438 1309 | 130 130 | 96.92 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 8919 9283 | 1485 1121 | 365 365 | 97.81 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 11819 12105 | 1524 1238 | 287 287 | 97.91 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 7808 8383 | 1537 958 | 576 580 | 96.72 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 4957 5574 | 1581 964 | 618 618 | 96.28 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 8596 8729 | 1619 1486 | 134 134 | 97.01 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 6478 6857 | 1619 1238 | 380 382 | 97.12 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 4186 4874 | 1662 977 | 689 686 | 95.5 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 12795 13286 | 1735 1246 | 492 490 | 96.14 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 5764 6124 | 1774 1414 | 361 361 | 95.57 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 7734 8135 | 1798 1395 | 402 404 | 96.78 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 3618 4802 | 1798 612 | 1185 1187 | 95.87 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 4614 4893 | 1861 1582 | 280 280 | 96.07 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 7590 7670 | 1879 1799 | 81 81 | 97.53 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 5222 5326 | 1879 1775 | 105 105 | 98.1 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 12586 12731 | 1879 1736 | 146 144 | 97.26 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 8273 8532 | 1879 1620 | 260 260 | 97.31 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 7027 7368 | 1879 1538 | 342 342 | 95.91 | NC_000955.2 NZ_ABCV02000004.1
+		Skipping redundant alignment 11212 11570 | 1879 1525 | 359 355 | 95.54 | NC_000955.2 NZ_ABCV02000004.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 1816.3, number of alignments: 7, unaligned bases: 4
+		This contig is misassembled.
+			Real Alignment 1: 12606 12905 | 300 1 | 300 300 | 96.67 | NC_000955.2 NZ_ABCV02000004.1
+			  Indel (> 5bp) between these two alignments: deletion of length 63; 0 mismatches (number of Ns: 0)
+			Real Alignment 2: 12409 12542 | 434 301 | 134 134 | 100.0 | NC_000955.2 NZ_ABCV02000004.1
+			  Indel (> 5bp) between these two alignments: deletion of length 63; 0 mismatches (number of Ns: 0)
+			Real Alignment 3: 12178 12345 | 600 435 | 168 166 | 97.02 | NC_000955.2 NZ_ABCV02000004.1
+			  Indel (> 5bp) between these two alignments: deletion of length 61; 0 mismatches (number of Ns: 0)
+			Real Alignment 4: 11995 12116 | 724 601 | 122 124 | 98.39 | NC_000955.2 NZ_ABCV02000004.1
+			  Indel (> 5bp) between these two alignments: deletion of length 63; 0 mismatches (number of Ns: 0)
+			Real Alignment 5: 11806 11931 | 850 725 | 126 126 | 96.83 | NC_000955.2 NZ_ABCV02000004.1
+			  Indel (> 5bp) between these two alignments: deletion of length 185; 0 mismatches (number of Ns: 0)
+			Real Alignment 6: 11350 11620 | 1119 851 | 271 269 | 97.42 | NC_000955.2 NZ_ABCV02000004.1
+			  Indel (> 5bp) between these two alignments: deletion of length 63; 0 mismatches (number of Ns: 0)
+			Real Alignment 7: 10523 11286 | 1879 1120 | 764 760 | 95.42 | NC_000955.2 NZ_ABCV02000004.1
+
+CONTIG: NZ_ABCV02000003.1 (15397bp)
+Best alignment score: 4233.8 (LEN: 4244, IDY: 99.76), Total number of alignments: 20
+			Looking for the best set of alignments (out of 20 total alignments)
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 12552.2, number of alignments: 20, unaligned bases: 2324
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 13073 out of 15325 non-N bases (85.31%))
+			Real Alignment 1: 14530 18770 | 4244 1 | 4241 4244 | 99.76 | NC_000955.2 NZ_ABCV02000003.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 572
+			Real Alignment 2: 13056 13223 | 5146 4979 | 168 168 | 98.81 | NC_000955.2 NZ_ABCV02000003.1
+			  Indel (> 5bp) between these two alignments: deletion of length 63; 0 mismatches (number of Ns: 0)
+			Real Alignment 3: 12776 12992 | 5363 5147 | 217 217 | 99.08 | NC_000955.2 NZ_ABCV02000003.1
+			  Indel (> 5bp) between these two alignments: deletion of length 58; 0 mismatches (number of Ns: 0)
+			Real Alignment 4: 12535 12717 | 5551 5364 | 183 188 | 96.81 | NC_000955.2 NZ_ABCV02000003.1
+			  Indel (> 5bp) between these two alignments: deletion of length 63; 0 mismatches (number of Ns: 0)
+			Real Alignment 5: 12230 12471 | 5793 5552 | 242 242 | 98.35 | NC_000955.2 NZ_ABCV02000003.1
+			  Indel (> 5bp) between these two alignments: deletion of length 185; 0 mismatches (number of Ns: 0)
+			Real Alignment 6: 11921 12044 | 5917 5794 | 124 124 | 98.39 | NC_000955.2 NZ_ABCV02000003.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 311
+			Real Alignment 7: 11484 11570 | 6043 5957 | 87 87 | 98.85 | NC_000955.2 NZ_ABCV02000003.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 126
+			Real Alignment 8: 10363 11100 | 7035 6301 | 738 735 | 95.26 | NC_000955.2 NZ_ABCV02000003.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 314
+			Real Alignment 9: 9470 10048 | 7616 7036 | 579 581 | 95.35 | NC_000955.2 NZ_ABCV02000003.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 250
+			Real Alignment 10: 8346 8540 | 8490 8296 | 195 195 | 97.44 | NC_000955.2 NZ_ABCV02000003.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 246
+			Real Alignment 11: 7921 8099 | 8669 8491 | 179 179 | 98.32 | NC_000955.2 NZ_ABCV02000003.1
+			  Indel (> 5bp) between these two alignments: deletion of length 61; 0 mismatches (number of Ns: 0)
+			Real Alignment 12: 7306 7859 | 9223 8670 | 554 554 | 96.93 | NC_000955.2 NZ_ABCV02000003.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 307
+			Real Alignment 13: 6478 6611 | 9744 9611 | 134 134 | 97.01 | NC_000955.2 NZ_ABCV02000003.1
+			  Indel (> 5bp) between these two alignments: deletion of length 63; 0 mismatches (number of Ns: 0)
+			Real Alignment 14: 6105 6414 | 10056 9745 | 310 312 | 96.47 | NC_000955.2 NZ_ABCV02000003.1
+			  Indel (> 5bp) between these two alignments: deletion of length 61; 0 mismatches (number of Ns: 0)
+			Real Alignment 15: 5877 6043 | 10223 10057 | 167 167 | 95.81 | NC_000955.2 NZ_ABCV02000003.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 252
+			Real Alignment 16: 5234 5624 | 10616 10224 | 391 393 | 95.93 | NC_000955.2 NZ_ABCV02000003.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 315
+			Real Alignment 17: 4230 4918 | 11303 10617 | 689 687 | 95.94 | NC_000955.2 NZ_ABCV02000003.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 246
+			Real Alignment 18: 3713 3928 | 11573 11359 | 216 215 | 98.61 | NC_000955.2 NZ_ABCV02000003.1
+			  Indel (> 5bp) between these two alignments: deletion of length 62; 0 mismatches (number of Ns: 0)
+			Real Alignment 19: 1209 3650 | 14017 11574 | 2442 2444 | 96.77 | NC_000955.2 NZ_ABCV02000003.1
+			  Indel (> 5bp) between these two alignments: insertion of length 151; 22 mismatches (number of Ns: 0)
+			Real Alignment 20: 6 1186 | 15397 14191 | 1181 1207 | 96.44 | NC_000955.2 NZ_ABCV02000003.1
+		Unaligned bases: 2324
+
+CONTIG: NC_011853.1 (26522bp)
+Best alignment score: 26014.8 (LEN: 26516, IDY: 98.11), Total number of alignments: 1
+		One align captures most of this contig: 5 26496 | 4 26519 | 26492 26516 | 98.11 | NC_001903.1 NC_011853.1
+
+CONTIG: NC_011846.1 (14883bp)
+Best alignment score: 6830.7 (LEN: 7055, IDY: 96.82), Total number of alignments: 9
+			Looking for the best set of alignments (out of 9 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1 254 | 1 254 | 254 254 | 100.0 | NC_000953.1 NC_011846.1
+		Skipping redundant alignment 1 254 | 1 254 | 254 254 | 99.61 | NC_000949.1 NC_011846.1
+		Skipping redundant alignment 1 254 | 1 254 | 254 254 | 99.61 | NC_000951.1 NC_011846.1
+		Skipping redundant alignment 1 254 | 1 254 | 254 254 | 99.61 | NC_000950.1 NC_011846.1
+		Skipping redundant alignment 1 254 | 1 254 | 254 254 | 98.43 | NC_000954.1 NC_011846.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 7755.2, number of alignments: 4, unaligned bases: 6343
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 8540 out of 14883 non-N bases (57.38%))
+			Real Alignment 1: 1 254 | 1 254 | 254 254 | 100.0 | NC_000948.1 NC_011846.1
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 2: 16227 17392 | 255 1410 | 1166 1156 | 95.03 | NC_000949.1 NC_011846.1
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 3: 25481 25555 | 6528 6602 | 75 75 | 98.67 | NC_000956.1 NC_011846.1
+			  Gap between these two alignments (local misassembly). Inconsistency = -78
+			Real Alignment 4: 26704 33807 | 7829 14883 | 7104 7055 | 96.82 | NC_000956.1 NC_011846.1
+		Unaligned bases: 6343
+
+CONTIG: NC_011850.1 (30439bp)
+Best alignment score: 9162.2 (LEN: 9402, IDY: 97.45), Total number of alignments: 6
+			Looking for the best set of alignments (out of 6 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1 9405 | 1 9408 | 9405 9408 | 95.86 | NC_000950.1 NC_011850.1
+		Skipping redundant alignment 18689 20231 | 15141 16682 | 1543 1542 | 97.93 | NC_000956.1 NC_011850.1
+			The best set is below. Score: 12527.1, number of alignments: 4, unaligned bases: 17005
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 13434 out of 30439 non-N bases (44.13%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 30439 (number of Ns: 0) and total length of all aligns is 13434
+		Alignment: 1 9399 | 1 9402 | 9399 9402 | 97.45 | NC_000951.1 NC_011850.1
+		Alignment: 15142 16841 | 15091 16790 | 1700 1700 | 96.82 | NC_000953.1 NC_011850.1
+		Alignment: 16974 17328 | 16989 17343 | 355 355 | 95.77 | NC_000953.1 NC_011850.1
+		Alignment: 31831 33807 | 28463 30439 | 1977 1977 | 95.14 | NC_000956.1 NC_011850.1
+		Unaligned bases: 17005
+
+CONTIG: NC_011841.1 (30652bp)
+Best alignment score: 9099.0 (LEN: 9393, IDY: 96.87), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1 9395 | 1 9393 | 9395 9393 | 96.87 | NC_000953.1 NC_011841.1
+		Skipping redundant alignment 1 9395 | 1 9393 | 9395 9393 | 96.87 | NC_000948.1 NC_011841.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 9166.9, number of alignments: 2, unaligned bases: 21119
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 9533 out of 30652 non-N bases (31.10%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 30652 (number of Ns: 0) and total length of all aligns is 9533
+		Alignment: 1 9433 | 1 9429 | 9433 9429 | 96.17 | NC_000952.1 NC_011841.1
+		Alignment: 22780 22883 | 22737 22840 | 104 104 | 95.19 | NC_000952.1 NC_011841.1
+		Unaligned bases: 21119
+
+CONTIG: NC_011851.1 (30280bp)
+Best alignment score: 11196.8 (LEN: 11706, IDY: 95.65), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 13123.8, number of alignments: 2, unaligned bases: 16575
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 13705 out of 30280 non-N bases (45.26%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 30280 (number of Ns: 0) and total length of all aligns is 13705
+		Alignment: 15139 26771 | 15193 26898 | 11633 11706 | 95.65 | NC_000949.1 NC_011851.1
+		Alignment: 28228 30223 | 28282 30280 | 1996 1999 | 96.4 | NC_000949.1 NC_011851.1
+		Unaligned bases: 16575
+
+CONTIG: NC_011849.1 (30300bp)
+Best alignment score: 9110.5 (LEN: 9401, IDY: 96.91), Total number of alignments: 5
+			Looking for the best set of alignments (out of 5 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 15139 16468 | 14890 16220 | 1330 1331 | 97.67 | NC_000949.1 NC_011849.1
+			The best set is below. Score: 16434.5, number of alignments: 4, unaligned bases: 12994
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 17306 out of 30300 non-N bases (57.12%))
+			Real Alignment 1: 1 9400 | 1 9401 | 9400 9401 | 96.91 | NC_000950.1 NC_011849.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 204
+			Real Alignment 2: 15143 16430 | 14940 16227 | 1288 1288 | 98.68 | NC_000950.1 NC_011849.1
+			  Gap between these two alignments (local misassembly). Inconsistency = -769
+			Real Alignment 3: 17566 22193 | 18132 22765 | 4628 4634 | 96.22 | NC_000950.1 NC_011849.1
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 4: 27857 29838 | 28318 30300 | 1982 1983 | 95.47 | NC_000951.1 NC_011849.1
+		Unaligned bases: 12994
+
+CONTIG: NC_011843.1 (30293bp)
+Best alignment score: 14099.6 (LEN: 14781, IDY: 95.39), Total number of alignments: 6
+			Looking for the best set of alignments (out of 6 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1 9434 | 1 9435 | 9434 9435 | 97.28 | NC_000953.1 NC_011843.1
+		Skipping redundant alignment 1 9434 | 1 9435 | 9434 9435 | 97.28 | NC_000948.1 NC_011843.1
+		Skipping redundant alignment 15158 16489 | 15154 16486 | 1332 1333 | 97.23 | NC_000951.1 NC_011843.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 19985.8, number of alignments: 3, unaligned bases: 8905
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 21388 out of 30293 non-N bases (70.60%))
+			Real Alignment 1: 1 14773 | 1 14781 | 14773 14781 | 95.39 | NC_000952.1 NC_011843.1
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 2: 15142 16841 | 15154 16854 | 1700 1701 | 97.0 | NC_000953.1 NC_011843.1
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 3: 18134 23033 | 18191 23096 | 4900 4906 | 96.58 | NC_000951.1 NC_011843.1
+		Unaligned bases: 8905
+
+CONTIG: NC_011845.1 (21329bp)
+Best alignment score: 5337.1 (LEN: 5541, IDY: 96.32), Total number of alignments: 13
+			Looking for the best set of alignments (out of 13 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1 374 | 1 374 | 374 374 | 99.47 | NC_000948.1 NC_011845.1
+		Skipping redundant alignment 1 374 | 1 374 | 374 374 | 99.47 | NC_000953.1 NC_011845.1
+		Skipping redundant alignment 1 374 | 1 374 | 374 374 | 99.2 | NC_000951.1 NC_011845.1
+		Skipping redundant alignment 1 374 | 1 374 | 374 374 | 97.86 | NC_000954.1 NC_011845.1
+		Skipping redundant alignment 541 6081 | 375 5915 | 5541 5541 | 95.98 | NC_000948.1 NC_011845.1
+		Skipping redundant alignment 541 6081 | 375 5915 | 5541 5541 | 95.98 | NC_000953.1 NC_011845.1
+		Skipping redundant alignment 540 6080 | 375 5915 | 5541 5541 | 95.49 | NC_000952.1 NC_011845.1
+		Skipping redundant alignment 18689 20229 | 6717 8257 | 1541 1541 | 98.38 | NC_000956.1 NC_011845.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 11914.2, number of alignments: 5, unaligned bases: 8686
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 12643 out of 21329 non-N bases (59.28%))
+			Real Alignment 1: 1 374 | 1 374 | 374 374 | 99.73 | NC_000949.1 NC_011845.1
+			  Indel (> 5bp) between these two alignments: deletion of length 166; 0 mismatches (number of Ns: 0)
+			Real Alignment 2: 541 6081 | 375 5915 | 5541 5541 | 96.32 | NC_000949.1 NC_011845.1
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 3: 15158 16489 | 6667 7999 | 1332 1333 | 98.2 | NC_000951.1 NC_011845.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 20
+			Real Alignment 4: 17390 20801 | 8880 12290 | 3412 3411 | 95.52 | NC_000951.1 NC_011845.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 5: 27857 29838 | 19346 21329 | 1982 1984 | 95.16 | NC_000951.1 NC_011845.1
+		Unaligned bases: 8686
+
+CONTIG: NC_011847.1 (30946bp)
+Best alignment score: 14161.7 (LEN: 14781, IDY: 95.81), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+			The best set is below. Score: 23976.9, number of alignments: 4, unaligned bases: 5820
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 25126 out of 30946 non-N bases (81.19%))
+			Real Alignment 1: 1 14773 | 1 14781 | 14773 14781 | 95.81 | NC_000952.1 NC_011847.1
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 2: 15142 16733 | 15154 16746 | 1592 1593 | 97.61 | NC_000953.1 NC_011847.1
+			  Gap between these two alignments (local misassembly). Inconsistency = -130
+			Real Alignment 3: 16973 17511 | 17116 17654 | 539 539 | 95.73 | NC_000953.1 NC_011847.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 68
+			Real Alignment 4: 18142 26336 | 18217 26429 | 8195 8213 | 97.35 | NC_000953.1 NC_011847.1
+		Unaligned bases: 5820
+
+CONTIG: NC_011865.1 (17849bp)
+Best alignment score: 6049.3 (LEN: 6200, IDY: 97.57), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 15332 15429 | 1462 1558 | 98 97 | 98.98 | NC_001849.2 NC_011865.1
+			The best set is below. Score: 12250.3, number of alignments: 3, unaligned bases: 5331
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 12518 out of 17849 non-N bases (70.13%))
+			Real Alignment 1: 15432 16821 | 1459 71 | 1390 1389 | 97.7 | NC_001849.2 NC_011865.1
+			  Indel (<= 5bp) between these two alignments: deletion of length 1; 98 mismatches (number of Ns: 0)
+			Real Alignment 2: 10428 15331 | 6487 1559 | 4904 4929 | 98.76 | NC_001849.2 NC_011865.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 241
+			Real Alignment 3: 3997 10186 | 12687 6488 | 6190 6200 | 97.57 | NC_001849.2 NC_011865.1
+		Unaligned bases: 5331
+
+CONTIG: NC_011863.1 (24910bp)
+Best alignment score: 4062.2 (LEN: 4109, IDY: 98.86), Total number of alignments: 5
+			Looking for the best set of alignments (out of 5 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 35852 36380 | 7414 6892 | 529 523 | 95.28 | NC_001855.1 NC_011863.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 6295.6, number of alignments: 4, unaligned bases: 17694
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 7216 out of 24910 non-N bases (28.97%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 24910 (number of Ns: 0) and total length of all aligns is 7216
+		Alignment: 26344 26872 | 7414 6892 | 529 523 | 95.84 | NC_001854.1 NC_011863.1
+		Alignment: 9453 10842 | 9428 10807 | 1390 1380 | 97.05 | NC_001850.1 NC_011863.1
+		Alignment: 2807 4011 | 19390 18187 | 1205 1204 | 95.1 | NC_001852.1 NC_011863.1
+		Alignment: 1 4117 | 24837 20729 | 4117 4109 | 98.86 | NC_001852.1 NC_011863.1
+		Unaligned bases: 17694
+
+CONTIG: NC_011864.1 (24159bp)
+Best alignment score: 5451.9 (LEN: 5522, IDY: 98.73), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 11664 11846 | 8372 8190 | 183 183 | 97.81 | NC_001851.2 NC_011864.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 9186.9, number of alignments: 3, unaligned bases: 14311
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 9848 out of 24159 non-N bases (40.76%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 24159 (number of Ns: 0) and total length of all aligns is 9848
+		Alignment: 905198 910695 | 5525 4 | 5498 5522 | 98.73 | NC_001318.1 NC_011864.1
+		Alignment: 903449 904148 | 6224 5524 | 700 701 | 99.0 | NC_001318.1 NC_011864.1
+		Alignment: 11927 15550 | 8641 12267 | 3624 3627 | 97.74 | NC_001851.2 NC_011864.1
+		Unaligned bases: 14311
+
+CONTIG: NC_011874.1 (28770bp)
+Best alignment score: 27390.9 (LEN: 27559, IDY: 99.39), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 28146.2, number of alignments: 2, unaligned bases: 56
+		This contig is misassembled.
+			Excluding internal overlap of size 291 between Alignment 1 and 2: 25878 27323 | 27284 28729 | 1446 1446 --> 26169 27323 | 27575 28729 | 1155 1155
+			Real Alignment 1: 2 27577 | 16 27574 | 27576 27559 | 99.39 | NC_001853.1 NC_011874.1
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 2: 26169 27323 | 27575 28729 | 1155 1155 | 99.72 | NC_001854.1 NC_011874.1
+
+CONTIG: NC_011862.1 (29501bp)
+Best alignment score: 22271.8 (LEN: 22724, IDY: 98.01), Total number of alignments: 8
+			Looking for the best set of alignments (out of 8 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 52624 52798 | 1142 966 | 175 177 | 95.48 | NC_000956.1 NC_011862.1
+		Skipping redundant alignment 140 314 | 966 1142 | 175 177 | 95.48 | NC_001849.2 NC_011862.1
+		Skipping redundant alignment 201 375 | 966 1142 | 175 177 | 95.48 | NC_001853.1 NC_011862.1
+		Skipping redundant alignment 1180 1766 | 2743 3331 | 587 589 | 95.93 | NC_000955.2 NC_011862.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 24503.9, number of alignments: 4, unaligned bases: 3499
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 26002 out of 29501 non-N bases (88.14%))
+			Real Alignment 1: 1667 2109 | 522 965 | 443 444 | 97.75 | NC_001851.2 NC_011862.1
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 2222 between Alignment 2 and 3: 23017 25877 | 23598 26458 | 2861 2861 --> 25239 25877 | 25820 26458 | 639 639
+			Real Alignment 2: 1627 24148 | 3096 25819 | 22522 22724 | 98.01 | NC_001854.1 NC_011862.1
+			  Extensive misassembly (relocation, inconsistency = 1090) between these two alignments
+			Real Alignment 3: 25239 25877 | 25820 26458 | 639 639 | 98.6 | NC_001854.1 NC_011862.1
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 4: 1 2197 | 29497 27303 | 2197 2195 | 98.82 | NC_001855.1 NC_011862.1
+		Unaligned bases: 3499
+
+CONTIG: NC_011866.1 (27342bp)
+Best alignment score: 1636.9 (LEN: 1643, IDY: 99.63), Total number of alignments: 8
+			Looking for the best set of alignments (out of 8 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1667 2084 | 538 955 | 418 418 | 97.13 | NC_001851.2 NC_011866.1
+		Skipping redundant alignment 27039 27554 | 2913 2398 | 516 516 | 99.42 | NC_001853.1 NC_011866.1
+		Skipping redundant alignment 27039 27553 | 10434 9920 | 515 515 | 99.42 | NC_001853.1 NC_011866.1
+			The best set is below. Score: 4983.8, number of alignments: 5, unaligned bases: 21233
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 6109 out of 27342 non-N bases (22.34%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 27342 (number of Ns: 0) and total length of all aligns is 6109
+		Alignment: 1 1642 | 762 2404 | 1642 1643 | 99.63 | NC_001851.2 NC_011866.1
+		Alignment: 2805 4117 | 3762 2446 | 1313 1317 | 97.11 | NC_001852.1 NC_011866.1
+		Alignment: 2807 4117 | 11278 9967 | 1311 1312 | 97.33 | NC_001852.1 NC_011866.1
+		Alignment: 5405 5757 | 16679 16329 | 353 351 | 95.48 | NC_001851.2 NC_011866.1
+		Alignment: 35364 36849 | 25839 27324 | 1486 1486 | 98.19 | NC_001855.1 NC_011866.1
+		Unaligned bases: 21233
+
+CONTIG: NC_011872.1 (26705bp)
+Best alignment score: 13526.7 (LEN: 14026, IDY: 96.44), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 2400 2497 | 25325 25228 | 98 98 | 100.0 | NC_001851.2 NC_011872.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 13613.7, number of alignments: 2, unaligned bases: 12590
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 14115 out of 26705 non-N bases (52.86%))
+			Real Alignment 1: 8846 8934 | 6713 6801 | 89 89 | 97.75 | NC_001852.1 NC_011872.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 114
+			Real Alignment 2: 9743 23727 | 7496 21521 | 13985 14026 | 96.44 | NC_001852.1 NC_011872.1
+		Unaligned bases: 12590
+
+CONTIG: NC_011870.1 (23638bp)
+Best alignment score: 13222.9 (LEN: 13284, IDY: 99.54), Total number of alignments: 12
+			Looking for the best set of alignments (out of 12 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 52890 52970 | 89 9 | 81 81 | 98.77 | NC_000956.1 NC_011870.1
+		Skipping redundant alignment 2 88 | 3 89 | 87 87 | 98.85 | NC_001853.1 NC_011870.1
+		Skipping redundant alignment 1 83 | 12 94 | 83 83 | 97.59 | NC_001849.2 NC_011870.1
+		Skipping redundant alignment 1209 1369 | 1276 1438 | 161 163 | 95.09 | NC_001854.1 NC_011870.1
+		Skipping redundant alignment 10655 11657 | 18661 17666 | 1003 996 | 98.31 | NC_001851.2 NC_011870.1
+		Skipping redundant alignment 34385 35481 | 21161 22256 | 1097 1096 | 98.91 | NC_001855.1 NC_011870.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 19896.4, number of alignments: 6, unaligned bases: 2430
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 21208 out of 23638 non-N bases (89.72%))
+			Excluding internal overlap of size 1 between Alignment 1 and 2: 19301 23197 | 14510 18418 | 3897 3909 --> 19302 23197 | 14511 18418 | 3896 3908
+			Real Alignment 1: 3808 17087 | 1227 14510 | 13280 13284 | 99.54 | NC_001855.1 NC_011870.1
+			  Extensive misassembly (relocation, inconsistency = 2214) between these two alignments
+			Real Alignment 2: 19302 23197 | 14511 18418 | 3896 3908 | 98.7 | NC_001855.1 NC_011870.1
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 3: 10271 10522 | 19608 19359 | 252 250 | 97.22 | NC_001851.2 NC_011870.1
+			  Indel (> 5bp) between these two alignments: insertion of length 62; 0 mismatches (number of Ns: 0)
+			Excluding internal overlap of size 71 between Alignment 4 and 5: 9778 10270 | 20163 19671 | 493 493 --> 9849 10270 | 20092 19671 | 422 422
+			Real Alignment 4: 9849 10270 | 20092 19671 | 422 422 | 97.77 | NC_001851.2 NC_011870.1
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 5: 3153 4117 | 20093 21059 | 965 967 | 95.45 | NC_001852.1 NC_011870.1
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 6: 1 2392 | 23622 21246 | 2392 2377 | 95.78 | NC_000956.1 NC_011870.1
+		Unaligned bases: 2430
+
+CONTIG: NC_011868.1 (30302bp)
+Best alignment score: 4642.1 (LEN: 4801, IDY: 96.69), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 2877 2988 | 22550 22661 | 112 112 | 95.54 | NC_000956.1 NC_011868.1
+			The best set is below. Score: 4642.1, number of alignments: 1, unaligned bases: 25501
+		This contig is partially unaligned. (Aligned 4801 out of 30302 non-N bases (15.84%))
+		Alignment: 24 4829 | 30228 25428 | 4806 4801 | 96.69 | NC_001850.1 NC_011868.1
+		Unaligned bases: 1 to 25427 (25427)
+		Unaligned bases: 30229 to 30302 (74)
+
+CONTIG: NC_011876.1 (53885bp)
+Best alignment score: 30245.0 (LEN: 30397, IDY: 99.50), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+			The best set is below. Score: 51274.6, number of alignments: 4, unaligned bases: 2084
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 51801 out of 53885 non-N bases (96.13%))
+			Real Alignment 1: 3 15804 | 1 15827 | 15802 15827 | 99.48 | NC_001857.2 NC_011876.1
+			  Gap between these two alignments (local misassembly). Inconsistency = -22
+			Real Alignment 2: 16074 46464 | 16119 46515 | 30391 30397 | 99.5 | NC_001857.2 NC_011876.1
+			  Extensive misassembly (relocation, inconsistency = -1127) between these two alignments
+			Real Alignment 3: 47131 48386 | 48309 49565 | 1256 1257 | 99.76 | NC_001857.2 NC_011876.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 951
+			Real Alignment 4: 49338 53657 | 49566 53885 | 4320 4320 | 99.65 | NC_001857.2 NC_011876.1
+		Unaligned bases: 2084
+
+CONTIG: NZ_ABCV02000002.1 (1638bp)
+Best alignment score: 1635.1 (LEN: 1638, IDY: 99.82), Total number of alignments: 1
+		One align captures most of this contig: 437657 439294 | 1 1638 | 1638 1638 | 99.82 | NC_001318.1 NZ_ABCV02000002.1
+
+CONTIG: NZ_ABCV02000001.1 (908814bp)
+Best alignment score: 464142.8 (LEN: 466569, IDY: 99.48), Total number of alignments: 7
+			Looking for the best set of alignments (out of 7 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 26196 26736 | 541 1 | 541 541 | 99.82 | NC_001854.1 NZ_ABCV02000001.1
+		Skipping redundant alignment 1366 1497 | 543 674 | 132 132 | 96.21 | NC_000956.1 NZ_ABCV02000001.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 898236.9, number of alignments: 5, unaligned bases: 4720
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 904094 out of 908807 non-N bases (99.48%))
+			Excluding internal overlap of size 4 between Alignment 1 and 2: 35350 35486 | 674 538 | 137 137 --> 35350 35482 | 674 542 | 133 133
+			Real Alignment 1: 35704 36247 | 541 1 | 544 541 | 98.9 | NC_001855.1 NZ_ABCV02000001.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 221
+			Real Alignment 2: 35350 35482 | 674 542 | 133 133 | 99.27 | NC_001855.1 NZ_ABCV02000001.1
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 3: 905332 907024 | 7075 5385 | 1693 1691 | 99.23 | NC_001318.1 NZ_ABCV02000001.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 264
+			Excluding internal overlap of size 3168 between Alignment 4 and 5: 60 438346 | 908804 470477 | 438287 438328 --> 60 435178 | 908804 473645 | 435119 435160
+			Real Alignment 4: 438424 905067 | 473644 7076 | 466644 466569 | 99.48 | NC_001318.1 NZ_ABCV02000001.1
+			  Extensive misassembly (relocation, inconsistency = 3245) between these two alignments
+			Real Alignment 5: 60 435178 | 908804 473645 | 435119 435160 | 99.4 | NC_001318.1 NZ_ABCV02000001.1
+		Unaligned bases: 4720
+
+Analyzing coverage...
+Writing SNPs into /home/mf019/longread_pangenome/expanded_dataset_analysis/quast/GCF_000181555.2_ASM18155v2_genomic/contigs_reports/minimap_output/GCF_000181555-2_ASM18155v2_genomic.used_snps
+
+Analysis is finished!
+Founded SNPs were written into /home/mf019/longread_pangenome/expanded_dataset_analysis/quast/GCF_000181555.2_ASM18155v2_genomic/contigs_reports/minimap_output/GCF_000181555-2_ASM18155v2_genomic.used_snps
+
+Results:
+	Local Misassemblies: 26
+	Misassemblies: 18
+		Relocations: 4
+		Translocations: 14
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 10
+	Misassembled Contig Bases: 1172359
+	Misassemblies Inter-Contig Overlap ("Extra" Aligned Bases): 0
+Unaligned Contigs: 0 + 19 part
+Half Unaligned Contigs with Misassemblies: 6
+Unaligned Bases in Fully and Partially Unaligned Contigs: 209130
+
+Ambiguously Mapped Contigs: 16
+Total Bases in Ambiguously Mapped Contigs: 1157498
+"Extra" Aligned Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used (there is no "extra" aligned bases).
+
+	Covered Bases in Reference: 1206578
+	Raw Aligned Bases in Assembly: 1260214
+	Total Aligned Bases in Assembly (with "Extras"): 1260214
+
+	SNPs: 11109
+	Insertions: 1596
+	Deletions: 3838
+

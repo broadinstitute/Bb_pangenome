@@ -1,0 +1,23 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     XYZ459H
+# misassemblies              8      
+  # contig misassemblies     8      
+    # c. relocations         2      
+    # c. translocations      6      
+    # c. inversions          0      
+  # scaffold misassemblies   0      
+    # s. relocations         0      
+    # s. translocations      0      
+    # s. inversions          0      
+# misassembled contigs       5      
+Misassembled contigs length  101197 
+# local misassemblies        6      
+# scaffold gap ext. mis.     0      
+# scaffold gap loc. mis.     0      
+# unaligned mis. contigs     2      
+# mismatches                 8731   
+# indels                     515    
+    # indels (<= 5 bp)       442    
+    # indels (> 5 bp)        73     
+Indels length                2518   

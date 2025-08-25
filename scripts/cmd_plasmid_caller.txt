@@ -1,0 +1,1 @@
+docker run --rm -v $(pwd):/data -it mjfos2r/plasmid_caller --output genotyping/replicons --cpus 32 --job_threads 4 --input assemblies/complete_all

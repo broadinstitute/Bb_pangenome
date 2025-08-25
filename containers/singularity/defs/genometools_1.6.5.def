@@ -1,0 +1,20 @@
+Bootstrap: docker
+From: linuxcontainers/debian-slim:latest
+
+%post
+    apt-get update && apt-get install -y genometools
+
+%test
+    grep -q NAME=\"Debian GNU/Linux\" /etc/os-release
+    if [ $? -eq 0 ]; then
+        echo "Container base is Debian as expected."
+    else
+        echo "Container base is not debian."
+        cat /etc/os-release
+    fi
+
+    gt -version
+
+%labels
+    Maintainer mjf
+    Version genometools_1.6.5

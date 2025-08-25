@@ -1,0 +1,23 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     URI120H
+# misassemblies              15     
+  # contig misassemblies     15     
+    # c. relocations         5      
+    # c. translocations      8      
+    # c. inversions          2      
+  # scaffold misassemblies   0      
+    # s. relocations         0      
+    # s. translocations      0      
+    # s. inversions          0      
+# misassembled contigs       9      
+Misassembled contigs length  249035 
+# local misassemblies        6      
+# scaffold gap ext. mis.     0      
+# scaffold gap loc. mis.     0      
+# unaligned mis. contigs     1      
+# mismatches                 3697   
+# indels                     467    
+    # indels (<= 5 bp)       402    
+    # indels (> 5 bp)        65     
+Indels length                3624   

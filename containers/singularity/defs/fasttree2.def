@@ -1,0 +1,17 @@
+Bootstrap: docker
+From: linuxcontainers/debian-slim:latest
+
+%post
+    apt-get update && apt-get install -y fasttree=2.1.11-2
+
+%test
+    if command -v fasttreeMP > /dev/null 2>&1; then \
+        echo "✓ fasttreeMP exists" && \
+        echo "Location: $(which ktImportText)"; \
+    else \
+        echo "✗ fasttreeMP not found" && \
+        exit 1; \
+    fi
+%labels
+    Maintainer mjf
+    Version genometools_1.6.5

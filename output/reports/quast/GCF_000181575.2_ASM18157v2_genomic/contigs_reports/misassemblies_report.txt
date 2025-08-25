@@ -1,0 +1,23 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     GCF_000181575.2_ASM18157v2_genomic
+# misassemblies              10                                
+  # contig misassemblies     10                                
+    # c. relocations         1                                 
+    # c. translocations      9                                 
+    # c. inversions          0                                 
+  # scaffold misassemblies   0                                 
+    # s. relocations         0                                 
+    # s. translocations      0                                 
+    # s. inversions          0                                 
+# misassembled contigs       6                                 
+Misassembled contigs length  156416                            
+# local misassemblies        5                                 
+# scaffold gap ext. mis.     0                                 
+# scaffold gap loc. mis.     0                                 
+# unaligned mis. contigs     1                                 
+# mismatches                 6904                              
+# indels                     420                               
+    # indels (<= 5 bp)       365                               
+    # indels (> 5 bp)        55                                
+Indels length                1810                              

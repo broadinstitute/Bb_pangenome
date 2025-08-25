@@ -1,0 +1,69 @@
+Bootstrap: docker
+From: alpine:3.12
+
+%labels
+    AUTHOR oliver.schwengers@computational.bio.uni-giessen.de,lukas.jelonek@computational.bio.uni-giessen.de
+    URL https://github.com/oschwengers/bakta
+    DOCUMENTATION https://github.com/oschwengers/bakta/readme.md
+    TITLE Bakta
+    DESCRIPTION Rapid & standardized annotation of bacterial genomes, MAGs & plasmids
+
+%files
+    environment.yml /tmp/
+    . /tmp/source/
+
+%post
+    # Update and install basic requirements
+    apk update && apk add wget tar bash
+
+    # Install glibc
+    wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub
+    wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.32-r0/glibc-2.32-r0.apk
+    apk add glibc-2.32-r0.apk
+    rm glibc-2.32-r0.apk
+
+    # Install micromamba
+    wget --no-iri -qO- https://micromamba.snakepit.net/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
+    touch /root/.bashrc
+    
+    # Initialize micromamba with updated syntax
+    export MAMBA_ROOT_PREFIX=/opt/conda
+    ./bin/micromamba shell init --shell bash --prefix /opt/conda
+    cp /root/.bashrc /opt/conda/bashrc
+
+    # Install environment
+    source /opt/conda/bashrc
+    micromamba activate
+    micromamba install -y -n base -f /tmp/environment.yml
+    micromamba clean --all --yes
+
+    # Install Bakta
+    source /opt/conda/bashrc
+    micromamba activate
+    python3 -m pip install --no-cache /tmp/source/
+
+    # Create entrypoint script
+    echo '#!/bin/bash' > /entrypoint.sh
+    echo 'source /opt/conda/bashrc' >> /entrypoint.sh
+    echo 'micromamba activate' >> /entrypoint.sh
+    echo 'bakta "$@"' >> /entrypoint.sh
+    chmod +x /entrypoint.sh
+
+    # Setup bash wrapper for environment activation
+    mv /bin/bash /bin/bash.orig
+    echo '#!/bin/bash.orig' >> /bin/bash
+    echo 'if [[ -z $MAMBA_INITIALIZED ]]' >> /bin/bash
+    echo 'then' >> /bin/bash
+    echo 'source /opt/conda/bashrc' >> /bin/bash
+    echo 'micromamba activate' >> /bin/bash
+    echo 'export MAMBA_INITIALIZED=1' >> /bin/bash
+    echo 'fi' >> /bin/bash
+    echo '/bin/bash.orig "$@"' >> /bin/bash
+    chmod +x /bin/bash
+
+%environment
+    export PATH="/opt/conda/bin:$PATH"
+    export MAMBA_ROOT_PREFIX="/opt/conda"
+
+%runscript
+    exec /entrypoint.sh "$@"
