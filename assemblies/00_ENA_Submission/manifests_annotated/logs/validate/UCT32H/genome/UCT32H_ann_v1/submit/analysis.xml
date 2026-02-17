@@ -1,0 +1,23 @@
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-UCT32H_ann_v1">
+    <TITLE>Genome assembly: UCT32H_ann_v1</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN12009590" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>UCT32H_ann_v1</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>151.331664</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/UCT32H_ann_v1/UCT32H.chromosome_list.tsv.gz" filetype="chromosome_list" checksum_method="MD5" checksum="03f4e47827c9e11c3c1e089811c97f8d" />
+      <FILE filename="webin-cli/genome/UCT32H_ann_v1/UCT32H.unlocalised_list.tsv.gz" filetype="unlocalised_list" checksum_method="MD5" checksum="ff8bb6a2be71f8208594aa0d731969af" />
+      <FILE filename="webin-cli/genome/UCT32H_ann_v1/UCT32H.embl.gz" filetype="flatfile" checksum_method="MD5" checksum="eadb090468e412d87a468d622bd0db3d" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>

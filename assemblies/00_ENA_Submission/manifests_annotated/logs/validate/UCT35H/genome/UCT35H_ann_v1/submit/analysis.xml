@@ -1,0 +1,22 @@
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-UCT35H_ann_v1">
+    <TITLE>Genome assembly: UCT35H_ann_v1</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN12009599" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>UCT35H_ann_v1</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>62.977694666666665</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/UCT35H_ann_v1/UCT35H.chromosome_list.tsv.gz" filetype="chromosome_list" checksum_method="MD5" checksum="7d944925ffec86457b79b71bdb4bbe8c" />
+      <FILE filename="webin-cli/genome/UCT35H_ann_v1/UCT35H.embl.gz" filetype="flatfile" checksum_method="MD5" checksum="1ca9def03b3c709c10d8241412b35245" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>
