@@ -1,0 +1,86 @@
+contig_id	assembly_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	concat_call	multiple_loci
+contig_1 [gcode=11] [topology=linear]	URI112H	903099	B379_chromosome_ParA_2	chromosome	B379	903099	380	100.0	0.12147062503667924	1097	365	[(1, 366)]	[(368573, 369670)]	[(1, 366)]		False
+contig_10 [gcode=11] [topology=linear]	URI112H	25147	RS00365_JD1_JD1_lp28-1_ParA_X	lp28-1	RS00365	25147	254	100.0	3.026205909253589	761	253	[(1, 254)]	[(14602, 15363)]	[(1, 254)]		False
+contig_11 [gcode=11] [topology=linear]	URI112H	24789	RS00670_JD1_JD1_lp25_ParA_X	lp25	RS00670	24789	252	100.0	3.0457057565855825	755	251	[(1, 252)]	[(11813, 12568)]	[(1, 252)]		False
+contig_12 [gcode=11] [topology=linear]	URI112H	24214	RS07610_JD1_JD1_lp28-6_ParA_X	lp28-6	RS07610	24214	251	100.0	3.105641364499876	752	250	[(1, 251)]	[(1190, 1942)]	[(1, 251)]		False
+contig_13 [gcode=11] [topology=linear]	URI112H	21546	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	21546	246	100.0	6.729787431541817	1450	241	[(1, 242)]	[(6476, 7201), (84, 809)]	[(1, 242), (1, 242)]	lp17*	True
+contig_14 [gcode=11] [topology=linear]	URI112H	21163	RS01730_MM1_plsm_cp32-9_ParA_X	cp32-9	RS01730	21163	251	100.0	3.5108443982422153	743	247	[(1, 248)]	[(3, 746)]	[(1, 248)]		False
+contig_15 [gcode=11] [topology=linear]	URI112H	21094	O32_B31_cp32-7_ParA_X	cp32-7	O32	21094	249	100.0	3.5365506779178912	746	248	[(1, 249)]	[(13683, 14429)]	[(1, 249)]		False
+contig_16 [gcode=11] [topology=linear]	URI112H	12616	297_cp32-12_ParA_X	cp32-12	297	12616	260	100.0	6.174698795180722	779	259	[(1, 260)]	[(7498, 8277)]	[(1, 260)]		False
+contig_17 [gcode=11] [topology=linear]	URI112H	11756				11756										False
+contig_18 [gcode=11] [topology=linear]	URI112H	7809	RS00880_JD1_JD1_cp32-11_ParA_X	cp32-11	RS00880	7809	252	100.0	9.668331412472787	755	251	[(1, 252)]	[(391, 1146)]	[(1, 252)]		False
+contig_19 [gcode=11] [topology=linear]	URI112H	6797	S35_B31_cp32-3_ParA_X	cp32-3	S35	6797	246	100.0	10.843018978961307	737	245	[(1, 246)]	[(391, 1128)]	[(1, 246)]		False
+contig_2 [gcode=11] [topology=linear]	URI112H	71363	B379_chromosome_ParA_5	chromosome	B379	71363	262	82.5147347740668	2.1369617308689377	1525	261	[(1, 262)]	[(14026, 14811), (35732, 36472)]	[(1, 262), (3, 249)]	chromosome*	True
+contig_20 [gcode=11] [topology=linear]	URI112H	4219				4219										False
+contig_21 [gcode=11] [topology=linear]	URI112H	2744	RS01295_JD1_JD1_cp32-1+5_ParA_X	cp32-1+5	RS01295	2744	257	100.0	28.061224489795915	770	256	[(1, 257)]	[(1286, 2056)]	[(1, 257)]		False
+contig_22 [gcode=11] [topology=linear]	URI112H	1235				1235										False
+contig_23 [gcode=11] [topology=linear]	URI112H	1111				1111										False
+contig_24 [gcode=11] [topology=linear]	URI112H	1012				1012										False
+contig_25 [gcode=11] [topology=linear]	URI112H	966				966										False
+contig_26 [gcode=11] [topology=linear]	URI112H	956				956										False
+contig_27 [gcode=11] [topology=linear]	URI112H	946				946										False
+contig_28 [gcode=11] [topology=linear]	URI112H	926				926										False
+contig_29 [gcode=11] [topology=linear]	URI112H	914				914										False
+contig_3 [gcode=11] [topology=linear]	URI112H	53893	A20_B31_lp54_ParA_X	lp54	A20	53893	250	100.0	1.3897908819327185	749	249	[(1, 250)]	[(39518, 40267)]	[(1, 250)]		False
+contig_30 [gcode=11] [topology=linear]	URI112H	908				908										False
+contig_31 [gcode=11] [topology=linear]	URI112H	870				870										False
+contig_32 [gcode=11] [topology=linear]	URI112H	832				832										False
+contig_33 [gcode=11] [topology=linear]	URI112H	805				805										False
+contig_34 [gcode=11] [topology=linear]	URI112H	769				769										False
+contig_35 [gcode=11] [topology=linear]	URI112H	705				705										False
+contig_36 [gcode=11] [topology=linear]	URI112H	697				697										False
+contig_37 [gcode=11] [topology=linear]	URI112H	645				645										False
+contig_38 [gcode=11] [topology=linear]	URI112H	607				607										False
+contig_39 [gcode=11] [topology=linear]	URI112H	593				593										False
+contig_4 [gcode=11] [topology=linear]	URI112H	44674	RS07790_JD1_JD1_lp38_ParA_X	lp38	RS07790	44674	245	100.0	1.6430138335497158	734	244	[(1, 245)]	[(13188, 13922)]	[(1, 245)]		False
+contig_40 [gcode=11] [topology=linear]	URI112H	501				501										False
+contig_41 [gcode=11] [topology=linear]	URI112H	500				500										False
+contig_42 [gcode=11] [topology=linear]	URI112H	463				463										False
+contig_43 [gcode=11] [topology=linear]	URI112H	454				454										False
+contig_44 [gcode=11] [topology=linear]	URI112H	450				450										False
+contig_45 [gcode=11] [topology=linear]	URI112H	448				448										False
+contig_46 [gcode=11] [topology=linear]	URI112H	425				425										False
+contig_47 [gcode=11] [topology=linear]	URI112H	420				420										False
+contig_48 [gcode=11] [topology=linear]	URI112H	413				413										False
+contig_49 [gcode=11] [topology=linear]	URI112H	408				408										False
+contig_5 [gcode=11] [topology=linear]	URI112H	30725	RS01500_JD1_JD1_cp32-8_ParA_X	cp32-8	RS01500	30725	246	100.0	2.3791700569568754	731	243	[(1, 244)]	[(26329, 27060)]	[(1, 244)]		False
+contig_50 [gcode=11] [topology=linear]	URI112H	398				398										False
+contig_51 [gcode=11] [topology=linear]	URI112H	387				387										False
+contig_52 [gcode=11] [topology=linear]	URI112H	365				365										False
+contig_53 [gcode=11] [topology=linear]	URI112H	338				338										False
+contig_54 [gcode=11] [topology=linear]	URI112H	315				315										False
+contig_55 [gcode=11] [topology=linear]	URI112H	314				314										False
+contig_56 [gcode=11] [topology=linear]	URI112H	299				299										False
+contig_57 [gcode=11] [topology=linear]	URI112H	285				285										False
+contig_58 [gcode=11] [topology=linear]	URI112H	260				260										False
+contig_59 [gcode=11] [topology=linear]	URI112H	242				242										False
+contig_6 [gcode=11] [topology=linear]	URI112H	30638	RS01520_MM1_plsm_cp32-6_ParA_X	cp32-6	RS01520	30638	249	100.0	2.4348847836020626	746	248	[(1, 249)]	[(2661, 3407)]	[(1, 249)]		False
+contig_60 [gcode=11] [topology=linear]	URI112H	242				242										False
+contig_61 [gcode=11] [topology=linear]	URI112H	236				236										False
+contig_62 [gcode=11] [topology=linear]	URI112H	216				216										False
+contig_63 [gcode=11] [topology=linear]	URI112H	216				216										False
+contig_64 [gcode=11] [topology=linear]	URI112H	215				215										False
+contig_65 [gcode=11] [topology=linear]	URI112H	210				210										False
+contig_66 [gcode=11] [topology=linear]	URI112H	206				206										False
+contig_67 [gcode=11] [topology=linear]	URI112H	176				176										False
+contig_68 [gcode=11] [topology=linear]	URI112H	169				169										False
+contig_69 [gcode=11] [topology=linear]	URI112H	169				169										False
+contig_7 [gcode=11] [topology=linear]	URI112H	30301	B379_cp32-2_ParA_1	cp32-2	B379	30301	251	100.0	2.481766278340649	752	250	[(1, 251)]	[(9200, 9952)]	[(1, 251)]		False
+contig_70 [gcode=11] [topology=linear]	URI112H	168				168										False
+contig_71 [gcode=11] [topology=linear]	URI112H	165				165										False
+contig_72 [gcode=11] [topology=linear]	URI112H	157				157										False
+contig_73 [gcode=11] [topology=linear]	URI112H	151				151										False
+contig_74 [gcode=11] [topology=linear]	URI112H	150				150										False
+contig_75 [gcode=11] [topology=linear]	URI112H	142				142										False
+contig_76 [gcode=11] [topology=linear]	URI112H	138				138										False
+contig_77 [gcode=11] [topology=linear]	URI112H	137				137										False
+contig_78 [gcode=11] [topology=linear]	URI112H	134				134										False
+contig_79 [gcode=11] [topology=linear]	URI112H	134				134										False
+contig_8 [gcode=11] [topology=linear]	URI112H	28951	I21_B31_lp28-4_ParA_X	lp28-4	I21	28951	250	100.0	2.5871299782390937	749	249	[(1, 250)]	[(14654, 15403)]	[(1, 250)]		False
+contig_80 [gcode=11] [topology=linear]	URI112H	129				129										False
+contig_81 [gcode=11] [topology=linear]	URI112H	120				120										False
+contig_82 [gcode=11] [topology=linear]	URI112H	111				111										False
+contig_83 [gcode=11] [topology=linear]	URI112H	106				106										False
+contig_84 [gcode=11] [topology=linear]	URI112H	106				106										False
+contig_85 [gcode=11] [topology=linear]	URI112H	103				103										False
+contig_9 [gcode=11] [topology=linear]	URI112H	26514	JD1_cp26_ParA_1	cp26	JD1	26514	253	100.0	2.8588670136531644	758	252	[(1, 253)]	[(18257, 19015)]	[(1, 253)]		False

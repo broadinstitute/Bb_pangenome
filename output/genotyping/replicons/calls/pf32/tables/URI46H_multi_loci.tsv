@@ -1,0 +1,7 @@
+assembly_id	contig_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	locus_idx	locus_start	locus_end
+URI46H	contig_13 [gcode=11] [topology=linear]	21420	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	21420	246	100.0	6.76937441643324	1450	241	[(1, 242)]	[(6464, 7189), (72, 797)]	[(1, 242), (1, 242)]	1	72	797
+URI46H	contig_13 [gcode=11] [topology=linear]	21420	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	21420	246	100.0	6.76937441643324	1450	241	[(1, 242)]	[(6464, 7189), (72, 797)]	[(1, 242), (1, 242)]	2	6464	7189
+URI46H	contig_2 [gcode=11] [topology=linear]	64384	B379_chromosome_ParA_5	chromosome	B379	64384	262	100.0	1.2192470178926442	785	261	[(1, 262)]	[(27495, 28280)]	[(1, 262)]	1	27495	28280
+URI46H	contig_2 [gcode=11] [topology=linear]	64384	B379_lp28-5_ParA_1	lp28-5	B379	64384	247	100.0	1.1493538767395626	740	246	[(1, 247)]	[(38521, 39261)]	[(1, 247)]	2	38521	39261
+URI46H	contig_4 [gcode=11] [topology=linear]	52605	H28_B31_lp28-3_ParA_X	lp28-3	H28	52605	251	100.0	1.4295219085638249	752	250	[(1, 251)]	[(16965, 17717)]	[(1, 251)]	1	16965	17717
+URI46H	contig_4 [gcode=11] [topology=linear]	52605	K21_B31_lp36_ParA_X	lp36	K21	52605	249	84.34959349593495	2.80201501758388	1474	248	[(1, 249)]	[(16965, 17711), (37814, 38542)]	[(1, 243), (1, 249)]	2	37814	38542

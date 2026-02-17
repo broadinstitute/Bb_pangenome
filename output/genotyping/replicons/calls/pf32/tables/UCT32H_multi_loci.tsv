@@ -1,0 +1,5 @@
+assembly_id	contig_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	locus_idx	locus_start	locus_end
+UCT32H	contig_18 [gcode=11] [topology=linear]	21572	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	21572	246	100.0	6.721676246986835	1450	241	[(1, 242)]	[(20769, 21494), (14377, 15102)]	[(1, 242), (1, 242)]	1	14377	15102
+UCT32H	contig_18 [gcode=11] [topology=linear]	21572	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	21572	246	100.0	6.721676246986835	1450	241	[(1, 242)]	[(20769, 21494), (14377, 15102)]	[(1, 242), (1, 242)]	2	20769	21494
+UCT32H	contig_3 [gcode=11] [topology=linear]	52605	H28_B31_lp28-3_ParA_X	lp28-3	H28	52605	251	100.0	1.4295219085638249	752	250	[(1, 251)]	[(16965, 17717)]	[(1, 251)]	1	16965	17717
+UCT32H	contig_3 [gcode=11] [topology=linear]	52605	K21_B31_lp36_ParA_X	lp36	K21	52605	249	84.34959349593495	2.80201501758388	1474	248	[(1, 249)]	[(16965, 17711), (37814, 38542)]	[(1, 243), (1, 249)]	2	37814	38542

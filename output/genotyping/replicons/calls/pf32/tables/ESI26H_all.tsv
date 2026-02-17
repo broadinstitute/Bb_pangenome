@@ -1,0 +1,99 @@
+assembly_id	contig_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords
+ESI26H	contig_1 [gcode=11] [topology=linear]	910396	NE_5261_chromosome_ParA_2	chromosome	NE_5261	910396	380	100.0	0.1204970144860039	1097	365	[(1, 366)]	[(368852, 369949)]	[(1, 366)]
+ESI26H	contig_1 [gcode=11] [topology=linear]	910396	B379_chromosome_ParA_2	chromosome	B379	910396	380	99.4535519125683	0.1204970144860039	1097	365	[(1, 366)]	[(368852, 369949)]	[(1, 366)]
+ESI26H	contig_1 [gcode=11] [topology=linear]	910396	80a_chromosome_ParA_2	chromosome	80a	910396	380	99.4535519125683	0.1204970144860039	1097	365	[(1, 366)]	[(368852, 369949)]	[(1, 366)]
+ESI26H	contig_1 [gcode=11] [topology=linear]	910396	B500_chromosome_ParA_2	chromosome	B500	910396	380	99.45054945054946	0.11983796062372858	1091	363	[(1, 364)]	[(368852, 369943)]	[(1, 364)]
+ESI26H	contig_1 [gcode=11] [topology=linear]	910396	RS04200_WI91-23_WI91-23_lp56_ParA_X	lp56	RS04200	910396	380	99.17582417582418	0.11983796062372858	1091	363	[(1, 364)]	[(368852, 369943)]	[(1, 364)]
+ESI26H	contig_2 [gcode=11] [topology=linear]	61321	RS07125_JD1_JD1_cp32-12_ParA_X	cp32-12	RS07125	61321	260	99.61538461538461	1.2703641493126334	779	259	[(1, 260)]	[(49214, 49993)]	[(1, 260)]
+ESI26H	contig_2 [gcode=11] [topology=linear]	61321	RS00580_ZS7_ZS7_cp32-12_ParA_X	cp32-12	RS00580	61321	260	98.84615384615385	1.2703641493126334	779	259	[(1, 260)]	[(49214, 49993)]	[(1, 260)]
+ESI26H	contig_2 [gcode=11] [topology=linear]	61321	297_cp32-12_ParA_X	cp32-12	297	61321	260	98.84169884169884	1.2654718611894784	776	258	[(1, 259)]	[(49217, 49993)]	[(1, 259)]
+ESI26H	contig_2 [gcode=11] [topology=linear]	61321	RS06035_N40_N40_cp32-12_ParA_X	cp32-12	RS06035	61321	260	92.27799227799228	1.2654718611894784	776	256	[(1, 257)]	[(49217, 49993)]	[(1, 257)]
+ESI26H	contig_2 [gcode=11] [topology=linear]	61321	RS01295_JD1_JD1_cp32-1+5_ParA_X	cp32-1+5	RS01295	61321	257	100.0	1.255687284943168	770	256	[(1, 257)]	[(18558, 19328)]	[(1, 257)]
+ESI26H	contig_3 [gcode=11] [topology=linear]	51152	RS05395_Bol26_Bol26_lp28-9_ParA_X	lp28-9	RS05395	51152	254	100.0	1.487722865186112	761	253	[(1, 254)]	[(35231, 35992)]	[(1, 254)]
+ESI26H	contig_3 [gcode=11] [topology=linear]	51152	RS06620_JD1_JD1_lp28-7_ParA_X	lp28-7	RS06620	51152	253	96.04743083003953	1.4818579918673758	758	252	[(1, 253)]	[(7505, 8263)]	[(1, 253)]
+ESI26H	contig_3 [gcode=11] [topology=linear]	51152	RS06670_WI91-23_WI91-23_lp28-1_ParA_X	lp28-1	RS06670	51152	254	83.46456692913385	1.487722865186112	761	253	[(1, 254)]	[(35231, 35992)]	[(1, 254)]
+ESI26H	contig_3 [gcode=11] [topology=linear]	51152	RS00365_JD1_JD1_lp28-1_ParA_X	lp28-1	RS00365	51152	254	83.46456692913385	1.487722865186112	761	253	[(1, 254)]	[(35231, 35992)]	[(1, 254)]
+ESI26H	contig_3 [gcode=11] [topology=linear]	51152	F24_B31_lp28-1_ParA_X	lp28-1	F24	51152	254	83.07086614173228	1.487722865186112	761	253	[(1, 254)]	[(35231, 35992)]	[(1, 254)]
+ESI26H	contig_4 [gcode=11] [topology=linear]	34728	K21_B31_lp36_ParA_X	lp36	K21	34728	249	100.0	2.0962911771481227	728	242	[(1, 243)]	[(22554, 23282)]	[(1, 243)]
+ESI26H	contig_4 [gcode=11] [topology=linear]	34728	RS01335_MM1_plsm_lp36_ParA_X	lp36	RS01335	34728	249	99.58847736625515	2.0962911771481227	728	242	[(1, 243)]	[(22554, 23282)]	[(1, 243)]
+ESI26H	contig_4 [gcode=11] [topology=linear]	34728	RS06330_29805_29805_lp36_ParA_X	lp36	RS06330	34728	249	94.23868312757202	2.0962911771481227	728	242	[(1, 243)]	[(22554, 23282)]	[(1, 243)]
+ESI26H	contig_5 [gcode=11] [topology=linear]	30286	RS01520_MM1_plsm_cp32-6_ParA_X	cp32-6	RS01520	30286	249	100.0	2.463184309581985	746	248	[(1, 249)]	[(5090, 5836)]	[(1, 249)]
+ESI26H	contig_5 [gcode=11] [topology=linear]	30286	M32_B31_cp32-6_ParA_X	cp32-6	M32	30286	249	99.59839357429718	2.463184309581985	746	248	[(1, 249)]	[(5090, 5836)]	[(1, 249)]
+ESI26H	contig_5 [gcode=11] [topology=linear]	30286	RS05165_118a_118a_cp32-6_ParA_X	cp32-6	RS05165	30286	249	99.19678714859438	2.463184309581985	746	248	[(1, 249)]	[(5090, 5836)]	[(1, 249)]
+ESI26H	contig_6 [gcode=11] [topology=linear]	27753	RS01095_ZS7_ZS7_cp32-3+10_ParA_X	cp32-3+10	RS01095	27753	251	100.0	2.7096169783446835	752	250	[(1, 251)]	[(23067, 23819)]	[(1, 251)]
+ESI26H	contig_6 [gcode=11] [topology=linear]	27753	RS06365_N40_N40_cp32-10_ParA_X	cp32-10	RS06365	27753	251	89.64143426294821	2.7096169783446835	752	250	[(1, 251)]	[(23067, 23819)]	[(1, 251)]
+ESI26H	contig_6 [gcode=11] [topology=linear]	27753	RS05285_CA-11.2A_CA-11.2A_cp32-10_ParA_X	cp32-10	RS05285	27753	251	89.64143426294821	2.7096169783446835	752	250	[(1, 251)]	[(23067, 23819)]	[(1, 251)]
+ESI26H	contig_6 [gcode=11] [topology=linear]	27753	RS05810_94a_94a_cp32-10_ParA_X	cp32-10	RS05810	27753	251	89.64143426294821	2.7096169783446835	752	250	[(1, 251)]	[(23067, 23819)]	[(1, 251)]
+ESI26H	contig_6 [gcode=11] [topology=linear]	27753	Q40_B31_lp56_ParA_X	lp56	Q40	27753	251	89.2430278884462	2.7096169783446835	752	250	[(1, 251)]	[(23067, 23819)]	[(1, 251)]
+ESI26H	contig_7 [gcode=11] [topology=linear]	26979	RS06760_Bol26_Bol26_lp28-3_ParA_X	lp28-3	RS06760	26979	251	98.79032258064517	2.7539938470662366	743	247	[(1, 248)]	[(15942, 16685)]	[(1, 248)]
+ESI26H	contig_7 [gcode=11] [topology=linear]	26979	RS04755_29805_29805_lp28-3_ParA_X	lp28-3	RS04755	26979	251	97.98387096774194	2.7539938470662366	743	247	[(1, 248)]	[(15942, 16685)]	[(1, 248)]
+ESI26H	contig_7 [gcode=11] [topology=linear]	26979	H28_B31_lp28-3_ParA_X	lp28-3	H28	26979	251	97.58064516129032	2.7539938470662366	743	247	[(1, 248)]	[(15942, 16685)]	[(1, 248)]
+ESI26H	contig_7 [gcode=11] [topology=linear]	26979	RS07610_JD1_JD1_lp28-6_ParA_X	lp28-6	RS07610	26979	251	72.58064516129032	2.7539938470662366	743	247	[(1, 248)]	[(15942, 16685)]	[(1, 248)]
+ESI26H	contig_7 [gcode=11] [topology=linear]	26979	RS06425_B331_B331_lp28_6_ParA_X	lp28-6	RS06425	26979	251	72.17741935483872	2.7539938470662366	743	247	[(1, 248)]	[(15942, 16685)]	[(1, 248)]
+ESI26H	contig_8 [gcode=11] [topology=linear]	26691	RS05930_ZS7_ZS7_lp28-4_ParA_X	lp28-4	RS05930	26691	250	100.0	2.8061893522161028	749	249	[(1, 250)]	[(12526, 13275)]	[(1, 250)]
+ESI26H	contig_8 [gcode=11] [topology=linear]	26691	RS05970_CA-11.2A_CA-11.2A_lp36-28-4_ParA_X	lp36-28-4	RS05970	26691	250	99.6	2.8061893522161028	749	249	[(1, 250)]	[(12526, 13275)]	[(1, 250)]
+ESI26H	contig_8 [gcode=11] [topology=linear]	26691	I21_B31_lp28-4_ParA_X	lp28-4	I21	26691	250	98.8	2.8061893522161028	749	249	[(1, 250)]	[(12526, 13275)]	[(1, 250)]
+ESI26H	contig_9 [gcode=11] [topology=linear]	26508	NE_5261_cp26_ParA_1	cp26	NE_5261	26508	253	100.0	2.859514108948242	758	252	[(1, 253)]	[(434, 1192)]	[(1, 253)]
+ESI26H	contig_9 [gcode=11] [topology=linear]	26508	B12_B31_cp26_ParA_X	cp26	B12	26508	253	99.60474308300395	2.859514108948242	758	252	[(1, 253)]	[(434, 1192)]	[(1, 253)]
+ESI26H	contig_9 [gcode=11] [topology=linear]	26508	MM1_cp26_ParA_1	cp26	MM1	26508	253	99.60474308300395	2.859514108948242	758	252	[(1, 253)]	[(434, 1192)]	[(1, 253)]
+ESI26H	contig_9 [gcode=11] [topology=linear]	26508	RS00680_MM1_plsm_cp26_ParA_X	cp26	RS00680	26508	253	99.2094861660079	2.859514108948242	758	252	[(1, 253)]	[(434, 1192)]	[(1, 253)]
+ESI26H	contig_9 [gcode=11] [topology=linear]	26508	N40_cp26_ParA_1	cp26	N40	26508	253	99.2094861660079	2.859514108948242	758	252	[(1, 253)]	[(434, 1192)]	[(1, 253)]
+ESI26H	contig_10 [gcode=11] [topology=linear]	24163	RS06485_N40_N40_lp17_ParA_X	lp17	RS06485	24163	246	99.58677685950413	3.000455241484915	725	241	[(1, 242)]	[(18524, 19249)]	[(1, 242)]
+ESI26H	contig_10 [gcode=11] [topology=linear]	24163	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	24163	246	100.0	3.000455241484915	725	241	[(1, 242)]	[(18524, 19249)]	[(1, 242)]
+ESI26H	contig_11 [gcode=11] [topology=linear]	18933	N32_B31_cp32-9_ParA_X	cp32-9	N32	18933	251	100.0	3.9243648655786196	743	247	[(1, 248)]	[(14279, 15022)]	[(1, 248)]
+ESI26H	contig_11 [gcode=11] [topology=linear]	18933	RS01730_MM1_plsm_cp32-9_ParA_X	cp32-9	RS01730	18933	251	99.59677419354838	3.9243648655786196	743	247	[(1, 248)]	[(14279, 15022)]	[(1, 248)]
+ESI26H	contig_12 [gcode=11] [topology=linear]	11699	P32_B31_cp32-1_ParA_X	cp32-1	P32	11699	246	100.0	6.299683733652449	737	245	[(1, 246)]	[(6785, 7522)]	[(1, 246)]
+ESI26H	contig_12 [gcode=11] [topology=linear]	11699	MM1_cp32-1_ParA_1	cp32-1	MM1	11699	246	99.59349593495935	6.299683733652449	737	245	[(1, 246)]	[(6785, 7522)]	[(1, 246)]
+ESI26H	contig_12 [gcode=11] [topology=linear]	11699	DN127_cp9_ParA_X	cp9	DN127	11699	246	80.16528925619835	6.197110864176426	725	241	[(1, 242)]	[(6797, 7522)]	[(1, 242)]
+ESI26H	contig_13 [gcode=11] [topology=linear]	3042				3042								
+ESI26H	contig_14 [gcode=11] [topology=linear]	2402				2402								
+ESI26H	contig_15 [gcode=11] [topology=linear]	1297				1297								
+ESI26H	contig_16 [gcode=11] [topology=linear]	1254				1254								
+ESI26H	contig_17 [gcode=11] [topology=linear]	1083				1083								
+ESI26H	contig_18 [gcode=11] [topology=linear]	1081				1081								
+ESI26H	contig_19 [gcode=11] [topology=linear]	1044				1044								
+ESI26H	contig_20 [gcode=11] [topology=linear]	850				850								
+ESI26H	contig_21 [gcode=11] [topology=linear]	800				800								
+ESI26H	contig_22 [gcode=11] [topology=linear]	644				644								
+ESI26H	contig_23 [gcode=11] [topology=linear]	627				627								
+ESI26H	contig_24 [gcode=11] [topology=linear]	613				613								
+ESI26H	contig_25 [gcode=11] [topology=linear]	573				573								
+ESI26H	contig_26 [gcode=11] [topology=linear]	508				508								
+ESI26H	contig_27 [gcode=11] [topology=linear]	495				495								
+ESI26H	contig_28 [gcode=11] [topology=linear]	455				455								
+ESI26H	contig_29 [gcode=11] [topology=linear]	455				455								
+ESI26H	contig_30 [gcode=11] [topology=linear]	445				445								
+ESI26H	contig_31 [gcode=11] [topology=linear]	444				444								
+ESI26H	contig_32 [gcode=11] [topology=linear]	424				424								
+ESI26H	contig_33 [gcode=11] [topology=linear]	399				399								
+ESI26H	contig_34 [gcode=11] [topology=linear]	393				393								
+ESI26H	contig_35 [gcode=11] [topology=linear]	376				376								
+ESI26H	contig_36 [gcode=11] [topology=linear]	376				376								
+ESI26H	contig_37 [gcode=11] [topology=linear]	340				340								
+ESI26H	contig_38 [gcode=11] [topology=linear]	308				308								
+ESI26H	contig_39 [gcode=11] [topology=linear]	300				300								
+ESI26H	contig_40 [gcode=11] [topology=linear]	297				297								
+ESI26H	contig_41 [gcode=11] [topology=linear]	297				297								
+ESI26H	contig_42 [gcode=11] [topology=linear]	296				296								
+ESI26H	contig_43 [gcode=11] [topology=linear]	262				262								
+ESI26H	contig_44 [gcode=11] [topology=linear]	260				260								
+ESI26H	contig_45 [gcode=11] [topology=linear]	258				258								
+ESI26H	contig_46 [gcode=11] [topology=linear]	253				253								
+ESI26H	contig_47 [gcode=11] [topology=linear]	242				242								
+ESI26H	contig_48 [gcode=11] [topology=linear]	235				235								
+ESI26H	contig_49 [gcode=11] [topology=linear]	230				230								
+ESI26H	contig_50 [gcode=11] [topology=linear]	227				227								
+ESI26H	contig_51 [gcode=11] [topology=linear]	210				210								
+ESI26H	contig_52 [gcode=11] [topology=linear]	169				169								
+ESI26H	contig_53 [gcode=11] [topology=linear]	165				165								
+ESI26H	contig_54 [gcode=11] [topology=linear]	155				155								
+ESI26H	contig_55 [gcode=11] [topology=linear]	152				152								
+ESI26H	contig_56 [gcode=11] [topology=linear]	145				145								
+ESI26H	contig_57 [gcode=11] [topology=linear]	144				144								
+ESI26H	contig_58 [gcode=11] [topology=linear]	144				144								
+ESI26H	contig_59 [gcode=11] [topology=linear]	136				136								
+ESI26H	contig_60 [gcode=11] [topology=linear]	118				118								
+ESI26H	contig_61 [gcode=11] [topology=linear]	115				115								
+ESI26H	contig_62 [gcode=11] [topology=linear]	114				114								
+ESI26H	contig_63 [gcode=11] [topology=linear]	111				111								
+ESI26H	contig_64 [gcode=11] [topology=linear]	109				109								

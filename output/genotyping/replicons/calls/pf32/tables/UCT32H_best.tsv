@@ -1,0 +1,58 @@
+contig_id	assembly_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	concat_call	multiple_loci
+contig_1 [gcode=11] [topology=linear]	UCT32H	921072	B379_chromosome_ParA_2	chromosome	B379	921072	380	100.0	0.11910035263258463	1097	365	[(1, 366)]	[(368583, 369680)]	[(1, 366)]		False
+contig_10 [gcode=11] [topology=linear]	UCT32H	30286	RS00880_JD1_JD1_cp32-11_ParA_X	cp32-11	RS00880	30286	252	100.0	2.492901010367827	755	251	[(1, 252)]	[(20574, 21329)]	[(1, 252)]		False
+contig_11 [gcode=11] [topology=linear]	UCT32H	30259	S35_B31_cp32-3_ParA_X	cp32-3	S35	30259	246	100.0	2.4356389834429426	737	245	[(1, 246)]	[(25794, 26531)]	[(1, 246)]		False
+contig_12 [gcode=11] [topology=linear]	UCT32H	30255	RS07790_JD1_JD1_lp38_ParA_X	lp38	RS07790	30255	245	100.0	2.426045281771608	734	244	[(1, 245)]	[(24783, 25517)]	[(1, 245)]		False
+contig_13 [gcode=11] [topology=linear]	UCT32H	28053	I21_B31_lp28-4_ParA_X	lp28-4	I21	28053	250	100.0	2.669946173314797	749	249	[(1, 250)]	[(14755, 15504)]	[(1, 250)]		False
+contig_14 [gcode=11] [topology=linear]	UCT32H	26514	JD1_cp26_ParA_1	cp26	JD1	26514	253	100.0	2.8588670136531644	758	252	[(1, 253)]	[(13680, 14438)]	[(1, 253)]		False
+contig_15 [gcode=11] [topology=linear]	UCT32H	24813	RS00365_JD1_JD1_lp28-1_ParA_X	lp28-1	RS00365	24813	254	100.0	3.066940716559868	761	253	[(1, 254)]	[(14281, 15042)]	[(1, 254)]		False
+contig_16 [gcode=11] [topology=linear]	UCT32H	24746	RS00670_JD1_JD1_lp25_ParA_X	lp25	RS00670	24746	252	100.0	3.0509981411137153	755	251	[(1, 252)]	[(11772, 12527)]	[(1, 252)]		False
+contig_17 [gcode=11] [topology=linear]	UCT32H	24323	RS07610_JD1_JD1_lp28-6_ParA_X	lp28-6	RS07610	24323	251	100.0	3.0917238827447275	752	250	[(1, 251)]	[(1297, 2049)]	[(1, 251)]		False
+contig_18 [gcode=11] [topology=linear]	UCT32H	21572	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	21572	246	100.0	6.721676246986835	1450	241	[(1, 242)]	[(20769, 21494), (14377, 15102)]	[(1, 242), (1, 242)]	lp17*	True
+contig_19 [gcode=11] [topology=linear]	UCT32H	21172	RS01730_MM1_plsm_cp32-9_ParA_X	cp32-9	RS01730	21172	251	100.0	3.4951823162667672	740	246	[(1, 247)]	[(1, 741)]	[(1, 247)]		False
+contig_2 [gcode=11] [topology=linear]	UCT32H	53834	A20_B31_lp54_ParA_X	lp54	A20	53834	250	100.0	1.3913140394546197	749	249	[(1, 250)]	[(13605, 14354)]	[(1, 250)]		False
+contig_20 [gcode=11] [topology=linear]	UCT32H	7423	O32_B31_cp32-7_ParA_X	cp32-7	O32	7423	249	100.0	10.049845076114778	746	248	[(1, 249)]	[(220, 966)]	[(1, 249)]		False
+contig_21 [gcode=11] [topology=linear]	UCT32H	2115				2115										False
+contig_22 [gcode=11] [topology=linear]	UCT32H	1700				1700										False
+contig_23 [gcode=11] [topology=linear]	UCT32H	1214				1214										False
+contig_24 [gcode=11] [topology=linear]	UCT32H	1145				1145										False
+contig_25 [gcode=11] [topology=linear]	UCT32H	1106				1106										False
+contig_26 [gcode=11] [topology=linear]	UCT32H	1103				1103										False
+contig_27 [gcode=11] [topology=linear]	UCT32H	1062				1062										False
+contig_28 [gcode=11] [topology=linear]	UCT32H	956				956										False
+contig_29 [gcode=11] [topology=linear]	UCT32H	852				852										False
+contig_3 [gcode=11] [topology=linear]	UCT32H	52605	H28_B31_lp28-3_ParA_X	lp28-3	H28	52605	251	100.0	1.4295219085638249	752	250	[(1, 251)]	[(16965, 17717)]	[(1, 251)]	lp28-3:::lp36	True
+contig_30 [gcode=11] [topology=linear]	UCT32H	844				844										False
+contig_31 [gcode=11] [topology=linear]	UCT32H	778				778										False
+contig_32 [gcode=11] [topology=linear]	UCT32H	712				712										False
+contig_33 [gcode=11] [topology=linear]	UCT32H	537				537										False
+contig_34 [gcode=11] [topology=linear]	UCT32H	501				501										False
+contig_35 [gcode=11] [topology=linear]	UCT32H	479				479										False
+contig_36 [gcode=11] [topology=linear]	UCT32H	451				451										False
+contig_37 [gcode=11] [topology=linear]	UCT32H	400				400										False
+contig_38 [gcode=11] [topology=linear]	UCT32H	387				387										False
+contig_39 [gcode=11] [topology=linear]	UCT32H	380				380										False
+contig_4 [gcode=11] [topology=linear]	UCT32H	31253	B379_lp28-5_ParA_1	lp28-5	B379	31253	247	100.0	2.3677726938213928	740	246	[(1, 247)]	[(25523, 26263)]	[(1, 247)]		False
+contig_40 [gcode=11] [topology=linear]	UCT32H	330				330										False
+contig_41 [gcode=11] [topology=linear]	UCT32H	326				326										False
+contig_42 [gcode=11] [topology=linear]	UCT32H	315				315										False
+contig_43 [gcode=11] [topology=linear]	UCT32H	310				310										False
+contig_44 [gcode=11] [topology=linear]	UCT32H	293				293										False
+contig_45 [gcode=11] [topology=linear]	UCT32H	288				288										False
+contig_46 [gcode=11] [topology=linear]	UCT32H	246				246										False
+contig_47 [gcode=11] [topology=linear]	UCT32H	241				241										False
+contig_48 [gcode=11] [topology=linear]	UCT32H	236				236										False
+contig_49 [gcode=11] [topology=linear]	UCT32H	215				215										False
+contig_5 [gcode=11] [topology=linear]	UCT32H	30858	RS01500_JD1_JD1_cp32-8_ParA_X	cp32-8	RS01500	30858	246	100.0	2.388359582604187	737	245	[(1, 246)]	[(21504, 22241)]	[(1, 246)]		False
+contig_50 [gcode=11] [topology=linear]	UCT32H	204				204										False
+contig_51 [gcode=11] [topology=linear]	UCT32H	199				199										False
+contig_52 [gcode=11] [topology=linear]	UCT32H	177				177										False
+contig_53 [gcode=11] [topology=linear]	UCT32H	150				150										False
+contig_54 [gcode=11] [topology=linear]	UCT32H	134				134										False
+contig_55 [gcode=11] [topology=linear]	UCT32H	124				124										False
+contig_56 [gcode=11] [topology=linear]	UCT32H	123				123										False
+contig_57 [gcode=11] [topology=linear]	UCT32H	114				114										False
+contig_6 [gcode=11] [topology=linear]	UCT32H	30795	297_cp32-12_ParA_X	cp32-12	297	30795	260	100.0	2.5296314336742975	779	259	[(1, 260)]	[(19609, 20388)]	[(1, 260)]		False
+contig_7 [gcode=11] [topology=linear]	UCT32H	30636	RS01295_JD1_JD1_cp32-1+5_ParA_X	cp32-1+5	RS01295	30636	257	100.0	2.5133829481655567	770	256	[(1, 257)]	[(20777, 21547)]	[(1, 257)]		False
+contig_8 [gcode=11] [topology=linear]	UCT32H	30472	RS01520_MM1_plsm_cp32-6_ParA_X	cp32-6	RS01520	30472	249	100.0	2.4481491205040693	746	248	[(1, 249)]	[(20849, 21595)]	[(1, 249)]		False
+contig_9 [gcode=11] [topology=linear]	UCT32H	30301	B379_cp32-2_ParA_1	cp32-2	B379	30301	251	100.0	2.481766278340649	752	250	[(1, 251)]	[(3040, 3792)]	[(1, 251)]		False

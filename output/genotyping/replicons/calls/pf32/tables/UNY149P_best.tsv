@@ -1,0 +1,20 @@
+contig_id	assembly_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	concat_call	multiple_loci
+contig_1 [gcode=11] [topology=linear]	UNY149P	915733	B379_chromosome_ParA_2	chromosome	B379	915733	380	100.0	0.11979474366436504	1097	365	[(1, 366)]	[(368566, 369663)]	[(1, 366)]		False
+contig_10 [gcode=11] [topology=linear]	UNY149P	17903	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	17903	246	100.0	4.049600625593476	725	241	[(1, 242)]	[(14345, 15070)]	[(1, 242)]		False
+contig_11 [gcode=11] [topology=linear]	UNY149P	24963	RS00670_JD1_JD1_lp25_ParA_X	lp25	RS00670	24963	252	100.0	3.024476224812723	755	251	[(1, 252)]	[(11839, 12594)]	[(1, 252)]		False
+contig_12 [gcode=11] [topology=linear]	UNY149P	26726	RS00365_JD1_JD1_lp28-1_ParA_X	lp28-1	RS00365	26726	254	100.0	2.847414502731423	761	253	[(1, 254)]	[(9770, 10531)]	[(1, 254)]		False
+contig_13 [gcode=11] [topology=linear]	UNY149P	28866	H28_B31_lp28-3_ParA_X	lp28-3	H28	28866	251	100.0	2.60514099632786	752	250	[(1, 251)]	[(10090, 10842)]	[(1, 251)]		False
+contig_14 [gcode=11] [topology=linear]	UNY149P	29444	I21_B31_lp28-4_ParA_X	lp28-4	I21	29444	250	100.0	2.543811982067654	749	249	[(1, 250)]	[(14013, 14762)]	[(1, 250)]		False
+contig_15 [gcode=11] [topology=linear]	UNY149P	27740	B379_lp28-5_ParA_1	lp28-5	B379	27740	247	100.0	2.6676279740447004	740	246	[(1, 247)]	[(19659, 20399)]	[(1, 247)]		False
+contig_16 [gcode=11] [topology=linear]	UNY149P	26825	RS07610_JD1_JD1_lp28-6_ParA_X	lp28-6	RS07610	26825	251	100.0	2.803355079217148	752	250	[(1, 251)]	[(2979, 3731)]	[(1, 251)]		False
+contig_17 [gcode=11] [topology=linear]	UNY149P	23697	K21_B31_lp36_ParA_X	lp36	K21	23697	249	100.0	3.0721188336076297	728	242	[(1, 243)]	[(11053, 11781)]	[(1, 243)]		False
+contig_18 [gcode=11] [topology=linear]	UNY149P	30317	RS07790_JD1_JD1_lp38_ParA_X	lp38	RS07790	30317	245	100.0	2.4210838803311674	734	244	[(1, 245)]	[(4741, 5475)]	[(1, 245)]		False
+contig_19 [gcode=11] [topology=linear]	UNY149P	53842	A20_B31_lp54_ParA_X	lp54	A20	53842	250	100.0	1.3911073139927936	749	249	[(1, 250)]	[(13612, 14361)]	[(1, 250)]		False
+contig_2 [gcode=11] [topology=linear]	UNY149P	26514	JD1_cp26_ParA_1	cp26	JD1	26514	253	100.0	2.8588670136531644	758	252	[(1, 253)]	[(4319, 5077)]	[(1, 253)]		False
+contig_3 [gcode=11] [topology=linear]	UNY149P	30286	RS00880_JD1_JD1_cp32-11_ParA_X	cp32-11	RS00880	30286	252	100.0	2.492901010367827	755	251	[(1, 252)]	[(6321, 7076)]	[(1, 252)]		False
+contig_4 [gcode=11] [topology=linear]	UNY149P	30262	S35_B31_cp32-3_ParA_X	cp32-3	S35	30262	246	100.0	2.435397528253255	737	245	[(1, 246)]	[(9392, 10129)]	[(1, 246)]		False
+contig_5 [gcode=11] [topology=linear]	UNY149P	30301	B379_cp32-2_ParA_1	cp32-2	B379	30301	251	100.0	2.481766278340649	752	250	[(1, 251)]	[(9265, 10017)]	[(1, 251)]		False
+contig_6 [gcode=11] [topology=linear]	UNY149P	30635	RS01295_JD1_JD1_cp32-1+5_ParA_X	cp32-1+5	RS01295	30635	257	100.0	2.5134649910233393	770	256	[(1, 257)]	[(11207, 11977)]	[(1, 257)]		False
+contig_7 [gcode=11] [topology=linear]	UNY149P	30641	RS01520_MM1_plsm_cp32-6_ParA_X	cp32-6	RS01520	30641	249	100.0	2.43464638882543	746	248	[(1, 249)]	[(9657, 10403)]	[(1, 249)]		False
+contig_8 [gcode=11] [topology=linear]	UNY149P	21165	O32_B31_cp32-7_ParA_X	cp32-7	O32	21165	249	100.0	3.524686983227026	746	248	[(1, 249)]	[(16666, 17412)]	[(1, 249)]		False
+contig_9 [gcode=11] [topology=linear]	UNY149P	21172	RS01730_MM1_plsm_cp32-9_ParA_X	cp32-9	RS01730	21172	251	100.0	3.509351974305687	743	247	[(1, 248)]	[(14124, 14867)]	[(1, 248)]		False

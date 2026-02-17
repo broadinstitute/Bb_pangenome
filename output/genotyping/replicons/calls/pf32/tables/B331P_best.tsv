@@ -1,0 +1,20 @@
+contig_id	assembly_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	concat_call	multiple_loci
+contig_1 [gcode=11] [topology=linear]	B331P	903654	B500_chromosome_ParA_2	chromosome	B500	903654	380	100.0	0.12073205009882101	1091	363	[(1, 364)]	[(368951, 370042)]	[(1, 364)]		False
+contig_10 [gcode=11] [topology=linear]	B331P	8714				8714										False
+contig_11 [gcode=11] [topology=linear]	B331P	15594	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	15594	246	100.0	4.6492240605361035	725	241	[(1, 242)]	[(12036, 12761)]	[(1, 242)]		False
+contig_12 [gcode=11] [topology=linear]	B331P	24722	RS00040_ZS7_ZS7_lp25_ParA_X	lp25	RS00040	24722	252	100.0	3.0539600355958254	755	251	[(1, 252)]	[(11900, 12655)]	[(1, 252)]		False
+contig_13 [gcode=11] [topology=linear]	B331P	27641	H28_B31_lp28-3_ParA_X	lp28-3	H28	27641	251	100.0	2.720596215766434	752	250	[(1, 251)]	[(16701, 17453)]	[(1, 251)]		False
+contig_14 [gcode=11] [topology=linear]	B331P	23102	RS01665_B31_NRZ_p_lp28-1_ParA_X	lp28-1	RS01665	23102	249	100.0	3.229157648688425	746	248	[(1, 249)]	[(14223, 14969)]	[(1, 249)]		False
+contig_15 [gcode=11] [topology=linear]	B331P	29288	RS06425_B331_B331_lp28_6_ParA_X	lp28-6	RS06425	29288	251	100.0	2.567604479650369	752	250	[(1, 251)]	[(22964, 23716)]	[(1, 251)]		False
+contig_16 [gcode=11] [topology=linear]	B331P	30208	RS01335_MM1_plsm_lp36_ParA_X	lp36	RS01335	30208	249	100.0	2.409957627118644	728	242	[(1, 243)]	[(11179, 11907)]	[(1, 243)]		False
+contig_17 [gcode=11] [topology=linear]	B331P	38924	RS06690_B331_B331_lp38_ParA_X	lp38	RS06690	38924	245	100.0	1.8857260302127223	734	244	[(1, 245)]	[(11244, 11978)]	[(1, 245)]		False
+contig_18 [gcode=11] [topology=linear]	B331P	53758	A20_B31_lp54_ParA_X	lp54	A20	53758	250	100.0	1.3932810000372038	749	249	[(1, 250)]	[(39435, 40184)]	[(1, 250)]		False
+contig_19 [gcode=11] [topology=linear]	B331P	27679	RS07175_B331_B331_lp56_ParA_X	lp56	RS07175	27679	253	100.0	2.695184074569168	746	248	[(5, 253)]	[(23919, 24665)]	[(5, 253)]		False
+contig_2 [gcode=11] [topology=linear]	B331P	26506	WI91-23_cp26_ParA_1	cp26	WI91-23	26506	253	100.0	2.859729872481702	758	252	[(1, 253)]	[(9275, 10033)]	[(1, 253)]		False
+contig_3 [gcode=11] [topology=linear]	B331P	30192	RS04790_B331_B331_cp32_10_ParA_X	cp32-10	RS04790	30192	246	100.0	2.4410439851616323	737	245	[(1, 246)]	[(20971, 21708)]	[(1, 246)]		False
+contig_4 [gcode=11] [topology=linear]	B331P	30176	B500_cp32-11_ParA_1	cp32-11	B500	30176	252	100.0	2.5019883351007426	755	251	[(1, 252)]	[(20775, 21530)]	[(1, 252)]		False
+contig_5 [gcode=11] [topology=linear]	B331P	29892	RS01500_JD1_JD1_cp32-8_ParA_X	cp32-8	RS01500	29892	246	100.0	2.445470359962532	731	243	[(1, 244)]	[(20972, 21703)]	[(1, 244)]		False
+contig_6 [gcode=11] [topology=linear]	B331P	30617	RS05205_B331_B331_cp32_4_ParA_X	cp32-4	RS05205	30617	251	100.0	2.456151811085345	752	250	[(1, 251)]	[(21267, 22019)]	[(1, 251)]		False
+contig_7 [gcode=11] [topology=linear]	B331P	18340	B500_cp32-5_ParA_1	cp32-5	B500	18340	257	100.0	4.198473282442748	770	256	[(1, 257)]	[(9692, 10462)]	[(1, 257)]		False
+contig_8 [gcode=11] [topology=linear]	B331P	30017	M32_B31_cp32-6_ParA_X	cp32-6	M32	30017	249	100.0	2.485258353599627	746	248	[(1, 249)]	[(20675, 21421)]	[(1, 249)]		False
+contig_9 [gcode=11] [topology=linear]	B331P	30054	O32_B31_cp32-7_ParA_X	cp32-7	O32	30054	249	100.0	2.4821987089904836	746	248	[(1, 249)]	[(20778, 21524)]	[(1, 249)]		False
