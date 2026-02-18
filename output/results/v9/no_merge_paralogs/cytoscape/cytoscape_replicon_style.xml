@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vizmap id="replicon_pangenome_style" documentVersion="3.0">
+    <visualStyle name="Replicon Pangenome">
+        
+        <!-- Network properties -->
+        <network>
+            <visualProperty name="NETWORK_BACKGROUND_PAINT" default="#FFFFFF"/>
+        </network>
+        
+        <!-- Default node properties -->
+        <node>
+            <visualProperty name="NODE_SIZE" default="35.0"/>
+            <visualProperty name="NODE_FILL_COLOR" default="#CCCCCC"/>
+            <visualProperty name="NODE_SHAPE" default="ELLIPSE"/>
+            <visualProperty name="NODE_BORDER_WIDTH" default="1.0"/>
+            <visualProperty name="NODE_BORDER_PAINT" default="#333333"/>
+            <visualProperty name="NODE_LABEL_FONT_SIZE" default="10"/>
+            <visualProperty name="NODE_TRANSPARENCY" default="220"/>
+            
+            <!-- Color by top_replicon - so multi-replicon nodes show color of dominant replicon -->
+            <visualProperty name="NODE_FILL_COLOR">
+                <discreteMapping attributeName="top_replicon" attributeType="string">
+                    <!-- Chromosome -->
+                    <discreteMappingEntry attributeValue="chromosome" value="#bceddb"/>
+                    
+                    <!-- cp26 -->
+                    <discreteMappingEntry attributeValue="cp26" value="#d60000"/>
+                    
+                    <!-- cp32 family - each distinct -->
+                    <discreteMappingEntry attributeValue="cp32-1" value="#ff28fd"/>
+                    <discreteMappingEntry attributeValue="cp32-2" value="#f2cdff"/>
+                    <discreteMappingEntry attributeValue="cp32-3" value="#d3008c"/>
+                    <discreteMappingEntry attributeValue="cp32-4" value="#c86e66"/>
+                    <discreteMappingEntry attributeValue="cp32-5" value="#ff6200"/>
+                    <discreteMappingEntry attributeValue="cp32-6" value="#93ac83"/>
+                    <discreteMappingEntry attributeValue="cp32-7" value="#ff8ec8"/>
+                    <discreteMappingEntry attributeValue="cp32-8" value="#b8ba01"/>
+                    <discreteMappingEntry attributeValue="cp32-9" value="#afa5ff"/>
+                    <discreteMappingEntry attributeValue="cp32-10" value="#953f1f"/>
+                    <discreteMappingEntry attributeValue="cp32-11" value="#9a6900"/>
+                    <discreteMappingEntry attributeValue="cp32-12" value="#9ee2ff"/>
+                    <discreteMappingEntry attributeValue="cp32-13" value="#a0e491"/>
+                    <discreteMappingEntry attributeValue="cp32-1+5" value="#fdf490"/>
+                    <discreteMappingEntry attributeValue="cp32-3+10" value="#72b8ff"/>
+                    <discreteMappingEntry attributeValue="cp32-9-4" value="#bc9157"/>
+                    
+                    <!-- cp9 variants -->
+                    <discreteMappingEntry attributeValue="cp9" value="#56642a"/>
+                    <discreteMappingEntry attributeValue="cp9-3" value="#ae083f"/>
+                    
+                    <!-- lp54 -->
+                    <discreteMappingEntry attributeValue="lp54" value="#018700"/>
+                    
+                    <!-- lp28 family - each distinct -->
+                    <discreteMappingEntry attributeValue="lp28-1" value="#366962"/>
+                    <discreteMappingEntry attributeValue="lp28-2" value="#f4bfb1"/>
+                    <discreteMappingEntry attributeValue="lp28-3" value="#97ff00"/>
+                    <discreteMappingEntry attributeValue="lp28-4" value="#79525e"/>
+                    <discreteMappingEntry attributeValue="lp28-5" value="#009e7c"/>
+                    <discreteMappingEntry attributeValue="lp28-6" value="#a877ac"/>
+                    <discreteMappingEntry attributeValue="lp28-7" value="#90318e"/>
+                    <discreteMappingEntry attributeValue="lp28-8" value="#ff3464"/>
+                    <discreteMappingEntry attributeValue="lp28-9" value="#e48eff"/>
+                    <discreteMappingEntry attributeValue="lp28-11" value="#c6a5c1"/>
+                    
+                    <!-- Other linear plasmids -->
+                    <discreteMappingEntry attributeValue="lp17" value="#b500ff"/>
+                    <discreteMappingEntry attributeValue="lp25" value="#ffa52f"/>
+                    <discreteMappingEntry attributeValue="lp36" value="#05acc6"/>
+                    <discreteMappingEntry attributeValue="lp38" value="#00fdcf"/>
+                    <discreteMappingEntry attributeValue="lp56" value="#00c846"/>
+                    <discreteMappingEntry attributeValue="lp5" value="#8c9ab1"/>
+                    <discreteMappingEntry attributeValue="lp21" value="#829026"/>
+                    <discreteMappingEntry attributeValue="lp21-cp9" value="#77c6ba"/>
+                    <discreteMappingEntry attributeValue="lp32-3" value="#ff9070"/>
+                    
+                    <!-- Unknown/other -->
+                    <discreteMappingEntry attributeValue="unknown" value="#d3c37c"/>
+                    <discreteMappingEntry attributeValue="unmatched" value="#FDFEFE"/>
+                    <discreteMappingEntry attributeValue="unknownreplicon" value="#d3c37c"/>
+                </discreteMapping>
+            </visualProperty>
+            
+            <!-- Shape by top_replicon_type - so multi-replicon nodes show topology of dominant replicon -->
+            <visualProperty name="NODE_SHAPE">
+                <discreteMapping attributeName="top_replicon_type" attributeType="string">
+                    <discreteMappingEntry attributeValue="chromosome" value="DIAMOND"/>
+                    <discreteMappingEntry attributeValue="linear_plasmid" value="TRIANGLE"/>
+                    <discreteMappingEntry attributeValue="circular_plasmid" value="ELLIPSE"/>
+                    <discreteMappingEntry attributeValue="multi-replicon" value="HEXAGON"/>
+                    <discreteMappingEntry attributeValue="other" value="RECTANGLE"/>
+                    <discreteMappingEntry attributeValue="unknown" value="RECTANGLE"/>
+                    <discreteMappingEntry attributeValue="unmatched" value="RECTANGLE"/>
+                </discreteMapping>
+            </visualProperty>
+            
+            <!-- Custom Graphics for pie charts - uses Enhanced Graphics passthrough -->
+            <visualProperty name="NODE_CUSTOMGRAPHICS_1">
+                <passthroughMapping attributeName="pie_chart" attributeType="string"/>
+            </visualProperty>
+            
+            <!-- Border color: gray for cross-family, dark for single-family -->
+            <!-- Higher cross_family_score = more gray (ambiguous), lower = darker (confident) -->
+            <visualProperty name="NODE_BORDER_PAINT">
+                <continuousMapping attributeName="cross_family_score" attributeType="float">
+                    <continuousMappingPoint attrValue="0.0" equalValue="#1A1A1A" greaterValue="#1A1A1A" lesserValue="#1A1A1A"/>
+                    <continuousMappingPoint attrValue="0.5" equalValue="#888888" greaterValue="#888888" lesserValue="#888888"/>
+                    <continuousMappingPoint attrValue="1.0" equalValue="#AAAAAA" greaterValue="#AAAAAA" lesserValue="#AAAAAA"/>
+                </continuousMapping>
+            </visualProperty>
+            
+            <!-- Border width scales with cross-family score: thicker = more ambiguous -->
+            <visualProperty name="NODE_BORDER_WIDTH">
+                <continuousMapping attributeName="cross_family_score" attributeType="float">
+                    <continuousMappingPoint attrValue="0.0" equalValue="1.0" greaterValue="1.0" lesserValue="1.0"/>
+                    <continuousMappingPoint attrValue="0.5" equalValue="4.0" greaterValue="4.0" lesserValue="4.0"/>
+                    <continuousMappingPoint attrValue="1.0" equalValue="8.0" greaterValue="8.0" lesserValue="8.0"/>
+                </continuousMapping>
+            </visualProperty>
+            
+            <!-- Node size by number of isolates (gene prevalence) -->
+            <visualProperty name="NODE_SIZE">
+                <continuousMapping attributeName="size" attributeType="integer">
+                    <continuousMappingPoint attrValue="1" equalValue="20.0" greaterValue="20.0" lesserValue="20.0"/>
+                    <continuousMappingPoint attrValue="41" equalValue="35.0" greaterValue="35.0" lesserValue="35.0"/>
+                    <continuousMappingPoint attrValue="82" equalValue="50.0" greaterValue="50.0" lesserValue="50.0"/>
+                </continuousMapping>
+            </visualProperty>
+            
+            <!-- Label from gene name -->
+            <visualProperty name="NODE_LABEL">
+                <passthroughMapping attributeName="name" attributeType="string"/>
+            </visualProperty>
+            
+            <!-- Tooltip shows replicon detail -->
+            <visualProperty name="NODE_TOOLTIP">
+                <passthroughMapping attributeName="replicon_detail" attributeType="string"/>
+            </visualProperty>
+            
+        </node>
+        
+        <!-- Edge properties -->
+        <edge>
+            <visualProperty name="EDGE_VISIBLE" default="true"/>
+            <visualProperty name="EDGE_WIDTH" default="5.0"/>
+            <visualProperty name="EDGE_STROKE_UNSELECTED_PAINT" default="#888888"/>
+            <visualProperty name="EDGE_STROKE_SELECTED_PAINT" default="#FF0000"/>
+            <visualProperty name="EDGE_TRANSPARENCY" default="180"/>
+            <visualProperty name="EDGE_TARGET_ARROW_SHAPE" default="NONE"/>
+            <visualProperty name="EDGE_SOURCE_ARROW_SHAPE" default="NONE"/>
+            <visualProperty name="EDGE_LINE_TYPE" default="SOLID"/>
+            <visualProperty name="EDGE_CURVED" default="true"/>
+        </edge>
+        
+    </visualStyle>
+</vizmap>
