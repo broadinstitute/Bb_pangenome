@@ -1,0 +1,22 @@
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-URI47H_ann_v1">
+    <TITLE>Genome assembly: URI47H_ann_v1</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN12009593" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>URI47H_ann_v1</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>225.42676866666667</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/URI47H_ann_v1/URI47H.chromosome_list.tsv.gz" filetype="chromosome_list" checksum_method="MD5" checksum="007a7612d707a34bada3572074721644" />
+      <FILE filename="webin-cli/genome/URI47H_ann_v1/URI47H.embl.gz" filetype="flatfile" checksum_method="MD5" checksum="cd0d4a7897947417e3245abf8eff693a" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>

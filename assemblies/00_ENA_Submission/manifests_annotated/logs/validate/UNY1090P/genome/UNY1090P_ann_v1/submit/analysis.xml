@@ -1,0 +1,23 @@
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-UNY1090P_ann_v1">
+    <TITLE>Genome assembly: UNY1090P_ann_v1</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN50671271" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>UNY1090P_ann_v1</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>200.0423842857143</COVERAGE>
+        <PROGRAM>HGAP 1.4</PROGRAM>
+        <PLATFORM>PacBio RSII</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/UNY1090P_ann_v1/UNY1090P.chromosome_list.tsv.gz" filetype="chromosome_list" checksum_method="MD5" checksum="e24822287960cb94d21444458988592a" />
+      <FILE filename="webin-cli/genome/UNY1090P_ann_v1/UNY1090P.unlocalised_list.tsv.gz" filetype="unlocalised_list" checksum_method="MD5" checksum="8f3a3e907499d10f4e3ef1386b8ce4a4" />
+      <FILE filename="webin-cli/genome/UNY1090P_ann_v1/UNY1090P.embl.gz" filetype="flatfile" checksum_method="MD5" checksum="425589102fdd174be67b253902b2bccf" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>

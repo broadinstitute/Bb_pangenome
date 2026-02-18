@@ -1,0 +1,21 @@
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-UNY1128P">
+    <TITLE>Genome assembly: UNY1128P</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN50671272" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>UNY1128P</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>153.80938</COVERAGE>
+        <PROGRAM>HGAP 1.4</PROGRAM>
+        <PLATFORM>PacBio RSII</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/UNY1128P/UNY1128P.fsa.gz" filetype="fasta" checksum_method="MD5" checksum="2737d0384ff26a2e29e8c694ea676768" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>

@@ -1,0 +1,23 @@
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-URI39H_ann_v1">
+    <TITLE>Genome assembly: URI39H_ann_v1</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN12009577" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>URI39H_ann_v1</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>70.79613466666666</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/URI39H_ann_v1/URI39H.chromosome_list.tsv.gz" filetype="chromosome_list" checksum_method="MD5" checksum="1889e7e060cb756f67d606ac3cababbe" />
+      <FILE filename="webin-cli/genome/URI39H_ann_v1/URI39H.unlocalised_list.tsv.gz" filetype="unlocalised_list" checksum_method="MD5" checksum="af1341d21e26edbf5a028ac9abe43eb2" />
+      <FILE filename="webin-cli/genome/URI39H_ann_v1/URI39H.embl.gz" filetype="flatfile" checksum_method="MD5" checksum="c274ed74c3d1cf55cdf36cf6d6849503" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>

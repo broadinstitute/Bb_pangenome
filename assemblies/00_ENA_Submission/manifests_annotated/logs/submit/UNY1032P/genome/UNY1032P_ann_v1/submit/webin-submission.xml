@@ -1,0 +1,56 @@
+<WEBIN>
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-UNY1032P_ann_v1">
+    <TITLE>Genome assembly: UNY1032P_ann_v1</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN50671267" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>UNY1032P_ann_v1</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>180.96291595238097</COVERAGE>
+        <PROGRAM>HGAP 1.4</PROGRAM>
+        <PLATFORM>PacBio RSII</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/UNY1032P_ann_v1/UNY1032P.chromosome_list.tsv.gz" filetype="chromosome_list" checksum_method="MD5" checksum="e3d97c4c1b3c700f0f06d14eb9fcd80b" />
+      <FILE filename="webin-cli/genome/UNY1032P_ann_v1/UNY1032P.embl.gz" filetype="flatfile" checksum_method="MD5" checksum="16cf55cfa0881ca6784d7ef98dbaaf35" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>
+<SUBMISSION_SET>
+  <SUBMISSION>
+    <ACTIONS>
+      <ACTION>
+        <ADD />
+      </ACTION>
+    </ACTIONS>
+    <SUBMISSION_ATTRIBUTES>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-SUBMISSION-TOOL</TAG>
+        <VALUE>WebinCli:9.0.2</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE</TAG>
+        <VALUE><![CDATA[STUDY	PRJNA548188
+SAMPLE	SAMN50671267
+ASSEMBLYNAME	UNY1032P_ann_v1
+ASSEMBLY_TYPE	isolate
+COVERAGE	180.96291595238097
+PROGRAM	HGAP 1.4
+PLATFORM	PacBio RSII
+MOLECULETYPE	genomic DNA
+FLATFILE	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/fixed_embl/UNY1032P.embl.gz
+CHROMOSOME_LIST	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/chromosome_lists/UNY1032P.chromosome_list.tsv.gz]]></VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE-MD5</TAG>
+        <VALUE>7f589877cb3d2188f2d7bbec8bb5431a</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+    </SUBMISSION_ATTRIBUTES>
+  </SUBMISSION>
+</SUBMISSION_SET>
+</WEBIN>

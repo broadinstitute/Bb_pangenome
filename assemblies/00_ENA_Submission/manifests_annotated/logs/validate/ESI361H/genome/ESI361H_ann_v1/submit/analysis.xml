@@ -1,0 +1,22 @@
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-ESI361H_ann_v1">
+    <TITLE>Genome assembly: ESI361H_ann_v1</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN50670488" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>ESI361H_ann_v1</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>700</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/ESI361H_ann_v1/ESI361H.chromosome_list.tsv.gz" filetype="chromosome_list" checksum_method="MD5" checksum="a71906a74999222aa0186481c23fa96c" />
+      <FILE filename="webin-cli/genome/ESI361H_ann_v1/ESI361H.embl.gz" filetype="flatfile" checksum_method="MD5" checksum="9660e6e693fb893c734487a5009811a0" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>

@@ -1,0 +1,23 @@
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-UCT110H_ann_v1">
+    <TITLE>Genome assembly: UCT110H_ann_v1</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN12009645" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>UCT110H_ann_v1</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>151.159978</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/UCT110H_ann_v1/UCT110H.chromosome_list.tsv.gz" filetype="chromosome_list" checksum_method="MD5" checksum="8c3b1d9a2e62ee60bec9e0ef958bbaff" />
+      <FILE filename="webin-cli/genome/UCT110H_ann_v1/UCT110H.unlocalised_list.tsv.gz" filetype="unlocalised_list" checksum_method="MD5" checksum="a9ae048b57bfdceb60214d479e09e0e7" />
+      <FILE filename="webin-cli/genome/UCT110H_ann_v1/UCT110H.embl.gz" filetype="flatfile" checksum_method="MD5" checksum="08799e57a74b39baf9d1c9bca4faf1bc" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>
