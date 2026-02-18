@@ -13,3 +13,4 @@ output/results/v9/tarballs/merge_paralogs.tar.gz filter=lfs diff=lfs merge=lfs -
 output/results/v9/tarballs/no_merge_paralogs.tar.gz filter=lfs diff=lfs merge=lfs -text
 output/results/v9/tarballs/panaroo_intermediates_v1.tar.gz filter=lfs diff=lfs merge=lfs -text
 notebooks/figures/scripts_fig3/gc_summary.txt filter=lfs diff=lfs merge=lfs -text
+output/homology_networks/all_contigs_v5_fixed.fna filter=lfs diff=lfs merge=lfs -text
