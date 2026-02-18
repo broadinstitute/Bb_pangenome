@@ -1,0 +1,89 @@
+Strain_ID,Alias,Assembly_ID,QC,RST,Imputed,OspC,WGS,WGS_Subgroup,MLST,BAPS,Accessory,Core,DBScan,Origin,Location,Source,Species Notes,Disseminated,Severity,Sequenced_By
+N40,,ASM16663v1,F (short read),3,Y,E,,,19,,,,,US,NY,Tick,,,,External
+JD1,,ASM16665v1,F (short read),3,Y,C,,,11,,,,,US,MA,Tick,,,,External
+B-17/2013,Gr-39,ASM1913465v1,P,3,Y,L,,,24,,,,,EU,Belarus,Tick,I ricinus,,,External
+UNY196,B500,ASM1946457v1,F (Duplicate of B500P),3,N,I,,,15,,,,,US,NY,Human,,,,External
+PAli,,ASM215146v1,P,1,Y,A,,,1,,,,,EU,Germany,Human EM,,,,External
+PAbe,,ASM215148v1,P,1,Y,A,,,1,,,,,EU,Germany,Human LNB,,,,External
+B31_NRZ,,ASM215150v1,P,1,N,A,,,1,,,,,US,NY,Tick,Ixodes,,,External
+B331,B331,ASM244259v2,F (Duplicate of B331P),3,N,I,,,16,,,,,US,NY,Skin,Homo sapiens,L,,External
+B408,,ASM2466215v1,P,3,N,I,,,16,,,,,US,NY,Skin,Homo sapiens,L,,External
+B379,,ASM2466217v1,P,2,N,K,,,3,,,,,US,NY,Skin,Homo sapiens,D,,External
+B31-5A4,,ASM2466219v1,P,1,N,A,,,1,,,,,US,NY,Tick,Ixodes,,,External
+MM1,,ASM336729v1,P,3,Y,U,,,37,,,,,US,MN,Tick,Peromyscus leucopus,,,External
+GMT-0122,,ASM4079071v1,P,2,Y,L,,,29,,,,,NA,NA,NA,NA,,,External
+Bb16-183,,ASM4079073v1,P,2,Y,H,,,4,,,,,Canada,Nova Scotia,Tick,Ixodes scapularis,,,External
+Bb16-150,,ASM4079074v1,P,3,Y,E,,,19,,,,,Canada,Nova Scotia,Tick,Ixodes scapularis,,,External
+Bb16-134,,ASM4079075v1,P,3,Y,N,,,43,,,,,Canada,North West Ontario,Tick,Ixodes scapularis,,,External
+Bb16-23-2,,ASM4079076v1,P,3,Y,T,,,46,,,,,Canada,Manitoba,Tick,Ixodes scapularis,,,External
+P1286,,ASM4079077v1,P,1,Y,A,,,1,,,,,NA,NA,Tick,Ixodes scapularis,,,External
+Bb16-15-2,,ASM4079078v1,P,3,Y,T,,,46,,,,,Canada,Manitoba,Tick,Ixodes scapularis,,,External
+297,,ASM4079079v1,P,2,Y,K,,,3,,,,,US,CT,CSF,Homo sapiens,,,External
+B31,,ASM4079080v1,P,1,N,A,,,1,,,,,US,NY,Tick,Ixodes scapularis,,,External
+UNY167,B331P,ASM244259v2,P,3,N,I,,,16,,,,,US,NY,Skin,Homo sapiens,L,,Internal
+UNY186,B418P,NA,P,3,N,E,,,19,,,,,US,NY,Skin,Homo sapiens,D,,Internal
+UNY196,B500P,ASM1946457v1,P,3,N,I,,,15,,,,,US,NY,Skin,Homo sapiens,D,,Internal
+ESI26H,EU57_B190413,NA,P,1,N,M,A,A,20,1,24,14,14,EU,SI,Skin,Homo sapiens,L,ND,Internal
+ESI361H,EU51_B192411,NA,P,3,Y,L,2,,24,,,,,NA,NA,NA,NA,NA,NA,Internal
+ESI403H,EU14_B89613,NA,P,1,Y,B,1,,545,,,,,NA,NA,NA,NA,NA,NA,Internal
+ESI425H,L113H,NA,P,3,Y,L,,,24,,,,,EU,Slovenia,NA,NA,NA,NA,Internal
+K89H,NA,NA,F (mixed OspC Types),3,Y,NA,NA,NA,~16,NA,NA,NA,NA,US,RI,NA,NA,NA,NA,Internal
+PFhe_I_PB_Ill_cons,PFhe_I,NA,P,1,Y,Q,NA,NA,21,,,,,EU,Germany,NA,Homo sapiens,NA,NA,External
+UCT109H,K69,NA,P,1,N,A,A,A,3,1,1,1,1,US,CT,Skin,,L,mild,Internal
+UCT110H,K70,NA,P,2,N,K,C,C,4,2,2,2,2,US,CT,Skin,,D,moderate,Internal
+UCT113H,K76,NA,P,2,N,H,C,C,1,2,23,13,3,US,CT,Skin,,D,severe,Internal
+UCT124H,K90,NA,P,1,N,B,,,59,,,,,US,CT,,,L,severe,Internal
+UCT29H,K1,NA,P,1,N,A,A,A,3,1,1,1,1,US,CT,Skin,,D,severe,Internal
+UCT30H,K11,NA,P,2,N,K,C,C,1,2,22,2,2,US,CT,Skin,,D,severe,Internal
+UCT31H,K10,NA,P,1,N,A,A,A,3,1,3,1,1,US,CT,Skin,,L,severe,Internal
+UCT32H,K15,NA,P,2,N,K,C,C,14,2,2,2,2,US,CT,Skin,,D,mild,Internal
+UCT35H,K24,NA,P,3,N,G,B,B.2,19,3,21,10,13,US,CT,Skin,,L,severe,Internal
+UCT50H,K21,NA,P,3,N,E,B,B.1,3,4,20,9,9,US,CT,Skin,,D,severe,Internal
+UCT92H,K72,NA,P,2,N,K,C,C,59,2,2,2,2,US,CT,Skin,,L,moderate,Internal
+UCT96H,K84,NA,P,1,N,B,A,A,1,1,19,12,12,US,CT,Skin,,D,moderate,Internal
+UNY1032P,BL206,NA,P,1,N,A,,,1,,,,,US,NY,Blood,,D,,Internal
+UNY1038P,BL224,NA,P,2,N,K,,,3,,,,,US,NY,Blood,,D,,Internal
+UNY1083P,BL515,NA,P,3,N,C,,,11,,,,,US,NY,Blood,,D,,Internal
+UNY1085P,BL522P,NA,P,3,N,M,,,12,,,,,US,NY,Blood,,D,,Internal
+UNY1090P,BL546P,NA,P,2,N,H,,,4,,,,,US,NY,Blood,,D,,Internal
+UNY1128P,MR614,NA,P,3,N,C,,,11,,,,,US,NY,Skin,,D,,Internal
+UNY149P,B247,NA,P,2,N,K,C,C,19,2,2,2,2,US,NY,Skin,,D,ND,Internal
+UNY169P,B348,NA,P,3,N,E,B,B.1,12,4,18,9,9,US,NY,Skin,,D,ND,Internal
+UNY172P,B356,NA,P,3,N,M,B,B.1,38,5,17,8,8,US,NY,Skin,,L,ND,Internal
+UNY193P,B477,NA,P,3,N,D,A,A,14,3,16,7,7,US,NY,Skin,,L,ND,Internal
+UNY203P,MR616,NA,P,3,N,G,B,B.2,4,3,15,10,11,US,NY,Skin,,L,ND,Internal
+UNY208P,MR641,NA,P,2,N,H,C,C,9,2,14,6,3,US,NY,Skin,,D,ND,Internal
+UNY990P,B483P,NA,P,2,N,N,,,9,,,,,US,NY,Skin,,ND,,Internal
+URI101H,K57,NA,P,1,N,A,A,A,1,1,1,1,1,US,RI,Skin,,D,severe,Internal
+URI102H,K58,NA,P,1,N,A,A,A,3,1,1,1,1,US,RI,Skin,,D,severe,Internal
+URI103H,K59,NA,P,2,N,K,C,C,1,2,2,2,2,US,RI,Skin,,L,severe,Internal
+URI107H,K66,NA,P,1,N,A,A,A,1,1,1,1,1,US,RI,Skin,,D,moderate,Internal
+URI111H,K74,NA,P,1,N,A,A,A,3,1,1,1,1,US,RI,Skin,,D,mild,Internal
+URI112H,K75,NA,P,2,N,K,C,C,3,2,13,2,2,US,RI,Skin,,L,moderate,Internal
+URI117H,K82,NA,P,2,N,K,C,C,3,2,2,2,2,US,RI,Skin,,L,severe,Internal
+URI118H,K83,NA,P,2,N,K,C,C,1,2,12,2,2,US,RI,Skin,,L,moderate,Internal
+URI120H,K86,NA,P,1,N,A,A,A,9,1,1,1,1,US,RI,Skin,,D,severe,Internal
+URI33H,K16,NA,P,2,N,N,B,B.1,38,6,5,5,6,US,RI,Skin,,D,moderate,Internal
+URI34H,K22,NA,P,3,N,D,B,B.2,16,3,11,7,7,US,RI,Skin,,D,mild,Internal
+URI36H,K25,NA,P,3,N,I,B,B.1,1,7,10,4,5,US,RI,Skin,,D,severe,Internal
+URI39H,K2,NA,P,1,N,A,A,A,1,1,1,1,1,US,RI,Skin,,D,moderate,Internal
+URI40H,K3,NA,P,1,N,A,A,A,1,1,1,1,1,US,RI,Skin,,D,moderate,Internal
+URI41H,K6,NA,P,1,N,A,A,A,1,1,3,1,1,US,RI,Skin,,L,severe,Internal
+URI42H,K7,NA,P,1,N,A,A,A,3,1,3,1,1,US,RI,Skin,,L,severe,Internal
+URI44H,K12,NA,P,2,N,K,C,C,3,2,2,2,2,US,RI,Skin,,D,severe,Internal
+URI46H,K17,NA,P,2,N,K,C,C,3,2,2,2,2,US,RI,Skin,,L,mild,Internal
+URI47H,K18,NA,P,2,N,K,C,C,9,2,2,2,2,US,RI,Skin,,L,mild,Internal
+URI48H,K19,NA,P,2,N,N,B,B.1,16,6,5,5,6,US,RI,Skin,,L,mild,Internal
+URI56H,K30,NA,P,3,N,I,B,B.1,3,7,9,4,5,US,RI,Skin,,L,moderate,Internal
+URI86H,K56,NA,P,2,N,K,C,C,1,2,2,2,2,US,RI,Skin,,L,moderate,Internal
+URI87H,K60,NA,P,1,N,A,A,A,4,1,1,1,1,US,RI,Skin,,D,mild,Internal
+URI88H,K62,NA,P,2,N,H,C,C,1,2,8,6,3,US,RI,Skin,,L,severe,Internal
+URI89H,K64,NA,P,1,N,A,A,A,1,1,1,1,1,US,RI,Skin,,D,severe,Internal
+URI91H,K71,NA,P,1,N,A,A,A,1,1,1,1,1,US,RI,Skin,,L,moderate,Internal
+URI93H,K73,NA,P,1,N,A,A,A,1,1,1,1,1,US,RI,Skin,,D,severe,Internal
+UWI247P,MC104,NA,P,2,N,H,C,C,32,2,4,3,4,US,WI,CSF,,D,ND,Internal
+UWI248P,MC105,NA,P,2,N,H,C,C,29,2,4,3,4,US,WI,Skin,,L,ND,Internal
+UWI263P,MC123,NA,P,2,N,L,C,C,221,2,7,11,10,US,WI,Skin,,ND,ND,Internal
+UWI283P,MC149,NA,P,3,N,O,B,B.1,20,5,6,8,8,US,WI,Skin,,L,ND,Internal
+XYZ459H,XD1H,NA,P,3,Y,M,,,12,,,,,US,MD,Tick,?,,,Internal
+Banserina_BA2,,,P,,,,,,,,,,,,,,,,,External
