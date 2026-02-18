@@ -1,0 +1,22 @@
+contig_id	assembly_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	concat_call	multiple_loci
+contig_1 [gcode=11] [topology=linear]	ESI425H	434789	B379_chromosome_ParA_2	chromosome	B379	434789	380	99.72677595628416	0.2523062910975209	1097	365	[(1, 366)]	[(368488, 369585)]	[(1, 366)]		False
+contig_10 [gcode=11] [topology=linear]	ESI425H	27761	RS06415_JD1_JD1_lp28-5_ParA_X	lp28-5	RS06415	27761	250	100.0	2.69802960988437	749	249	[(1, 250)]	[(19615, 20364)]	[(1, 250)]		False
+contig_11 [gcode=11] [topology=linear]	ESI425H	26516	MM1_cp26_ParA_1	cp26	MM1	26516	253	100.0	2.8586513802986877	758	252	[(1, 253)]	[(25641, 26399)]	[(1, 253)]		False
+contig_12 [gcode=11] [topology=linear]	ESI425H	26135	RS210_MM1_plsm_lp28-8_ParA_X	lp28-8	RS210	26135	271	100.0	3.106944710158791	812	270	[(1, 271)]	[(15250, 16062)]	[(1, 271)]		False
+contig_13 [gcode=11] [topology=linear]	ESI425H	24817	RS00670_JD1_JD1_lp25_ParA_X	lp25	RS00670	24817	252	99.60317460317461	3.0422694120965468	755	251	[(1, 252)]	[(12276, 13031)]	[(1, 252)]		False
+contig_14 [gcode=11] [topology=linear]	ESI425H	17472				17472										False
+contig_15 [gcode=11] [topology=linear]	ESI425H	14457				14457										False
+contig_16 [gcode=11] [topology=linear]	ESI425H	3636	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	3636	246	100.0	19.93949394939494	725	241	[(1, 242)]	[(62, 787)]	[(1, 242)]		False
+contig_17 [gcode=11] [topology=linear]	ESI425H	3119				3119										False
+contig_18 [gcode=11] [topology=linear]	ESI425H	828				828										False
+contig_19 [gcode=11] [topology=linear]	ESI425H	422				422										False
+contig_2 [gcode=11] [topology=linear]	ESI425H	342816	RS01390_WI91-23_WI91-23_lp56_ParA_X	lp56	RS01390	342816	323	100.0	0.2823672173994212	968	322	[(1, 323)]	[(214282, 215250)]	[(1, 323)]		False
+contig_20 [gcode=11] [topology=linear]	ESI425H	354				354										False
+contig_21 [gcode=11] [topology=linear]	ESI425H	128				128										False
+contig_3 [gcode=11] [topology=linear]	ESI425H	108461	RS03465_29805_29805_lp54_ParA_X	lp54	RS03465	108461	250	100.0	0.6905708042522196	749	249	[(1, 250)]	[(99834, 100583)]	[(1, 250)]		False
+contig_4 [gcode=11] [topology=linear]	ESI425H	56468	RS01335_MM1_plsm_lp36_ParA_X	lp36	RS01335	56468	249	100.0	1.2892257561804916	728	242	[(1, 243)]	[(16496, 17224)]	[(1, 243)]	lp36:::lp28-4	True
+contig_5 [gcode=11] [topology=linear]	ESI425H	52616	A20_B31_lp54_ParA_X	lp54	A20	52616	250	100.0	1.4235213623232477	749	249	[(1, 250)]	[(38312, 39061)]	[(1, 250)]		False
+contig_6 [gcode=11] [topology=linear]	ESI425H	30871	RS01730_MM1_plsm_cp32-9_ParA_X	cp32-9	RS01730	30871	251	99.59677419354838	2.4067895435845936	743	247	[(1, 248)]	[(13407, 14150)]	[(1, 248)]		False
+contig_7 [gcode=11] [topology=linear]	ESI425H	30428	O32_B31_cp32-7_ParA_X	cp32-7	O32	30428	249	100.0	2.4516892336006313	746	248	[(1, 249)]	[(19896, 20642)]	[(1, 249)]		False
+contig_8 [gcode=11] [topology=linear]	ESI425H	29638	Q40_B31_lp56_ParA_X	lp56	Q40	29638	251	99.60159362549801	2.537283217491059	752	250	[(1, 251)]	[(13376, 14128)]	[(1, 251)]		False
+contig_9 [gcode=11] [topology=linear]	ESI425H	28483	RS01295_JD1_JD1_cp32-1+5_ParA_X	cp32-1+5	RS01295	28483	257	100.0	2.7033669206193167	770	256	[(1, 257)]	[(19573, 20343)]	[(1, 257)]		False

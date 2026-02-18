@@ -1,0 +1,278 @@
+contig_id	assembly_id	contig_len	plasmid_id_pf32	plasmid_name_pf32	strain_pf32	query_length_pf32	ref_length_pf32	overall_percent_identity_pf32	query_coverage_percent_pf32	query_covered_length_pf32	ref_covered_length_pf32	covered_intervals_pf32	query_intervals_pf32	subject_hit_coords_pf32	concat_call_pf32	multiple_loci_pf32	plasmid_id_wp	plasmid_name_wp	strain_wp	query_length_wp	ref_length_wp	overall_percent_identity_wp	query_coverage_percent_wp	query_covered_length_wp	ref_covered_length_wp	covered_intervals_wp	query_intervals_wp	subject_hit_coords_wp	_score_wp	final_call
+contig_1 [gcode=11] [topology=linear]	UNY1128P	709546	B379_chromosome_ParA_2	chromosome	B379	709546	380	99.72677595628416	0.15460590292947884	1097	365	[(1, 366)]	[(154796, 155893)]	[(1, 366)]		False	gb|CP002312.1|	chromosome	JD1	709546.0	922801	99.95472162857246	99.92121722904506	708987	709207	[(213490, 213712), (213816, 922801)]	[(1, 708988)]	[(213816, 922801), (434883, 438077), (438131, 441322), (911198, 911616), (912586, 913004), (844342, 844690), (844375, 844723), (844338, 844657), (844404, 844723), (213490, 213712)]	9987.597452917316	chromosome
+contig_10 [gcode=11] [topology=linear]	UNY1128P	27055	RS07610_JD1_JD1_lp28-6_ParA_X	lp28-6	RS07610	27055	251	100.0	2.779523193494733	752	250	[(1, 251)]	[(2960, 3712)]	[(1, 251)]		False	gb|CP002324.1|	lp28-6	JD1	27055.0	26981	99.77021718182492	99.69691369432637	26973	26979	[(2, 26981)]	[(1, 26974)]	[(2, 26981)]	9946.782731640596	lp28-6
+contig_100 [gcode=11] [topology=linear]	UNY1128P	244				244										False	gb|CP002323.1|	cp32-10	JD1	244.0	30314	100.0	99.59016393442623	243	243	[(5003, 5246)]	[(1, 244)]	[(5246, 5003)]	9959.016393442624	cp32-10
+contig_101 [gcode=11] [topology=linear]	UNY1128P	240				240										False	gb|CP002309.1|	cp32-11	JD1	240.0	29902	99.58333333333333	99.58333333333333	239	239	[(14769, 15008)]	[(1, 240)]	[(14769, 15008)]	9916.840277777777	cp32-11
+contig_102 [gcode=11] [topology=linear]	UNY1128P	240				240										False	gb|AE001576.1|	cp32-3	B31	240.0	30223	99.58333333333333	99.58333333333333	239	239	[(2506, 2745)]	[(1, 240)]	[(2506, 2745)]	9916.840277777777	cp32-3
+contig_103 [gcode=11] [topology=linear]	UNY1128P	234				234										False														unclassified
+contig_104 [gcode=11] [topology=linear]	UNY1128P	232				232										False	gb|CP002321.1|	cp32-12	JD1	232.0	30019	100.0	99.56896551724138	231	231	[(4880, 5111)]	[(1, 232)]	[(5111, 4880)]	9956.896551724138	cp32-12
+contig_105 [gcode=11] [topology=linear]	UNY1128P	228				228										False	gb|CP094588.1|	cp32-9	B379	228.0	21173	99.12280701754386	99.56140350877193	227	227	[(9821, 10048)]	[(1, 228)]	[(9821, 10048)]	9868.805786395815	cp32-9
+contig_106 [gcode=11] [topology=linear]	UNY1128P	228				228										False	gb|CP002310.1|	cp32-1+5	JD1	228.0	60739	98.90350877192982	99.56140350877193	227	454	[(18063, 18290), (48681, 48908)]	[(1, 228)]	[(18063, 18290), (48681, 48908)]	9846.97214527547	cp32-1+5
+contig_107 [gcode=11] [topology=linear]	UNY1128P	225				225										False	gb|CP002235.1|	cp32-4	N40	225.0	15915	99.55555555555556	99.55555555555556	224	224	[(739, 963)]	[(1, 225)]	[(963, 739)]	9911.308641975309	cp32-4
+contig_108 [gcode=11] [topology=linear]	UNY1128P	225				225										False	gb|CP002322.1|	cp32-9	JD1	225.0	30697	100.0	99.55555555555556	224	224	[(7416, 7640)]	[(1, 225)]	[(7640, 7416)]	9955.555555555557	cp32-9
+contig_109 [gcode=11] [topology=linear]	UNY1128P	222				222										False	gb|CP002325.1|	lp38	JD1	222.0	27590	98.06306306306305	99.54954954954955	221	1860	[(17089, 17560), (22105, 22389), (18656, 18877), (20345, 20566), (16650, 16871), (19906, 20127), (15146, 15367)]	[(1, 222)]	[(16650, 16871), (19906, 20127), (17089, 17310), (20345, 20566), (17152, 17373), (15146, 15367), (18656, 18877), (22105, 22326), (22168, 22389), (17341, 17560)]	9762.133755376999	lp38
+contig_11 [gcode=11] [topology=linear]	UNY1128P	25158	JD1_cp26_ParA_1	cp26	JD1	25158	253	100.0	3.0129581047778045	758	252	[(1, 253)]	[(15587, 16345)]	[(1, 253)]		False	gb|CP002316.1|	cp26	JD1	25158.0	26525	99.0451486786211	99.9920502424676	25156	26392	[(19453, 26525), (1, 19321)]	[(6311, 25158), (1, 6310)]	[(1, 18849), (20216, 26525), (19453, 20314), (18751, 19321)]	9903.727482945354	cp26
+contig_110 [gcode=11] [topology=linear]	UNY1128P	221				221										False	gb|CP002321.1|	cp32-12	JD1	221.0	30019	99.5475113122172	99.5475113122172	220	220	[(29458, 29678)]	[(1, 221)]	[(29458, 29678)]	9909.707008456011	cp32-12
+contig_111 [gcode=11] [topology=linear]	UNY1128P	221				221										False	gb|CP074070.1|	cp32-8	B500	221.0	29890	99.09502262443439	99.5475113122172	220	220	[(29329, 29549)]	[(1, 221)]	[(29329, 29549)]	9864.6628856903	cp32-8
+contig_112 [gcode=11] [topology=linear]	UNY1128P	221				221										False	gb|CP094583.1|	cp32-2	B379	221.0	30302	100.0	99.5475113122172	220	220	[(29741, 29961)]	[(1, 221)]	[(29961, 29741)]	9954.75113122172	cp32-2
+contig_113 [gcode=11] [topology=linear]	UNY1128P	220				220										False	gb|AE001584.1|	lp56	B31	220.0	52971	100.0	99.54545454545455	219	219	[(8766, 8985)]	[(1, 220)]	[(8766, 8985)]	9954.545454545454	lp56
+contig_114 [gcode=11] [topology=linear]	UNY1128P	216				216										False	gb|CP019920.1|	cp32-3	PAbe	216.0	25789	100.0	99.53703703703704	215	215	[(796, 1011)]	[(1, 216)]	[(1011, 796)]	9953.703703703704	cp32-3
+contig_115 [gcode=11] [topology=linear]	UNY1128P	216				216										False	gb|CP002322.1|	cp32-9	JD1	216.0	30697	100.0	99.53703703703704	215	215	[(30163, 30378)]	[(1, 216)]	[(30378, 30163)]	9953.703703703704	cp32-9
+contig_116 [gcode=11] [topology=linear]	UNY1128P	216				216										False	gb|CP002310.1|	cp32-1+5	JD1	216.0	60739	98.61111111111111	99.53703703703704	215	215	[(32044, 32259)]	[(1, 216)]	[(32044, 32259)]	9815.457818930041	cp32-1+5
+contig_117 [gcode=11] [topology=linear]	UNY1128P	214				214										False	gb|CP019920.1|	cp32-3	PAbe	214.0	25789	99.06542056074767	99.53271028037383	213	213	[(18370, 18583)]	[(1, 214)]	[(18370, 18583)]	9860.249803476287	cp32-3
+contig_118 [gcode=11] [topology=linear]	UNY1128P	214				214										False	gb|CP002323.1|	cp32-10	JD1	214.0	30314	100.0	99.53271028037383	213	213	[(817, 1030)]	[(1, 214)]	[(1030, 817)]	9953.271028037383	cp32-10
+contig_119 [gcode=11] [topology=linear]	UNY1128P	213				213										False	gb|CP002322.1|	cp32-9	JD1	213.0	30697	100.0	99.53051643192488	212	212	[(7944, 8156)]	[(1, 213)]	[(7944, 8156)]	9953.051643192488	cp32-9
+contig_12 [gcode=11] [topology=linear]	UNY1128P	21289	RS01730_MM1_plsm_cp32-9_ParA_X	cp32-9	RS01730	21289	251	100.0	3.490065291934802	743	247	[(1, 248)]	[(8583, 9326)]	[(1, 248)]		False	gb|CP002322.1|	cp32-9	JD1	21289.0	30697	99.86847667809667	99.99530273850345	21288	21285	[(8693, 29978)]	[(1, 21289)]	[(29978, 8693)]	9986.378559459448	cp32-9
+contig_120 [gcode=11] [topology=linear]	UNY1128P	212				212										False	gb|CP001269.1|	cp32-8	156a	212.0	30946	99.52830188679245	99.52830188679245	211	211	[(16012, 16223)]	[(1, 212)]	[(16012, 16223)]	9905.882876468493	cp32-8
+contig_121 [gcode=11] [topology=linear]	UNY1128P	210				210										False	gb|CP002325.1|	lp38	JD1	210.0	27590	98.66666666666667	99.52380952380952	209	1549	[(19216, 19425), (15017, 15478), (15897, 16106), (21157, 21366), (21409, 21870)]	[(1, 210)]	[(21744, 21535), (21618, 21409), (21366, 21157), (16106, 15897), (19425, 19216), (21870, 21661), (15226, 15017), (15289, 15080), (15352, 15143), (15478, 15269)]	9819.682539682539	lp38
+contig_122 [gcode=11] [topology=linear]	UNY1128P	209				209										False	gb|CP001264.1|	cp32-3	156a	209.0	30280	99.04306220095694	99.52153110047847	208	208	[(26506, 26714)]	[(1, 209)]	[(26506, 26714)]	9856.91719511916	cp32-3
+contig_123 [gcode=11] [topology=linear]	UNY1128P	209				209										False														unclassified
+contig_124 [gcode=11] [topology=linear]	UNY1128P	209				209										False	gb|CP002325.1|	lp38	JD1	209.0	27590	98.84947267497604	99.52153110047847	208	1622	[(18591, 18799), (17654, 17860), (21410, 21744), (15081, 15289), (19717, 19923), (20906, 21366)]	[(1, 209)]	[(21366, 21158), (15289, 15081), (18799, 18591), (21744, 21536), (21114, 20906), (21177, 20969), (21240, 21032), (21618, 21410), (17860, 17654), (19923, 19717)]	9837.650869088524	lp38
+contig_125 [gcode=11] [topology=linear]	UNY1128P	209				209										False	gb|CP002321.1|	cp32-12	JD1	209.0	30019	100.0	99.52153110047847	208	208	[(2454, 2662)]	[(1, 209)]	[(2662, 2454)]	9952.153110047848	cp32-12
+contig_126 [gcode=11] [topology=linear]	UNY1128P	208				208										False	gb|CP094604.1|	cp32-8	B31-5A4	208.0	30886	100.0	99.51923076923077	207	207	[(16059, 16266)]	[(1, 208)]	[(16059, 16266)]	9951.923076923078	cp32-8
+contig_127 [gcode=11] [topology=linear]	UNY1128P	208				208										False	gb|CP001269.1|	cp32-8	156a	208.0	30946	99.51923076923077	99.51923076923077	207	207	[(796, 1003)]	[(1, 208)]	[(1003, 796)]	9904.077292899408	cp32-8
+contig_128 [gcode=11] [topology=linear]	UNY1128P	208				208										False	gb|CP002323.1|	cp32-10	JD1	208.0	30314	99.51923076923077	99.51923076923077	207	207	[(15961, 16168)]	[(1, 208)]	[(15961, 16168)]	9904.077292899408	cp32-10
+contig_129 [gcode=11] [topology=linear]	UNY1128P	207				207										False	gb|CP002325.1|	lp38	JD1	207.0	27590	98.84057971014492	99.51690821256038	206	1614	[(17654, 17860), (21412, 21870), (15837, 16106), (15272, 15478), (19156, 19425), (19717, 19923)]	[(1, 207)]	[(17860, 17654), (21618, 21412), (21744, 21538), (21870, 21664), (15478, 15272), (16043, 15837), (16106, 15900), (19362, 19156), (19425, 19219), (19923, 19717)]	9836.30889869075	lp38
+contig_13 [gcode=11] [topology=linear]	UNY1128P	20737	Q40_B31_lp56_ParA_X	lp56	Q40	20737	251	100.0	3.6263683271447174	752	250	[(1, 251)]	[(7301, 8053)]	[(1, 251)]		False	gb|CP002323.1|	cp32-10	JD1	20737.0	30314	99.97588850846313	99.99517770169263	20736	20736	[(8020, 28756)]	[(1, 20737)]	[(28756, 8020)]	9997.10673728838	lp56
+contig_130 [gcode=11] [topology=linear]	UNY1128P	206				206										False	gb|CP002240.1|	cp32-10	N40	206.0	30154	100.0	99.51456310679612	205	205	[(2696, 2901)]	[(1, 206)]	[(2901, 2696)]	9951.456310679612	cp32-10
+contig_131 [gcode=11] [topology=linear]	UNY1128P	203				203										False	gb|CP002323.1|	cp32-10	JD1	203.0	30314	100.0	99.50738916256158	202	202	[(6634, 6836)]	[(1, 203)]	[(6836, 6634)]	9950.738916256158	cp32-10
+contig_132 [gcode=11] [topology=linear]	UNY1128P	201				201										False	gb|CP001269.1|	cp32-8	156a	201.0	30946	99.50248756218906	99.50248756218906	200	200	[(13159, 13359)]	[(1, 201)]	[(13359, 13159)]	9900.745031063589	cp32-8
+contig_133 [gcode=11] [topology=linear]	UNY1128P	201				201										False	gb|CP001572.1|	cp32-5	Bol26	201.0	30186	100.0	99.50248756218906	200	200	[(2696, 2896)]	[(1, 201)]	[(2696, 2896)]	9950.248756218905	cp32-5
+contig_134 [gcode=11] [topology=linear]	UNY1128P	200				200										False	gb|CP002325.1|	lp38	JD1	200.0	27590	100.0	99.5	199	199	[(15457, 15656)]	[(1, 200)]	[(15656, 15457)]	9950.0	lp38
+contig_135 [gcode=11] [topology=linear]	UNY1128P	198				198										False														unclassified
+contig_136 [gcode=11] [topology=linear]	UNY1128P	198				198										False														unclassified
+contig_137 [gcode=11] [topology=linear]	UNY1128P	198				198										False														unclassified
+contig_138 [gcode=11] [topology=linear]	UNY1128P	196				196										False														unclassified
+contig_139 [gcode=11] [topology=linear]	UNY1128P	195				195										False														unclassified
+contig_14 [gcode=11] [topology=linear]	UNY1128P	17816	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	17816	246	100.0	4.069375841939829	725	241	[(1, 242)]	[(14198, 14923)]	[(1, 242)]		False	gb|CP001497.1|	lp17	94a	17816.0	18110	98.92088342186189	99.61270767849125	17747	17818	[(11655, 18110), (322, 11413), (1, 273)]	[(15, 11368), (11369, 17763)]	[(322, 11413), (14431, 18110), (11655, 14468), (1, 273)]	9853.77704360004	lp17
+contig_140 [gcode=11] [topology=linear]	UNY1128P	195				195										False														unclassified
+contig_141 [gcode=11] [topology=linear]	UNY1128P	190				190										False														unclassified
+contig_142 [gcode=11] [topology=linear]	UNY1128P	187				187										False														unclassified
+contig_143 [gcode=11] [topology=linear]	UNY1128P	186				186										False														unclassified
+contig_144 [gcode=11] [topology=linear]	UNY1128P	185				185										False														unclassified
+contig_145 [gcode=11] [topology=linear]	UNY1128P	184				184										False														unclassified
+contig_146 [gcode=11] [topology=linear]	UNY1128P	184				184										False														unclassified
+contig_147 [gcode=11] [topology=linear]	UNY1128P	182				182										False														unclassified
+contig_148 [gcode=11] [topology=linear]	UNY1128P	182				182										False														unclassified
+contig_149 [gcode=11] [topology=linear]	UNY1128P	182				182										False														unclassified
+contig_15 [gcode=11] [topology=linear]	UNY1128P	16563	RS00365_JD1_JD1_lp28-1_ParA_X	lp28-1	RS00365	16563	254	100.0	4.594578276882207	761	253	[(1, 254)]	[(11942, 12703)]	[(1, 254)]		False	gb|CP002306.1|	lp28-1	JD1	16563.0	24354	92.6516097508008	97.68761697760068	16180	15518	[(5825, 21343)]	[(383, 16563)]	[(21339, 5825), (17746, 15051), (21339, 18624), (21343, 18645), (18609, 16518), (17394, 15332), (21009, 18910), (20761, 18603), (18630, 16516), (21339, 19269)]	9050.914965694361	lp28-1
+contig_150 [gcode=11] [topology=linear]	UNY1128P	182				182										False														unclassified
+contig_151 [gcode=11] [topology=linear]	UNY1128P	181				181										False														unclassified
+contig_152 [gcode=11] [topology=linear]	UNY1128P	181				181										False														unclassified
+contig_153 [gcode=11] [topology=linear]	UNY1128P	180				180										False														unclassified
+contig_154 [gcode=11] [topology=linear]	UNY1128P	179				179										False														unclassified
+contig_155 [gcode=11] [topology=linear]	UNY1128P	178				178										False														unclassified
+contig_156 [gcode=11] [topology=linear]	UNY1128P	178				178										False														unclassified
+contig_157 [gcode=11] [topology=linear]	UNY1128P	177				177										False														unclassified
+contig_158 [gcode=11] [topology=linear]	UNY1128P	176				176										False														unclassified
+contig_159 [gcode=11] [topology=linear]	UNY1128P	176				176										False														unclassified
+contig_16 [gcode=11] [topology=linear]	UNY1128P	16239	S35_B31_cp32-3_ParA_X	cp32-3	S35	16239	246	100.0	4.538456801527188	737	245	[(1, 246)]	[(4258, 4995)]	[(1, 246)]		False	gb|CP002320.1|	cp32-3	JD1	16239.0	29707	99.31317838964861	99.98768397068784	16237	16289	[(1, 3135), (16552, 29707)]	[(13140, 16239), (1, 13139)]	[(16552, 29707), (1, 3135)]	9930.09469494873	cp32-3
+contig_160 [gcode=11] [topology=linear]	UNY1128P	176				176										False														unclassified
+contig_161 [gcode=11] [topology=linear]	UNY1128P	176				176										False														unclassified
+contig_162 [gcode=11] [topology=linear]	UNY1128P	176				176										False														unclassified
+contig_163 [gcode=11] [topology=linear]	UNY1128P	174				174										False														unclassified
+contig_164 [gcode=11] [topology=linear]	UNY1128P	174				174										False														unclassified
+contig_165 [gcode=11] [topology=linear]	UNY1128P	173				173										False														unclassified
+contig_166 [gcode=11] [topology=linear]	UNY1128P	173				173										False														unclassified
+contig_167 [gcode=11] [topology=linear]	UNY1128P	173				173										False														unclassified
+contig_168 [gcode=11] [topology=linear]	UNY1128P	172				172										False														unclassified
+contig_169 [gcode=11] [topology=linear]	UNY1128P	171				171										False														unclassified
+contig_17 [gcode=11] [topology=linear]	UNY1128P	15263	RS07790_JD1_JD1_lp38_ParA_X	lp38	RS07790	15263	245	100.0	4.809015265675162	734	244	[(1, 245)]	[(2533, 3267)]	[(1, 245)]		False	gb|CP002325.1|	lp38	JD1	15263.0	27590	98.91495453860452	98.97792046124614	15107	17764	[(17021, 18055), (18088, 18618), (18712, 19492), (1, 15421)]	[(1, 15108)]	[(15108, 1), (18618, 18088), (17742, 17208), (15421, 14889), (19368, 18838), (19492, 18962), (19433, 18901), (17551, 17021), (19242, 18712), (18055, 17521)]	9790.396502749776	lp38
+contig_170 [gcode=11] [topology=linear]	UNY1128P	171				171										False														unclassified
+contig_171 [gcode=11] [topology=linear]	UNY1128P	171				171										False														unclassified
+contig_172 [gcode=11] [topology=linear]	UNY1128P	170				170										False														unclassified
+contig_173 [gcode=11] [topology=linear]	UNY1128P	170				170										False														unclassified
+contig_174 [gcode=11] [topology=linear]	UNY1128P	168				168										False														unclassified
+contig_175 [gcode=11] [topology=linear]	UNY1128P	168				168										False														unclassified
+contig_176 [gcode=11] [topology=linear]	UNY1128P	167				167										False														unclassified
+contig_177 [gcode=11] [topology=linear]	UNY1128P	167				167										False														unclassified
+contig_178 [gcode=11] [topology=linear]	UNY1128P	166				166										False														unclassified
+contig_179 [gcode=11] [topology=linear]	UNY1128P	166				166										False														unclassified
+contig_18 [gcode=11] [topology=linear]	UNY1128P	11726	RS07125_JD1_JD1_cp32-12_ParA_X	cp32-12	RS07125	11726	260	100.0	6.643356643356643	779	259	[(1, 260)]	[(6647, 7426)]	[(1, 260)]		False	gb|CP002321.1|	cp32-12	JD1	11726.0	30019	99.86356271851284	99.99147194269146	11725	11725	[(16484, 28209)]	[(1, 11726)]	[(28209, 16484)]	9985.504629665385	cp32-12
+contig_180 [gcode=11] [topology=linear]	UNY1128P	166				166										False														unclassified
+contig_181 [gcode=11] [topology=linear]	UNY1128P	166				166										False														unclassified
+contig_182 [gcode=11] [topology=linear]	UNY1128P	165				165										False														unclassified
+contig_183 [gcode=11] [topology=linear]	UNY1128P	164				164										False														unclassified
+contig_184 [gcode=11] [topology=linear]	UNY1128P	163				163										False														unclassified
+contig_185 [gcode=11] [topology=linear]	UNY1128P	163				163										False														unclassified
+contig_186 [gcode=11] [topology=linear]	UNY1128P	162				162										False														unclassified
+contig_187 [gcode=11] [topology=linear]	UNY1128P	161				161										False														unclassified
+contig_188 [gcode=11] [topology=linear]	UNY1128P	156				156										False														unclassified
+contig_189 [gcode=11] [topology=linear]	UNY1128P	155				155										False														unclassified
+contig_19 [gcode=11] [topology=linear]	UNY1128P	8033				8033										False	gb|CP002317.1|	lp28-5	JD1	8033.0	24614	99.96346698328614	99.98755135067844	8032	9932	[(13785, 14108), (13253, 13709), (4347, 13177), (14849, 15172)]	[(1, 8033)]	[(12379, 4347), (12645, 12322), (12778, 12455), (12911, 12588), (13044, 12721), (13177, 12854), (14108, 13785), (15172, 14849), (13576, 13253), (13709, 13386)]	9995.102288183172	lp28-5
+contig_190 [gcode=11] [topology=linear]	UNY1128P	154				154										False														unclassified
+contig_191 [gcode=11] [topology=linear]	UNY1128P	154				154										False														unclassified
+contig_192 [gcode=11] [topology=linear]	UNY1128P	153				153										False														unclassified
+contig_193 [gcode=11] [topology=linear]	UNY1128P	153				153										False														unclassified
+contig_194 [gcode=11] [topology=linear]	UNY1128P	152				152										False														unclassified
+contig_195 [gcode=11] [topology=linear]	UNY1128P	152				152										False														unclassified
+contig_196 [gcode=11] [topology=linear]	UNY1128P	152				152										False														unclassified
+contig_197 [gcode=11] [topology=linear]	UNY1128P	151				151										False														unclassified
+contig_198 [gcode=11] [topology=linear]	UNY1128P	149				149										False														unclassified
+contig_199 [gcode=11] [topology=linear]	UNY1128P	148				148										False														unclassified
+contig_2 [gcode=11] [topology=linear]	UNY1128P	213832				213832										False	gb|CP002312.1|	chromosome	JD1	213832.0	922801	99.94021449200714	99.99906468629578	213830	214029	[(6, 214035)]	[(1, 213831)]	[(213841, 6), (214003, 213225), (214035, 213387), (213679, 213063), (214035, 213549), (213517, 213063), (214035, 213711), (213355, 213063)]	9993.927973748498	chromosome
+contig_20 [gcode=11] [topology=linear]	UNY1128P	6075				6075										False	gb|CP002325.1|	lp38	JD1	6075.0	27590	98.05878225617838	97.05349794238684	5896	8521	[(16026, 17354), (19345, 20108), (21160, 27590)]	[(1, 5897)]	[(21727, 27590), (21664, 22433), (21601, 22370), (19345, 20108), (21538, 22307), (16026, 16789), (21160, 21929), (16587, 17354), (21412, 22181), (16524, 17291)]	9516.947821932967	lp38
+contig_200 [gcode=11] [topology=linear]	UNY1128P	148				148										False														unclassified
+contig_201 [gcode=11] [topology=linear]	UNY1128P	147				147										False														unclassified
+contig_202 [gcode=11] [topology=linear]	UNY1128P	146				146										False														unclassified
+contig_203 [gcode=11] [topology=linear]	UNY1128P	146				146										False														unclassified
+contig_204 [gcode=11] [topology=linear]	UNY1128P	146				146										False														unclassified
+contig_205 [gcode=11] [topology=linear]	UNY1128P	144				144										False														unclassified
+contig_206 [gcode=11] [topology=linear]	UNY1128P	144				144										False														unclassified
+contig_207 [gcode=11] [topology=linear]	UNY1128P	144				144										False														unclassified
+contig_208 [gcode=11] [topology=linear]	UNY1128P	143				143										False														unclassified
+contig_209 [gcode=11] [topology=linear]	UNY1128P	143				143										False														unclassified
+contig_21 [gcode=11] [topology=linear]	UNY1128P	4522	RS01520_MM1_plsm_cp32-6_ParA_X	cp32-6	RS01520	4522	249	100.0	16.497125165855817	746	248	[(1, 249)]	[(2350, 3096)]	[(1, 249)]		False	gb|CP001259.1|	cp32-6	156a	4522.0	30293	95.8970946994899	99.33657673595754	4492	4501	[(18445, 22946)]	[(30, 4522)]	[(18445, 22946)]	9526.089106371264	cp32-6
+contig_210 [gcode=11] [topology=linear]	UNY1128P	143				143										False														unclassified
+contig_211 [gcode=11] [topology=linear]	UNY1128P	142				142										False														unclassified
+contig_212 [gcode=11] [topology=linear]	UNY1128P	142				142										False														unclassified
+contig_213 [gcode=11] [topology=linear]	UNY1128P	142				142										False														unclassified
+contig_214 [gcode=11] [topology=linear]	UNY1128P	142				142										False														unclassified
+contig_215 [gcode=11] [topology=linear]	UNY1128P	142				142										False														unclassified
+contig_216 [gcode=11] [topology=linear]	UNY1128P	141				141										False														unclassified
+contig_217 [gcode=11] [topology=linear]	UNY1128P	141				141										False														unclassified
+contig_218 [gcode=11] [topology=linear]	UNY1128P	141				141										False														unclassified
+contig_219 [gcode=11] [topology=linear]	UNY1128P	141				141										False														unclassified
+contig_22 [gcode=11] [topology=linear]	UNY1128P	4374				4374										False	gb|AE000791.1|	cp9	B31	4374.0	9386	97.8186775732788	99.97713763145862	4373	4389	[(2515, 6904)]	[(1, 4374)]	[(2515, 6904)]	9779.63139067097	cp9
+contig_220 [gcode=11] [topology=linear]	UNY1128P	139				139										False														unclassified
+contig_221 [gcode=11] [topology=linear]	UNY1128P	139				139										False														unclassified
+contig_222 [gcode=11] [topology=linear]	UNY1128P	139				139										False														unclassified
+contig_223 [gcode=11] [topology=linear]	UNY1128P	139				139										False														unclassified
+contig_224 [gcode=11] [topology=linear]	UNY1128P	139				139										False														unclassified
+contig_225 [gcode=11] [topology=linear]	UNY1128P	138				138										False														unclassified
+contig_226 [gcode=11] [topology=linear]	UNY1128P	138				138										False														unclassified
+contig_227 [gcode=11] [topology=linear]	UNY1128P	138				138										False														unclassified
+contig_228 [gcode=11] [topology=linear]	UNY1128P	138				138										False														unclassified
+contig_229 [gcode=11] [topology=linear]	UNY1128P	138				138										False														unclassified
+contig_23 [gcode=11] [topology=linear]	UNY1128P	3040				3040										False	gb|CP019918.1|	cp32-5-1	PAbe	3040.0	56632	97.40437158469946	99.96710526315789	3039	5107	[(54598, 56632), (23855, 26928)]	[(1, 3040)]	[(23855, 26928), (54598, 56632)]	9737.233067299396	cp32-5-1
+contig_230 [gcode=11] [topology=linear]	UNY1128P	138				138										False														unclassified
+contig_231 [gcode=11] [topology=linear]	UNY1128P	138				138										False														unclassified
+contig_232 [gcode=11] [topology=linear]	UNY1128P	137				137										False														unclassified
+contig_233 [gcode=11] [topology=linear]	UNY1128P	137				137										False														unclassified
+contig_234 [gcode=11] [topology=linear]	UNY1128P	137				137										False														unclassified
+contig_235 [gcode=11] [topology=linear]	UNY1128P	137				137										False														unclassified
+contig_236 [gcode=11] [topology=linear]	UNY1128P	136				136										False														unclassified
+contig_237 [gcode=11] [topology=linear]	UNY1128P	136				136										False														unclassified
+contig_238 [gcode=11] [topology=linear]	UNY1128P	136				136										False														unclassified
+contig_239 [gcode=11] [topology=linear]	UNY1128P	136				136										False														unclassified
+contig_24 [gcode=11] [topology=linear]	UNY1128P	2508				2508										False	gb|AE000791.1|	cp9	B31	2508.0	9386	99.51942330796956	99.52153110047847	2496	2496	[(6890, 9386)]	[(1, 2497)]	[(6890, 9386)]	9904.325381845774	cp9
+contig_240 [gcode=11] [topology=linear]	UNY1128P	136				136										False														unclassified
+contig_241 [gcode=11] [topology=linear]	UNY1128P	135				135										False														unclassified
+contig_242 [gcode=11] [topology=linear]	UNY1128P	135				135										False														unclassified
+contig_243 [gcode=11] [topology=linear]	UNY1128P	135				135										False														unclassified
+contig_244 [gcode=11] [topology=linear]	UNY1128P	135				135										False														unclassified
+contig_245 [gcode=11] [topology=linear]	UNY1128P	135				135										False														unclassified
+contig_246 [gcode=11] [topology=linear]	UNY1128P	135				135										False														unclassified
+contig_247 [gcode=11] [topology=linear]	UNY1128P	135				135										False														unclassified
+contig_248 [gcode=11] [topology=linear]	UNY1128P	135				135										False														unclassified
+contig_249 [gcode=11] [topology=linear]	UNY1128P	135				135										False														unclassified
+contig_25 [gcode=11] [topology=linear]	UNY1128P	2325				2325										False	gb|CP002311.1|	cp32-8	JD1	2325.0	31085	97.34247749678525	99.95698924731182	2324	2279	[(3009, 5288)]	[(1, 2325)]	[(5288, 3009)]	9730.060976452856	cp32-8
+contig_250 [gcode=11] [topology=linear]	UNY1128P	135				135										False														unclassified
+contig_251 [gcode=11] [topology=linear]	UNY1128P	135				135										False														unclassified
+contig_252 [gcode=11] [topology=linear]	UNY1128P	135				135										False														unclassified
+contig_253 [gcode=11] [topology=linear]	UNY1128P	134				134										False														unclassified
+contig_254 [gcode=11] [topology=linear]	UNY1128P	134				134										False														unclassified
+contig_255 [gcode=11] [topology=linear]	UNY1128P	133				133										False														unclassified
+contig_256 [gcode=11] [topology=linear]	UNY1128P	133				133										False														unclassified
+contig_257 [gcode=11] [topology=linear]	UNY1128P	133				133										False														unclassified
+contig_258 [gcode=11] [topology=linear]	UNY1128P	133				133										False														unclassified
+contig_259 [gcode=11] [topology=linear]	UNY1128P	132				132										False														unclassified
+contig_26 [gcode=11] [topology=linear]	UNY1128P	1564				1564										False	gb|CP002316.1|	cp26	JD1	1564.0	26525	91.38389886892881	99.93606138107417	1563	2800	[(17986, 20786)]	[(1, 1564)]	[(18751, 20314), (17986, 18849), (20216, 20786)]	9132.546926607143	cp26
+contig_260 [gcode=11] [topology=linear]	UNY1128P	132				132										False														unclassified
+contig_261 [gcode=11] [topology=linear]	UNY1128P	132				132										False														unclassified
+contig_262 [gcode=11] [topology=linear]	UNY1128P	132				132										False														unclassified
+contig_263 [gcode=11] [topology=linear]	UNY1128P	131				131										False														unclassified
+contig_264 [gcode=11] [topology=linear]	UNY1128P	131				131										False														unclassified
+contig_265 [gcode=11] [topology=linear]	UNY1128P	131				131										False														unclassified
+contig_266 [gcode=11] [topology=linear]	UNY1128P	130				130										False														unclassified
+contig_267 [gcode=11] [topology=linear]	UNY1128P	129				129										False														unclassified
+contig_268 [gcode=11] [topology=linear]	UNY1128P	129				129										False														unclassified
+contig_269 [gcode=11] [topology=linear]	UNY1128P	129				129										False														unclassified
+contig_27 [gcode=11] [topology=linear]	UNY1128P	1459				1459										False	gb|CP001266.1|	cp32-12	156a	1459.0	30652	99.7943797121316	99.93145990404386	1458	1458	[(3789, 5247)]	[(1, 1459)]	[(3789, 5247)]	9972.598054851807	cp32-12
+contig_270 [gcode=11] [topology=linear]	UNY1128P	129				129										False														unclassified
+contig_271 [gcode=11] [topology=linear]	UNY1128P	129				129										False														unclassified
+contig_272 [gcode=11] [topology=linear]	UNY1128P	128				128										False														unclassified
+contig_273 [gcode=11] [topology=linear]	UNY1128P	128				128										False														unclassified
+contig_274 [gcode=11] [topology=linear]	UNY1128P	128				128										False														unclassified
+contig_275 [gcode=11] [topology=linear]	UNY1128P	128				128										False														unclassified
+contig_276 [gcode=11] [topology=linear]	UNY1128P	128				128										False														unclassified
+contig_277 [gcode=11] [topology=linear]	UNY1128P	128				128										False														unclassified
+contig_28 [gcode=11] [topology=linear]	UNY1128P	1382				1382										False	gb|CP001266.1|	cp32-12	156a	1382.0	30652	99.92764109985528	99.92764109985528	1381	1381	[(6757, 8138)]	[(1, 1382)]	[(8138, 6757)]	9985.533455781486	cp32-12
+contig_29 [gcode=11] [topology=linear]	UNY1128P	1301	RS01295_JD1_JD1_cp32-1+5_ParA_X	cp32-1+5	RS01295	1301	257	100.0	59.18524212144505	770	256	[(1, 257)]	[(242, 1012)]	[(1, 257)]		False	gb|CP002227.1|	cp32-5	N40	1301.0	29615	99.92313604919293	99.92313604919293	1300	1300	[(20438, 21738)]	[(1, 1301)]	[(21738, 20438)]	9984.63311790552	cp32-1+5
+contig_3 [gcode=11] [topology=linear]	UNY1128P	60592	P32_B31_cp32-1_ParA_X	cp32-1	P32	60592	246	100.0	1.2163321890678638	737	245	[(1, 246)]	[(56902, 57639)]	[(1, 246)]		False	gb|CP002310.1|	cp32-1+5	JD1	60592.0	60739	98.20644329105372	99.99834961711117	60591	60707	[(18036, 60739), (1, 18005)]	[(1, 60592)]	[(60739, 23387), (18005, 1), (40274, 28628), (9615, 1), (23484, 18036), (56964, 53430), (26764, 23387), (15904, 12971), (47130, 44200), (12970, 10301)]	9820.482250871792	cp32-1
+contig_30 [gcode=11] [topology=linear]	UNY1128P	1264				1264										False	gb|AE000791.1|	cp9	B31	1264.0	9386	99.92088607594937	99.92088607594937	1263	1263	[(938, 2201)]	[(1, 1264)]	[(2201, 938)]	9984.183474202853	cp9
+contig_31 [gcode=11] [topology=linear]	UNY1128P	996				996										False	gb|CP002306.1|	lp28-1	JD1	996.0	24354	90.51896207584831	76.80722891566265	765	5824	[(15936, 17144), (23601, 24354), (18906, 19534), (21328, 21705), (19539, 20761), (17155, 18373), (22304, 22722)]	[(231, 996)]	[(24354, 23601), (17155, 17759), (18906, 19534), (16516, 17144), (17744, 18373), (15936, 16531), (20163, 20761), (19539, 20164), (22304, 22722), (21328, 21705)]	6952.510641367867	lp28-1
+contig_32 [gcode=11] [topology=linear]	UNY1128P	952				952										False	gb|CP001269.1|	cp32-8	156a	952.0	30946	100.0	99.89495798319328	951	951	[(9725, 10676)]	[(1, 952)]	[(9725, 10676)]	9989.495798319327	cp32-8
+contig_33 [gcode=11] [topology=linear]	UNY1128P	908				908										False	gb|CP001264.1|	cp32-3	156a	908.0	30280	100.0	99.8898678414097	907	907	[(19212, 20119)]	[(1, 908)]	[(19212, 20119)]	9988.98678414097	cp32-3
+contig_34 [gcode=11] [topology=linear]	UNY1128P	848				848										False	gb|CP001269.1|	cp32-8	156a	848.0	30946	99.88207547169812	99.88207547169812	847	847	[(10550, 11397)]	[(1, 848)]	[(11397, 10550)]	9976.429000533999	cp32-8
+contig_35 [gcode=11] [topology=linear]	UNY1128P	787				787										False	gb|CP002306.1|	lp28-1	JD1	787.0	24354	90.62397909180007	94.53621346886912	744	6025	[(15936, 17144), (23601, 24354), (18906, 19534), (17155, 18373), (19539, 21339), (22304, 22722)]	[(43, 787)]	[(24354, 23601), (19539, 20164), (18906, 19534), (17744, 18373), (20758, 21339), (16516, 17144), (20163, 20761), (15936, 16518), (17155, 17746), (22304, 22722)]	8567.247832820743	lp28-1
+contig_36 [gcode=11] [topology=linear]	UNY1128P	777				777										False	gb|AE000791.1|	cp9	B31	777.0	9386	99.32432432432432	95.10939510939511	739	739	[(1, 740)]	[(1, 740)]	[(740, 1)]	9446.676406135866	cp9
+contig_37 [gcode=11] [topology=linear]	UNY1128P	717				717										False	gb|CP001269.1|	cp32-8	156a	717.0	30946	100.0	99.86052998605301	716	716	[(8124, 8840)]	[(1, 717)]	[(8124, 8840)]	9986.0529986053	cp32-8
+contig_38 [gcode=11] [topology=linear]	UNY1128P	678				678										False	gb|CP002323.1|	cp32-10	JD1	678.0	30314	98.82005899705014	99.85250737463127	677	677	[(28732, 29409)]	[(1, 678)]	[(29409, 28732)]	9867.430669764446	cp32-10
+contig_39 [gcode=11] [topology=linear]	UNY1128P	614				614										False														unclassified
+contig_4 [gcode=11] [topology=linear]	UNY1128P	56412	I21_B31_lp28-4_ParA_X	lp28-4	I21	56412	250	100.0	1.3277316882932708	749	249	[(1, 250)]	[(16003, 16752)]	[(1, 250)]	lp28-4:::lp25	True	gb|CP002318.1|	lp28-4	JD1	56412.0	30096	97.5063139704905	55.87463660214139	31520	30095	[(1, 30096)]	[(983, 31161), (31727, 32631), (538, 976)]	[(9759, 30096), (1, 10419), (24440, 25621), (25504, 26712), (30096, 29192), (1445, 1883), (11210, 10424), (20200, 19407), (9225, 8490), (21736, 21016)]	5448.1298595154585	lp28-4:::lp25
+contig_40 [gcode=11] [topology=linear]	UNY1128P	558				558										False														unclassified
+contig_41 [gcode=11] [topology=linear]	UNY1128P	527				527										False														unclassified
+contig_42 [gcode=11] [topology=linear]	UNY1128P	525				525										False	gb|CP094586.1|	cp32-6	B379	525.0	30642	100.0	99.80952380952381	524	524	[(8021, 8545)]	[(1, 525)]	[(8545, 8021)]	9980.952380952382	cp32-6
+contig_43 [gcode=11] [topology=linear]	UNY1128P	502				502										False	gb|CP002325.1|	lp38	JD1	502.0	27590	97.32831981001385	99.800796812749	501	2948	[(19342, 19843), (16023, 16524), (20716, 22166), (14965, 15461)]	[(1, 502)]	[(19843, 19342), (16524, 16023), (22166, 21661), (21475, 20968), (21223, 20716), (21412, 20905), (21914, 21409), (21349, 20842), (21538, 21031), (15461, 14965)]	9713.443869485445	lp38
+contig_44 [gcode=11] [topology=linear]	UNY1128P	487				487										False														unclassified
+contig_45 [gcode=11] [topology=linear]	UNY1128P	469				469										False	gb|CP002325.1|	lp38	JD1	469.0	27590	98.035027765912	99.7867803837953	468	2091	[(20845, 22002), (14831, 15297), (15583, 16051)]	[(1, 469)]	[(21158, 21624), (20906, 21374), (21221, 21689), (20969, 21437), (21536, 22002), (20845, 21311), (21410, 21876), (15583, 16051), (21095, 21563), (14831, 15297)]	9782.599785596336	lp38
+contig_46 [gcode=11] [topology=linear]	UNY1128P	451				451										False														unclassified
+contig_47 [gcode=11] [topology=linear]	UNY1128P	448				448										False														unclassified
+contig_48 [gcode=11] [topology=linear]	UNY1128P	444				444										False														unclassified
+contig_49 [gcode=11] [topology=linear]	UNY1128P	443				443										False	gb|CP002320.1|	cp32-3	JD1	443.0	29707	100.0	99.77426636568849	442	442	[(28676, 29118)]	[(1, 443)]	[(29118, 28676)]	9977.426636568849	cp32-3
+contig_5 [gcode=11] [topology=linear]	UNY1128P	53014				53014										False	gb|CP001652.1|	lp54	JD1	53014.0	52916	99.98677148688488	99.81137058135587	52914	52915	[(1, 52916)]	[(19, 52933)]	[(52916, 1)]	9979.816702110813	lp54
+contig_50 [gcode=11] [topology=linear]	UNY1128P	442				442										False	gb|CP002325.1|	lp38	JD1	442.0	27590	98.59410430839002	99.77375565610859	441	1573	[(20807, 21876), (14980, 15484)]	[(1, 442)]	[(21059, 21498), (15043, 15484), (14980, 15421), (21435, 21876), (21185, 21624), (20868, 21309), (21309, 21750), (20807, 21246), (20933, 21372), (20996, 21435)]	9837.10407239819	lp38
+contig_51 [gcode=11] [topology=linear]	UNY1128P	426				426										False	gb|CP002325.1|	lp38	JD1	426.0	27590	97.97932330827066	99.76525821596243	425	1538	[(20679, 21798), (15358, 15777)]	[(1, 426)]	[(21735, 21309), (21672, 21248), (21357, 20933), (15777, 15358), (21105, 20679), (21168, 20742), (21231, 20807), (21294, 20868), (21420, 20996), (21798, 21372)]	9774.93248967489	lp38
+contig_52 [gcode=11] [topology=linear]	UNY1128P	412				412										False														unclassified
+contig_53 [gcode=11] [topology=linear]	UNY1128P	403				403										False														unclassified
+contig_54 [gcode=11] [topology=linear]	UNY1128P	385				385										False														unclassified
+contig_55 [gcode=11] [topology=linear]	UNY1128P	385				385										False														unclassified
+contig_56 [gcode=11] [topology=linear]	UNY1128P	385				385										False														unclassified
+contig_57 [gcode=11] [topology=linear]	UNY1128P	382				382										False														unclassified
+contig_58 [gcode=11] [topology=linear]	UNY1128P	382				382										False														unclassified
+contig_59 [gcode=11] [topology=linear]	UNY1128P	381				381										False														unclassified
+contig_6 [gcode=11] [topology=linear]	UNY1128P	35832	RS00880_JD1_JD1_cp32-11_ParA_X	cp32-11	RS00880	35832	252	100.0	2.1070551462379994	755	251	[(1, 252)]	[(14078, 14833)]	[(1, 252)]		False	gb|CP002309.1|	cp32-11	JD1	35832.0	29902	99.90511539642229	99.9944183969636	35830	29901	[(1, 29902)]	[(1, 22920), (22921, 35832)]	[(6982, 29902), (1, 12912)]	9989.95390894678	cp32-11
+contig_60 [gcode=11] [topology=linear]	UNY1128P	381				381										False														unclassified
+contig_61 [gcode=11] [topology=linear]	UNY1128P	379				379										False														unclassified
+contig_62 [gcode=11] [topology=linear]	UNY1128P	379				379										False	gb|CP002325.1|	lp38	JD1	379.0	27590	97.5	99.73614775725594	378	2898	[(18402, 18780), (14892, 15521), (17461, 18155), (18965, 19343), (15644, 16087), (20530, 20906)]	[(1, 379)]	[(19343, 18965), (16024, 15644), (18155, 17776), (17841, 17461), (17904, 17524), (15521, 15142), (18780, 18402), (20906, 20530), (16087, 15707), (15270, 14892)]	9724.274406332454	lp38
+contig_63 [gcode=11] [topology=linear]	UNY1128P	348				348										False	gb|CP002307.1|	cp32-6	JD1	348.0	30804	100.0	99.71264367816092	347	347	[(7293, 7640)]	[(1, 348)]	[(7640, 7293)]	9971.264367816091	cp32-6
+contig_64 [gcode=11] [topology=linear]	UNY1128P	340				340										False	gb|CP002323.1|	cp32-10	JD1	340.0	30314	100.0	99.11764705882354	337	337	[(904, 1241)]	[(1, 338)]	[(904, 1241)]	9911.764705882353	cp32-10
+contig_65 [gcode=11] [topology=linear]	UNY1128P	336				336										False	gb|CP002322.1|	cp32-9	JD1	336.0	30697	100.0	99.70238095238095	335	335	[(7207, 7542)]	[(1, 336)]	[(7207, 7542)]	9970.238095238095	cp32-9
+contig_66 [gcode=11] [topology=linear]	UNY1128P	325				325										False	gb|CP002325.1|	lp38	JD1	325.0	27590	98.05795314426634	99.6923076923077	324	2746	[(14856, 15995), (17488, 18127), (21248, 21570), (18366, 18688), (20679, 21003)]	[(1, 325)]	[(17488, 17812), (17803, 18127), (15671, 15995), (18366, 18688), (15171, 15493), (20679, 21003), (14856, 15178), (15421, 15743), (15108, 15430), (21248, 21570)]	9775.623636536091	lp38
+contig_67 [gcode=11] [topology=linear]	UNY1128P	316				316										False	gb|CP002325.1|	lp38	JD1	316.0	27590	97.49762432689262	99.68354430379746	315	1888	[(17089, 17654), (16461, 16965), (19717, 20221), (22168, 22483)]	[(1, 316)]	[(16965, 16650), (20221, 19906), (16776, 16461), (20032, 19717), (17654, 17341), (17401, 17089), (22483, 22168), (17465, 17152), (16902, 16587), (20158, 19843)]	9718.908754104801	lp38
+contig_68 [gcode=11] [topology=linear]	UNY1128P	315				315										False	gb|CP002322.1|	cp32-9	JD1	315.0	30697	100.0	99.68253968253968	314	314	[(30252, 30566)]	[(1, 315)]	[(30252, 30566)]	9968.253968253968	cp32-9
+contig_69 [gcode=11] [topology=linear]	UNY1128P	313				313										False	gb|CP094579.1|	chromosome	B379	313.0	920773	97.36164736164736	99.68051118210862	312	2552	[(912786, 913096), (907859, 908175), (909548, 909859), (914410, 914722), (913158, 913596), (907059, 907360), (908550, 909114)]	[(1, 313)]	[(907859, 908175), (908550, 908862), (907059, 907360), (908809, 909114), (913284, 913596), (908685, 908988), (913158, 913472), (914410, 914722), (909548, 909859), (912786, 913096)]	9705.058778541204	chromosome
+contig_7 [gcode=11] [topology=linear]	UNY1128P	32904	K21_B31_lp36_ParA_X	lp36	K21	32904	249	100.0	2.212496960855823	728	242	[(1, 243)]	[(11286, 12014)]	[(1, 243)]	lp36:::lp28-5	True	gb|CP001260.1|	lp36	156a	32904.0	23638	98.18499646669395	72.36202285436421	23810	23036	[(49, 16849), (17046, 23282)]	[(23393, 24441), (1, 22763)]	[(16849, 252), (23282, 17046), (19165, 19905), (20284, 21025), (49, 1099), (4742, 5482), (2735, 3471)]	7104.8649582785765	lp36:::lp28-5
+contig_70 [gcode=11] [topology=linear]	UNY1128P	299				299										False	gb|CP002325.1|	lp38	JD1	299.0	27590	97.765176784523	99.66555183946488	298	2416	[(14793, 15091), (17053, 17725), (20431, 20790), (18303, 18790), (16547, 16847), (19803, 20103)]	[(1, 299)]	[(17238, 17536), (20494, 20790), (16547, 16847), (17425, 17725), (19803, 20103), (18303, 18601), (14793, 15091), (20431, 20727), (17053, 17349), (18490, 18790)]	9743.820294912326	lp38
+contig_71 [gcode=11] [topology=linear]	UNY1128P	298				298										False	gb|CP002323.1|	cp32-10	JD1	298.0	30314	100.0	99.66442953020133	297	297	[(1706, 2003)]	[(1, 298)]	[(2003, 1706)]	9966.442953020132	cp32-10
+contig_72 [gcode=11] [topology=linear]	UNY1128P	294				294										False	gb|CP002307.1|	cp32-6	JD1	294.0	30804	100.0	99.65986394557824	293	293	[(7514, 7807)]	[(1, 294)]	[(7514, 7807)]	9965.986394557824	cp32-6
+contig_73 [gcode=11] [topology=linear]	UNY1128P	294				294										False	gb|CP001264.1|	cp32-3	156a	294.0	30280	100.0	99.65986394557824	293	293	[(7426, 7719)]	[(1, 294)]	[(7719, 7426)]	9965.986394557824	cp32-3
+contig_74 [gcode=11] [topology=linear]	UNY1128P	293				293										False	gb|CP002325.1|	lp38	JD1	293.0	27590	98.18430969510106	99.65870307167235	292	2825	[(16484, 16774), (21500, 21790), (15043, 15837), (17677, 17969), (21122, 21412), (18553, 18845), (20368, 20655), (19740, 20030)]	[(1, 293)]	[(15545, 15837), (17677, 17969), (15043, 15335), (18553, 18845), (15295, 15585), (19740, 20030), (21122, 21412), (20368, 20655), (16484, 16774), (21500, 21790)]	9784.920966201198	lp38
+contig_75 [gcode=11] [topology=linear]	UNY1128P	293				293										False	gb|CP094585.1|	cp32-5	B379	293.0	30637	100.0	99.65870307167235	292	292	[(2843, 3135)]	[(1, 293)]	[(3135, 2843)]	9965.870307167235	cp32-5
+contig_76 [gcode=11] [topology=linear]	UNY1128P	287				287										False														unclassified
+contig_77 [gcode=11] [topology=linear]	UNY1128P	280				280										False	gb|CP002325.1|	lp38	JD1	280.0	27590	97.32524964336662	99.64285714285714	279	2612	[(16333, 16610), (20715, 21122), (14892, 15171), (15833, 16114), (15205, 15734), (19152, 19433), (18402, 18681), (17524, 17803)]	[(1, 280)]	[(18402, 18681), (14892, 15171), (17524, 17803), (20715, 20996), (16333, 16610), (15457, 15734), (15833, 16114), (19152, 19433), (20841, 21122), (15205, 15484)]	9697.765946606887	lp38
+contig_78 [gcode=11] [topology=linear]	UNY1128P	258				258										False	gb|CP002323.1|	cp32-10	JD1	258.0	30314	100.0	99.6124031007752	257	257	[(6634, 6891)]	[(1, 258)]	[(6634, 6891)]	9961.24031007752	cp32-10
+contig_79 [gcode=11] [topology=linear]	UNY1128P	258				258										False	gb|CP002325.1|	lp38	JD1	258.0	27590	97.14064914992272	99.6124031007752	257	2305	[(21917, 22176), (19594, 19851), (17279, 17536), (14834, 15091), (18344, 18601), (15147, 15908), (16275, 16532)]	[(1, 258)]	[(16532, 16275), (19851, 19594), (15091, 14834), (15656, 15399), (17536, 17279), (18601, 18344), (22176, 21917), (15908, 15649), (15406, 15147), (15469, 15210)]	9676.413500593078	lp38
+contig_8 [gcode=11] [topology=linear]	UNY1128P	32119	L32_B31_cp32-8_ParA_X	cp32-8	L32	32119	246	100.0	2.2945919860518695	737	245	[(1, 246)]	[(21985, 22722)]	[(1, 246)]		False	gb|CP094585.1|	cp32-5	B379	32119.0	30637	96.816871888918	94.83483296491173	30460	29127	[(22861, 30637), (16859, 21467), (1, 16744)]	[(1335, 18076), (1, 1334), (18082, 22696), (24325, 32097)]	[(1, 16744), (22861, 30637), (16859, 21467), (29304, 30637)]	9181.611873770797	cp32-8
+contig_80 [gcode=11] [topology=linear]	UNY1128P	256				256										False	gb|CP001264.1|	cp32-3	156a	256.0	30280	100.0	99.609375	255	255	[(26506, 26761)]	[(1, 256)]	[(26761, 26506)]	9960.9375	cp32-3
+contig_81 [gcode=11] [topology=linear]	UNY1128P	255				255										False	gb|CP094587.1|	cp32-7	B379	255.0	21166	99.2156862745098	99.6078431372549	254	254	[(744, 998)]	[(1, 255)]	[(998, 744)]	9882.660515186468	cp32-7
+contig_82 [gcode=11] [topology=linear]	UNY1128P	255				255										False	gb|CP002317.1|	lp28-5	JD1	255.0	24614	99.68627450980392	99.6078431372549	254	1693	[(13854, 14241), (12125, 13177), (14918, 15172)]	[(1, 255)]	[(12379, 12125), (14241, 13987), (12512, 12258), (12645, 12391), (12778, 12524), (12911, 12657), (13044, 12790), (13177, 12923), (14108, 13854), (15172, 14918)]	9929.53479430988	lp28-5
+contig_83 [gcode=11] [topology=linear]	UNY1128P	255				255										False	gb|CP002307.1|	cp32-6	JD1	255.0	30804	100.0	99.6078431372549	254	254	[(1268, 1522)]	[(1, 255)]	[(1522, 1268)]	9960.78431372549	cp32-6
+contig_84 [gcode=11] [topology=linear]	UNY1128P	255				255										False	gb|CP031412.1|	chromosome	MM1	255.0	908512	98.56020942408377	99.6078431372549	254	1062	[(212893, 213955)]	[(1, 255)]	[(213793, 213539), (213631, 213377), (213955, 213701), (213307, 213053), (213469, 213215), (213145, 212893)]	9817.369879889127	chromosome
+contig_85 [gcode=11] [topology=linear]	UNY1128P	255				255										False	gb|CP094585.1|	cp32-5	B379	255.0	30637	97.6470588235294	99.6078431372549	254	254	[(1047, 1301)]	[(1, 255)]	[(1301, 1047)]	9726.412918108419	cp32-5
+contig_86 [gcode=11] [topology=linear]	UNY1128P	255				255										False	gb|CP001269.1|	cp32-8	156a	255.0	30946	100.0	99.6078431372549	254	254	[(9225, 9479)]	[(1, 255)]	[(9479, 9225)]	9960.78431372549	cp32-8
+contig_87 [gcode=11] [topology=linear]	UNY1128P	255				255										False	gb|AE001584.1|	lp56	B31	255.0	52971	98.82352941176471	99.6078431372549	254	254	[(19523, 19777)]	[(1, 255)]	[(19777, 19523)]	9843.598615916955	lp56
+contig_88 [gcode=11] [topology=linear]	UNY1128P	254				254										False	gb|CP002309.1|	cp32-11	JD1	254.0	29902	96.06299212598425	99.60629921259843	253	253	[(27057, 27310)]	[(1, 254)]	[(27057, 27310)]	9568.479136958274	cp32-11
+contig_89 [gcode=11] [topology=linear]	UNY1128P	254				254										False	gb|AE001576.1|	cp32-3	B31	254.0	30223	100.0	99.60629921259843	253	253	[(2696, 2949)]	[(1, 254)]	[(2696, 2949)]	9960.629921259842	cp32-3
+contig_9 [gcode=11] [topology=linear]	UNY1128P	27503	H28_B31_lp28-3_ParA_X	lp28-3	H28	27503	251	100.0	2.7342471730356688	752	250	[(1, 251)]	[(17721, 18473)]	[(1, 251)]		False	gb|CP002314.1|	lp28-3	JD1	27503.0	28797	99.57013652463978	99.99636403301459	27502	27502	[(236, 27738)]	[(1, 27503)]	[(236, 27738), (5389, 5926), (8331, 8868), (10019, 10268), (10073, 10322)]	9956.65161873484	lp28-3
+contig_90 [gcode=11] [topology=linear]	UNY1128P	253				253										False	gb|CP002325.1|	lp38	JD1	253.0	27590	98.81046788263284	99.60474308300395	252	1067	[(21311, 21813), (20744, 21309)]	[(1, 253)]	[(21122, 20870), (21185, 20933), (21248, 20996), (21059, 20807), (21309, 21059), (21687, 21437), (21561, 21311), (21813, 21563), (20996, 20744), (21626, 21374)]	9841.991267361058	lp38
+contig_91 [gcode=11] [topology=linear]	UNY1128P	253				253										False	gb|CP002325.1|	lp38	JD1	253.0	27590	98.37559429477021	99.60474308300395	252	2136	[(15837, 16087), (18530, 18782), (17089, 17341), (16461, 16776), (19156, 19406), (15020, 15272), (19717, 20032), (17717, 17967)]	[(1, 253)]	[(20032, 19780), (16776, 16524), (16713, 16461), (17967, 17717), (17341, 17089), (19969, 19717), (16087, 15837), (19406, 19156), (15272, 15020), (18782, 18530)]	9798.675795368415	lp38
+contig_92 [gcode=11] [topology=linear]	UNY1128P	253				253										False	gb|CP019766.1|	lp56	B31_NRZ	253.0	52951	99.60474308300395	99.60474308300395	252	252	[(34906, 35158)]	[(1, 253)]	[(35158, 34906)]	9921.104844631223	lp56
+contig_93 [gcode=11] [topology=linear]	UNY1128P	253				253										False	gb|CP002325.1|	lp38	JD1	253.0	27590	98.92301555644197	98.81422924901186	250	1936	[(17089, 17401), (20345, 20594), (15083, 15459), (19906, 20156), (22168, 22418), (16650, 16900), (18656, 18905)]	[(3, 253)]	[(17339, 17089), (20594, 20345), (17401, 17152), (15396, 15146), (16900, 16650), (20156, 19906), (22418, 22168), (18905, 18656), (15333, 15083), (15459, 15209)]	9775.001537197822	lp38
+contig_94 [gcode=11] [topology=linear]	UNY1128P	249				249										False	gb|CP002317.1|	lp28-5	JD1	249.0	24614	99.67871485943776	99.59839357429718	248	1560	[(14397, 14645), (12269, 13581)]	[(1, 249)]	[(13315, 13067), (14645, 14397), (13581, 13333), (12517, 12269), (12650, 12402), (12783, 12535), (12916, 12668), (13049, 12801), (13182, 12934), (13448, 13200)]	9927.839873550427	lp28-5
+contig_95 [gcode=11] [topology=linear]	UNY1128P	248				248										False	gb|CP001269.1|	cp32-8	156a	248.0	30946	99.59677419354838	99.59677419354838	247	247	[(14640, 14887)]	[(1, 248)]	[(14887, 14640)]	9919.517429760665	cp32-8
+contig_96 [gcode=11] [topology=linear]	UNY1128P	247				247										False	gb|CP001451.1|	cp32-11	WI91-23	247.0	30772	99.19028340080972	99.59514170040485	246	246	[(3579, 3825)]	[(1, 247)]	[(3579, 3825)]	9878.87033060696	cp32-11
+contig_97 [gcode=11] [topology=linear]	UNY1128P	247				247										False	gb|CP002321.1|	cp32-12	JD1	247.0	30019	100.0	99.59514170040485	246	246	[(29304, 29550)]	[(1, 247)]	[(29550, 29304)]	9959.514170040486	cp32-12
+contig_98 [gcode=11] [topology=linear]	UNY1128P	246				246										False	gb|CP002307.1|	cp32-6	JD1	246.0	30804	99.59349593495935	99.59349593495935	245	245	[(14745, 14990)]	[(1, 246)]	[(14990, 14745)]	9918.864432546765	cp32-6
+contig_99 [gcode=11] [topology=linear]	UNY1128P	245				245										False														unclassified
