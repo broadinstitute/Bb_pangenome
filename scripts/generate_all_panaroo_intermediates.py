@@ -165,7 +165,7 @@ def create_groups_pickle(panaroo_dir: Path, output_dir: Path):
     return output_pkl
 
 
-def query_metadb(groups_pkl: Path, output_dir: Path, db_path: str = "metadb/Bbss_db_v4.db"):
+def query_metadb(groups_pkl: Path, output_dir: Path, db_path: str = "ref/asm_db/Bbss_db_v4.db"):
     """Step 6: Query metadb for clustered_proteins results."""
     print("\n[Step 6] Querying metadb...")
 

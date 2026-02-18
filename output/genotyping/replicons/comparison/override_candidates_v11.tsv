@@ -1,0 +1,164 @@
+assembly_id	contig_id	contig_len	old_call	new_call	plasmid_name_pf32	plasmid_name_wp	resolved_call	override_call	category	action	overall_percent_identity_pf32	query_coverage_percent_pf32	query_covered_length_pf32	overall_percent_identity_wp	query_coverage_percent_wp	ref_length_wp	ref_covered_length_wp	wp_ref_cov_pct
+URI112H	contig_2 [gcode=11] [topology=linear]	71363	chromosome	chromosome*	chromosome	lp28-3	chromosome		annotation_suffix	KEEP	82.51473477	2.1369617308689377	1525	97.36056228	44.13631713913372	28797	28290	98.2
+URI41H	contig_6 [gcode=11] [topology=linear]	34091	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.232260713971429	761	96.03239603239602	97.91733889	28447	28446	100
+UCT31H	contig_5 [gcode=11] [topology=linear]	33647	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.261717240764407	761	96.06886814939767	97.99982167800992	28447	28275	99.4
+URI111H	contig_6 [gcode=11] [topology=linear]	33475	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.2733383121732635	761	96.08023555391976	97.98655713	28447	27863	97.9
+URI42H	contig_5 [gcode=11] [topology=linear]	33453	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.274833348279676	761	96.05265580410568	97.98523301	28447	27855	97.9
+URI40H	contig_5 [gcode=11] [topology=linear]	33437	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.275921882944044	761	96.06106364172068	97.98426892364743	28447	27818	97.8
+URI93H	contig_7 [gcode=11] [topology=linear]	33271	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.287277208	761	95.94123184259584	97.97421177602116	28447	27889	98
+UCT29H	contig_5 [gcode=11] [topology=linear]	33021	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.304594046213016	761	95.88476602379671	97.83168286847764	28447	28446	100
+UCT109H	contig_7 [gcode=11] [topology=linear]	32634	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.331923760495189	761	95.90198163	97.93466936	28447	27825	97.8
+URI91H	contig_6 [gcode=11] [topology=linear]	32383	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.3499984559799896	761	96.06873906991684	98.07923910693884	28447	27931	98.2
+URI101H	contig_6 [gcode=11] [topology=linear]	32342	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.3529775524086327	761	95.96348541482747	97.95621792096964	28447	27827	97.8
+URI89H	contig_6 [gcode=11] [topology=linear]	31871	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.387750619685608	761	95.54829487	92.69869160051456	28447	28446	100
+URI39H	contig_6 [gcode=11] [topology=linear]	31809	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.3924046653462856	761	95.90977326340824	95.19004055456004	28447	27056	95.1
+GCF_024662175.1_ASM2466217v1_genomic	"NZ_CP094594.1 Borreliella burgdorferi strain B379 plasmid p36, complete sequence"	31386	lp36	lp36*	lp36	lp36	lp36		annotation_suffix	KEEP	100	4.639011024	1456	99.72877187906842	99.99681386605494	31386	31385	100
+GCF_040819585.1_PFhe_I_PB_Ill_cons_genomic	NZ_CP161913.1 Borreliella burgdorferi strain PFhe_I plasmid lp28-3	30430	lp28-3	lp28-3*	lp28-3	lp28-3	lp28-3		annotation_suffix	KEEP	98.80478087649402	4.942490962865593	1504	93.10852840072025	59.93098915543871	28414	11494	40.5
+UNY1032P	contig_11 [gcode=11] [topology=linear]	30086	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.5294156750648145	761	95.34158608786028	98.24503091138736	28447	28446	100
+GCF_040790805.1_ASM4079080v1_genomic	"NZ_CP161196.1 Borreliella burgdorferi strain B31 plasmid lp28-1, complete sequence"	30068	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.5309298922442465	761	95.66065787028434	98.24065451642944	28447	28446	100
+GCF_024662195.1_ASM2466219v1_genomic	"NZ_CP094609.1 Borreliella burgdorferi strain B31-5A4 plasmid p28-1, complete sequence"	28447	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.675150279467079	761	95.65876366785751	99.99648469082857	28447	28446	100
+GCF_002151485.1_ASM215148v1_genomic	"NZ_CP019923.1 Borreliella burgdorferi strain PAbe plasmid p_lp28-1, complete sequence"	28157	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.702702702702702	761	95.70085656213703	99.99644848527898	28157	28156	100
+URI102H	contig_14 [gcode=11] [topology=linear]	27792	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.738198042602188	761	95.75266693006716	97.68278641335635	28447	26464	93
+URI107H	contig_16 [gcode=11] [topology=linear]	26680	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.8523238380809595	761	95.85123384	97.66866566716642	28447	25713	90.4
+URI87H	contig_16 [gcode=11] [topology=linear]	26671	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	2.8532863409695923	761	95.85600930580368	97.66787896966744	28447	25713	90.4
+GCF_024662175.1_ASM2466217v1_genomic	"NZ_CP094580.1 Borreliella burgdorferi strain B379 plasmid p26, complete sequence"	26515	cp26	cp26*	cp26	cp26	cp26		annotation_suffix	KEEP	100	2.7531585894776542	730	98.24711561505016	99.99622854987744	26515	26514	100
+URI120H	contig_19 [gcode=11] [topology=linear]	24037	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	3.165952489911387	761	96.46746900262536	98.70200108166576	28447	28288	99.4
+URI40H	contig_18 [gcode=11] [topology=linear]	22212	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.528002881325409	1450	99.96811515	98.82495948136145	16928	16849	99.5
+URI42H	contig_16 [gcode=11] [topology=linear]	22110	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.558118498417007	1450	99.96834011759384	99.98643148	16928	16927	100
+URI91H	contig_21 [gcode=11] [topology=linear]	22110	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.558118498417007	1450	99.97738579828132	99.98643148	16928	16927	100
+URI111H	contig_19 [gcode=11] [topology=linear]	22096	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.562273714699493	1450	99.96832005792903	99.98642288	16928	16927	100
+URI89H	contig_20 [gcode=11] [topology=linear]	22075	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.5685164212910525	1450	99.94563986409966	99.98640996602492	16904	16903	100
+UCT109H	contig_17 [gcode=11] [topology=linear]	22043	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.5780519892936535	1450	99.95409685563462	98.81595064192716	16904	16825	99.5
+UCT31H	contig_20 [gcode=11] [topology=linear]	21959	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.603215082654038	1450	99.98178423425476	99.98633817569106	16928	16927	100
+URI102H	contig_16 [gcode=11] [topology=linear]	21941	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.608632241009982	1450	99.95442322592407	99.98632696777722	16904	16903	100
+URI87H	contig_19 [gcode=11] [topology=linear]	21941	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.608632241009982	1450	99.95442322592407	99.98632696777722	16904	16903	100
+URI107H	contig_19 [gcode=11] [topology=linear]	21938	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.609535964992251	1450	99.95441699334488	99.98632509800346	16904	16903	100
+GCF_002151505.1_ASM215150v1_genomic	NZ_CP019762.1 Borreliella burgdorferi strain B31_NRZ isolate B31 plasmid p_lp28-1	21891	lp28-1	lp28-1*	lp28-1	lp28-1	lp28-1		annotation_suffix	KEEP	100	3.476314467132612	761	95.08661758336945	99.99543191265818	21891	21890	100
+URI88H	contig_17 [gcode=11] [topology=linear]	21662	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.693749422952636	1450	99.97693088493126	99.76918105438094	17849	17848	100
+URI47H	contig_16 [gcode=11] [topology=linear]	21620	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.706753006475486	1450	99.98632759092152	99.99537465309898	17965	17952	99.9
+URI120H	contig_21 [gcode=11] [topology=linear]	21582	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.718561764433324	1450	99.96756556389585	99.98609952738391	16928	16927	100
+UCT32H	contig_18 [gcode=11] [topology=linear]	21572	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.721676246986835	1450	99.88879621907144	99.93973669571668	17944	17942	100
+URI103H	contig_15 [gcode=11] [topology=linear]	21567	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.723234571335837	1450	99.97247075017206	99.99072657300503	17944	17887	99.7
+URI86H	contig_12 [gcode=11] [topology=linear]	21563	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.724481751	1450	100	99.99536242637852	17965	17960	100
+URI112H	contig_13 [gcode=11] [topology=linear]	21546	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.729787431541817	1450	99.96788254	99.99071753457716	17944	17943	100
+URI44H	contig_15 [gcode=11] [topology=linear]	21544	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.730412179725214	1450	100	99.99535833642776	17965	17945	99.9
+UCT30H	contig_14 [gcode=11] [topology=linear]	21483	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.749522878555137	1450	99.98624169	99.99534515663548	17965	17957	100
+UCT110H	contig_14 [gcode=11] [topology=linear]	21482	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.749837072898241	1450	99.98624105668684	99.99534493994972	17965	17945	99.9
+URI46H	contig_13 [gcode=11] [topology=linear]	21420	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.769374416	1450	99.98614830547604	99.99533147	17965	17962	100
+URI117H	contig_15 [gcode=11] [topology=linear]	20991	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	6.907722357200704	1450	99.98593794	99.99523605354676	17965	17463	97.2
+UCT96H	contig_18 [gcode=11] [topology=linear]	20525	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	7.064555420219245	1450	99.95842428022034	93.13032886723508	16517	15440	93.5
+UCT124H	contig_20 [gcode=11] [topology=linear]	18735	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	7.739524953	1450	99.94704231319176	99.98932479316788	16517	15081	91.3
+URI39H	contig_20 [gcode=11] [topology=linear]	17931	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	8.086554012603871	1450	99.97769226479282	99.98884613239642	16928	14306	84.5
+URI56H	contig_7 [gcode=11] [topology=linear]	16377	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	8.853880442	1450	99.85919804101624	99.73133052	15386	12711	82.6
+URI36H	contig_20 [gcode=11] [topology=linear]	16368	lp17	lp17*	lp17	lp17	lp17		annotation_suffix	KEEP	100	8.858748778103617	1450	99.98774960186206	99.73118279569891	15386	12711	82.6
+URI56H	contig_12 [gcode=11] [topology=linear]	8780	chromosome	lp21		lp21	chromosome	lp21	different	OVERRIDE - chromosome paralog bug				98.61361181130717	99.97722095671982	18777	5541	29.5
+URI40H	contig_21 [gcode=11] [topology=linear]	6295	cp9-3	lp21-cp9		lp21-cp9	cp9-3	cp9-3	different	REVIEW				97.52763819095478	99.98411437648927	24387	9573	39.3
+GCF_040790765.1_ASM4079076v1_genomic	"NZ_CP161125.1 Borreliella burgdorferi strain Bb16-23-2 plasmid lp5, complete sequence"	4753	chromosome	lp5		lp5	chromosome	lp5	different	OVERRIDE - chromosome paralog bug				97.98215803	98.63244266778877	5252	4703	89.5
+UCT110H	contig_19 [gcode=11] [topology=linear]	4449	chromosome	lp21		lp21	chromosome	lp21	different	OVERRIDE - chromosome paralog bug				98.26969826969828	99.39312204989884	18777	6775	36.1
+URI117H	contig_25 [gcode=11] [topology=linear]	4113	chromosome	lp21		lp21	chromosome	chromosome	different	OVERRIDE - chromosome paralog bug				98.87612997801124	87.77048383175298	18777	4088	21.8
+UCT113H	contig_17 [gcode=11] [topology=linear]	3168	chromosome	lp21-cp9		lp21-cp9	chromosome	chromosome	different	OVERRIDE - chromosome paralog bug				99.93678887484198	99.81060606060606	24387	1581	6.5
+URI101H	contig_22 [gcode=11] [topology=linear]	1025	lp56	lp36		lp36	lp56	lp56	different	REVIEW				98.6328125	99.70731707317071	30210	545	1.8
+URI101H	contig_23 [gcode=11] [topology=linear]	1007	lp28-4	lp17		lp17	lp28-4	lp28-4	different	REVIEW				94.80840543881337	99.90069513406156	17266	1611	9.3
+URI93H	contig_18 [gcode=11] [topology=linear]	1007	lp28-4	lp17		lp17	lp28-4	lp28-4	different	REVIEW				94.80840543881337	99.90069513406156	17266	1611	9.3
+UCT29H	contig_22 [gcode=11] [topology=linear]	1005	lp28-4	lp17		lp17	lp28-4	lp28-4	different	REVIEW				94.8019802	99.90049751	17266	1611	9.3
+UCT110H	contig_27 [gcode=11] [topology=linear]	1000	lp36	lp28-3		lp28-3	lp36		different	REVIEW				99	99.8	28797	498	1.7
+URI46H	contig_27 [gcode=11] [topology=linear]	1000	lp36	lp28-3		lp28-3	lp36		different	REVIEW				99	99.8	28797	498	1.7
+URI47H	contig_21 [gcode=11] [topology=linear]	1000	lp36	lp28-3		lp28-3	lp36		different	REVIEW				99	99.8	28797	498	1.7
+UNY1085P	contig_1 [gcode=11] [topology=linear]	903386	chromosome	chromosome	lp54	chromosome	chromosome		exact_match	REVIEW - pf32/wp family conflict	99.72527472527472	0.120767867	1091	99.47449442322852	99.95372963495116	902191	902190	100
+UNY172P	contig_1 [gcode=11] [topology=linear]	903384	chromosome	chromosome	lp54	chromosome	chromosome		exact_match	REVIEW - pf32/wp family conflict	99.72527472527472	0.1207681340382384	1091	99.47449326920965	99.95372953251332	902191	902190	100
+UWI283P	contig_1 [gcode=11] [topology=linear]	903355	chromosome	chromosome	lp54	chromosome	chromosome		exact_match	REVIEW - pf32/wp family conflict	99.72527472527472	0.1207720110034261	1091	99.39477874581476	99.95228897	907764	902983	99.5
+XYZ459H	contig_1 [gcode=11] [topology=linear]	903233	chromosome	chromosome	lp54	chromosome	chromosome		exact_match	REVIEW - pf32/wp family conflict	99.72527472527472	0.1207883237215646	1091	99.47433268	99.96080745499776	902191	902100	100
+ESI425H	contig_2 [gcode=11] [topology=linear]	342816	chromosome	chromosome	lp56	chromosome	chromosome		exact_match	REVIEW - pf32/wp family conflict	100	0.2823672173994212	968	99.59335394216718	99.99970829832914	908512	342826	37.7
+ESI425H	contig_3 [gcode=11] [topology=linear]	108461	chromosome	chromosome	lp54	chromosome	chromosome		exact_match	REVIEW - pf32/wp family conflict	100	0.6905708042522196	749	99.78333625291576	99.99907800960716	908512	108460	11.9
+URI41H	contig_2 [gcode=11] [topology=linear]	60093	lp56	lp56	lp56	cp32-3	lp56		exact_match	REVIEW - lp56/cp32 conflict	100	1.2513936731399664	752	96.79128311	88.08679879520078	30418	30223	99.4
+URI112H	contig_4 [gcode=11] [topology=linear]	44674	lp38	lp38	lp38	lp28-5	lp38		exact_match	REVIEW - pf32/wp family conflict	100	1.6430138335497158	734	99.02411855869818	58.188207906164656	27342	25999	95.1
+UNY1085P	contig_16 [gcode=11] [topology=linear]	35946	lp36	lp36	lp36	lp17	lp36		exact_match	REVIEW - pf32/wp family conflict	100	2.075335225059812	746	88.20512821	10.245924442218884	18110	3636	20.1
+UWI283P	contig_15 [gcode=11] [topology=linear]	35937	lp36	lp36	lp36	lp17	lp36		exact_match	REVIEW - pf32/wp family conflict	100	2.075854968416952	746	88.17813765182187	10.24849041377967	18110	3636	20.1
+UNY172P	contig_14 [gcode=11] [topology=linear]	35925	lp36	lp36	lp36	lp17	lp36		exact_match	REVIEW - pf32/wp family conflict	100	2.0765483646485734	746	88.20512821	10.251913709116216	18110	3636	20.1
+UCT30H	contig_6 [gcode=11] [topology=linear]	34559	chromosome	chromosome	chromosome	lp21-cp9	chromosome	lp21-cp9	exact_match	OVERRIDE - chromosome paralog bug	100	2.271477762666744	785	97.16457776864598	57.45825979	24387	23823	97.7
+XYZ459H	contig_2 [gcode=11] [topology=linear]	32754	lp36	lp36	lp36	lp17	lp36		exact_match	REVIEW - pf32/wp family conflict	100	2.277584417170422	746	88.20512821	11.24442816144593	18110	3636	20.1
+URI33H	contig_6 [gcode=11] [topology=linear]	30965	chromosome	chromosome	chromosome	lp21-cp9	chromosome	lp21-cp9	exact_match	OVERRIDE - chromosome paralog bug	100	2.535120297	785	96.70028877605486	86.50088809946715	24387	24277	99.5
+URI111H	contig_9 [gcode=11] [topology=linear]	30763	chromosome	chromosome	chromosome	lp21-cp9	chromosome	lp21-cp9	exact_match	OVERRIDE - chromosome paralog bug	100	2.5517667327633844	785	96.65006790402896	85.89214316	24387	23295	95.5
+UCT31H	contig_12 [gcode=11] [topology=linear]	30338	chromosome	chromosome	chromosome	lp21-cp9	chromosome	lp21-cp9	exact_match	OVERRIDE - chromosome paralog bug	100	2.587514008833806	785	96.65382697	86.08345969	24387	23295	95.5
+URI48H	contig_10 [gcode=11] [topology=linear]	30219	lp56	lp56	lp56	cp32-1+5	lp56		exact_match	REVIEW - lp56/cp32 conflict	99.60159363	2.488500612197624	752	93.67877073	91.72705913	60739	50671	83.4
+UNY990P	contig_5 [gcode=11] [topology=linear]	30213	lp56	lp56	lp56	cp32-1+5	lp56		exact_match	REVIEW - lp56/cp32 conflict	99.60159363	2.488994803561381	752	93.69595975475556	91.72541621156456	60739	50671	83.4
+URI33H	contig_11 [gcode=11] [topology=linear]	30208	lp56	lp56	lp56	cp32-1+5	lp56		exact_match	REVIEW - lp56/cp32 conflict	99.60159363	2.489406779661017	752	93.82410192886216	91.72404661	60739	50650	83.4
+URI41H	contig_11 [gcode=11] [topology=linear]	30141	chromosome	chromosome	chromosome	lp21-cp9	chromosome	lp21-cp9	exact_match	OVERRIDE - chromosome paralog bug	100	2.6044258651006933	785	96.63318813639265	85.60100859294649	24387	23295	95.5
+URI88H	contig_14 [gcode=11] [topology=linear]	29970	chromosome	chromosome	chromosome	lp21-cp9	chromosome	lp21-cp9	exact_match	OVERRIDE - chromosome paralog bug	100	2.6192859526192858	785	96.53548696187804	85.52552552552552	24387	24321	99.7
+URI39H	contig_14 [gcode=11] [topology=linear]	29953	chromosome	chromosome	chromosome	lp21-cp9	chromosome	lp21-cp9	exact_match	OVERRIDE - chromosome paralog bug	100	2.620772543651721	785	96.64678135405106	85.51397188929323	24387	23295	95.5
+UWI263P	contig_3 [gcode=11] [topology=linear]	29792	lp56	lp56	lp56	cp32-10	lp56		exact_match	REVIEW - lp56/cp32 conflict	99.60159363	2.524167561761547	752	94.82637424434137	94.31055316863588	30314	28090	92.7
+UCT29H	contig_15 [gcode=11] [topology=linear]	29761	chromosome	chromosome	chromosome	lp21-cp9	chromosome	lp21-cp9	exact_match	OVERRIDE - chromosome paralog bug	100	2.6376801854776386	785	96.37732396123612	85.41715668156313	24387	23295	95.5
+GCF_019134655.1_ASM1913465v1_genomic	"NZ_CP077731.1 Borreliella burgdorferi strain B-17/2013 plasmid pGr-39_cp30-3, complete sequence"	29645	lp56	lp56	lp56	cp32-1	lp56		exact_match	REVIEW - lp56/cp32 conflict	99.60159363	2.5366840951256537	752	93.97116644823068	86.61831674818687	30883	26595	86.1
+ESI425H	contig_8 [gcode=11] [topology=linear]	29638	lp56	lp56	lp56	cp32-1	lp56		exact_match	REVIEW - lp56/cp32 conflict	99.60159363	2.537283217491059	752	94.24327185	85.84587354072475	30883	26353	85.3
+ESI361H	contig_4 [gcode=11] [topology=linear]	29589	lp56	lp56	lp56	cp32-11	lp56		exact_match	REVIEW - lp56/cp32 conflict	99.60159363	2.541485011321775	752	95.18331276621154	84.56858967859677	30648	25053	81.7
+URI101H	contig_16 [gcode=11] [topology=linear]	29020	chromosome	chromosome	chromosome	lp21-cp9	chromosome	lp21-cp9	exact_match	OVERRIDE - chromosome paralog bug	100	2.705031013094417	785	96.49512785024255	85.04479669	24387	22743	93.3
+URI93H	contig_15 [gcode=11] [topology=linear]	28843	chromosome	chromosome	chromosome	lp21-cp9	chromosome	lp21-cp9	exact_match	OVERRIDE - chromosome paralog bug	100	2.7216308983115485	785	96.38848511186706	70.89761813958326	24387	17941	73.6
+GCF_040790715.1_ASM4079071v1_genomic	"NZ_CP161152.1 Borreliella burgdorferi strain GMT-0122 plasmid lp21, complete sequence"	27454	chromosome	chromosome	chromosome	lp21-cp9	chromosome	lp21-cp9	exact_match	OVERRIDE - chromosome paralog bug	100	2.859328331026444	785	96.62599295716976	99.99635754352737	24387	24386	100
+URI120H	contig_17 [gcode=11] [topology=linear]	26324	chromosome	chromosome	chromosome	lp21-cp9	chromosome	lp21-cp9	exact_match	OVERRIDE - chromosome paralog bug	100	2.9820695942865827	785	96.57725098773132	99.99620119	24387	23260	95.4
+B500P	contig_11 [gcode=11] [topology=linear]	24387	chromosome	chromosome	chromosome	lp21-cp9	chromosome	lp21-cp9	exact_match	OVERRIDE - chromosome paralog bug	100	3.218928117	785	96.72218111764133	99.99589945462746	24387	24386	100
+URI89H	contig_19 [gcode=11] [topology=linear]	23058	chromosome	chromosome	chromosome	lp21-cp9	chromosome	lp21-cp9	exact_match	OVERRIDE - chromosome paralog bug	100	3.4044583224911094	785	98.04018990835816	99.99132622083442	24387	23295	95.5
+UNY1128P	contig_13 [gcode=11] [topology=linear]	20737	lp56	lp56	lp56	cp32-10	lp56		exact_match	REVIEW - lp56/cp32 conflict	100	3.626368327144717	752	99.97588850846311	99.99517770169264	30314	20736	68.4
+UCT35H	contig_10 [gcode=11] [topology=linear]	18631	lp32-3	lp32-3	lp32-3	cp32-3+10	lp32-3		exact_match	REVIEW - pf32/wp family conflict	100	3.8108528796092536	710	80.95	35.26380763244056	48168	9787	20.3
+UNY1083P	contig_16 [gcode=11] [topology=linear]	15152	lp56	lp56	lp56	cp32-10	lp56		exact_match	REVIEW - lp56/cp32 conflict	100	4.963041182682154	752	100	99.99340021119323	30314	15151	50
+URI56H	contig_25 [gcode=11] [topology=linear]	3150	chromosome	chromosome	chromosome	lp21	chromosome	chromosome	exact_match	OVERRIDE - chromosome paralog bug	100	24.92063492063492	785	96.44781969622734	99.93650793650794	18777	7409	39.5
+UCT113H	contig_23 [gcode=11] [topology=linear]	1107	chromosome	chromosome	chromosome	lp21	chromosome	chromosome	exact_match	OVERRIDE - chromosome paralog bug	99.21259842519686	68.74435411020777	761	99.63866305	99.90966576	18777	1106	5.9
+UCT35H	contig_2 [gcode=11] [topology=linear]	88152	lp28-3	lp28-3:::lp28-4	lp28-4	lp25	lp28-3		extra_annotation	KEEP	100	0.8496687539704147	749	97.82302868	42.82262455758236	24910	24909	100
+URI103H	contig_2 [gcode=11] [topology=linear]	86873	lp28-3	lp28-3:::lp36	lp28-3	lp28-5	lp28-3		extra_annotation	KEEP	100	0.8656314389971567	752	99.14585066820628	42.750912251217294	27673	27672	100
+URI86H	contig_2 [gcode=11] [topology=linear]	86452	lp28-3	lp28-4:::lp28-3	lp28-4	lp28-5	lp28-3		extra_annotation	REVIEW - primary differs from 10.2	100	0.8663767177161894	749	98.8072535	43.97353444686068	27673	27672	100
+URI47H	contig_2 [gcode=11] [topology=linear]	83849	lp28-3	lp28-3:::lp36	lp28-3	lp28-5	lp28-3		extra_annotation	KEEP	100	0.8968502904029862	752	99.14585066820628	44.29271666925067	27673	27672	100
+UCT29H	contig_2 [gcode=11] [topology=linear]	75871	lp38	lp38:::lp36	lp38	lp36	lp38		extra_annotation	KEEP	100	0.9674315614661728	734	97.75562819391372	48.56269193763098	36846	36845	100
+UCT50H	contig_2 [gcode=11] [topology=linear]	66334	lp28-2	lp28-4:::lp28-2	lp28-2	lp28-4	lp28-2		extra_annotation	REVIEW - primary differs from 10.2	100	1.1517472186209183	764	97.65462847654628	51.11104411010945	29501	29500	100
+URI46H	contig_2 [gcode=11] [topology=linear]	64384	chromosome	chromosome:::lp28-5	chromosome	lp28-5	chromosome		extra_annotation	KEEP	100	1.2192470178926442	785	99.80532911546418	51.14158797	27673	27672	100
+GCF_002151485.1_ASM215148v1_genomic	"NZ_CP019921.1 Borreliella burgdorferi strain PAbe plasmid p_cp32-9-4, complete sequence"	62238	cp32-4	cp32-9:::cp32-4	cp32-9	cp32-9-4	cp32-4		extra_annotation	REVIEW - primary differs from 10.2	100	1.1938044281628586	743	97.67474036474322	99.99839326456504	62238	62237	100
+GCF_002151505.1_ASM215150v1_genomic	"NZ_CP019756.1 Borreliella burgdorferi strain B31_NRZ isolate B31 plasmid p_cp32-1_1, complete sequence"	61418	cp32-1+5	cp32-1+5:::cp32-1	cp32-1	cp32-5+1	cp32-1+5	cp32-1+5	extra_annotation	KEEP	100	1.1999739490051775	737	98.60510507984048	99.99837181	61418	61417	100
+ESI26H	contig_2 [gcode=11] [topology=linear]	61321	cp32-1+5	cp32-1+5:::cp32-12	cp32-1+5	cp32-12	cp32-1+5	cp32-1+5	extra_annotation	KEEP	100	1.255687284943168	770	96.76989108	95.15500399536865	31433	31432	100
+URI88H	contig_2 [gcode=11] [topology=linear]	59619	lp25	lp28-4:::lp25	lp28-4	lp25	lp25		extra_annotation	REVIEW - primary differs from 10.2	100	1.2563109075965715	749	98.49770519799338	55.84461329441957	24910	24909	100
+UCT30H	contig_2 [gcode=11] [topology=linear]	57651	lp25	lp28-4:::lp25	lp28-4	lp25	lp25		extra_annotation	REVIEW - primary differs from 10.2	100	1.2991968916410817	749	98.88847509095598	53.32604811711852	24910	24909	100
+GCF_002151485.1_ASM215148v1_genomic	"NZ_CP019918.1 Borreliella burgdorferi strain PAbe plasmid p_cp32-5-1, complete sequence"	56632	cp32-1+5	cp32-1+5:::cp32-1	cp32-1	cp32-5+1	cp32-1+5		extra_annotation	KEEP	100	1.3013843763243396	737	98.47019534287936	99.99823421387202	61418	61417	100
+ESI361H	contig_2 [gcode=11] [topology=linear]	56559	lp36	lp36:::lp28-4	lp36	lp28-4	lp36		extra_annotation	KEEP	100	1.287151470146219	728	97.45266997924398	48.927668452412526	29501	27753	94.1
+URI102H	contig_2 [gcode=11] [topology=linear]	56558	lp28-2	lp28-2:::lp28-4	lp28-2	lp28-2	lp28-2		extra_annotation	KEEP	100	1.3508257010502491	764	99.97009171872922	53.20202270235864	29936	29864	99.8
+UCT109H	contig_2 [gcode=11] [topology=linear]	56477	lp28-2	lp28-2:::lp28-4	lp28-2	lp28-2	lp28-2		extra_annotation	KEEP	100	1.3527630716929016	764	99.97008973080756	53.27478442551835	29936	29862	99.8
+ESI425H	contig_4 [gcode=11] [topology=linear]	56468	lp36	lp36:::lp28-4	lp36	lp36	lp36		extra_annotation	KEEP	100	1.2892257561804916	728	98.60461718293396	45.68959410639654	36936	23784	64.4
+UNY1128P	contig_4 [gcode=11] [topology=linear]	56412	lp25	lp28-4:::lp25	lp28-4	lp28-4	lp25		extra_annotation	REVIEW - primary differs from 10.2	100	1.3277316882932708	749	97.50631397	55.87463660214139	30096	30095	100
+UNY1083P	contig_2 [gcode=11] [topology=linear]	56357	lp25	lp28-4:::lp25	lp28-4	lp28-4	lp25		extra_annotation	REVIEW - primary differs from 10.2	100	1.3290274500062105	749	97.43097433678577	55.83157371755062	30096	30095	100
+URI88H	contig_3 [gcode=11] [topology=linear]	54954	lp28-1	lp28-1:::lp28-7	lp28-1	lp28-7	lp28-1		extra_annotation	KEEP	100	1.3847945554463734	761	98.65892393	56.68195217818539	29993	29720	99.1
+UCT110H	contig_3 [gcode=11] [topology=linear]	53600	lp28-3	lp28-3:::lp36	lp28-3	lp28-3	lp28-3		extra_annotation	KEEP	100	1.4029850746268655	752	98.09979159004536	57.832089552238806	28768	28295	98.4
+URI88H	contig_5 [gcode=11] [topology=linear]	53592	lp28-3	lp28-3:::lp36	lp28-3	lp28-3	lp28-3		extra_annotation	KEEP	100	1.4031945066427824	752	97.45842294992578	58.51246454694731	28797	28170	97.8
+UCT30H	contig_4 [gcode=11] [topology=linear]	53480	lp28-6	lp28-6:::lp28-5	lp28-6	lp28-5	lp28-6		extra_annotation	KEEP	100	1.406133133881825	752	99.75899624696446	51.49401645474944	27673	27672	100
+URI47H	contig_4 [gcode=11] [topology=linear]	52987	lp25	lp25:::lp28-4	lp28-4	lp28-4	lp25		extra_annotation	KEEP	100	1.4135542680280069	749	98.20111798287346	55.124841942363226	29501	27705	93.9
+UCT32H	contig_3 [gcode=11] [topology=linear]	52605	lp28-3	lp28-3:::lp36	lp28-3	lp28-3	lp28-3		extra_annotation	KEEP	100	1.4295219085638249	752	98.04002149653842	57.03450242372398	28768	27300	94.9
+URI46H	contig_4 [gcode=11] [topology=linear]	52605	lp28-3	lp28-3:::lp36	lp28-3	lp28-3	lp28-3		extra_annotation	KEEP	100	1.4295219085638249	752	98.04002149653842	57.03450242372398	28768	27300	94.9
+UCT30H	contig_5 [gcode=11] [topology=linear]	52259	lp28-1	lp28-1:::lp28-5	lp28-1	lp28-5	lp28-1		extra_annotation	KEEP	100	1.4562084999712968	761	98.00979017764806	50.687919784152015	27342	25999	95.1
+ESI26H	contig_3 [gcode=11] [topology=linear]	51152	lp28-9	lp28-9:::lp28-7	lp28-9	lp28-9	lp28-9		extra_annotation	KEEP	100	1.487722865186112	761	97.98556124825338	83.35744447919924	28200	28199	100
+URI93H	contig_3 [gcode=11] [topology=linear]	50256	lp17	lp17:::lp28-3	lp28-3	lp28-3	lp17		extra_annotation	KEEP	100	1.496338745622413	752	99.52567222102442	61.94882203120026	28601	28491	99.6
+UCT35H	contig_4 [gcode=11] [topology=linear]	50141	lp28-1	lp28-1:::lp36	lp28-1	lp36	lp28-1		extra_annotation	KEEP	100	1.487804391615644	746	97.49596962920587	68.89172533455655	28234	27383	97
+ESI403H	contig_3 [gcode=11] [topology=linear]	50015	lp17	lp17:::lp28-3	lp28-3	lp28-3	lp17		extra_annotation	KEEP	100	1.5035489353194045	752	99.43845080488718	56.07517744676597	28601	27535	96.3
+GCF_040819585.1_PFhe_I_PB_Ill_cons_genomic	"NZ_CP161908.1 Borreliella burgdorferi strain PFhe_I plasmid cp32-10, complete sequence"	47043	cp32-3+10	cp32-3+10:::cp32-6	cp32-3+10	cp32-3+10	cp32-3+10		extra_annotation	KEEP	100	1.598537508237145	752	93.18536500780304	91.60342665	48168	43988	91.3
+URI48H	contig_3 [gcode=11] [topology=linear]	46901	lp28-4	lp28-4:::lp28-8	lp28-4	lp28-4	lp28-4		extra_annotation	KEEP	100	1.5969808746082177	749	96.88138	61.610626639090846	29501	27841	94.4
+UCT35H	contig_5 [gcode=11] [topology=linear]	45523	cp32-1	cp32-1:::cp32-6	cp32-6	cp32-9	cp32-1		extra_annotation	KEEP	100	1.638732069503328	746	95.27907859764588	86.36293741625113	30606	27864	91
+UCT92H	contig_3 [gcode=11] [topology=linear]	42605	lp25	lp25:::lp17	lp17	lp25	lp25		extra_annotation	KEEP	100	1.7016782067832414	725	98.75633031315672	58.35700035207135	24910	24857	99.8
+UNY1083P	contig_4 [gcode=11] [topology=linear]	38215	lp28-3	lp28-3:::lp28-5	lp28-3	lp28-3	lp28-3		extra_annotation	KEEP	100	1.9678136857255009	752	99.56692651	74.42103885908674	28797	28440	98.8
+UNY1128P	contig_7 [gcode=11] [topology=linear]	32904	lp28-5	lp36:::lp28-5	lp36	lp36	lp28-5		extra_annotation	REVIEW - primary differs from 10.2	100	2.212496960855823	728	98.18499646669396	72.36202285436421	23638	23036	97.5
+URI89H	contig_5 [gcode=11] [topology=linear]	32382	lp56	cp32-6:::lp56	cp32-6	cp32-6	lp56	cp32-6	extra_annotation	REVIEW - primary differs from 10.2	100	2.3037489963560005	746	98.16778500156452	88.76845160891853	29838	28331	94.9
+GCF_040790755.1_ASM4079075v1_genomic	"NZ_CP161105.1 Borreliella burgdorferi strain Bb16-134 plasmid cp9, complete sequence"	8831	cp9-3	cp9		cp9	cp9-3		same_family_tiebreak	KEEP				96.07219889	99.54705016419432	8696	8646	99.4
+URI36H	contig_21 [gcode=11] [topology=linear]	8728	cp9	cp9-3		cp9-3	cp9		same_family_tiebreak	KEEP				93.21329639889196	98.56782768102656	8706	8581	98.6
+UCT35H	contig_14 [gcode=11] [topology=linear]	8693	cp9	cp9-3		cp9-3	cp9		same_family_tiebreak	KEEP				94.08895598652886	98.38950880018406	8706	8566	98.4
+UNY203P	contig_9 [gcode=11] [topology=linear]	8693	cp9	cp9-3		cp9-3	cp9		same_family_tiebreak	KEEP				94.18352188321334	99.97699298285976	8706	8704	100
+UNY1083P	contig_25 [gcode=11] [topology=linear]	4043	cp32-8	cp32-6		cp32-6	cp32-8		same_family_tiebreak	KEEP				99.97526589	99.97526589	30804	4042	13.1
+URI88H	contig_21 [gcode=11] [topology=linear]	3168	lp28-11	lp28-1		lp28-1	lp28-11		same_family_tiebreak	KEEP				99.90530303030305	99.96843434343434	22481	3167	14.1
+UNY1128P	contig_23 [gcode=11] [topology=linear]	3040	cp32-9	cp32-5-1		cp32-5-1	cp32-9		same_family_tiebreak	KEEP				97.40437158469946	99.96710526315788	56632	5107	9
+ESI403H	contig_19 [gcode=11] [topology=linear]	2179	cp32-11	cp32-8		cp32-8	cp32-11		same_family_tiebreak	KEEP				99.58696649839376	99.95410738871044	31085	2178	7
+URI117H	contig_28 [gcode=11] [topology=linear]	2104	lp28-5	lp28-6		lp28-6	lp28-5		same_family_tiebreak	KEEP				94.37559580552907	99.61977186311786	26981	1040	3.9
+URI56H	contig_37 [gcode=11] [topology=linear]	1768	cp32-8	cp32-10		cp32-10	cp32-8		same_family_tiebreak	KEEP				99.94343891402715	99.94343891402715	29756	1767	5.9
+URI118H	contig_20 [gcode=11] [topology=linear]	1669	cp32-5	cp32-12		cp32-12	cp32-5		same_family_tiebreak	KEEP				99.88016776512882	99.94008388	30796	1668	5.4
+URI86H	contig_18 [gcode=11] [topology=linear]	1465	cp32-12	cp32-9		cp32-9	cp32-12		same_family_tiebreak	KEEP				95.12855209742897	99.93174061433449	21173	1467	6.9
+URI118H	contig_22 [gcode=11] [topology=linear]	1291	cp32-5	cp32-11		cp32-11	cp32-5		same_family_tiebreak	KEEP				100	99.92254066615028	30287	1290	4.3
+UCT30H	contig_21 [gcode=11] [topology=linear]	1145	cp32-5	cp32-12		cp32-12	cp32-5		same_family_tiebreak	KEEP				99.82532751091703	99.91266375545852	30796	1144	3.7
+UCT32H	contig_24 [gcode=11] [topology=linear]	1145	cp32-5	cp32-12		cp32-12	cp32-5		same_family_tiebreak	KEEP				99.82532751091703	99.91266375545852	30796	1144	3.7
+URI44H	contig_22 [gcode=11] [topology=linear]	1111	cp32-8	cp32-6		cp32-6	cp32-8		same_family_tiebreak	KEEP				100	99.909991	30293	1110	3.7
+UCT32H	contig_25 [gcode=11] [topology=linear]	1106	cp32-8	cp32-5		cp32-5	cp32-8		same_family_tiebreak	KEEP				100	99.90958408679928	30637	1105	3.6
+UCT30H	contig_22 [gcode=11] [topology=linear]	1102	cp32-8	cp32-6		cp32-6	cp32-8		same_family_tiebreak	KEEP				100	99.9092559	30642	1101	3.6
+UCT110H	contig_26 [gcode=11] [topology=linear]	1036	cp32-5	cp32-12		cp32-12	cp32-5		same_family_tiebreak	KEEP				100	99.9034749	30796	1035	3.4
+URI46H	contig_26 [gcode=11] [topology=linear]	1036	cp32-5	cp32-12		cp32-12	cp32-5		same_family_tiebreak	KEEP				99.80694981	99.9034749	30796	1035	3.4
+URI40H	contig_26 [gcode=11] [topology=linear]	1002	cp32-12	cp32-2		cp32-2	cp32-12		same_family_tiebreak	KEEP				90.01122334455668	87.82435129740519	30302	886	2.9
+URI42H	contig_25 [gcode=11] [topology=linear]	1002	cp32-12	cp32-2		cp32-2	cp32-12		same_family_tiebreak	KEEP				90.01122334455668	87.82435129740519	30302	886	2.9
