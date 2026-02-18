@@ -9,7 +9,7 @@ library(gridExtra)
 
 # input files
 metadata_file = "../0_Data/2_Processed/MetadataFull.csv"
-plasmid_file = "../0_Data/0_Raw/best_hits_1000bp_v11.csv"
+plasmid_file = "../../output/genotyping/replicons/best_hits_1000bp_v11.csv"
 
 # process and clean metadata
 metada <- read.csv(metadata_file,
