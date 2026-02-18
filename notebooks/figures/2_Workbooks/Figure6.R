@@ -1,0 +1,206 @@
+########## Figure 6 ##########
+# This notebook constructs the phylogenetic tree and gene heatmap
+# for the scaffolded assemblies as shown in Figure 6.
+
+library(ape)
+library(ggplot2)
+library(ggtree)
+library(ggtreeExtra)
+library(gridExtra)
+library(ggstar)
+library(ggnewscale)
+library(ggpubr)
+library(tidytree)
+library(treeio)
+library(phytools)
+library(phyloseq)
+library(dplyr)
+library(tidyr)
+library(GeneMates)
+library(reshape2)
+library(TDbook)
+library(stringr)
+library(gtools)
+library(ggrepel)
+library(scales)
+library(RColorBrewer)
+
+##### Figure 6 #####
+# input files
+tree_file = "../0_Data/0_Raw/scaffolds/core_gene_alignment.nwk"
+metadata_file = "../0_Data/0_Raw/scaffolds/Lemieux2023_TableS2.tsv"
+scaffoldedgenes_file = "../0_Data/2_Processed/ScaffoldTree.csv"
+# set legend / formatting parameters
+size_legendtitle = 16
+size_legendtext=12
+kw=1
+kh=1
+
+# midpoint root the tree file and clean node labels
+tr <- midpoint.root(read.tree(tree_file))
+tr$tip.label <- gsub("GCF_\\d+\\.\\d+_", "", tr$tip.label)
+tr$tip.label <- gsub("_genomic", "", tr$tip.label)
+
+# process and clean metadata
+metada <- read.csv(metadata_file,
+               header=TRUE,
+               sep="\t")
+names(metada)[names(metada) == "sample_name"] <- "ID"
+metada$Disseminated[is.na(metada$Disseminated)] <- ""
+metadata <- metada %>%
+  select(c("ID", "OspC_Type", 
+           "RST_Type",
+           "MLST", "Disseminated"))
+
+metadata$Strain <- metadata$ID
+metadata$MLST <- factor(metadata$MLST)
+metadata$RST_Type <- factor(metadata$RST_Type)
+metadata$OspC_Type <- factor(metadata$OspC_Type)
+metadata$Disseminated <- factor(metadata$Disseminated, levels=c("L", "D", ""), labels=c("Localized", "Disseminated", ""))
+
+# construct the base tree
+p <- ggtree(tr,size=0.5) 
+p <- p %<+% metadata
+
+# color nodes by RST
+p <-p +
+  geom_tippoint(mapping=aes(colour=RST_Type),
+                size=2,
+                stroke=0
+  ) +
+  scale_color_manual(
+    name="RST",
+    values=c("#FF0000", "#00FF00", "#0000FF"),
+    guide=guide_legend(override.aes = list(label = "\u2022", size = 6), keywidth=kw, keyheight=kh, ncol=3, order=1)
+  ) +
+  theme(
+    legend.title=element_text(size=size_legendtitle),
+    legend.text=element_text(size=size_legendtext),
+    legend.spacing.y = unit(0.02, "cm")
+  ) +
+  new_scale_color()
+
+# annotate nodes with labels colored by OspC type
+p <- p +
+  geom_tiplab(mapping=aes(label=Strain, colour=OspC_Type),
+              align=TRUE,
+              linetype=3,
+              size=2,
+              linesize=0.5,
+              offset=0.002,
+              show.legend=FALSE) +
+  scale_color_discrete(
+    name="OspC") +
+  theme(
+    legend.title=element_text(size=size_legendtitle),
+    legend.text=element_text(size=size_legendtext),
+    legend.spacing.y = unit(0.02, "cm")
+  ) +
+  new_scale_color()
+
+# add layer for OspC
+p <-p +  new_scale_fill() +
+  geom_fruit(
+    geom=geom_tile,
+    mapping=aes(fill=OspC_Type),
+    width=0.0015,
+    offset=0.75
+  ) +
+  scale_fill_discrete(name="OspC",
+                    guide=guide_legend(keywidth=kw, keyheight=kh, ncol=3, order=2)
+  ) +
+  theme(
+    legend.title=element_text(size=size_legendtitle), 
+    legend.text=element_text(size=size_legendtext),
+    legend.spacing.y = unit(0.02, "cm")
+  )
+
+# add layer for dissemination status
+p_diss <-p +  new_scale_fill() +
+  geom_fruit(
+    geom=geom_tile,
+    mapping=aes(fill=Disseminated),
+    width=0.0015,
+    offset=0.25
+  ) +
+  scale_fill_manual(name="Disseminated",
+                      values=c("lightgreen", "darkgreen", "white"),
+                      guide=guide_legend(keywidth=kw, keyheight=kh, ncol=3, order=3)
+  ) +
+  theme(
+    legend.title=element_text(size=size_legendtitle), 
+    legend.text=element_text(size=size_legendtext),
+    legend.spacing.y = unit(0.02, "cm")
+  )
+
+# import and process scaffolded gene file
+genes <- read.csv(scaffoldedgenes_file,
+                  header=TRUE,
+                  sep=",")
+genes <- genes %>% filter(best_replicon != "chromosome")
+gene_counts <- genes %>%
+  count(gene, name = "gene_count")
+
+# exclude genes that appear in all isolates or in fewer than 30
+genes_to_exclude <- gene_counts %>%
+  filter(gene_count == 299 | gene_count < 30) %>%
+  pull(gene)
+genes <- genes %>%
+  filter(!gene %in% genes_to_exclude) 
+
+# clean and reshape
+names(genes)[names(genes) == "assembly"] <- "ID"
+gene_pa <- genes[,c("gene", "ID")]
+gene_pa <- gene_pa %>%
+  mutate(presence = 1) %>%
+  pivot_wider(
+    names_from = gene,
+    values_from = presence,
+    values_fill = list(presence = 0)
+  ) %>% 
+  as.data.frame()
+
+rownames(gene_pa) <- gene_pa$ID
+gene_pa$ID <- NULL  
+
+# set up color scheme
+all_replicons = unique(genes$replicon_name)
+best_replicons = unique(genes$best_replicon)
+non_best_replicons <- setdiff(all_replicons, best_replicons)
+combined_replicons <- c(best_replicons, non_best_replicons)
+
+genes$replicon_name <- factor(genes$replicon_name, levels=combined_replicons)
+genes$gene <- factor(genes$gene, levels=unique(genes$gene))
+
+colors <- genes %>%
+  select(c("replicon_name", "color")) %>%
+  distinct()
+colors <- colors %>%
+  arrange(ifelse(replicon_name == "Unclassified", 1, 0))
+plasmid_colors <- setNames(colors$color, colors$replicon_name)
+
+# add heatmap with gene presence by replicon for scaffolded isolates
+p_genes <- p_diss +  new_scale_fill() +
+  geom_fruit(
+    data=genes,
+    geom=geom_tile,
+    mapping=aes(x=gene, y=ID, fill=replicon_name),
+    pwidth=5,
+    offset=0.15,
+  ) +
+  scale_fill_manual(
+    name="Plasmid",
+    values=plasmid_colors,
+    na.translate=FALSE,
+    guide=guide_legend(keywidth=kw,
+                       keyheight=kh,
+                       ncol=3,
+                       order=5
+    )
+  ) +
+  theme(plot.title=element_text(size=24, face="bold"),
+        legend.title=element_text(size=size_legendtitle),
+        legend.text=element_text(size=size_legendtext)) +
+  ggtitle("Borrelia Phylogeny and Gene Presence by Plasmid") +
+  new_scale_fill()
+p_genes
