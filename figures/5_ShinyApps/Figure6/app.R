@@ -21,7 +21,7 @@ library(showtext)
 # input files (all in the same folder as the app script)
 tree_file = "core_gene_alignment.nwk"
 metadata_file = "Lemieux2023_TableS2.tsv"
-scaffolds_file = "/Users/rl275/Projects/bb_longread/Manuscript/0_Data/2_Processed/ScaffoldTree.csv"
+scaffolds_file = "ScaffoldTree.csv"
 
 # set legend / formatting parameters
 size_legendtitle = 16

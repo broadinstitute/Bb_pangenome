@@ -13,7 +13,7 @@ library(RColorBrewer)
 library(scales)
 
 # input files
-plasmid_file = "../0_Data/0_Raw/best_hits_1000bp_v11.csv"
+plasmid_file = "../../output/genotyping/replicons/best_hits_1000bp_v11.csv"
 metadata_file = "../0_Data/2_Processed/MetadataFull.csv"
 plasmidbinary_file = "../0_Data/2_Processed/plasmids_binary_long.csv" # generated in `Figure1a.ipynb`
 

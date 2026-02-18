@@ -27,7 +27,7 @@ library(RColorBrewer)
 
 ##### Figure 1a #####
 # input files
-tree_file = "../0_Data/0_Raw/fasttree/fasttree_panaroo_v1.newick"
+tree_file = "../../output/results/v9/no_merge_paralogs/fasttree/fasttree.newick"
 metadata_file = "../0_Data/2_Processed/MetadataFull.csv"
 plasmidbinary_file = "../0_Data/2_Processed/plasmids_binary_long.csv" # generated in `Figure1a.ipynb`
 

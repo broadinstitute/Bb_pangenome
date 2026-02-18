@@ -20,7 +20,7 @@ library(showtext)
 # input files (all in the same folder as the app script)
 tree_file = "fasttree_panaroo_v1.newick"
 metadata_file = "MetadataFull.csv"
-genes_file = "/Users/rl275/Projects/bb_longread/Manuscript/0_Data/2_Processed/GeneTree_Ordered.csv"
+genes_file = "GeneTree_Ordered.csv"
 
 # set legend / formatting parameters
 size_legendtitle = 16

@@ -28,7 +28,7 @@ library(shiny)
 library(ggiraph)
 
 # input files
-tree_file = "../0_Data/0_Raw/fasttree/fasttree_panaroo_v1.newick"
+tree_file = "../../output/results/v9/no_merge_paralogs/intermediates/fasttree/fasttree_panaroo_v1.newick"
 metadata_file = "../0_Data/2_Processed/MetadataFull.csv"
 fullgenes_file = "../0_Data/2_Processed/GeneTree_Ordered.csv" # generated in `Figure2.ipynb`
 thresholdedgenes_file = "../0_Data/2_Processed/GeneTree_Ordered_Thresh.csv" # generated in `Figure2.ipynb`

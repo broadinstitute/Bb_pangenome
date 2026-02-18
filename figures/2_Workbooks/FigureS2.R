@@ -13,8 +13,8 @@ library(scales)
 library(patchwork)
 
 # input files
-plasmid_file = "/Users/rl275/Projects/bb_longread/Manuscript/0_Data/0_Raw/best_hits_1000bp_v11.csv"
-metadata_file = "/Users/rl275/Projects/bb_longread/Manuscript/0_Data/2_Processed/MetadataFull.csv"
+plasmid_file = "../../output/genotyping/replicons/best_hits_1000bp_v11.csv"
+metadata_file = "../0_Data/2_Processed/MetadataFull.csv"
 
 # import and clean plasmid data
 plasmids <- read.csv(plasmid_file)
