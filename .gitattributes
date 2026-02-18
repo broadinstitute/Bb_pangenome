@@ -9,3 +9,6 @@
 output/results/v9/merge_paralogs/gene_data.csv filter=lfs diff=lfs merge=lfs -text
 output/results/v9/no_merge_paralogs/gene_data.csv filter=lfs diff=lfs merge=lfs -text
 >>>>>>> embl-ena-submission
+output/results/v9/tarballs/merge_paralogs.tar.gz filter=lfs diff=lfs merge=lfs -text
+output/results/v9/tarballs/no_merge_paralogs.tar.gz filter=lfs diff=lfs merge=lfs -text
+output/results/v9/tarballs/panaroo_intermediates_v1.tar.gz filter=lfs diff=lfs merge=lfs -text
