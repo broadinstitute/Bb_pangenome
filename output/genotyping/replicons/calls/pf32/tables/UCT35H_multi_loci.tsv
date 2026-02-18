@@ -1,0 +1,7 @@
+assembly_id	contig_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	locus_idx	locus_start	locus_end
+UCT35H	contig_2 [gcode=11] [topology=linear]	88152	H28_B31_lp28-3_ParA_X	lp28-3	H28	88152	251	100.0	0.8530719666031401	752	250	[(1, 251)]	[(8448, 9200)]	[(1, 251)]	1	8448	9200
+UCT35H	contig_2 [gcode=11] [topology=linear]	88152	I21_B31_lp28-4_ParA_X	lp28-4	I21	88152	250	100.0	0.8496687539704147	749	249	[(1, 250)]	[(40585, 41334)]	[(1, 250)]	2	40585	41334
+UCT35H	contig_4 [gcode=11] [topology=linear]	50141	RS01665_B31_NRZ_p_lp28-1_ParA_X	lp28-1	RS01665	50141	249	100.0	1.487804391615644	746	248	[(1, 249)]	[(12241, 12987)]	[(1, 249)]	1	12241	12987
+UCT35H	contig_4 [gcode=11] [topology=linear]	50141	RS01335_MM1_plsm_lp36_ParA_X	lp36	RS01335	50141	249	100.0	1.4519056261343013	728	242	[(1, 243)]	[(41289, 42017)]	[(1, 243)]	2	41289	42017
+UCT35H	contig_5 [gcode=11] [topology=linear]	45523	RS06370_72a_72a_cp32-1_ParA_X	cp32-1	RS06370	45523	251	100.0	1.6519122201963843	752	250	[(1, 251)]	[(2065, 2817)]	[(1, 251)]	1	2065	2817
+UCT35H	contig_5 [gcode=11] [topology=linear]	45523	RS05165_118a_118a_cp32-6_ParA_X	cp32-6	RS05165	45523	249	100.0	1.638732069503328	746	248	[(1, 249)]	[(32095, 32841)]	[(1, 249)]	2	32095	32841

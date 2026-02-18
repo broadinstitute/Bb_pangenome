@@ -1,0 +1,65 @@
+contig_id	assembly_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	concat_call	multiple_loci
+contig_1 [gcode=11] [topology=linear]	ESI26H	910396	NE_5261_chromosome_ParA_2	chromosome	NE_5261	910396	380	100.0	0.1204970144860039	1097	365	[(1, 366)]	[(368852, 369949)]	[(1, 366)]		False
+contig_10 [gcode=11] [topology=linear]	ESI26H	24163	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	24163	246	100.0	3.000455241484915	725	241	[(1, 242)]	[(18524, 19249)]	[(1, 242)]		False
+contig_11 [gcode=11] [topology=linear]	ESI26H	18933	N32_B31_cp32-9_ParA_X	cp32-9	N32	18933	251	100.0	3.9243648655786196	743	247	[(1, 248)]	[(14279, 15022)]	[(1, 248)]		False
+contig_12 [gcode=11] [topology=linear]	ESI26H	11699	P32_B31_cp32-1_ParA_X	cp32-1	P32	11699	246	100.0	6.299683733652449	737	245	[(1, 246)]	[(6785, 7522)]	[(1, 246)]		False
+contig_13 [gcode=11] [topology=linear]	ESI26H	3042				3042										False
+contig_14 [gcode=11] [topology=linear]	ESI26H	2402				2402										False
+contig_15 [gcode=11] [topology=linear]	ESI26H	1297				1297										False
+contig_16 [gcode=11] [topology=linear]	ESI26H	1254				1254										False
+contig_17 [gcode=11] [topology=linear]	ESI26H	1083				1083										False
+contig_18 [gcode=11] [topology=linear]	ESI26H	1081				1081										False
+contig_19 [gcode=11] [topology=linear]	ESI26H	1044				1044										False
+contig_2 [gcode=11] [topology=linear]	ESI26H	61321	RS01295_JD1_JD1_cp32-1+5_ParA_X	cp32-1+5	RS01295	61321	257	100.0	1.255687284943168	770	256	[(1, 257)]	[(18558, 19328)]	[(1, 257)]	cp32-1+5:::cp32-12	True
+contig_20 [gcode=11] [topology=linear]	ESI26H	850				850										False
+contig_21 [gcode=11] [topology=linear]	ESI26H	800				800										False
+contig_22 [gcode=11] [topology=linear]	ESI26H	644				644										False
+contig_23 [gcode=11] [topology=linear]	ESI26H	627				627										False
+contig_24 [gcode=11] [topology=linear]	ESI26H	613				613										False
+contig_25 [gcode=11] [topology=linear]	ESI26H	573				573										False
+contig_26 [gcode=11] [topology=linear]	ESI26H	508				508										False
+contig_27 [gcode=11] [topology=linear]	ESI26H	495				495										False
+contig_28 [gcode=11] [topology=linear]	ESI26H	455				455										False
+contig_29 [gcode=11] [topology=linear]	ESI26H	455				455										False
+contig_3 [gcode=11] [topology=linear]	ESI26H	51152	RS05395_Bol26_Bol26_lp28-9_ParA_X	lp28-9	RS05395	51152	254	100.0	1.487722865186112	761	253	[(1, 254)]	[(35231, 35992)]	[(1, 254)]	lp28-9:::lp28-7	True
+contig_30 [gcode=11] [topology=linear]	ESI26H	445				445										False
+contig_31 [gcode=11] [topology=linear]	ESI26H	444				444										False
+contig_32 [gcode=11] [topology=linear]	ESI26H	424				424										False
+contig_33 [gcode=11] [topology=linear]	ESI26H	399				399										False
+contig_34 [gcode=11] [topology=linear]	ESI26H	393				393										False
+contig_35 [gcode=11] [topology=linear]	ESI26H	376				376										False
+contig_36 [gcode=11] [topology=linear]	ESI26H	376				376										False
+contig_37 [gcode=11] [topology=linear]	ESI26H	340				340										False
+contig_38 [gcode=11] [topology=linear]	ESI26H	308				308										False
+contig_39 [gcode=11] [topology=linear]	ESI26H	300				300										False
+contig_4 [gcode=11] [topology=linear]	ESI26H	34728	K21_B31_lp36_ParA_X	lp36	K21	34728	249	100.0	2.0962911771481227	728	242	[(1, 243)]	[(22554, 23282)]	[(1, 243)]		False
+contig_40 [gcode=11] [topology=linear]	ESI26H	297				297										False
+contig_41 [gcode=11] [topology=linear]	ESI26H	297				297										False
+contig_42 [gcode=11] [topology=linear]	ESI26H	296				296										False
+contig_43 [gcode=11] [topology=linear]	ESI26H	262				262										False
+contig_44 [gcode=11] [topology=linear]	ESI26H	260				260										False
+contig_45 [gcode=11] [topology=linear]	ESI26H	258				258										False
+contig_46 [gcode=11] [topology=linear]	ESI26H	253				253										False
+contig_47 [gcode=11] [topology=linear]	ESI26H	242				242										False
+contig_48 [gcode=11] [topology=linear]	ESI26H	235				235										False
+contig_49 [gcode=11] [topology=linear]	ESI26H	230				230										False
+contig_5 [gcode=11] [topology=linear]	ESI26H	30286	RS01520_MM1_plsm_cp32-6_ParA_X	cp32-6	RS01520	30286	249	100.0	2.463184309581985	746	248	[(1, 249)]	[(5090, 5836)]	[(1, 249)]		False
+contig_50 [gcode=11] [topology=linear]	ESI26H	227				227										False
+contig_51 [gcode=11] [topology=linear]	ESI26H	210				210										False
+contig_52 [gcode=11] [topology=linear]	ESI26H	169				169										False
+contig_53 [gcode=11] [topology=linear]	ESI26H	165				165										False
+contig_54 [gcode=11] [topology=linear]	ESI26H	155				155										False
+contig_55 [gcode=11] [topology=linear]	ESI26H	152				152										False
+contig_56 [gcode=11] [topology=linear]	ESI26H	145				145										False
+contig_57 [gcode=11] [topology=linear]	ESI26H	144				144										False
+contig_58 [gcode=11] [topology=linear]	ESI26H	144				144										False
+contig_59 [gcode=11] [topology=linear]	ESI26H	136				136										False
+contig_6 [gcode=11] [topology=linear]	ESI26H	27753	RS01095_ZS7_ZS7_cp32-3+10_ParA_X	cp32-3+10	RS01095	27753	251	100.0	2.7096169783446835	752	250	[(1, 251)]	[(23067, 23819)]	[(1, 251)]		False
+contig_60 [gcode=11] [topology=linear]	ESI26H	118				118										False
+contig_61 [gcode=11] [topology=linear]	ESI26H	115				115										False
+contig_62 [gcode=11] [topology=linear]	ESI26H	114				114										False
+contig_63 [gcode=11] [topology=linear]	ESI26H	111				111										False
+contig_64 [gcode=11] [topology=linear]	ESI26H	109				109										False
+contig_7 [gcode=11] [topology=linear]	ESI26H	26979	RS06760_Bol26_Bol26_lp28-3_ParA_X	lp28-3	RS06760	26979	251	98.79032258064517	2.7539938470662366	743	247	[(1, 248)]	[(15942, 16685)]	[(1, 248)]		False
+contig_8 [gcode=11] [topology=linear]	ESI26H	26691	RS05930_ZS7_ZS7_lp28-4_ParA_X	lp28-4	RS05930	26691	250	100.0	2.8061893522161028	749	249	[(1, 250)]	[(12526, 13275)]	[(1, 250)]		False
+contig_9 [gcode=11] [topology=linear]	ESI26H	26508	NE_5261_cp26_ParA_1	cp26	NE_5261	26508	253	100.0	2.859514108948242	758	252	[(1, 253)]	[(434, 1192)]	[(1, 253)]		False

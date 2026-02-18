@@ -1,0 +1,19 @@
+contig_id	assembly_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	concat_call	multiple_loci
+contig_1 [gcode=11] [topology=linear]	UWI248P	910022	B379_chromosome_ParA_2	chromosome	B379	910022	380	100.0	0.12054653623758546	1097	365	[(1, 366)]	[(368558, 369655)]	[(1, 366)]		False
+contig_10 [gcode=11] [topology=linear]	UWI248P	18037	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	18037	246	100.0	4.019515440483451	725	241	[(1, 242)]	[(2835, 3560)]	[(1, 242)]		False
+contig_11 [gcode=11] [topology=linear]	UWI248P	24962	RS00670_JD1_JD1_lp25_ParA_X	lp25	RS00670	24962	252	100.0	3.024597388029805	755	251	[(1, 252)]	[(12372, 13127)]	[(1, 252)]		False
+contig_12 [gcode=11] [topology=linear]	UWI248P	26763	RS00365_JD1_JD1_lp28-1_ParA_X	lp28-1	RS00365	26763	254	100.0	2.843477935956358	761	253	[(1, 254)]	[(9773, 10534)]	[(1, 254)]		False
+contig_13 [gcode=11] [topology=linear]	UWI248P	28598	H28_B31_lp28-3_ParA_X	lp28-3	H28	28598	251	100.0	2.6295545143016996	752	250	[(1, 251)]	[(17935, 18687)]	[(1, 251)]		False
+contig_14 [gcode=11] [topology=linear]	UWI248P	29603	I21_B31_lp28-4_ParA_X	lp28-4	I21	29603	250	100.0	2.530148971388035	749	249	[(1, 250)]	[(14159, 14908)]	[(1, 250)]		False
+contig_15 [gcode=11] [topology=linear]	UWI248P	26921	RS06415_JD1_JD1_lp28-5_ParA_X	lp28-5	RS06415	26921	250	100.0	2.7822146279855873	749	249	[(1, 250)]	[(18810, 19559)]	[(1, 250)]		False
+contig_16 [gcode=11] [topology=linear]	UWI248P	23674	K21_B31_lp36_ParA_X	lp36	K21	23674	249	100.0	3.075103489059728	728	242	[(1, 243)]	[(11906, 12634)]	[(1, 243)]		False
+contig_17 [gcode=11] [topology=linear]	UWI248P	30325	RS07790_JD1_JD1_lp38_ParA_X	lp38	RS07790	30325	245	100.0	2.420445177246496	734	244	[(1, 245)]	[(4742, 5476)]	[(1, 245)]		False
+contig_18 [gcode=11] [topology=linear]	UWI248P	53777	A20_B31_lp54_ParA_X	lp54	A20	53777	250	100.0	1.392788738680105	749	249	[(1, 250)]	[(13566, 14315)]	[(1, 250)]		False
+contig_2 [gcode=11] [topology=linear]	UWI248P	26521	JD1_cp26_ParA_1	cp26	JD1	26521	253	100.0	2.8581124391991253	758	252	[(1, 253)]	[(8699, 9457)]	[(1, 253)]		False
+contig_3 [gcode=11] [topology=linear]	UWI248P	14882	P32_B31_cp32-1_ParA_X	cp32-1	P32	14882	246	99.59349593495935	4.952291358688348	737	245	[(1, 246)]	[(11046, 11783)]	[(1, 246)]		False
+contig_4 [gcode=11] [topology=linear]	UWI248P	30440	RS00880_JD1_JD1_cp32-11_ParA_X	cp32-11	RS00880	30440	252	100.0	2.4802890932982917	755	251	[(1, 252)]	[(11204, 11959)]	[(1, 252)]		False
+contig_5 [gcode=11] [topology=linear]	UWI248P	30661	RS00580_ZS7_ZS7_cp32-12_ParA_X	cp32-12	RS00580	30661	260	100.0	2.5406868660513355	779	259	[(1, 260)]	[(10989, 11768)]	[(1, 260)]		False
+contig_6 [gcode=11] [topology=linear]	UWI248P	30111	RS04790_B331_B331_cp32_10_ParA_X	cp32-10	RS04790	30111	246	100.0	2.447610507787852	737	245	[(1, 246)]	[(20990, 21727)]	[(1, 246)]		False
+contig_7 [gcode=11] [topology=linear]	UWI248P	30301	B379_cp32-2_ParA_1	cp32-2	B379	30301	251	100.0	2.481766278340649	752	250	[(1, 251)]	[(8179, 8931)]	[(1, 251)]		False
+contig_8 [gcode=11] [topology=linear]	UWI248P	30657	M32_B31_cp32-6_ParA_X	cp32-6	M32	30657	249	99.59839357429718	2.433375738004371	746	248	[(1, 249)]	[(6622, 7368)]	[(1, 249)]		False
+contig_9 [gcode=11] [topology=linear]	UWI248P	21331	O32_B31_cp32-7_ParA_X	cp32-7	O32	21331	249	100.0	3.497257512540434	746	248	[(1, 249)]	[(3665, 4411)]	[(1, 249)]		False

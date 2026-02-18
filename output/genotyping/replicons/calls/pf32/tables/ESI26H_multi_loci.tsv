@@ -1,0 +1,5 @@
+assembly_id	contig_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	locus_idx	locus_start	locus_end
+ESI26H	contig_2 [gcode=11] [topology=linear]	61321	RS01295_JD1_JD1_cp32-1+5_ParA_X	cp32-1+5	RS01295	61321	257	100.0	1.255687284943168	770	256	[(1, 257)]	[(18558, 19328)]	[(1, 257)]	1	18558	19328
+ESI26H	contig_2 [gcode=11] [topology=linear]	61321	RS07125_JD1_JD1_cp32-12_ParA_X	cp32-12	RS07125	61321	260	99.61538461538461	1.2703641493126334	779	259	[(1, 260)]	[(49214, 49993)]	[(1, 260)]	2	49214	49993
+ESI26H	contig_3 [gcode=11] [topology=linear]	51152	RS06620_JD1_JD1_lp28-7_ParA_X	lp28-7	RS06620	51152	253	96.04743083003953	1.4818579918673758	758	252	[(1, 253)]	[(7505, 8263)]	[(1, 253)]	1	7505	8263
+ESI26H	contig_3 [gcode=11] [topology=linear]	51152	RS05395_Bol26_Bol26_lp28-9_ParA_X	lp28-9	RS05395	51152	254	100.0	1.487722865186112	761	253	[(1, 254)]	[(35231, 35992)]	[(1, 254)]	2	35231	35992

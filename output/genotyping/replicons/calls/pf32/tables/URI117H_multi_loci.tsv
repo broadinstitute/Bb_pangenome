@@ -1,0 +1,5 @@
+assembly_id	contig_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	locus_idx	locus_start	locus_end
+URI117H	contig_1 [gcode=11] [topology=linear]	461794	RS03465_29805_29805_lp54_ParA_X	lp54	RS03465	461794	250	100.0	0.1621935321810158	749	249	[(1, 250)]	[(7878, 8627)]	[(1, 250)]	1	7878	8627
+URI117H	contig_1 [gcode=11] [topology=linear]	461794	B379_chromosome_ParA_4	chromosome	B379	461794	323	100.0	0.20961727523527807	968	322	[(1, 323)]	[(322719, 323687)]	[(1, 323)]	2	322719	323687
+URI117H	contig_15 [gcode=11] [topology=linear]	20991	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	20991	246	100.0	6.907722357200704	1450	241	[(1, 242)]	[(37, 762), (6429, 7154)]	[(1, 242), (1, 242)]	1	37	762
+URI117H	contig_15 [gcode=11] [topology=linear]	20991	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	20991	246	100.0	6.907722357200704	1450	241	[(1, 242)]	[(37, 762), (6429, 7154)]	[(1, 242), (1, 242)]	2	6429	7154

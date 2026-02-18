@@ -1,0 +1,76 @@
+contig_id	assembly_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	concat_call	multiple_loci
+contig_1 [gcode=11] [topology=linear]	URI44H	921082	B379_chromosome_ParA_2	chromosome	B379	921082	380	100.0	0.11909905958427155	1097	365	[(1, 366)]	[(368589, 369686)]	[(1, 366)]		False
+contig_10 [gcode=11] [topology=linear]	URI44H	27219	H28_B31_lp28-3_ParA_X	lp28-3	H28	27219	251	100.0	2.7627760020573864	752	250	[(1, 251)]	[(8496, 9248)]	[(1, 251)]		False
+contig_11 [gcode=11] [topology=linear]	URI44H	26514	JD1_cp26_ParA_1	cp26	JD1	26514	253	100.0	2.8588670136531644	758	252	[(1, 253)]	[(250, 1008)]	[(1, 253)]		False
+contig_12 [gcode=11] [topology=linear]	URI44H	25140	RS00365_JD1_JD1_lp28-1_ParA_X	lp28-1	RS00365	25140	254	100.0	3.0270485282418456	761	253	[(1, 254)]	[(9769, 10530)]	[(1, 254)]		False
+contig_13 [gcode=11] [topology=linear]	URI44H	24780	RS00670_JD1_JD1_lp25_ParA_X	lp25	RS00670	24780	252	100.0	3.04681194511703	755	251	[(1, 252)]	[(11772, 12527)]	[(1, 252)]		False
+contig_14 [gcode=11] [topology=linear]	URI44H	24223	RS07610_JD1_JD1_lp28-6_ParA_X	lp28-6	RS07610	24223	251	100.0	3.104487470585807	752	250	[(1, 251)]	[(1196, 1948)]	[(1, 251)]		False
+contig_15 [gcode=11] [topology=linear]	URI44H	21544	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	21544	246	100.0	6.730412179725214	1450	241	[(1, 242)]	[(6458, 7183), (66, 791)]	[(1, 242), (1, 242)]	lp17*	True
+contig_16 [gcode=11] [topology=linear]	URI44H	21164	RS01730_MM1_plsm_cp32-9_ParA_X	cp32-9	RS01730	21164	251	100.0	3.510678510678511	743	247	[(1, 248)]	[(9249, 9992)]	[(1, 248)]		False
+contig_17 [gcode=11] [topology=linear]	URI44H	21164	O32_B31_cp32-7_ParA_X	cp32-7	O32	21164	249	100.0	3.5248535248535244	746	248	[(1, 249)]	[(13683, 14429)]	[(1, 249)]		False
+contig_18 [gcode=11] [topology=linear]	URI44H	12562	297_cp32-12_ParA_X	cp32-12	297	12562	260	100.0	6.201241840471263	779	259	[(1, 260)]	[(4340, 5119)]	[(1, 260)]		False
+contig_19 [gcode=11] [topology=linear]	URI44H	7826	RS00880_JD1_JD1_cp32-11_ParA_X	cp32-11	RS00880	7826	252	100.0	9.647329414771274	755	251	[(1, 252)]	[(402, 1157)]	[(1, 252)]		False
+contig_2 [gcode=11] [topology=linear]	URI44H	53768	A20_B31_lp54_ParA_X	lp54	A20	53768	250	100.0	1.393021871745276	749	249	[(1, 250)]	[(39417, 40166)]	[(1, 250)]		False
+contig_20 [gcode=11] [topology=linear]	URI44H	2745	RS01295_JD1_JD1_cp32-1+5_ParA_X	cp32-1+5	RS01295	2745	257	100.0	28.051001821493628	770	256	[(1, 257)]	[(690, 1460)]	[(1, 257)]		False
+contig_21 [gcode=11] [topology=linear]	URI44H	1304				1304										False
+contig_22 [gcode=11] [topology=linear]	URI44H	1111				1111										False
+contig_23 [gcode=11] [topology=linear]	URI44H	956				956										False
+contig_24 [gcode=11] [topology=linear]	URI44H	946				946										False
+contig_25 [gcode=11] [topology=linear]	URI44H	926				926										False
+contig_26 [gcode=11] [topology=linear]	URI44H	908				908										False
+contig_27 [gcode=11] [topology=linear]	URI44H	890				890										False
+contig_28 [gcode=11] [topology=linear]	URI44H	852				852										False
+contig_29 [gcode=11] [topology=linear]	URI44H	724				724										False
+contig_3 [gcode=11] [topology=linear]	URI44H	30638	RS01520_MM1_plsm_cp32-6_ParA_X	cp32-6	RS01520	30638	249	100.0	2.4348847836020626	746	248	[(1, 249)]	[(8604, 9350)]	[(1, 249)]		False
+contig_30 [gcode=11] [topology=linear]	URI44H	705				705										False
+contig_31 [gcode=11] [topology=linear]	URI44H	674				674										False
+contig_32 [gcode=11] [topology=linear]	URI44H	645				645										False
+contig_33 [gcode=11] [topology=linear]	URI44H	593				593										False
+contig_34 [gcode=11] [topology=linear]	URI44H	560				560										False
+contig_35 [gcode=11] [topology=linear]	URI44H	544				544										False
+contig_36 [gcode=11] [topology=linear]	URI44H	501				501										False
+contig_37 [gcode=11] [topology=linear]	URI44H	500				500										False
+contig_38 [gcode=11] [topology=linear]	URI44H	464				464										False
+contig_39 [gcode=11] [topology=linear]	URI44H	450				450										False
+contig_4 [gcode=11] [topology=linear]	URI44H	30301	B379_cp32-2_ParA_1	cp32-2	B379	30301	251	100.0	2.481766278340649	752	250	[(1, 251)]	[(9200, 9952)]	[(1, 251)]		False
+contig_40 [gcode=11] [topology=linear]	URI44H	448				448										False
+contig_41 [gcode=11] [topology=linear]	URI44H	425				425										False
+contig_42 [gcode=11] [topology=linear]	URI44H	420				420										False
+contig_43 [gcode=11] [topology=linear]	URI44H	408				408										False
+contig_44 [gcode=11] [topology=linear]	URI44H	398				398										False
+contig_45 [gcode=11] [topology=linear]	URI44H	387				387										False
+contig_46 [gcode=11] [topology=linear]	URI44H	315				315										False
+contig_47 [gcode=11] [topology=linear]	URI44H	314				314										False
+contig_48 [gcode=11] [topology=linear]	URI44H	260				260										False
+contig_49 [gcode=11] [topology=linear]	URI44H	247				247										False
+contig_5 [gcode=11] [topology=linear]	URI44H	30259	S35_B31_cp32-3_ParA_X	cp32-3	S35	30259	246	100.0	2.4356389834429426	737	245	[(1, 246)]	[(25789, 26526)]	[(1, 246)]		False
+contig_50 [gcode=11] [topology=linear]	URI44H	239				239										False
+contig_51 [gcode=11] [topology=linear]	URI44H	216				216										False
+contig_52 [gcode=11] [topology=linear]	URI44H	215				215										False
+contig_53 [gcode=11] [topology=linear]	URI44H	211				211										False
+contig_54 [gcode=11] [topology=linear]	URI44H	210				210										False
+contig_55 [gcode=11] [topology=linear]	URI44H	206				206										False
+contig_56 [gcode=11] [topology=linear]	URI44H	199				199										False
+contig_57 [gcode=11] [topology=linear]	URI44H	176				176										False
+contig_58 [gcode=11] [topology=linear]	URI44H	170				170										False
+contig_59 [gcode=11] [topology=linear]	URI44H	165				165										False
+contig_6 [gcode=11] [topology=linear]	URI44H	30250	RS07790_JD1_JD1_lp38_ParA_X	lp38	RS07790	30250	245	100.0	2.4264462809917355	734	244	[(1, 245)]	[(24778, 25512)]	[(1, 245)]		False
+contig_60 [gcode=11] [topology=linear]	URI44H	165				165										False
+contig_61 [gcode=11] [topology=linear]	URI44H	161				161										False
+contig_62 [gcode=11] [topology=linear]	URI44H	157				157										False
+contig_63 [gcode=11] [topology=linear]	URI44H	153				153										False
+contig_64 [gcode=11] [topology=linear]	URI44H	150				150										False
+contig_65 [gcode=11] [topology=linear]	URI44H	134				134										False
+contig_66 [gcode=11] [topology=linear]	URI44H	133				133										False
+contig_67 [gcode=11] [topology=linear]	URI44H	130				130										False
+contig_68 [gcode=11] [topology=linear]	URI44H	130				130										False
+contig_69 [gcode=11] [topology=linear]	URI44H	127				127										False
+contig_7 [gcode=11] [topology=linear]	URI44H	28668	I21_B31_lp28-4_ParA_X	lp28-4	I21	28668	250	100.0	2.612669178177759	749	249	[(1, 250)]	[(14610, 15359)]	[(1, 250)]		False
+contig_70 [gcode=11] [topology=linear]	URI44H	119				119										False
+contig_71 [gcode=11] [topology=linear]	URI44H	114				114										False
+contig_72 [gcode=11] [topology=linear]	URI44H	111				111										False
+contig_73 [gcode=11] [topology=linear]	URI44H	110				110										False
+contig_74 [gcode=11] [topology=linear]	URI44H	106				106										False
+contig_75 [gcode=11] [topology=linear]	URI44H	106				106										False
+contig_8 [gcode=11] [topology=linear]	URI44H	27997	K21_B31_lp36_ParA_X	lp36	K21	27997	249	100.0	2.6002786012787085	728	242	[(1, 243)]	[(14064, 14792)]	[(1, 243)]		False
+contig_9 [gcode=11] [topology=linear]	URI44H	27804	B379_lp28-5_ParA_1	lp28-5	B379	27804	247	100.0	2.6614875557473745	740	246	[(1, 247)]	[(7277, 8017)]	[(1, 247)]		False

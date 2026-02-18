@@ -1,0 +1,29 @@
+contig_id	assembly_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	concat_call	multiple_loci
+contig_1 [gcode=11] [topology=linear]	URI39H	920673	NE_5261_chromosome_ParA_2	chromosome	NE_5261	920673	380	100.0	0.1191519681797989	1097	365	[(1, 366)]	[(368819, 369916)]	[(1, 366)]		False
+contig_10 [gcode=11] [topology=linear]	URI39H	30646	N32_B31_cp32-9_ParA_X	cp32-9	N32	30646	251	100.0	2.424459962148404	743	247	[(1, 248)]	[(26834, 27577)]	[(1, 248)]		False
+contig_11 [gcode=11] [topology=linear]	URI39H	30299	RS01165_B31_NRZ_p_cp32-4_ParA_X	cp32-4	RS01165	30299	251	100.0	2.4819300967028615	752	250	[(1, 251)]	[(14683, 15435)]	[(1, 251)]		False
+contig_12 [gcode=11] [topology=linear]	URI39H	30260	RS00880_JD1_JD1_cp32-11_ParA_X	cp32-11	RS00880	30260	252	100.0	2.4950429610046267	755	251	[(1, 252)]	[(19349, 20104)]	[(1, 252)]		False
+contig_13 [gcode=11] [topology=linear]	URI39H	30226	S35_B31_cp32-3_ParA_X	cp32-3	S35	30226	246	100.0	2.4382981539072324	737	245	[(1, 246)]	[(26085, 26822)]	[(1, 246)]		False
+contig_14 [gcode=11] [topology=linear]	URI39H	29953	B379_chromosome_ParA_5	chromosome	B379	29953	262	100.0	2.620772543651721	785	261	[(1, 262)]	[(27362, 28147)]	[(1, 262)]		False
+contig_15 [gcode=11] [topology=linear]	URI39H	29922	RS06245_ZS7_ZS7_lp28-2_ParA_X	lp28-2	RS06245	29922	255	100.0	2.55330526034356	764	254	[(1, 255)]	[(23140, 23904)]	[(1, 255)]		False
+contig_16 [gcode=11] [topology=linear]	URI39H	29841	M32_B31_cp32-6_ParA_X	cp32-6	M32	29841	249	100.0	2.499916222646694	746	248	[(1, 249)]	[(25609, 26355)]	[(1, 249)]		False
+contig_17 [gcode=11] [topology=linear]	URI39H	26498	NE_5261_cp26_ParA_1	cp26	NE_5261	26498	253	100.0	2.86059325232093	758	252	[(1, 253)]	[(5712, 6470)]	[(1, 253)]		False
+contig_18 [gcode=11] [topology=linear]	URI39H	25036	I21_B31_lp28-4_ParA_X	lp28-4	I21	25036	250	100.0	2.9916919635724555	749	249	[(1, 250)]	[(12966, 13715)]	[(1, 250)]		False
+contig_19 [gcode=11] [topology=linear]	URI39H	24270	RS00040_ZS7_ZS7_lp25_ParA_X	lp25	RS00040	24270	252	100.0	3.110836423568191	755	251	[(1, 252)]	[(11353, 12108)]	[(1, 252)]		False
+contig_2 [gcode=11] [topology=linear]	URI39H	53669	A20_B31_lp54_ParA_X	lp54	A20	53669	250	100.0	1.395591496021912	749	249	[(1, 250)]	[(13546, 14295)]	[(1, 250)]		False
+contig_20 [gcode=11] [topology=linear]	URI39H	17931	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	17931	246	100.0	8.086554012603871	1450	241	[(1, 242)]	[(10748, 11473), (17146, 17871)]	[(1, 242), (1, 242)]	lp17*	True
+contig_21 [gcode=11] [topology=linear]	URI39H	17053	H28_B31_lp28-3_ParA_X	lp28-3	H28	17053	251	100.0	4.409781270157744	752	250	[(1, 251)]	[(8609, 9361)]	[(1, 251)]		False
+contig_22 [gcode=11] [topology=linear]	URI39H	2354				2354										False
+contig_23 [gcode=11] [topology=linear]	URI39H	1244				1244										False
+contig_24 [gcode=11] [topology=linear]	URI39H	1162				1162										False
+contig_25 [gcode=11] [topology=linear]	URI39H	1143				1143										False
+contig_26 [gcode=11] [topology=linear]	URI39H	304				304										False
+contig_27 [gcode=11] [topology=linear]	URI39H	148				148										False
+contig_28 [gcode=11] [topology=linear]	URI39H	133				133										False
+contig_3 [gcode=11] [topology=linear]	URI39H	48018	Q40_B31_lp56_ParA_X	lp56	Q40	48018	251	100.0	1.5660793868965805	752	250	[(1, 251)]	[(22158, 22910)]	[(1, 251)]		False
+contig_4 [gcode=11] [topology=linear]	URI39H	44189	J17_B31_lp38_ParA_X	lp38	J17	44189	245	100.0	1.66104686686732	734	244	[(1, 245)]	[(11244, 11978)]	[(1, 245)]		False
+contig_5 [gcode=11] [topology=linear]	URI39H	37582	K21_B31_lp36_ParA_X	lp36	K21	37582	249	100.0	1.9370975466978875	728	242	[(1, 243)]	[(13598, 14326)]	[(1, 243)]		False
+contig_6 [gcode=11] [topology=linear]	URI39H	31809	F24_B31_lp28-1_ParA_X	lp28-1	F24	31809	254	100.0	2.3924046653462856	761	253	[(1, 254)]	[(13104, 13865)]	[(1, 254)]	lp28-1*	True
+contig_7 [gcode=11] [topology=linear]	URI39H	31245	O32_B31_cp32-7_ParA_X	cp32-7	O32	31245	249	100.0	2.3875820131220995	746	248	[(1, 249)]	[(21594, 22340)]	[(1, 249)]		False
+contig_8 [gcode=11] [topology=linear]	URI39H	30891	L32_B31_cp32-8_ParA_X	cp32-8	L32	30891	246	100.0	2.3858081641902174	737	245	[(1, 246)]	[(15282, 16019)]	[(1, 246)]		False
+contig_9 [gcode=11] [topology=linear]	URI39H	30703	RS01295_JD1_JD1_cp32-1+5_ParA_X	cp32-1+5	RS01295	30703	257	100.0	2.507898250985246	770	256	[(1, 257)]	[(20795, 21565)]	[(1, 257)]		False

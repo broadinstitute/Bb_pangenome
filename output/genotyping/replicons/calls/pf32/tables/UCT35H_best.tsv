@@ -1,0 +1,34 @@
+contig_id	assembly_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	concat_call	multiple_loci
+contig_1 [gcode=11] [topology=linear]	UCT35H	910022	B379_chromosome_ParA_2	chromosome	B379	910022	380	99.72677595628416	0.12054653623758546	1097	365	[(1, 366)]	[(368528, 369625)]	[(1, 366)]		False
+contig_10 [gcode=11] [topology=linear]	UCT35H	18631	RS05790_72a_72a_lp32-3_ParA_X	lp32-3	RS05790	18631	246	100.0	3.8108528796092536	710	236	[(1, 237)]	[(10892, 11602)]	[(1, 237)]		False
+contig_11 [gcode=11] [topology=linear]	UCT35H	18030	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	18030	246	100.0	4.021075984470327	725	241	[(1, 242)]	[(2777, 3502)]	[(1, 242)]		False
+contig_12 [gcode=11] [topology=linear]	UCT35H	17015	RS05610_72a_72a_cp32-5_ParA_X	cp32-5	RS05610	17015	257	100.0	4.525418748163386	770	256	[(1, 257)]	[(11294, 12064)]	[(1, 257)]		False
+contig_13 [gcode=11] [topology=linear]	UCT35H	10390				10390										False
+contig_14 [gcode=11] [topology=linear]	UCT35H	8693				8693										False
+contig_15 [gcode=11] [topology=linear]	UCT35H	7583	RS06010_72a_72a_cp32-10_ParA_X	cp32-10	RS06010	7583	251	100.0	9.837795067915073	746	248	[(3, 251)]	[(6836, 7582)]	[(3, 251)]		False
+contig_16 [gcode=11] [topology=linear]	UCT35H	2350	O32_B31_cp32-7_ParA_X	cp32-7	O32	2350	249	100.0	31.48936170212766	740	246	[(3, 249)]	[(1609, 2349)]	[(3, 249)]		False
+contig_17 [gcode=11] [topology=linear]	UCT35H	1394				1394										False
+contig_18 [gcode=11] [topology=linear]	UCT35H	988				988										False
+contig_19 [gcode=11] [topology=linear]	UCT35H	824				824										False
+contig_2 [gcode=11] [topology=linear]	UCT35H	88152	I21_B31_lp28-4_ParA_X	lp28-4	I21	88152	250	100.0	0.8496687539704147	749	249	[(1, 250)]	[(40585, 41334)]	[(1, 250)]	lp28-3:::lp28-4	True
+contig_20 [gcode=11] [topology=linear]	UCT35H	811				811										False
+contig_21 [gcode=11] [topology=linear]	UCT35H	787				787										False
+contig_22 [gcode=11] [topology=linear]	UCT35H	722				722										False
+contig_23 [gcode=11] [topology=linear]	UCT35H	489				489										False
+contig_24 [gcode=11] [topology=linear]	UCT35H	326				326										False
+contig_25 [gcode=11] [topology=linear]	UCT35H	315				315										False
+contig_26 [gcode=11] [topology=linear]	UCT35H	311				311										False
+contig_27 [gcode=11] [topology=linear]	UCT35H	281				281										False
+contig_28 [gcode=11] [topology=linear]	UCT35H	252				252										False
+contig_29 [gcode=11] [topology=linear]	UCT35H	248				248										False
+contig_3 [gcode=11] [topology=linear]	UCT35H	53695	A20_B31_lp54_ParA_X	lp54	A20	53695	250	100.0	1.3949157277213893	749	249	[(1, 250)]	[(39380, 40129)]	[(1, 250)]		False
+contig_30 [gcode=11] [topology=linear]	UCT35H	174				174										False
+contig_31 [gcode=11] [topology=linear]	UCT35H	173				173										False
+contig_32 [gcode=11] [topology=linear]	UCT35H	152				152										False
+contig_33 [gcode=11] [topology=linear]	UCT35H	124				124										False
+contig_4 [gcode=11] [topology=linear]	UCT35H	50141	RS01665_B31_NRZ_p_lp28-1_ParA_X	lp28-1	RS01665	50141	249	100.0	1.487804391615644	746	248	[(1, 249)]	[(12241, 12987)]	[(1, 249)]	lp28-1:::lp36	True
+contig_5 [gcode=11] [topology=linear]	UCT35H	45523	RS05165_118a_118a_cp32-6_ParA_X	cp32-6	RS05165	45523	249	100.0	1.638732069503328	746	248	[(1, 249)]	[(32095, 32841)]	[(1, 249)]	cp32-1:::cp32-6	True
+contig_6 [gcode=11] [topology=linear]	UCT35H	29895	RS04795_72a_72a_cp32-13_ParA_X	cp32-13	RS04795	29895	254	100.0	2.5455761833082455	761	253	[(1, 254)]	[(9543, 10304)]	[(1, 254)]		False
+contig_7 [gcode=11] [topology=linear]	UCT35H	27704	RS06035_N40_N40_cp32-12_ParA_X	cp32-12	RS06035	27704	260	100.0	2.811868322263933	779	259	[(1, 260)]	[(16723, 17502)]	[(1, 260)]		False
+contig_8 [gcode=11] [topology=linear]	UCT35H	27690	RS07790_JD1_JD1_lp38_ParA_X	lp38	RS07790	27690	245	100.0	2.650776453593355	734	244	[(1, 245)]	[(4725, 5459)]	[(1, 245)]		False
+contig_9 [gcode=11] [topology=linear]	UCT35H	26522	94a_cp26_ParA_1	cp26	94a	26522	253	100.0	2.858004675363849	758	252	[(1, 253)]	[(12536, 13294)]	[(1, 253)]		False

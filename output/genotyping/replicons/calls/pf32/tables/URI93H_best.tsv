@@ -1,0 +1,30 @@
+contig_id	assembly_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	concat_call	multiple_loci
+contig_1 [gcode=11] [topology=linear]	URI93H	910570	NE_5261_chromosome_ParA_2	chromosome	NE_5261	910570	380	100.0	0.12047398882018956	1097	365	[(1, 366)]	[(368726, 369823)]	[(1, 366)]		False
+contig_10 [gcode=11] [topology=linear]	URI93H	30866	B500_cp32-5_ParA_1	cp32-5	B500	30866	257	98.83268482490273	2.4946543121881684	770	256	[(1, 257)]	[(21814, 22584)]	[(1, 257)]		False
+contig_11 [gcode=11] [topology=linear]	URI93H	30652	N32_B31_cp32-9_ParA_X	cp32-9	N32	30652	251	100.0	2.4239853843142374	743	247	[(1, 248)]	[(21130, 21873)]	[(1, 248)]		False
+contig_12 [gcode=11] [topology=linear]	URI93H	30299	RS01165_B31_NRZ_p_cp32-4_ParA_X	cp32-4	RS01165	30299	251	100.0	2.4819300967028615	752	250	[(1, 251)]	[(27433, 28185)]	[(1, 251)]		False
+contig_13 [gcode=11] [topology=linear]	URI93H	30222	S35_B31_cp32-3_ParA_X	cp32-3	S35	30222	246	100.0	2.438620872212296	737	245	[(1, 246)]	[(14420, 15157)]	[(1, 246)]		False
+contig_14 [gcode=11] [topology=linear]	URI93H	29805	RS06245_ZS7_ZS7_lp28-2_ParA_X	lp28-2	RS06245	29805	255	100.0	2.5633283006207015	764	254	[(1, 255)]	[(5961, 6725)]	[(1, 255)]		False
+contig_15 [gcode=11] [topology=linear]	URI93H	28843	B379_chromosome_ParA_5	chromosome	B379	28843	262	100.0	2.7216308983115485	785	261	[(1, 262)]	[(26252, 27037)]	[(1, 262)]		False
+contig_16 [gcode=11] [topology=linear]	URI93H	26498	NE_5261_cp26_ParA_1	cp26	NE_5261	26498	253	100.0	2.86059325232093	758	252	[(1, 253)]	[(265, 1023)]	[(1, 253)]		False
+contig_17 [gcode=11] [topology=linear]	URI93H	24656	I21_B31_lp28-4_ParA_X	lp28-4	I21	24656	250	100.0	3.0378001297858535	749	249	[(1, 250)]	[(12966, 13715)]	[(1, 250)]		False
+contig_18 [gcode=11] [topology=linear]	URI93H	1007				1007										False
+contig_19 [gcode=11] [topology=linear]	URI93H	875				875										False
+contig_2 [gcode=11] [topology=linear]	URI93H	53613	A20_B31_lp54_ParA_X	lp54	A20	53613	250	100.0	1.3970492231361797	749	249	[(1, 250)]	[(39312, 40061)]	[(1, 250)]		False
+contig_20 [gcode=11] [topology=linear]	URI93H	874				874										False
+contig_21 [gcode=11] [topology=linear]	URI93H	807				807										False
+contig_22 [gcode=11] [topology=linear]	URI93H	434				434										False
+contig_23 [gcode=11] [topology=linear]	URI93H	304				304										False
+contig_24 [gcode=11] [topology=linear]	URI93H	178				178										False
+contig_25 [gcode=11] [topology=linear]	URI93H	160				160										False
+contig_26 [gcode=11] [topology=linear]	URI93H	151				151										False
+contig_27 [gcode=11] [topology=linear]	URI93H	148				148										False
+contig_28 [gcode=11] [topology=linear]	URI93H	119				119										False
+contig_29 [gcode=11] [topology=linear]	URI93H	101				101										False
+contig_3 [gcode=11] [topology=linear]	URI93H	50256	H28_B31_lp28-3_ParA_X	lp28-3	H28	50256	251	100.0	1.4963387456224133	752	250	[(1, 251)]	[(38409, 39161)]	[(1, 251)]	lp17:::lp28-3	True
+contig_4 [gcode=11] [topology=linear]	URI93H	47855	Q40_B31_lp56_ParA_X	lp56	Q40	47855	251	100.0	1.571413645387107	752	250	[(1, 251)]	[(22158, 22910)]	[(1, 251)]		False
+contig_5 [gcode=11] [topology=linear]	URI93H	44126	J17_B31_lp38_ParA_X	lp38	J17	44126	245	100.0	1.6634183927842994	734	244	[(1, 245)]	[(32212, 32946)]	[(1, 245)]		False
+contig_6 [gcode=11] [topology=linear]	URI93H	34480	K21_B31_lp36_ParA_X	lp36	K21	34480	249	100.0	2.111368909512761	728	242	[(1, 243)]	[(13576, 14304)]	[(1, 243)]		False
+contig_7 [gcode=11] [topology=linear]	URI93H	33271	F24_B31_lp28-1_ParA_X	lp28-1	F24	33271	254	100.0	2.28727720837967	761	253	[(1, 254)]	[(14788, 15549)]	[(1, 254)]	lp28-1*	True
+contig_8 [gcode=11] [topology=linear]	URI93H	31925	RS00040_ZS7_ZS7_lp25_ParA_X	lp25	RS00040	31925	252	100.0	2.364917776037588	755	251	[(1, 252)]	[(19634, 20389)]	[(1, 252)]		False
+contig_9 [gcode=11] [topology=linear]	URI93H	31245	O32_B31_cp32-7_ParA_X	cp32-7	O32	31245	249	100.0	2.3875820131220995	746	248	[(1, 249)]	[(19853, 20599)]	[(1, 249)]		False

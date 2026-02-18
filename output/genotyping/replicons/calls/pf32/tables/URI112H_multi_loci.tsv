@@ -1,0 +1,5 @@
+assembly_id	contig_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	locus_idx	locus_start	locus_end
+URI112H	contig_13 [gcode=11] [topology=linear]	21546	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	21546	246	100.0	6.729787431541817	1450	241	[(1, 242)]	[(6476, 7201), (84, 809)]	[(1, 242), (1, 242)]	1	84	809
+URI112H	contig_13 [gcode=11] [topology=linear]	21546	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	21546	246	100.0	6.729787431541817	1450	241	[(1, 242)]	[(6476, 7201), (84, 809)]	[(1, 242), (1, 242)]	2	6476	7201
+URI112H	contig_2 [gcode=11] [topology=linear]	71363	B379_chromosome_ParA_5	chromosome	B379	71363	262	82.5147347740668	2.1369617308689377	1525	261	[(1, 262)]	[(14026, 14811), (35732, 36472)]	[(1, 262), (3, 249)]	1	14026	14811
+URI112H	contig_2 [gcode=11] [topology=linear]	71363	B379_chromosome_ParA_5	chromosome	B379	71363	262	82.5147347740668	2.1369617308689377	1525	261	[(1, 262)]	[(14026, 14811), (35732, 36472)]	[(1, 262), (3, 249)]	2	35723	36475

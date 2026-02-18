@@ -1,0 +1,25 @@
+contig_id	assembly_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	concat_call	multiple_loci
+contig_1 [gcode=11] [topology=linear]	UCT29H	910485	NE_5261_chromosome_ParA_2	chromosome	NE_5261	910485	380	100.0	0.12048523589076152	1097	365	[(1, 366)]	[(368642, 369739)]	[(1, 366)]		False
+contig_10 [gcode=11] [topology=linear]	UCT29H	30487	N32_B31_cp32-9_ParA_X	cp32-9	N32	30487	251	100.0	2.437104339554564	743	247	[(1, 248)]	[(26675, 27418)]	[(1, 248)]		False
+contig_11 [gcode=11] [topology=linear]	UCT29H	30305	S35_B31_cp32-3_ParA_X	cp32-3	S35	30305	246	100.0	2.431941923774955	737	245	[(1, 246)]	[(19839, 20576)]	[(1, 246)]		False
+contig_12 [gcode=11] [topology=linear]	UCT29H	30299	RS01165_B31_NRZ_p_cp32-4_ParA_X	cp32-4	RS01165	30299	251	100.0	2.4819300967028615	752	250	[(1, 251)]	[(14683, 15435)]	[(1, 251)]		False
+contig_13 [gcode=11] [topology=linear]	UCT29H	29806	RS06245_ZS7_ZS7_lp28-2_ParA_X	lp28-2	RS06245	29806	255	100.0	2.563242300208012	764	254	[(1, 255)]	[(23134, 23898)]	[(1, 255)]		False
+contig_14 [gcode=11] [topology=linear]	UCT29H	29787	M32_B31_cp32-6_ParA_X	cp32-6	M32	29787	249	100.0	2.504448249236244	746	248	[(1, 249)]	[(19090, 19836)]	[(1, 249)]		False
+contig_15 [gcode=11] [topology=linear]	UCT29H	29761	B379_chromosome_ParA_5	chromosome	B379	29761	262	100.0	2.6376801854776386	785	261	[(1, 262)]	[(27170, 27955)]	[(1, 262)]		False
+contig_16 [gcode=11] [topology=linear]	UCT29H	28162	H28_B31_lp28-3_ParA_X	lp28-3	H28	28162	251	100.0	2.6702648959590936	752	250	[(1, 251)]	[(16315, 17067)]	[(1, 251)]		False
+contig_17 [gcode=11] [topology=linear]	UCT29H	26568	I21_B31_lp28-4_ParA_X	lp28-4	I21	26568	250	100.0	2.8191809695874737	749	249	[(1, 250)]	[(14207, 14956)]	[(1, 250)]		False
+contig_18 [gcode=11] [topology=linear]	UCT29H	26498	NE_5261_cp26_ParA_1	cp26	NE_5261	26498	253	100.0	2.86059325232093	758	252	[(1, 253)]	[(1924, 2682)]	[(1, 253)]		False
+contig_19 [gcode=11] [topology=linear]	UCT29H	24354	RS00040_ZS7_ZS7_lp25_ParA_X	lp25	RS00040	24354	252	100.0	3.100106758643344	755	251	[(1, 252)]	[(12088, 12843)]	[(1, 252)]		False
+contig_2 [gcode=11] [topology=linear]	UCT29H	75871	J17_B31_lp38_ParA_X	lp38	J17	75871	245	100.0	0.9674315614661729	734	244	[(1, 245)]	[(11235, 11969)]	[(1, 245)]	lp38:::lp36	True
+contig_20 [gcode=11] [topology=linear]	UCT29H	18524	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	18524	246	100.0	3.913841502915137	725	241	[(1, 242)]	[(2829, 3554)]	[(1, 242)]		False
+contig_21 [gcode=11] [topology=linear]	UCT29H	9380				9380										False
+contig_22 [gcode=11] [topology=linear]	UCT29H	1005				1005										False
+contig_23 [gcode=11] [topology=linear]	UCT29H	304				304										False
+contig_24 [gcode=11] [topology=linear]	UCT29H	148				148										False
+contig_3 [gcode=11] [topology=linear]	UCT29H	53597	A20_B31_lp54_ParA_X	lp54	A20	53597	250	100.0	1.3974662760975427	749	249	[(1, 250)]	[(13553, 14302)]	[(1, 250)]		False
+contig_4 [gcode=11] [topology=linear]	UCT29H	47767	Q40_B31_lp56_ParA_X	lp56	Q40	47767	251	100.0	1.5743086231080032	752	250	[(1, 251)]	[(22070, 22822)]	[(1, 251)]		False
+contig_5 [gcode=11] [topology=linear]	UCT29H	33021	F24_B31_lp28-1_ParA_X	lp28-1	F24	33021	254	100.0	2.304594046213016	761	253	[(1, 254)]	[(17947, 18708)]	[(1, 254)]	lp28-1*	True
+contig_6 [gcode=11] [topology=linear]	UCT29H	31246	O32_B31_cp32-7_ParA_X	cp32-7	O32	31246	249	100.0	2.3875056007168918	746	248	[(1, 249)]	[(21005, 21751)]	[(1, 249)]		False
+contig_7 [gcode=11] [topology=linear]	UCT29H	30952	P32_B31_cp32-1_ParA_X	cp32-1	P32	30952	246	100.0	2.381106228999742	737	245	[(1, 246)]	[(21135, 21872)]	[(1, 246)]		False
+contig_8 [gcode=11] [topology=linear]	UCT29H	30701	RS00880_JD1_JD1_cp32-11_ParA_X	cp32-11	RS00880	30701	252	100.0	2.459203283280675	755	251	[(1, 252)]	[(20848, 21603)]	[(1, 252)]		False
+contig_9 [gcode=11] [topology=linear]	UCT29H	30688	RS01295_JD1_JD1_cp32-1+5_ParA_X	cp32-1+5	RS01295	30688	257	100.0	2.509124087591241	770	256	[(1, 257)]	[(27110, 27880)]	[(1, 257)]		False

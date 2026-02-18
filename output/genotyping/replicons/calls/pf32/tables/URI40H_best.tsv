@@ -1,0 +1,83 @@
+contig_id	assembly_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	concat_call	multiple_loci
+contig_1 [gcode=11] [topology=linear]	URI40H	910602	NE_5261_chromosome_ParA_2	chromosome	NE_5261	910602	380	100.0	0.12046975517295151	1097	365	[(1, 366)]	[(368879, 369976)]	[(1, 366)]		False
+contig_10 [gcode=11] [topology=linear]	URI40H	30299	RS01165_B31_NRZ_p_cp32-4_ParA_X	cp32-4	RS01165	30299	251	100.0	2.4819300967028615	752	250	[(1, 251)]	[(19611, 20363)]	[(1, 251)]		False
+contig_11 [gcode=11] [topology=linear]	URI40H	30270	RS00880_JD1_JD1_cp32-11_ParA_X	cp32-11	RS00880	30270	252	100.0	2.4942186983812356	755	251	[(1, 252)]	[(28866, 29621)]	[(1, 252)]		False
+contig_12 [gcode=11] [topology=linear]	URI40H	30232	S35_B31_cp32-3_ParA_X	cp32-3	S35	30232	246	100.0	2.4378142365705213	737	245	[(1, 246)]	[(26139, 26876)]	[(1, 246)]		False
+contig_13 [gcode=11] [topology=linear]	URI40H	29740	RS06245_ZS7_ZS7_lp28-2_ParA_X	lp28-2	RS06245	29740	255	100.0	2.5689307330195024	764	254	[(1, 255)]	[(5867, 6631)]	[(1, 255)]		False
+contig_14 [gcode=11] [topology=linear]	URI40H	28159	H28_B31_lp28-3_ParA_X	lp28-3	H28	28159	251	100.0	2.6705493803046982	752	250	[(1, 251)]	[(11095, 11847)]	[(1, 251)]		False
+contig_15 [gcode=11] [topology=linear]	URI40H	26498	NE_5261_cp26_ParA_1	cp26	NE_5261	26498	253	100.0	2.86059325232093	758	252	[(1, 253)]	[(12316, 13074)]	[(1, 253)]		False
+contig_16 [gcode=11] [topology=linear]	URI40H	26259	I21_B31_lp28-4_ParA_X	lp28-4	I21	26259	250	100.0	2.8523553829163335	749	249	[(1, 250)]	[(12966, 13715)]	[(1, 250)]		False
+contig_17 [gcode=11] [topology=linear]	URI40H	25083	Q40_B31_lp56_ParA_X	lp56	Q40	25083	251	100.0	2.9980464856675835	752	250	[(1, 251)]	[(2174, 2926)]	[(1, 251)]		False
+contig_18 [gcode=11] [topology=linear]	URI40H	22212	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	22212	246	100.0	6.528002881325409	1450	241	[(1, 242)]	[(15012, 15737), (21412, 22137)]	[(1, 242), (1, 242)]	lp17*	True
+contig_19 [gcode=11] [topology=linear]	URI40H	15745				15745										False
+contig_2 [gcode=11] [topology=linear]	URI40H	53625	A20_B31_lp54_ParA_X	lp54	A20	53625	250	100.0	1.3967365967365968	749	249	[(1, 250)]	[(13523, 14272)]	[(1, 250)]		False
+contig_20 [gcode=11] [topology=linear]	URI40H	7284	RS01295_JD1_JD1_cp32-1+5_ParA_X	cp32-1+5	RS01295	7284	257	100.0	10.57111477210324	770	256	[(1, 257)]	[(6394, 7164)]	[(1, 257)]		False
+contig_21 [gcode=11] [topology=linear]	URI40H	6295				6295										False
+contig_22 [gcode=11] [topology=linear]	URI40H	2070				2070										False
+contig_23 [gcode=11] [topology=linear]	URI40H	1918				1918										False
+contig_24 [gcode=11] [topology=linear]	URI40H	1517				1517										False
+contig_25 [gcode=11] [topology=linear]	URI40H	1150				1150										False
+contig_26 [gcode=11] [topology=linear]	URI40H	1002				1002										False
+contig_27 [gcode=11] [topology=linear]	URI40H	955				955										False
+contig_28 [gcode=11] [topology=linear]	URI40H	912				912										False
+contig_29 [gcode=11] [topology=linear]	URI40H	904				904										False
+contig_3 [gcode=11] [topology=linear]	URI40H	44091	J17_B31_lp38_ParA_X	lp38	J17	44091	245	100.0	1.6647388355900299	734	244	[(1, 245)]	[(32212, 32946)]	[(1, 245)]		False
+contig_30 [gcode=11] [topology=linear]	URI40H	886				886										False
+contig_31 [gcode=11] [topology=linear]	URI40H	807				807										False
+contig_32 [gcode=11] [topology=linear]	URI40H	788				788										False
+contig_33 [gcode=11] [topology=linear]	URI40H	768				768										False
+contig_34 [gcode=11] [topology=linear]	URI40H	767				767										False
+contig_35 [gcode=11] [topology=linear]	URI40H	729				729										False
+contig_36 [gcode=11] [topology=linear]	URI40H	659				659										False
+contig_37 [gcode=11] [topology=linear]	URI40H	605				605										False
+contig_38 [gcode=11] [topology=linear]	URI40H	574				574										False
+contig_39 [gcode=11] [topology=linear]	URI40H	566				566										False
+contig_4 [gcode=11] [topology=linear]	URI40H	37671	K21_B31_lp36_ParA_X	lp36	K21	37671	249	100.0	1.9325210374027766	728	242	[(1, 243)]	[(13609, 14337)]	[(1, 243)]		False
+contig_40 [gcode=11] [topology=linear]	URI40H	564				564										False
+contig_41 [gcode=11] [topology=linear]	URI40H	512				512										False
+contig_42 [gcode=11] [topology=linear]	URI40H	501				501										False
+contig_43 [gcode=11] [topology=linear]	URI40H	434				434										False
+contig_44 [gcode=11] [topology=linear]	URI40H	403				403										False
+contig_45 [gcode=11] [topology=linear]	URI40H	400				400										False
+contig_46 [gcode=11] [topology=linear]	URI40H	400				400										False
+contig_47 [gcode=11] [topology=linear]	URI40H	399				399										False
+contig_48 [gcode=11] [topology=linear]	URI40H	384				384										False
+contig_49 [gcode=11] [topology=linear]	URI40H	363				363										False
+contig_5 [gcode=11] [topology=linear]	URI40H	33437	F24_B31_lp28-1_ParA_X	lp28-1	F24	33437	254	100.0	2.275921882944044	761	253	[(1, 254)]	[(14732, 15493)]	[(1, 254)]	lp28-1*	True
+contig_50 [gcode=11] [topology=linear]	URI40H	304				304										False
+contig_51 [gcode=11] [topology=linear]	URI40H	285				285										False
+contig_52 [gcode=11] [topology=linear]	URI40H	285				285										False
+contig_53 [gcode=11] [topology=linear]	URI40H	284				284										False
+contig_54 [gcode=11] [topology=linear]	URI40H	271				271										False
+contig_55 [gcode=11] [topology=linear]	URI40H	248				248										False
+contig_56 [gcode=11] [topology=linear]	URI40H	236				236										False
+contig_57 [gcode=11] [topology=linear]	URI40H	227				227										False
+contig_58 [gcode=11] [topology=linear]	URI40H	207				207										False
+contig_59 [gcode=11] [topology=linear]	URI40H	206				206										False
+contig_6 [gcode=11] [topology=linear]	URI40H	31891	RS00040_ZS7_ZS7_lp25_ParA_X	lp25	RS00040	31891	252	100.0	2.3674390893982626	755	251	[(1, 252)]	[(19634, 20389)]	[(1, 252)]		False
+contig_60 [gcode=11] [topology=linear]	URI40H	193				193										False
+contig_61 [gcode=11] [topology=linear]	URI40H	173				173										False
+contig_62 [gcode=11] [topology=linear]	URI40H	172				172										False
+contig_63 [gcode=11] [topology=linear]	URI40H	163				163										False
+contig_64 [gcode=11] [topology=linear]	URI40H	161				161										False
+contig_65 [gcode=11] [topology=linear]	URI40H	158				158										False
+contig_66 [gcode=11] [topology=linear]	URI40H	156				156										False
+contig_67 [gcode=11] [topology=linear]	URI40H	151				151										False
+contig_68 [gcode=11] [topology=linear]	URI40H	148				148										False
+contig_69 [gcode=11] [topology=linear]	URI40H	147				147										False
+contig_7 [gcode=11] [topology=linear]	URI40H	31247	O32_B31_cp32-7_ParA_X	cp32-7	O32	31247	249	100.0	2.3874291932025473	746	248	[(1, 249)]	[(27181, 27927)]	[(1, 249)]		False
+contig_70 [gcode=11] [topology=linear]	URI40H	142				142										False
+contig_71 [gcode=11] [topology=linear]	URI40H	141				141										False
+contig_72 [gcode=11] [topology=linear]	URI40H	130				130										False
+contig_73 [gcode=11] [topology=linear]	URI40H	129				129										False
+contig_74 [gcode=11] [topology=linear]	URI40H	128				128										False
+contig_75 [gcode=11] [topology=linear]	URI40H	128				128										False
+contig_76 [gcode=11] [topology=linear]	URI40H	122				122										False
+contig_77 [gcode=11] [topology=linear]	URI40H	114				114										False
+contig_78 [gcode=11] [topology=linear]	URI40H	114				114										False
+contig_79 [gcode=11] [topology=linear]	URI40H	111				111										False
+contig_8 [gcode=11] [topology=linear]	URI40H	30747	M32_B31_cp32-6_ParA_X	cp32-6	M32	30747	249	100.0	2.4262529677692135	746	248	[(1, 249)]	[(21082, 21828)]	[(1, 249)]		False
+contig_80 [gcode=11] [topology=linear]	URI40H	110				110										False
+contig_81 [gcode=11] [topology=linear]	URI40H	105				105										False
+contig_82 [gcode=11] [topology=linear]	URI40H	103				103										False
+contig_9 [gcode=11] [topology=linear]	URI40H	30651	N32_B31_cp32-9_ParA_X	cp32-9	N32	30651	251	100.0	2.424064467717203	743	247	[(1, 248)]	[(15370, 16113)]	[(1, 248)]		False

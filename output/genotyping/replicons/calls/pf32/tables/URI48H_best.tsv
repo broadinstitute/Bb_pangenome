@@ -1,0 +1,23 @@
+contig_id	assembly_id	contig_len	plasmid_id	plasmid_name	strain	query_length	ref_length	overall_percent_identity	query_coverage_percent	query_covered_length	ref_covered_length	covered_intervals	query_intervals	subject_hit_coords	concat_call	multiple_loci
+contig_1 [gcode=11] [topology=linear]	URI48H	902776	80a_chromosome_ParA_2	chromosome	80a	902776	380	100.0	0.12616640229691528	1139	379	[(1, 380)]	[(368219, 369358)]	[(1, 380)]		False
+contig_10 [gcode=11] [topology=linear]	URI48H	30219	Q40_B31_lp56_ParA_X	lp56	Q40	30219	251	99.60159362549801	2.488500612197624	752	250	[(1, 251)]	[(15115, 15867)]	[(1, 251)]		False
+contig_11 [gcode=11] [topology=linear]	URI48H	29586	RS00880_JD1_JD1_cp32-11_ParA_X	cp32-11	RS00880	29586	252	100.0	2.551882647197999	755	251	[(1, 252)]	[(20784, 21539)]	[(1, 252)]		False
+contig_12 [gcode=11] [topology=linear]	URI48H	29252	RS06620_JD1_JD1_lp28-7_ParA_X	lp28-7	RS06620	29252	253	100.0	2.591275810201012	758	252	[(1, 253)]	[(22728, 23486)]	[(1, 253)]		False
+contig_13 [gcode=11] [topology=linear]	URI48H	29026	RS01295_JD1_JD1_cp32-1+5_ParA_X	cp32-1+5	RS01295	29026	257	99.61089494163424	2.652794046716737	770	256	[(1, 257)]	[(25753, 26523)]	[(1, 257)]		False
+contig_14 [gcode=11] [topology=linear]	URI48H	26506	80a_cp26_ParA_1	cp26	80a	26506	253	100.0	2.859729872481702	758	252	[(1, 253)]	[(2410, 3168)]	[(1, 253)]		False
+contig_15 [gcode=11] [topology=linear]	URI48H	16127	RS00875_MM1_plsm_lp17_ParA_X	lp17	RS00875	16127	246	100.0	4.495566441371613	725	241	[(1, 242)]	[(2853, 3578)]	[(1, 242)]		False
+contig_16 [gcode=11] [topology=linear]	URI48H	8520				8520										False
+contig_17 [gcode=11] [topology=linear]	URI48H	940				940										False
+contig_18 [gcode=11] [topology=linear]	URI48H	889				889										False
+contig_19 [gcode=11] [topology=linear]	URI48H	354				354										False
+contig_2 [gcode=11] [topology=linear]	URI48H	54709	A20_B31_lp54_ParA_X	lp54	A20	54709	250	100.0	1.3690617631468314	749	249	[(1, 250)]	[(40399, 41148)]	[(1, 250)]		False
+contig_20 [gcode=11] [topology=linear]	URI48H	318				318										False
+contig_21 [gcode=11] [topology=linear]	URI48H	108				108										False
+contig_22 [gcode=11] [topology=linear]	URI48H	106				106										False
+contig_3 [gcode=11] [topology=linear]	URI48H	46901	I21_B31_lp28-4_ParA_X	lp28-4	I21	46901	250	100.0	1.5969808746082175	749	249	[(1, 250)]	[(12785, 13534)]	[(1, 250)]	lp28-4:::lp28-8	True
+contig_4 [gcode=11] [topology=linear]	URI48H	44495	J17_B31_lp38_ParA_X	lp38	J17	44495	245	100.0	1.6496235532082255	734	244	[(1, 245)]	[(11737, 12471)]	[(1, 245)]		False
+contig_5 [gcode=11] [topology=linear]	URI48H	33057	RS00670_JD1_JD1_lp25_ParA_X	lp25	RS00670	33057	252	100.0	2.2839338112956407	755	251	[(1, 252)]	[(11312, 12067)]	[(1, 252)]		False
+contig_6 [gcode=11] [topology=linear]	URI48H	31997	RS04755_29805_29805_lp28-3_ParA_X	lp28-3	RS04755	31997	251	99.60159362549801	2.3502203331562335	752	250	[(1, 251)]	[(22051, 22803)]	[(1, 251)]		False
+contig_7 [gcode=11] [topology=linear]	URI48H	30838	RS01520_MM1_plsm_cp32-6_ParA_X	cp32-6	RS01520	30838	249	99.59839357429718	2.4190933264154615	746	248	[(1, 249)]	[(21556, 22302)]	[(1, 249)]		False
+contig_8 [gcode=11] [topology=linear]	URI48H	30686	RS01500_JD1_JD1_cp32-8_ParA_X	cp32-8	RS01500	30686	246	100.0	2.3821938343218405	731	243	[(1, 244)]	[(15131, 15862)]	[(1, 244)]		False
+contig_9 [gcode=11] [topology=linear]	URI48H	30583	RS01335_MM1_plsm_lp36_ParA_X	lp36	RS01335	30583	249	100.0	2.3804074158846418	728	242	[(1, 243)]	[(11598, 12326)]	[(1, 243)]		False
