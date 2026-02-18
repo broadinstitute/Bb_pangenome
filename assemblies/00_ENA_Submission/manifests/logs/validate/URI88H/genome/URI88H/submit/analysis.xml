@@ -1,0 +1,21 @@
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-URI88H">
+    <TITLE>Genome assembly: URI88H</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN12009637" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>URI88H</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>324.322974</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/URI88H/URI88H.fsa.gz" filetype="fasta" checksum_method="MD5" checksum="9bdabff07a658653924cb3d7d5cbdffb" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>

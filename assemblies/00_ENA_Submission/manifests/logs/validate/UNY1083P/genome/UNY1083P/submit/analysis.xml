@@ -1,0 +1,21 @@
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-UNY1083P">
+    <TITLE>Genome assembly: UNY1083P</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN50671269" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>UNY1083P</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>225.62592714285714</COVERAGE>
+        <PROGRAM>HGAP 1.4</PROGRAM>
+        <PLATFORM>PacBio RSII</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/UNY1083P/UNY1083P.fsa.gz" filetype="fasta" checksum_method="MD5" checksum="68d5cdc0dd9c5500191c35e3095c67be" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>

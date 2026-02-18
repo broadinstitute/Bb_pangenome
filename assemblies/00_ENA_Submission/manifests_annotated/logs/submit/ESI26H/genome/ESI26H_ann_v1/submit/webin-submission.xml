@@ -1,0 +1,58 @@
+<WEBIN>
+<SUBMISSION_SET>
+  <SUBMISSION>
+    <ACTIONS>
+      <ACTION>
+        <ADD />
+      </ACTION>
+    </ACTIONS>
+    <SUBMISSION_ATTRIBUTES>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-SUBMISSION-TOOL</TAG>
+        <VALUE>WebinCli:9.0.2</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE</TAG>
+        <VALUE><![CDATA[STUDY	PRJNA548188
+SAMPLE	SAMN50670685
+ASSEMBLYNAME	ESI26H_ann_v1
+ASSEMBLY_TYPE	isolate
+COVERAGE	800
+PROGRAM	Unicycler 0.4.4
+PLATFORM	Oxford Nanopore GridION
+MOLECULETYPE	genomic DNA
+FLATFILE	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/fixed_embl/ESI26H.embl.gz
+CHROMOSOME_LIST	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/chromosome_lists/ESI26H.chromosome_list.tsv.gz
+UNLOCALISED_LIST	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/chromosome_lists/ESI26H.unlocalised_list.tsv.gz]]></VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE-MD5</TAG>
+        <VALUE>9f197dc2469b109c9727a2975f402826</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+    </SUBMISSION_ATTRIBUTES>
+  </SUBMISSION>
+</SUBMISSION_SET>
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-ESI26H_ann_v1">
+    <TITLE>Genome assembly: ESI26H_ann_v1</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN50670685" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>ESI26H_ann_v1</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>800</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/ESI26H_ann_v1/ESI26H.chromosome_list.tsv.gz" filetype="chromosome_list" checksum_method="MD5" checksum="e5c3d8ae9eabd15a9b356e9170b3ad66" />
+      <FILE filename="webin-cli/genome/ESI26H_ann_v1/ESI26H.unlocalised_list.tsv.gz" filetype="unlocalised_list" checksum_method="MD5" checksum="a2b1ad1b42eadf823d884e1703fa8af2" />
+      <FILE filename="webin-cli/genome/ESI26H_ann_v1/ESI26H.embl.gz" filetype="flatfile" checksum_method="MD5" checksum="afec4bdef7e0fa41a63af9171c87c930" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>
+</WEBIN>

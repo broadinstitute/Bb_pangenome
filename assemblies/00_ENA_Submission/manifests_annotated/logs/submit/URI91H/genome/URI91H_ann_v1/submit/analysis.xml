@@ -1,0 +1,23 @@
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-URI91H_ann_v1">
+    <TITLE>Genome assembly: URI91H_ann_v1</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN12009646" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>URI91H_ann_v1</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>179.11376466666667</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/URI91H_ann_v1/URI91H.chromosome_list.tsv.gz" filetype="chromosome_list" checksum_method="MD5" checksum="5dbf301702fb6d9ec0552e15491b392c" />
+      <FILE filename="webin-cli/genome/URI91H_ann_v1/URI91H.unlocalised_list.tsv.gz" filetype="unlocalised_list" checksum_method="MD5" checksum="30d0dc0e6481bb652f1e4304ffa3b52e" />
+      <FILE filename="webin-cli/genome/URI91H_ann_v1/URI91H.embl.gz" filetype="flatfile" checksum_method="MD5" checksum="ed94eb04bae51d9b8e0b165b6d31f70f" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>

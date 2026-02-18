@@ -1,0 +1,21 @@
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-URI103H">
+    <TITLE>Genome assembly: URI103H</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN12009634" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>URI103H</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>560.5613553333334</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/URI103H/URI103H.fsa.gz" filetype="fasta" checksum_method="MD5" checksum="f97cbe51ddbcbc64e5f5052f7911757b" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>

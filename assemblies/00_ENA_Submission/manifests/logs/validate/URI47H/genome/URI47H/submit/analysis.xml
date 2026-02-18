@@ -1,0 +1,21 @@
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-URI47H">
+    <TITLE>Genome assembly: URI47H</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN12009593" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>URI47H</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>225.42676866666667</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/URI47H/URI47H.fsa.gz" filetype="fasta" checksum_method="MD5" checksum="2b5886ec39480213dbad35bd1d6e2ea8" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>

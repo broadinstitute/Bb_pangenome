@@ -1,0 +1,21 @@
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-UCT109H">
+    <TITLE>Genome assembly: UCT109H</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN12009644" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>UCT109H</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>192.099788</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/UCT109H/UCT109H.fsa.gz" filetype="fasta" checksum_method="MD5" checksum="9d537fecbd1276667b40f29b7752f55b" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>

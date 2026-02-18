@@ -1,0 +1,56 @@
+<WEBIN>
+<SUBMISSION_SET>
+  <SUBMISSION>
+    <ACTIONS>
+      <ACTION>
+        <ADD />
+      </ACTION>
+    </ACTIONS>
+    <SUBMISSION_ATTRIBUTES>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-SUBMISSION-TOOL</TAG>
+        <VALUE>WebinCli:9.0.2</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE</TAG>
+        <VALUE><![CDATA[STUDY	PRJNA548188
+SAMPLE	SAMN12009591
+ASSEMBLYNAME	URI33H_ann_v1
+ASSEMBLY_TYPE	isolate
+COVERAGE	146.62377666666666
+PROGRAM	Unicycler 0.4.4
+PLATFORM	Oxford Nanopore GridION
+MOLECULETYPE	genomic DNA
+FLATFILE	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/fixed_embl/URI33H.embl.gz
+CHROMOSOME_LIST	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/chromosome_lists/URI33H.chromosome_list.tsv.gz]]></VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE-MD5</TAG>
+        <VALUE>b3c855e4fa443352c3bbac75c57b23b2</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+    </SUBMISSION_ATTRIBUTES>
+  </SUBMISSION>
+</SUBMISSION_SET>
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-URI33H_ann_v1">
+    <TITLE>Genome assembly: URI33H_ann_v1</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN12009591" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>URI33H_ann_v1</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>146.62377666666666</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/URI33H_ann_v1/URI33H.chromosome_list.tsv.gz" filetype="chromosome_list" checksum_method="MD5" checksum="2ca242b733fcb033a4ee632dedc8cad8" />
+      <FILE filename="webin-cli/genome/URI33H_ann_v1/URI33H.embl.gz" filetype="flatfile" checksum_method="MD5" checksum="ed6010c47df14851da532cbf5c9b13fe" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>
+</WEBIN>

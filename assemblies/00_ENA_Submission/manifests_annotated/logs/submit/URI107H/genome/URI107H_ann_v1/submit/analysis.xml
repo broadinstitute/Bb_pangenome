@@ -1,0 +1,22 @@
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-URI107H_ann_v1">
+    <TITLE>Genome assembly: URI107H_ann_v1</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN12009641" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>URI107H_ann_v1</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>486.15122866666667</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/URI107H_ann_v1/URI107H.chromosome_list.tsv.gz" filetype="chromosome_list" checksum_method="MD5" checksum="4d5f6021c7b6b8b835e0c05640b86dd6" />
+      <FILE filename="webin-cli/genome/URI107H_ann_v1/URI107H.embl.gz" filetype="flatfile" checksum_method="MD5" checksum="82e118d3d6a3f058e18e414b1913f596" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>

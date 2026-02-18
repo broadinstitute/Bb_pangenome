@@ -1,0 +1,53 @@
+<WEBIN>
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-URI102H">
+    <TITLE>Genome assembly: URI102H</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN12009633" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>URI102H</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>183.463736</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/URI102H/URI102H.fsa.gz" filetype="fasta" checksum_method="MD5" checksum="152975dd8f6c44abf2a7455c11182af8" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>
+<SUBMISSION_SET>
+  <SUBMISSION>
+    <ACTIONS>
+      <ACTION>
+        <ADD />
+      </ACTION>
+    </ACTIONS>
+    <SUBMISSION_ATTRIBUTES>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-SUBMISSION-TOOL</TAG>
+        <VALUE>WebinCli:9.0.2</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE</TAG>
+        <VALUE><![CDATA[STUDY	PRJNA548188
+SAMPLE	SAMN12009633
+ASSEMBLYNAME	URI102H
+ASSEMBLY_TYPE	isolate
+COVERAGE	183.463736
+PROGRAM	Unicycler 0.4.4
+PLATFORM	Oxford Nanopore GridION
+FASTA	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/staging/URI102H.fsa.gz]]></VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE-MD5</TAG>
+        <VALUE>a1a86cd4bed62704eff92159cbc9bad7</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+    </SUBMISSION_ATTRIBUTES>
+  </SUBMISSION>
+</SUBMISSION_SET>
+</WEBIN>

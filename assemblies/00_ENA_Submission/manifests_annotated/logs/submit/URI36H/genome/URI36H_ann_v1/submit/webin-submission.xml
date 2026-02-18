@@ -1,0 +1,58 @@
+<WEBIN>
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-URI36H_ann_v1">
+    <TITLE>Genome assembly: URI36H_ann_v1</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN12009600" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>URI36H_ann_v1</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>39.54496</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/URI36H_ann_v1/URI36H.chromosome_list.tsv.gz" filetype="chromosome_list" checksum_method="MD5" checksum="3d32aa65c43b80152e91faa391de61e0" />
+      <FILE filename="webin-cli/genome/URI36H_ann_v1/URI36H.unlocalised_list.tsv.gz" filetype="unlocalised_list" checksum_method="MD5" checksum="4e1c8f2bf8cedbdf480faf8938c4e531" />
+      <FILE filename="webin-cli/genome/URI36H_ann_v1/URI36H.embl.gz" filetype="flatfile" checksum_method="MD5" checksum="e320e048422494982236ef0ecaed9722" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>
+<SUBMISSION_SET>
+  <SUBMISSION>
+    <ACTIONS>
+      <ACTION>
+        <ADD />
+      </ACTION>
+    </ACTIONS>
+    <SUBMISSION_ATTRIBUTES>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-SUBMISSION-TOOL</TAG>
+        <VALUE>WebinCli:9.0.2</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE</TAG>
+        <VALUE><![CDATA[STUDY	PRJNA548188
+SAMPLE	SAMN12009600
+ASSEMBLYNAME	URI36H_ann_v1
+ASSEMBLY_TYPE	isolate
+COVERAGE	39.54496
+PROGRAM	Unicycler 0.4.4
+PLATFORM	Oxford Nanopore GridION
+MOLECULETYPE	genomic DNA
+FLATFILE	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/fixed_embl/URI36H.embl.gz
+CHROMOSOME_LIST	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/chromosome_lists/URI36H.chromosome_list.tsv.gz
+UNLOCALISED_LIST	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/chromosome_lists/URI36H.unlocalised_list.tsv.gz]]></VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE-MD5</TAG>
+        <VALUE>6eea76b75b587b3ba1c3e535bf026579</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+    </SUBMISSION_ATTRIBUTES>
+  </SUBMISSION>
+</SUBMISSION_SET>
+</WEBIN>

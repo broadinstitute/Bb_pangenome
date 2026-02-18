@@ -1,0 +1,53 @@
+<WEBIN>
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-URI91H">
+    <TITLE>Genome assembly: URI91H</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN12009646" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>URI91H</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>179.11376466666667</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/URI91H/URI91H.fsa.gz" filetype="fasta" checksum_method="MD5" checksum="47a113716becd29a41b71e18dc1e3655" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>
+<SUBMISSION_SET>
+  <SUBMISSION>
+    <ACTIONS>
+      <ACTION>
+        <ADD />
+      </ACTION>
+    </ACTIONS>
+    <SUBMISSION_ATTRIBUTES>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-SUBMISSION-TOOL</TAG>
+        <VALUE>WebinCli:9.0.2</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE</TAG>
+        <VALUE><![CDATA[STUDY	PRJNA548188
+SAMPLE	SAMN12009646
+ASSEMBLYNAME	URI91H
+ASSEMBLY_TYPE	isolate
+COVERAGE	179.11376466666667
+PROGRAM	Unicycler 0.4.4
+PLATFORM	Oxford Nanopore GridION
+FASTA	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/staging/URI91H.fsa.gz]]></VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE-MD5</TAG>
+        <VALUE>5e0189e0e7235a5e2221a10457312446</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+    </SUBMISSION_ATTRIBUTES>
+  </SUBMISSION>
+</SUBMISSION_SET>
+</WEBIN>

@@ -1,0 +1,33 @@
+<SUBMISSION_SET>
+  <SUBMISSION>
+    <ACTIONS>
+      <ACTION>
+        <ADD />
+      </ACTION>
+    </ACTIONS>
+    <SUBMISSION_ATTRIBUTES>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-SUBMISSION-TOOL</TAG>
+        <VALUE>WebinCli:9.0.2</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE</TAG>
+        <VALUE><![CDATA[STUDY	PRJNA548188
+SAMPLE	SAMN12009597
+ASSEMBLYNAME	URI34H_ann_v1
+ASSEMBLY_TYPE	isolate
+COVERAGE	77.043268
+PROGRAM	Unicycler 0.4.4
+PLATFORM	Oxford Nanopore GridION
+MOLECULETYPE	genomic DNA
+FLATFILE	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/fixed_embl/URI34H.embl.gz
+CHROMOSOME_LIST	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/chromosome_lists/URI34H.chromosome_list.tsv.gz
+UNLOCALISED_LIST	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/chromosome_lists/URI34H.unlocalised_list.tsv.gz]]></VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE-MD5</TAG>
+        <VALUE>f526e34ddfdd4a3209935870109aa7c0</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+    </SUBMISSION_ATTRIBUTES>
+  </SUBMISSION>
+</SUBMISSION_SET>

@@ -1,0 +1,53 @@
+<WEBIN>
+<SUBMISSION_SET>
+  <SUBMISSION>
+    <ACTIONS>
+      <ACTION>
+        <ADD />
+      </ACTION>
+    </ACTIONS>
+    <SUBMISSION_ATTRIBUTES>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-SUBMISSION-TOOL</TAG>
+        <VALUE>WebinCli:9.0.2</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE</TAG>
+        <VALUE><![CDATA[STUDY	PRJNA548188
+SAMPLE	SAMN50671110
+ASSEMBLYNAME	ESI425H
+ASSEMBLY_TYPE	isolate
+COVERAGE	400
+PROGRAM	Unicycler 0.4.4
+PLATFORM	Oxford Nanopore GridION
+FASTA	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/staging/ESI425H.fsa.gz]]></VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE-MD5</TAG>
+        <VALUE>f4ff7352be0a86ea9706681d3d3c448f</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+    </SUBMISSION_ATTRIBUTES>
+  </SUBMISSION>
+</SUBMISSION_SET>
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-ESI425H">
+    <TITLE>Genome assembly: ESI425H</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN50671110" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>ESI425H</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>400</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/ESI425H/ESI425H.fsa.gz" filetype="fasta" checksum_method="MD5" checksum="21b7d062dd2e4728bb4a1756d72a6c51" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>
+</WEBIN>

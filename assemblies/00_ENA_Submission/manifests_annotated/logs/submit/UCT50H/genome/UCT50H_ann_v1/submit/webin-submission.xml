@@ -1,0 +1,58 @@
+<WEBIN>
+<SUBMISSION_SET>
+  <SUBMISSION>
+    <ACTIONS>
+      <ACTION>
+        <ADD />
+      </ACTION>
+    </ACTIONS>
+    <SUBMISSION_ATTRIBUTES>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-SUBMISSION-TOOL</TAG>
+        <VALUE>WebinCli:9.0.2</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE</TAG>
+        <VALUE><![CDATA[STUDY	PRJNA548188
+SAMPLE	SAMN12009596
+ASSEMBLYNAME	UCT50H_ann_v1
+ASSEMBLY_TYPE	isolate
+COVERAGE	51.907803333333334
+PROGRAM	Unicycler 0.4.4
+PLATFORM	Oxford Nanopore GridION
+MOLECULETYPE	genomic DNA
+FLATFILE	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/fixed_embl/UCT50H.embl.gz
+CHROMOSOME_LIST	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/chromosome_lists/UCT50H.chromosome_list.tsv.gz
+UNLOCALISED_LIST	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/chromosome_lists/UCT50H.unlocalised_list.tsv.gz]]></VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE-MD5</TAG>
+        <VALUE>078e5015136216f35a65db58a62c1a98</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+    </SUBMISSION_ATTRIBUTES>
+  </SUBMISSION>
+</SUBMISSION_SET>
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-UCT50H_ann_v1">
+    <TITLE>Genome assembly: UCT50H_ann_v1</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN12009596" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>UCT50H_ann_v1</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>51.907803333333334</COVERAGE>
+        <PROGRAM>Unicycler 0.4.4</PROGRAM>
+        <PLATFORM>Oxford Nanopore GridION</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/UCT50H_ann_v1/UCT50H.chromosome_list.tsv.gz" filetype="chromosome_list" checksum_method="MD5" checksum="5100ec11fc012abe28f6101a047ca766" />
+      <FILE filename="webin-cli/genome/UCT50H_ann_v1/UCT50H.unlocalised_list.tsv.gz" filetype="unlocalised_list" checksum_method="MD5" checksum="8e45883386b564d2717377db4c5e286c" />
+      <FILE filename="webin-cli/genome/UCT50H_ann_v1/UCT50H.embl.gz" filetype="flatfile" checksum_method="MD5" checksum="a162271813a92f0f38b95de85166777d" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>
+</WEBIN>

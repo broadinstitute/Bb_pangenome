@@ -1,0 +1,56 @@
+<WEBIN>
+<SUBMISSION_SET>
+  <SUBMISSION>
+    <ACTIONS>
+      <ACTION>
+        <ADD />
+      </ACTION>
+    </ACTIONS>
+    <SUBMISSION_ATTRIBUTES>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-SUBMISSION-TOOL</TAG>
+        <VALUE>WebinCli:9.0.2</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE</TAG>
+        <VALUE><![CDATA[STUDY	PRJNA548188
+SAMPLE	SAMN50671277
+ASSEMBLYNAME	UNY203P_ann_v1
+ASSEMBLY_TYPE	isolate
+COVERAGE	179.71425214285713
+PROGRAM	HGAP 1.4
+PLATFORM	PacBio RSII
+MOLECULETYPE	genomic DNA
+FLATFILE	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/fixed_embl/UNY203P.embl.gz
+CHROMOSOME_LIST	/home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/chromosome_lists/UNY203P.chromosome_list.tsv.gz]]></VALUE>
+      </SUBMISSION_ATTRIBUTE>
+      <SUBMISSION_ATTRIBUTE>
+        <TAG>ENA-MANIFEST-FILE-MD5</TAG>
+        <VALUE>8cba20c04c5e74da664ae701c0be8277</VALUE>
+      </SUBMISSION_ATTRIBUTE>
+    </SUBMISSION_ATTRIBUTES>
+  </SUBMISSION>
+</SUBMISSION_SET>
+<ANALYSIS_SET>
+  <ANALYSIS alias="webin-genome-UNY203P_ann_v1">
+    <TITLE>Genome assembly: UNY203P_ann_v1</TITLE>
+    <STUDY_REF accession="PRJNA548188" />
+    <SAMPLE_REF accession="SAMN50671277" />
+    <ANALYSIS_TYPE>
+      <SEQUENCE_ASSEMBLY>
+        <NAME>UNY203P_ann_v1</NAME>
+        <TYPE>clone or isolate</TYPE>
+        <PARTIAL>false</PARTIAL>
+        <COVERAGE>179.71425214285713</COVERAGE>
+        <PROGRAM>HGAP 1.4</PROGRAM>
+        <PLATFORM>PacBio RSII</PLATFORM>
+        <MOL_TYPE>genomic DNA</MOL_TYPE>
+      </SEQUENCE_ASSEMBLY>
+    </ANALYSIS_TYPE>
+    <FILES>
+      <FILE filename="webin-cli/genome/UNY203P_ann_v1/UNY203P.chromosome_list.tsv.gz" filetype="chromosome_list" checksum_method="MD5" checksum="ab1c07df1164aaa6f41bb041ff29e4e1" />
+      <FILE filename="webin-cli/genome/UNY203P_ann_v1/UNY203P.embl.gz" filetype="flatfile" checksum_method="MD5" checksum="83043f58e14a4cc28486b5f911ba8ce3" />
+    </FILES>
+  </ANALYSIS>
+</ANALYSIS_SET>
+</WEBIN>

@@ -1,0 +1,41 @@
+2026-02-06T21:32:06 INFO : Submission has not been validated previously.
+2026-02-06T21:32:07 INFO : Submission(s) validated successfully.
+2026-02-06T21:32:07 INFO : Connecting to FTP server : webin2.ebi.ac.uk
+2026-02-06T21:32:11 INFO : Uploading file: /home/mf019/Bb_pangenome/assemblies/00_ENA_Submission/staging/B418P.fsa.gz
+2026-02-06T21:32:12 INFO : Files have been uploaded to webin2.ebi.ac.uk. 
+2026-02-06T21:32:12 ERROR: In analysis, alias: "webin-genome-B418P". The object being added already exists in the submission account with accession: "ERZ28916966". The submission has failed because of a system error.
+uk.ac.ebi.ena.webin.cli.WebinCliException: In analysis, alias: "webin-genome-B418P". The object being added already exists in the submission account with accession: "ERZ28916966". The submission has failed because of a system error.
+	at uk.ac.ebi.ena.webin.cli.WebinCliException.error(WebinCliException.java:89)
+	at uk.ac.ebi.ena.webin.cli.WebinCli.submit(WebinCli.java:393)
+	at uk.ac.ebi.ena.webin.cli.WebinCli.execute(WebinCli.java:292)
+	at uk.ac.ebi.ena.webin.cli.WebinCli.__main(WebinCli.java:122)
+	at uk.ac.ebi.ena.webin.cli.WebinCli.main(WebinCli.java:90)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65)
+Caused by: uk.ac.ebi.ena.webin.cli.WebinCliException: In analysis, alias: "webin-genome-B418P". The object being added already exists in the submission account with accession: "ERZ28916966".
+	at uk.ac.ebi.ena.webin.cli.WebinCliException.systemError(WebinCliException.java:81)
+	at uk.ac.ebi.ena.webin.cli.service.SubmitService.processReceipt(SubmitService.java:218)
+	at uk.ac.ebi.ena.webin.cli.service.SubmitService.doSubmission(SubmitService.java:104)
+	at uk.ac.ebi.ena.webin.cli.WebinCli.submit(WebinCli.java:389)
+	... 11 common frames omitted
+2026-02-06T21:32:12 ERROR: Some or all submissions failed. Please see application logs.
+uk.ac.ebi.ena.webin.cli.WebinCliException: Some or all submissions failed. Please see application logs.
+	at uk.ac.ebi.ena.webin.cli.WebinCliException.systemError(WebinCliException.java:81)
+	at uk.ac.ebi.ena.webin.cli.WebinCli.submit(WebinCli.java:413)
+	at uk.ac.ebi.ena.webin.cli.WebinCli.execute(WebinCli.java:292)
+	at uk.ac.ebi.ena.webin.cli.WebinCli.__main(WebinCli.java:122)
+	at uk.ac.ebi.ena.webin.cli.WebinCli.main(WebinCli.java:90)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65)

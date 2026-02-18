@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="receipt.xsl"?>
+<RECEIPT receiptDate="2026-02-06T21:32:12.501Z" submissionFile="submission-Broad Institute_1770413532501.xml" success="false">
+  <ANALYSIS alias="webin-genome-B418P" status="PRIVATE" />
+  <SUBMISSION alias="SUBMISSION-06-02-2026-21:32:12:408" />
+  <MESSAGES>
+    <ERROR>In analysis, alias: "webin-genome-B418P". The object being added already exists in the submission account with accession: "ERZ28916966".</ERROR>
+  </MESSAGES>
+  <ACTIONS>ADD</ACTIONS>
+</RECEIPT>
