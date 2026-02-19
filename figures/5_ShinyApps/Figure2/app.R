@@ -4,6 +4,30 @@
 
 options(renv.config.ignore.Rprofile = TRUE)
 
+########### Install and load required packages ##########
+# CRAN packages
+cran_pkgs <- c("shiny", "shinyWidgets", "ape", "ggplot2", "ggnewscale",
+               "ggiraph", "dplyr", "tidyr", "phytools", "showtext")
+
+# Bioconductor packages
+bioc_pkgs <- c("ggtree", "ggtreeExtra")
+
+# Install CRAN packages if missing
+missing_cran <- cran_pkgs[!sapply(cran_pkgs, requireNamespace, quietly = TRUE)]
+if (length(missing_cran) > 0) {
+  install.packages(missing_cran)
+}
+
+# Install BiocManager if needed, then Bioconductor packages
+missing_bioc <- bioc_pkgs[!sapply(bioc_pkgs, requireNamespace, quietly = TRUE)]
+if (length(missing_bioc) > 0) {
+  if (!requireNamespace("BiocManager", quietly = TRUE)) {
+    install.packages("BiocManager")
+  }
+  BiocManager::install(missing_bioc)
+}
+
+# Load all
 library(shiny)
 library(shinyWidgets)
 library(ape)
