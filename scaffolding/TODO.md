@@ -1,7 +1,7 @@
 # TODO - Scaffolding
 
 - [x] add main scripts and notebooks to repo.
-- [ ] update paths to reflect repo structure. (need to do the bottom 3 first)
-- [ ] re-org data for SRAs
-- [ ] re-org data for LRAs, this fits into redundancy elimination more broadly.
-- [ ] optimize intermediate files (current size is ~14gb and I'd like to keep from ballooning the repo any further if I can help it.
+- [x] update paths to reflect repo structure. (need to do the bottom 3 first)
+- [x] re-org data for SRAs (isn't duplicated. just tar where possible)
+- [x] re-org data for LRAs (was only plasmid calls relevant to scaffolding)
+- [x] optimize intermediate files (got it down to ~8GB)
