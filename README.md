@@ -1,4 +1,4 @@
-# Complex exchanges among plasmids and clonal expansion of lineages shape the population structure and virulence of Borrelia burgdorferi
+# Long read assemblies reveal Borrelia burgdorferi population variation structured by plasmids, plasmid subtypes, and genetic networks
 
 Preprint: https://doi.org/10.1101/2025.01.29.635312
 
@@ -6,10 +6,9 @@ This repository contains all code and sequences used in the above manuscript.
 
 Ensure you have [git lfs](https://git-lfs.com/) installed to access all files and data. (Instructions below)
 
-**Total repository size: 23G**
+**Total repository size: 27G**
 
 ## Directory Structure
-
 - `assemblies/` - all assemblies and annotations used in our analyses are housed here. The subdirectory name is `Strain_ID` from table_s1.
     - Each assembly has the following contents:
         - `*.embl`
@@ -31,17 +30,20 @@ Ensure you have [git lfs](https://git-lfs.com/) installed to access all files an
 - `notebooks/` - Jupyter notebooks used throughout development. Some notebooks may be superceded by scripts present in `scripts/`
 - `output/` - Contains all output used in the analysis and figure generation.
     - `alignments/` - contains alignments for all vs all, all vs B31.
-    - `genotyping/` - contains OspC, MLST, RST typing results and plasmid calls.
+    - `genotyping/` - contains OspC and MLST typing results as well as plasmid calls.
     - `homology_networks/` - contains homology network graphs and network.json used to render graph in Blender.
     - `reports/` - contains AGAT stats, kraken2, quast, and multiqc reports.
-    - `results/` - contains roary pangenome output for split and non-split paralogs.
+    - `results/` - contains roary and panaroo pangenome output for split and non-split paralogs.
 - `ref/` - contains database of assemblies, B31 reference genome, and replicon references used in classification.
 - `scripts/` - contains scripts and commands used in various analyses.
-- `snakefiles/` - contains snakefiles and their configs.
+- `VAE/` - All code and data for variable autoencoder analyses
+- `scaffolding/` - contains data for scaffolding analyses.
+- `figures/` - contains notebooks, data, scripts, and relevant files to reproduce published figures. Paths in notebooks are relative to repository root.
+- `interactive/` - interactive RShiny app for Figure 2 and Figure 6. Requires R-Studio.
 
 ***
 
-In situations where code or data are unable to be located, refer to our [working repository](https://github.com/mjfos2r/longread_pangenome)
+In situations where code or data are unable to be located, refer to our [working repository](https://github.com/mjfos2r/longread_pangenome) or open an issue!
 
 *** 
 
