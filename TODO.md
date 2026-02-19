@@ -6,7 +6,9 @@ Last few todos.
 - [x] Add scaffolding to repo
 - [x] Add figure generation code
 - [x] Add VAE analysis to repo
-- [/] Consolidate and organize scripts
-- [/] Add global config.toml linking all params into a central config file.
-- [/] Consolidate and organize redundant inputs across analyses
-- [ ] Resolve branch chaos.
+- [x] Consolidate and organize scripts
+- [x] Rejected: Add global config.toml linking all params into a central config file.
+- [x] Consolidate and organize redundant inputs across analyses
+- [/] Resolve branch chaos.
+- [x] update README.
+- [x] add interactive figures.
